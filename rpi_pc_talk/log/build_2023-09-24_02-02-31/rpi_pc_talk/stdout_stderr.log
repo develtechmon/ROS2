@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/rpi_pc_talk/rpi_pc_talk.egg-info
+writing ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/dependency_links.txt
+writing entry points to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/entry_points.txt
+writing requirements to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/requires.txt
+writing top-level names to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/top_level.txt
+writing manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+reading manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build
+creating /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib
+creating /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib/rpi_pc_talk
+copying rpi_pc_talk/publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib/rpi_pc_talk
+copying rpi_pc_talk/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib/rpi_pc_talk
+copying rpi_pc_talk/subscriber.py -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib/rpi_pc_talk
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk
+copying /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib/rpi_pc_talk/publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk
+copying /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib/rpi_pc_talk/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk
+copying /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build/lib/rpi_pc_talk/subscriber.py -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk
+byte-compiling /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk/subscriber.py to subscriber.cpython-310.pyc
+running install_data
+creating /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/share/ament_index
+creating /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/share/ament_index/resource_index
+creating /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/share/ament_index/resource_index/packages
+copying resource/rpi_pc_talk -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/share/ament_index/resource_index/packages
+copying package.xml -> /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/share/rpi_pc_talk
+running install_egg_info
+Copying ../../build/rpi_pc_talk/rpi_pc_talk.egg-info to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher script to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+Installing subscriber script to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/install.log'

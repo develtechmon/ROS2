@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/PKG-INFO
+writing dependency_links to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/dependency_links.txt
+writing entry points to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/entry_points.txt
+writing requirements to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/requires.txt
+writing top-level names to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/top_level.txt
+reading manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+writing manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rpi_pc_talk/rpi_pc_talk.egg-info to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher script to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+Installing subscriber script to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/install.log'

@@ -1,0 +1,24 @@
+[0.597s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/src/rpi_pc_talk': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_pc_talk build --build-base /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build install --record /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/install.log --single-version-externally-managed
+[0.820s] running egg_info
+[0.821s] writing ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/PKG-INFO
+[0.821s] writing dependency_links to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/dependency_links.txt
+[0.821s] writing entry points to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/entry_points.txt
+[0.822s] writing requirements to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/requires.txt
+[0.822s] writing top-level names to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/top_level.txt
+[0.823s] reading manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+[0.824s] writing manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+[0.824s] running build
+[0.824s] running build_py
+[0.824s] running install
+[0.824s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.824s]   warnings.warn(
+[0.825s] running install_lib
+[0.826s] running install_data
+[0.826s] running install_egg_info
+[0.827s] removing '/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk-0.0.0-py3.10.egg-info' (and everything under it)
+[0.828s] Copying ../../build/rpi_pc_talk/rpi_pc_talk.egg-info to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk-0.0.0-py3.10.egg-info
+[0.828s] running install_scripts
+[0.868s] Installing publisher script to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+[0.869s] Installing subscriber script to /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+[0.869s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/install.log'
+[0.888s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/src/rpi_pc_talk' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_pc_talk build --build-base /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/build install --record /home/jlukas/Desktop/My_Project/ROS2/rpi_pc_talk/build/rpi_pc_talk/install.log --single-version-externally-managed
