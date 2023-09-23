@@ -7,7 +7,6 @@ class SimpleSubscriber(Node):
         super().__init__("Subscriber")
         self.sub = self.create_subscription(String, "chatter", self.msgCallback,10)
   
-    
     def msgCallback(self,msg):
         self.get_logger().info("I heard %s" % msg.data)
 
