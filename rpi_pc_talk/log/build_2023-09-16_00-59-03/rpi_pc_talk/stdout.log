@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing rpi_pc_talk.egg-info/PKG-INFO
+writing dependency_links to rpi_pc_talk.egg-info/dependency_links.txt
+writing entry points to rpi_pc_talk.egg-info/entry_points.txt
+writing requirements to rpi_pc_talk.egg-info/requires.txt
+writing top-level names to rpi_pc_talk.egg-info/top_level.txt
+reading manifest file 'rpi_pc_talk.egg-info/SOURCES.txt'
+writing manifest file 'rpi_pc_talk.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi-pc-talk.egg-link (link to .)
+
+Installed /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk
+running install_data

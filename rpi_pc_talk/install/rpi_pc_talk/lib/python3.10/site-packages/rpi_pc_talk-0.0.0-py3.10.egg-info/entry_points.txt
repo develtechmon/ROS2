@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = rpi_pc_talk.publisher:main
+subscriber = rpi_pc_talk.subscriber:main
+

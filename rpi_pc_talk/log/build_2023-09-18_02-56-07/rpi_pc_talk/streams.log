@@ -1,0 +1,31 @@
+[0.809s] Invoking command in '/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk': PYTHONPATH=/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/build
+[1.103s] running develop
+[1.103s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.103s]   warnings.warn(
+[1.104s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.105s]   warnings.warn(
+[1.319s] Invoked command in '/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/build
+[1.322s] Invoking command in '/home/jlukas/Desktop/My_Project/rpi_pc_talk/src/rpi_pc_talk': PYTHONPATH=/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_pc_talk build --build-base /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/build install --record /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/install.log --single-version-externally-managed
+[1.585s] running egg_info
+[1.587s] writing ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/PKG-INFO
+[1.587s] writing dependency_links to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/dependency_links.txt
+[1.589s] writing entry points to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/entry_points.txt
+[1.589s] writing requirements to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/requires.txt
+[1.589s] writing top-level names to ../../build/rpi_pc_talk/rpi_pc_talk.egg-info/top_level.txt
+[1.590s] reading manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+[1.592s] writing manifest file '../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt'
+[1.592s] running build
+[1.592s] running build_py
+[1.592s] running install
+[1.593s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.593s]   warnings.warn(
+[1.593s] running install_lib
+[1.594s] running install_data
+[1.595s] running install_egg_info
+[1.597s] removing '/home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk-0.0.0-py3.10.egg-info' (and everything under it)
+[1.597s] Copying ../../build/rpi_pc_talk/rpi_pc_talk.egg-info to /home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi_pc_talk-0.0.0-py3.10.egg-info
+[1.598s] running install_scripts
+[1.624s] Installing publisher script to /home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+[1.625s] Installing subscriber script to /home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/rpi_pc_talk
+[1.625s] writing list of installed files to '/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/install.log'
+[1.664s] Invoked command in '/home/jlukas/Desktop/My_Project/rpi_pc_talk/src/rpi_pc_talk' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rpi_pc_talk build --build-base /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/build install --record /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/install.log --single-version-externally-managed

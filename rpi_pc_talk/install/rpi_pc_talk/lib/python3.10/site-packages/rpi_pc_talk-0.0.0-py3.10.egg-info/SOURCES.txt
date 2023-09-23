@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rpi_pc_talk/rpi_pc_talk.egg-info/PKG-INFO
+../../build/rpi_pc_talk/rpi_pc_talk.egg-info/SOURCES.txt
+../../build/rpi_pc_talk/rpi_pc_talk.egg-info/dependency_links.txt
+../../build/rpi_pc_talk/rpi_pc_talk.egg-info/entry_points.txt
+../../build/rpi_pc_talk/rpi_pc_talk.egg-info/requires.txt
+../../build/rpi_pc_talk/rpi_pc_talk.egg-info/top_level.txt
+../../build/rpi_pc_talk/rpi_pc_talk.egg-info/zip-safe
+resource/rpi_pc_talk
+rpi_pc_talk/__init__.py
+rpi_pc_talk/publisher.py
+rpi_pc_talk/subscriber.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

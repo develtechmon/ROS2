@@ -1,0 +1,6 @@
+source;share/rpi_pc_talk/hook/pythonpath.ps1
+source;share/rpi_pc_talk/hook/pythonpath.dsv
+source;share/rpi_pc_talk/hook/pythonpath.sh
+source;share/rpi_pc_talk/hook/ament_prefix_path.ps1
+source;share/rpi_pc_talk/hook/ament_prefix_path.dsv
+source;share/rpi_pc_talk/hook/ament_prefix_path.sh

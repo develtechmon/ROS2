@@ -1,0 +1,20 @@
+[1.463s] Invoking command in '/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk': PYTHONPATH=/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/build --no-deps install_data
+[2.078s] running develop
+[2.105s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.105s]   warnings.warn(
+[2.107s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.108s]   warnings.warn(
+[2.526s] running egg_info
+[2.526s] writing rpi_pc_talk.egg-info/PKG-INFO
+[2.528s] writing dependency_links to rpi_pc_talk.egg-info/dependency_links.txt
+[2.535s] writing entry points to rpi_pc_talk.egg-info/entry_points.txt
+[2.536s] writing requirements to rpi_pc_talk.egg-info/requires.txt
+[2.536s] writing top-level names to rpi_pc_talk.egg-info/top_level.txt
+[2.536s] reading manifest file 'rpi_pc_talk.egg-info/SOURCES.txt'
+[2.541s] writing manifest file 'rpi_pc_talk.egg-info/SOURCES.txt'
+[2.543s] running build_ext
+[2.545s] Creating /home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages/rpi-pc-talk.egg-link (link to .)
+[2.546s] 
+[2.547s] Installed /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk
+[2.547s] running install_data
+[2.586s] Invoked command in '/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/prefix_override:/home/jlukas/Desktop/My_Project/rpi_pc_talk/install/rpi_pc_talk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/rpi_pc_talk/build/rpi_pc_talk/build --no-deps install_data

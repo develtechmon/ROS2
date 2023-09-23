@@ -1,0 +1,5 @@
+[console_scripts]
+first_node = arduinobot_py_examples.first_node:main
+simple_publisher = arduinobot_py_examples.simple_publisher:main
+simple_subscriber = arduinobot_py_examples.simple_subscriber:main
+
