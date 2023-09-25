@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/publisher_subsriber/publisher_subsriber.egg-info
+writing ../../build/publisher_subsriber/publisher_subsriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/publisher_subsriber/publisher_subsriber.egg-info/dependency_links.txt
+writing entry points to ../../build/publisher_subsriber/publisher_subsriber.egg-info/entry_points.txt
+writing requirements to ../../build/publisher_subsriber/publisher_subsriber.egg-info/requires.txt
+writing top-level names to ../../build/publisher_subsriber/publisher_subsriber.egg-info/top_level.txt
+writing manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+reading manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build
+creating /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib
+creating /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+copying publisher_subsriber/__init__.py -> /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+running install
+running install_lib
+creating /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+copying /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/__init__.py -> /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+byte-compiling /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/share/ament_index
+creating /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index
+creating /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index/packages
+copying resource/publisher_subsriber -> /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber
+running install_egg_info
+Copying ../../build/publisher_subsriber/publisher_subsriber.egg-info to /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/install.log'

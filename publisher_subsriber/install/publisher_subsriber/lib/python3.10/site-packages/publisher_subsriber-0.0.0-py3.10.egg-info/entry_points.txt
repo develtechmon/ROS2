@@ -1,0 +1,4 @@
+[console_scripts]
+publishers_node = publisher_subsriber.publisher_node:main
+subscribers_node = publisher_subsriber.subscriber_node:main
+

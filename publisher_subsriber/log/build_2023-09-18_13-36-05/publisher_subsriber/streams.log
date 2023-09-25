@@ -1,0 +1,30 @@
+[1.901s] Invoking command in '/home/jlukas/Desktop/My_Project/publisher_subsriber/src/publisher_subsriber': PYTHONPATH=/home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/prefix_override:/home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subsriber build --build-base /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build install --record /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/install.log --single-version-externally-managed
+[2.655s] running egg_info
+[2.657s] writing ../../build/publisher_subsriber/publisher_subsriber.egg-info/PKG-INFO
+[2.658s] writing dependency_links to ../../build/publisher_subsriber/publisher_subsriber.egg-info/dependency_links.txt
+[2.660s] writing entry points to ../../build/publisher_subsriber/publisher_subsriber.egg-info/entry_points.txt
+[2.661s] writing requirements to ../../build/publisher_subsriber/publisher_subsriber.egg-info/requires.txt
+[2.662s] writing top-level names to ../../build/publisher_subsriber/publisher_subsriber.egg-info/top_level.txt
+[2.668s] reading manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+[2.672s] writing manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+[2.673s] running build
+[2.673s] running build_py
+[2.674s] copying publisher_subsriber/subscriber.py -> /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+[2.675s] copying publisher_subsriber/publisher.py -> /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+[2.676s] running install
+[2.677s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.678s]   warnings.warn(
+[2.678s] running install_lib
+[2.679s] copying /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/subscriber.py -> /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+[2.681s] copying /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/publisher.py -> /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+[2.683s] byte-compiling /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/subscriber.py to subscriber.cpython-310.pyc
+[2.684s] byte-compiling /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/publisher.py to publisher.cpython-310.pyc
+[2.686s] running install_data
+[2.688s] running install_egg_info
+[2.693s] removing '/home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber-0.0.0-py3.10.egg-info' (and everything under it)
+[2.695s] Copying ../../build/publisher_subsriber/publisher_subsriber.egg-info to /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber-0.0.0-py3.10.egg-info
+[2.699s] running install_scripts
+[2.765s] Installing publishers script to /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/publisher_subsriber
+[2.766s] Installing subscribers script to /home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/publisher_subsriber
+[2.768s] writing list of installed files to '/home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/install.log'
+[2.827s] Invoked command in '/home/jlukas/Desktop/My_Project/publisher_subsriber/src/publisher_subsriber' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/prefix_override:/home/jlukas/Desktop/My_Project/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subsriber build --build-base /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/build install --record /home/jlukas/Desktop/My_Project/publisher_subsriber/build/publisher_subsriber/install.log --single-version-externally-managed
