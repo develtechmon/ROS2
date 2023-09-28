@@ -1,0 +1,5 @@
+[console_scripts]
+motor_subscriber_node = ros2_rpi_motor.motor_subscriber:main
+publisher_node = ros2_rpi_motor.publisher:main
+subscriber_node = ros2_rpi_motor.subscriber:main
+

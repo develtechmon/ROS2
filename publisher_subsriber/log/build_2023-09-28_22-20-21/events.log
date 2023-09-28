@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.002581] (publisher_subsriber) JobQueued: {'identifier': 'publisher_subsriber', 'dependencies': OrderedDict()}
+[0.003120] (publisher_subsriber) JobStarted: {'identifier': 'publisher_subsriber'}
+[0.100441] (-) TimerEvent: {}
+[0.202153] (-) TimerEvent: {}
+[0.304481] (-) TimerEvent: {}
+[0.405966] (-) TimerEvent: {}
+[0.508605] (-) TimerEvent: {}
+[0.609850] (-) TimerEvent: {}
+[0.711138] (-) TimerEvent: {}
+[0.812368] (-) TimerEvent: {}
+[0.913603] (-) TimerEvent: {}
+[1.014825] (-) TimerEvent: {}
+[1.116150] (-) TimerEvent: {}
+[1.217444] (-) TimerEvent: {}
+[1.318720] (-) TimerEvent: {}
+[1.419914] (-) TimerEvent: {}
+[1.521134] (-) TimerEvent: {}
+[1.622426] (-) TimerEvent: {}
+[1.723649] (-) TimerEvent: {}
+[1.824872] (-) TimerEvent: {}
+[1.926176] (-) TimerEvent: {}
+[2.027397] (-) TimerEvent: {}
+[2.128603] (-) TimerEvent: {}
+[2.229864] (-) TimerEvent: {}
+[2.331119] (-) TimerEvent: {}
+[2.432367] (-) TimerEvent: {}
+[2.533714] (-) TimerEvent: {}
+[2.635126] (-) TimerEvent: {}
+[2.736666] (-) TimerEvent: {}
+[2.838126] (-) TimerEvent: {}
+[2.941085] (-) TimerEvent: {}
+[3.044077] (-) TimerEvent: {}
+[3.145471] (-) TimerEvent: {}
+[3.246809] (-) TimerEvent: {}
+[3.348084] (-) TimerEvent: {}
+[3.449502] (-) TimerEvent: {}
+[3.550712] (-) TimerEvent: {}
+[3.651911] (-) TimerEvent: {}
+[3.753207] (-) TimerEvent: {}
+[3.854504] (-) TimerEvent: {}
+[3.955868] (-) TimerEvent: {}
+[4.057140] (-) TimerEvent: {}
+[4.158383] (-) TimerEvent: {}
+[4.259604] (-) TimerEvent: {}
+[4.360913] (-) TimerEvent: {}
+[4.462189] (-) TimerEvent: {}
+[4.563380] (-) TimerEvent: {}
+[4.664594] (-) TimerEvent: {}
+[4.765865] (-) TimerEvent: {}
+[4.867077] (-) TimerEvent: {}
+[4.968360] (-) TimerEvent: {}
+[5.069591] (-) TimerEvent: {}
+[5.170806] (-) TimerEvent: {}
+[5.272037] (-) TimerEvent: {}
+[5.373225] (-) TimerEvent: {}
+[5.474548] (-) TimerEvent: {}
+[5.575747] (-) TimerEvent: {}
+[5.676954] (-) TimerEvent: {}
+[5.778214] (-) TimerEvent: {}
+[5.879429] (-) TimerEvent: {}
+[5.980593] (-) TimerEvent: {}
+[6.081899] (-) TimerEvent: {}
+[6.183312] (-) TimerEvent: {}
+[6.284749] (-) TimerEvent: {}
+[6.342549] (publisher_subsriber) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/publisher_subsriber', 'build', '--build-base', '/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build', 'install', '--record', '/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jlukas', 'SSH_CLIENT': '192.168.8.161 64549 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/My_Project/ROS2', 'SSH_TTY': '/dev/pts/0', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/publisher_subsriber/install', 'LOGNAME': 'jlukas', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber', 'SSH_CONNECTION': '192.168.8.161 64549 192.168.8.165 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/prefix_override:/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages:/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[6.385069] (-) TimerEvent: {}
+[6.486480] (-) TimerEvent: {}
+[6.587691] (-) TimerEvent: {}
+[6.688923] (-) TimerEvent: {}
+[6.790225] (-) TimerEvent: {}
+[6.891439] (-) TimerEvent: {}
+[6.992751] (-) TimerEvent: {}
+[7.094108] (-) TimerEvent: {}
+[7.195379] (-) TimerEvent: {}
+[7.296541] (-) TimerEvent: {}
+[7.397793] (-) TimerEvent: {}
+[7.499034] (-) TimerEvent: {}
+[7.600248] (-) TimerEvent: {}
+[7.701555] (-) TimerEvent: {}
+[7.802723] (-) TimerEvent: {}
+[7.903988] (-) TimerEvent: {}
+[8.005211] (-) TimerEvent: {}
+[8.106526] (-) TimerEvent: {}
+[8.207739] (-) TimerEvent: {}
+[8.308990] (-) TimerEvent: {}
+[8.410446] (-) TimerEvent: {}
+[8.465660] (publisher_subsriber) StdoutLine: {'line': b'running egg_info\n'}
+[8.472865] (publisher_subsriber) StdoutLine: {'line': b'creating ../../build/publisher_subsriber/publisher_subsriber.egg-info\n'}
+[8.474413] (publisher_subsriber) StdoutLine: {'line': b'writing ../../build/publisher_subsriber/publisher_subsriber.egg-info/PKG-INFO\n'}
+[8.476114] (publisher_subsriber) StdoutLine: {'line': b'writing dependency_links to ../../build/publisher_subsriber/publisher_subsriber.egg-info/dependency_links.txt\n'}
+[8.477793] (publisher_subsriber) StdoutLine: {'line': b'writing entry points to ../../build/publisher_subsriber/publisher_subsriber.egg-info/entry_points.txt\n'}
+[8.479254] (publisher_subsriber) StdoutLine: {'line': b'writing requirements to ../../build/publisher_subsriber/publisher_subsriber.egg-info/requires.txt\n'}
+[8.480560] (publisher_subsriber) StdoutLine: {'line': b'writing top-level names to ../../build/publisher_subsriber/publisher_subsriber.egg-info/top_level.txt\n'}
+[8.482619] (publisher_subsriber) StdoutLine: {'line': b"writing manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'\n"}
+[8.496481] (publisher_subsriber) StdoutLine: {'line': b"reading manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'\n"}
+[8.505803] (publisher_subsriber) StdoutLine: {'line': b"writing manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'\n"}
+[8.507244] (publisher_subsriber) StdoutLine: {'line': b'running build\n'}
+[8.508280] (publisher_subsriber) StdoutLine: {'line': b'running build_py\n'}
+[8.509656] (publisher_subsriber) StdoutLine: {'line': b'creating /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build\n'}
+[8.511189] (-) TimerEvent: {}
+[8.512698] (publisher_subsriber) StdoutLine: {'line': b'creating /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib\n'}
+[8.514271] (publisher_subsriber) StdoutLine: {'line': b'creating /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber\n'}
+[8.515405] (publisher_subsriber) StdoutLine: {'line': b'copying publisher_subsriber/publisher_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber\n'}
+[8.516691] (publisher_subsriber) StdoutLine: {'line': b'copying publisher_subsriber/subscriber_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber\n'}
+[8.517800] (publisher_subsriber) StdoutLine: {'line': b'copying publisher_subsriber/__init__.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber\n'}
+[8.519197] (publisher_subsriber) StdoutLine: {'line': b'running install\n'}
+[8.520619] (publisher_subsriber) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.521873] (publisher_subsriber) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.523154] (publisher_subsriber) StdoutLine: {'line': b'running install_lib\n'}
+[8.529522] (publisher_subsriber) StdoutLine: {'line': b'creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber\n'}
+[8.530920] (publisher_subsriber) StdoutLine: {'line': b'copying /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/publisher_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber\n'}
+[8.532602] (publisher_subsriber) StdoutLine: {'line': b'copying /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/subscriber_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber\n'}
+[8.534672] (publisher_subsriber) StdoutLine: {'line': b'copying /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/__init__.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber\n'}
+[8.540012] (publisher_subsriber) StdoutLine: {'line': b'byte-compiling /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[8.544889] (publisher_subsriber) StdoutLine: {'line': b'byte-compiling /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/subscriber_node.py to subscriber_node.cpython-310.pyc\n'}
+[8.549093] (publisher_subsriber) StdoutLine: {'line': b'byte-compiling /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/__init__.py to __init__.cpython-310.pyc\n'}
+[8.551493] (publisher_subsriber) StdoutLine: {'line': b'running install_data\n'}
+[8.555692] (publisher_subsriber) StdoutLine: {'line': b'creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index\n'}
+[8.557284] (publisher_subsriber) StdoutLine: {'line': b'creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index\n'}
+[8.558831] (publisher_subsriber) StdoutLine: {'line': b'creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index/packages\n'}
+[8.560070] (publisher_subsriber) StdoutLine: {'line': b'copying resource/publisher_subsriber -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index/packages\n'}
+[8.561405] (publisher_subsriber) StdoutLine: {'line': b'copying package.xml -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber\n'}
+[8.562654] (publisher_subsriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.577003] (publisher_subsriber) StdoutLine: {'line': b'Copying ../../build/publisher_subsriber/publisher_subsriber.egg-info to /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber-0.0.0-py3.10.egg-info\n'}
+[8.591436] (publisher_subsriber) StdoutLine: {'line': b'running install_scripts\n'}
+[8.611487] (-) TimerEvent: {}
+[8.712683] (-) TimerEvent: {}
+[8.792656] (publisher_subsriber) StdoutLine: {'line': b'Installing publishers_node script to /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/publisher_subsriber\n'}
+[8.794356] (publisher_subsriber) StdoutLine: {'line': b'Installing subscribers_node script to /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/publisher_subsriber\n'}
+[8.797771] (publisher_subsriber) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/install.log'\n"}
+[8.813108] (-) TimerEvent: {}
+[8.914596] (-) TimerEvent: {}
+[9.016185] (-) TimerEvent: {}
+[9.059311] (publisher_subsriber) CommandEnded: {'returncode': 0}
+[9.117422] (-) TimerEvent: {}
+[9.218990] (-) TimerEvent: {}
+[9.322110] (-) TimerEvent: {}
+[9.428179] (-) TimerEvent: {}
+[9.463250] (publisher_subsriber) JobEnded: {'identifier': 'publisher_subsriber', 'rc': 0}
+[9.468990] (-) EventReactorShutdown: {}

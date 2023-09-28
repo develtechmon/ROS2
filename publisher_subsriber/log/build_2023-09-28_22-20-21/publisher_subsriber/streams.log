@@ -1,0 +1,43 @@
+[6.373s] Invoking command in '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber': PYTHONPATH=/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/prefix_override:/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subsriber build --build-base /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build install --record /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/install.log --single-version-externally-managed
+[8.463s] running egg_info
+[8.471s] creating ../../build/publisher_subsriber/publisher_subsriber.egg-info
+[8.472s] writing ../../build/publisher_subsriber/publisher_subsriber.egg-info/PKG-INFO
+[8.474s] writing dependency_links to ../../build/publisher_subsriber/publisher_subsriber.egg-info/dependency_links.txt
+[8.475s] writing entry points to ../../build/publisher_subsriber/publisher_subsriber.egg-info/entry_points.txt
+[8.477s] writing requirements to ../../build/publisher_subsriber/publisher_subsriber.egg-info/requires.txt
+[8.478s] writing top-level names to ../../build/publisher_subsriber/publisher_subsriber.egg-info/top_level.txt
+[8.480s] writing manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+[8.494s] reading manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+[8.503s] writing manifest file '../../build/publisher_subsriber/publisher_subsriber.egg-info/SOURCES.txt'
+[8.505s] running build
+[8.506s] running build_py
+[8.508s] creating /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build
+[8.511s] creating /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib
+[8.512s] creating /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+[8.513s] copying publisher_subsriber/publisher_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+[8.514s] copying publisher_subsriber/subscriber_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+[8.516s] copying publisher_subsriber/__init__.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber
+[8.517s] running install
+[8.518s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.519s]   warnings.warn(
+[8.521s] running install_lib
+[8.527s] creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+[8.528s] copying /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/publisher_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+[8.530s] copying /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/subscriber_node.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+[8.532s] copying /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build/lib/publisher_subsriber/__init__.py -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber
+[8.538s] byte-compiling /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/publisher_node.py to publisher_node.cpython-310.pyc
+[8.543s] byte-compiling /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/subscriber_node.py to subscriber_node.cpython-310.pyc
+[8.547s] byte-compiling /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber/__init__.py to __init__.cpython-310.pyc
+[8.549s] running install_data
+[8.554s] creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index
+[8.555s] creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index
+[8.556s] creating /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index/packages
+[8.558s] copying resource/publisher_subsriber -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/ament_index/resource_index/packages
+[8.559s] copying package.xml -> /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber
+[8.560s] running install_egg_info
+[8.575s] Copying ../../build/publisher_subsriber/publisher_subsriber.egg-info to /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages/publisher_subsriber-0.0.0-py3.10.egg-info
+[8.589s] running install_scripts
+[8.790s] Installing publishers_node script to /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/publisher_subsriber
+[8.792s] Installing subscribers_node script to /home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/publisher_subsriber
+[8.795s] writing list of installed files to '/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/install.log'
+[9.058s] Invoked command in '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/prefix_override:/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subsriber build --build-base /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build install --record /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/install.log --single-version-externally-managed

@@ -1,0 +1,28 @@
+[8.203s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_motor build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/install.log --single-version-externally-managed
+[10.850s] running egg_info
+[10.856s] writing ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/PKG-INFO
+[10.860s] writing dependency_links to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/dependency_links.txt
+[10.861s] writing entry points to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/entry_points.txt
+[10.863s] writing requirements to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/requires.txt
+[10.865s] writing top-level names to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/top_level.txt
+[10.884s] reading manifest file '../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/SOURCES.txt'
+[10.896s] writing manifest file '../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/SOURCES.txt'
+[10.898s] running build
+[10.899s] running build_py
+[10.901s] copying ros2_rpi_motor/motor_subscriber.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build/lib/ros2_rpi_motor
+[10.906s] running install
+[10.908s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.909s]   warnings.warn(
+[10.911s] running install_lib
+[10.919s] copying /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build/lib/ros2_rpi_motor/motor_subscriber.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor
+[10.927s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor/motor_subscriber.py to motor_subscriber.cpython-310.pyc
+[10.933s] running install_data
+[10.939s] running install_egg_info
+[10.958s] removing '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor-0.0.0-py3.10.egg-info' (and everything under it)
+[10.963s] Copying ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor-0.0.0-py3.10.egg-info
+[10.978s] running install_scripts
+[11.180s] Installing motor_subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+[11.182s] Installing publisher_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+[11.184s] Installing subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+[11.189s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/install.log'
+[11.450s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_motor build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/install.log --single-version-externally-managed

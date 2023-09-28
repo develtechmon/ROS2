@@ -1,0 +1,129 @@
+[7.266s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.266s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff923555d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff922ebf40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff922ebf40>>)
+[7.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.658s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/My_Project/ROS2/publisher_subsriber'
+[7.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.783s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.783s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.784s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.785s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.786s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.787s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.789s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.789s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.790s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.791s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extensions ['ignore', 'ignore_ament_install']
+[7.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extension 'ignore'
+[7.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extension 'ignore_ament_install'
+[7.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extensions ['colcon_pkg']
+[7.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extension 'colcon_pkg'
+[7.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extensions ['colcon_meta']
+[7.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extension 'colcon_meta'
+[7.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extensions ['ros']
+[7.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subsriber) by extension 'ros'
+[7.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher_subsriber' with type 'ros.ament_python' and name 'publisher_subsriber'
+[7.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.603s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[8.708s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/jlukas/My_Project/ROS2/publisher_subsriber/install
+[8.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.907s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'cmake_args' from command line to 'None'
+[8.907s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'cmake_target' from command line to 'None'
+[8.908s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.908s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'cmake_clean_cache' from command line to 'False'
+[8.908s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'cmake_clean_first' from command line to 'False'
+[8.908s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'cmake_force_configure' from command line to 'False'
+[8.909s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'ament_cmake_args' from command line to 'None'
+[8.909s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'catkin_cmake_args' from command line to 'None'
+[8.909s] Level 5:colcon.colcon_core.verb:set package 'publisher_subsriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.910s] DEBUG:colcon.colcon_core.verb:Building package 'publisher_subsriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber', 'merge_install': False, 'path': '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber', 'symlink_install': False, 'test_result_base': None}
+[9.004s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.107s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber' with build type 'ament_python'
+[9.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subsriber', 'ament_prefix_path')
+[9.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/hook/ament_prefix_path.ps1'
+[9.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/hook/ament_prefix_path.dsv'
+[9.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/hook/ament_prefix_path.sh'
+[9.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.826s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber'
+[11.924s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.925s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber': PYTHONPATH=/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/prefix_override:/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subsriber build --build-base /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build install --record /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/install.log --single-version-externally-managed
+[18.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/publisher_subsriber/src/publisher_subsriber' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/prefix_override:/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subsriber build --build-base /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/build install --record /home/jlukas/My_Project/ROS2/publisher_subsriber/build/publisher_subsriber/install.log --single-version-externally-managed
+[18.294s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber' for CMake module files
+[18.300s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber' for CMake config files
+[18.309s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib'
+[18.311s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/bin'
+[18.312s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/pkgconfig/publisher_subsriber.pc'
+[18.315s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/lib/python3.10/site-packages'
+[18.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subsriber', 'pythonpath')
+[18.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/hook/pythonpath.ps1'
+[18.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/hook/pythonpath.dsv'
+[18.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/hook/pythonpath.sh'
+[18.428s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/bin'
+[18.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher_subsriber)
+[18.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/package.ps1'
+[18.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/package.dsv'
+[18.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/package.sh'
+[18.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/package.bash'
+[18.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/publisher_subsriber/package.zsh'
+[18.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/My_Project/ROS2/publisher_subsriber/install/publisher_subsriber/share/colcon-core/packages/publisher_subsriber)
+[18.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.575s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.716s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[18.717s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.717s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.718s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.724s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[18.725s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/local_setup.ps1'
+[18.833s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/_local_setup_util_ps1.py'
+[18.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/setup.ps1'
+[18.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/local_setup.sh'
+[18.955s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/_local_setup_util_sh.py'
+[18.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/setup.sh'
+[19.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/local_setup.bash'
+[19.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/setup.bash'
+[19.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/local_setup.zsh'
+[19.175s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/publisher_subsriber/install/setup.zsh'
