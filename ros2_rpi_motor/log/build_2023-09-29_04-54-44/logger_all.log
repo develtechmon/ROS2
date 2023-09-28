@@ -1,0 +1,129 @@
+[10.765s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[10.766s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb437be80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4329fc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4329fc0>>)
+[11.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.276s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor'
+[11.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.401s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.403s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.405s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.408s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.409s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.414s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extensions ['ignore', 'ignore_ament_install']
+[11.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extension 'ignore'
+[11.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extension 'ignore_ament_install'
+[11.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extensions ['colcon_pkg']
+[11.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extension 'colcon_pkg'
+[11.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extensions ['colcon_meta']
+[11.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extension 'colcon_meta'
+[11.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extensions ['ros']
+[11.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_motor) by extension 'ros'
+[11.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_rpi_motor' with type 'ros.ament_python' and name 'ros2_rpi_motor'
+[11.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[12.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.730s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install
+[12.896s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 184 installed packages in /opt/ros/humble
+[12.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[13.731s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'cmake_args' from command line to 'None'
+[13.732s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'cmake_target' from command line to 'None'
+[13.732s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.732s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[13.732s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'cmake_clean_first' from command line to 'False'
+[13.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'cmake_force_configure' from command line to 'False'
+[13.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'ament_cmake_args' from command line to 'None'
+[13.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[13.733s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.734s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_rpi_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor', 'merge_install': False, 'path': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor', 'symlink_install': False, 'test_result_base': None}
+[13.884s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.045s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor' with build type 'ament_python'
+[14.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_rpi_motor', 'ament_prefix_path')
+[14.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/hook/ament_prefix_path.ps1'
+[14.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/hook/ament_prefix_path.dsv'
+[14.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/hook/ament_prefix_path.sh'
+[14.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.730s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor'
+[17.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_motor build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/install.log --single-version-externally-managed
+[25.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_motor build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/install.log --single-version-externally-managed
+[25.667s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor' for CMake module files
+[25.674s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor' for CMake config files
+[25.683s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib'
+[25.685s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/bin'
+[25.686s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/pkgconfig/ros2_rpi_motor.pc'
+[25.689s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages'
+[25.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_rpi_motor', 'pythonpath')
+[25.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/hook/pythonpath.ps1'
+[25.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/hook/pythonpath.dsv'
+[25.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/hook/pythonpath.sh'
+[25.863s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/bin'
+[25.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_rpi_motor)
+[26.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/package.ps1'
+[26.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/package.dsv'
+[26.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/package.sh'
+[26.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/package.bash'
+[26.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/ros2_rpi_motor/package.zsh'
+[26.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/share/colcon-core/packages/ros2_rpi_motor)
+[26.069s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.072s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.074s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[26.277s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.278s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.279s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.285s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[26.286s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/local_setup.ps1'
+[26.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/_local_setup_util_ps1.py'
+[26.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/setup.ps1'
+[26.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/local_setup.sh'
+[26.633s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/_local_setup_util_sh.py'
+[26.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/setup.sh'
+[26.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/local_setup.bash'
+[26.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/setup.bash'
+[26.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/local_setup.zsh'
+[26.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/setup.zsh'

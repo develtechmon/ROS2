@@ -15,13 +15,19 @@ class VelocitySubscriber(Node):
         
         self.M1A=17
         self.M1B=18
-        
+        self.M2A=27
+        self.M2B=22
+
         self.pi.set_mode(self.M1A, pigpio.OUTPUT)
         self.pi.set_mode(self.M1B, pigpio.OUTPUT)
-
+        self.pi.set_mode(self.M2A, pigpio.OUTPUT)
+        self.pi.set_mode(self.M2B, pigpio.OUTPUT)
+        
         self.pi.set_PWM_dutycycle(self.M1A, 0)
         self.pi.set_PWM_dutycycle(self.M1B, 0)
-
+        self.pi.set_PWM_dutycycle(self.M2A, 0)
+        self.pi.set_PWM_dutycycle(self.M1B, 0)
+    
     def pwm_listener_callback(self, msg):
         right_wheel_vel = (msg.linear.x + msg.angular.z) / 2 
         left_wheel_vel  = (msg.linear.x - msg.angular.z) / 2
@@ -29,20 +35,40 @@ class VelocitySubscriber(Node):
         print(right_wheel_vel, " / ", left_wheel_vel)
         
         if right_wheel_vel > 0:
-            self.pi.set_PWM_dutycycle(self.M1A, 200)
+            self.pi.set_PWM_dutycycle(self.M1A, 100)
             self.pi.set_PWM_dutycycle(self.M1B, 0)
+
+            #self.pi.set_PWM_dutycycle(self.M2A, 100)
+            #self.pi.set_PWM_dutycycle(self.M2B,0)
 
         else:
             self.pi.set_PWM_dutycycle(self.M1A, 0)
-            self.pi.set_PWM_dutycycle(self.M1B, 200)
+            self.pi.set_PWM_dutycycle(self.M1B, 100)
+            
+            #self.pi.set_PWM_dutycycle(self.M2A, 0)
+            #self.pi.set_PWM_dutycycle(self.M2B,100)
 
-        if right_wheel_vel == 0.0:
+
+        if left_wheel_vel > 0:
+            #self.pi.set_PWM_dutycycle(self.M1A, 0)
+            #self.pi.set_PWM_dutycycle(self.M1B, 100)
+
+            self.pi.set_PWM_dutycycle(self.M2A, 0)
+            self.pi.set_PWM_dutycycle(self.M2B,100)
+        
+        else:
+            #self.pi.set_PWM_dutycycle(self.M1A,100)
+            #self.pi.set_PWM_dutycycle(self.M1B, 0)
+
+            self.pi.set_PWM_dutycycle(self.M2A,100)
+            self.pi.set_PWM_dutycycle(self.M2B,0)
+
+
+        if right_wheel_vel == 0.0 or left_wheel_vel == 0.0:
             self.pi.set_PWM_dutycycle(self.M1A, 0)
             self.pi.set_PWM_dutycycle(self.M1B, 0)
-
-        #if left_wheel_vel > 0:
-        #    self.pi.set_PWM_dutycycle(self.M1A, 200)
-        #    self.pi.set_PWM_dutycycle(self.M1B, 0)
+            self.pi.set_PWM_dutycycle(self.M2A, 0)
+            self.pi.set_PWM_dutycycle(self.M2B, 0)
 
 def main(args=None):
     rclpy.init(args=args)

@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.002448] (ros2_rpi_motor) JobQueued: {'identifier': 'ros2_rpi_motor', 'dependencies': OrderedDict()}
+[0.003071] (ros2_rpi_motor) JobStarted: {'identifier': 'ros2_rpi_motor'}
+[0.095490] (-) TimerEvent: {}
+[0.196954] (-) TimerEvent: {}
+[0.299196] (-) TimerEvent: {}
+[0.400596] (-) TimerEvent: {}
+[0.507450] (-) TimerEvent: {}
+[0.611597] (-) TimerEvent: {}
+[0.713981] (-) TimerEvent: {}
+[0.822350] (-) TimerEvent: {}
+[0.926681] (-) TimerEvent: {}
+[1.027923] (-) TimerEvent: {}
+[1.129177] (-) TimerEvent: {}
+[1.230354] (-) TimerEvent: {}
+[1.331679] (-) TimerEvent: {}
+[1.432998] (-) TimerEvent: {}
+[1.534226] (-) TimerEvent: {}
+[1.635547] (-) TimerEvent: {}
+[1.736748] (-) TimerEvent: {}
+[1.838217] (-) TimerEvent: {}
+[1.939537] (-) TimerEvent: {}
+[2.040773] (-) TimerEvent: {}
+[2.141994] (-) TimerEvent: {}
+[2.243376] (-) TimerEvent: {}
+[2.344832] (-) TimerEvent: {}
+[2.446110] (-) TimerEvent: {}
+[2.547412] (-) TimerEvent: {}
+[2.648619] (-) TimerEvent: {}
+[2.749788] (-) TimerEvent: {}
+[2.851081] (-) TimerEvent: {}
+[2.952401] (-) TimerEvent: {}
+[3.053622] (-) TimerEvent: {}
+[3.154915] (-) TimerEvent: {}
+[3.256152] (-) TimerEvent: {}
+[3.357367] (-) TimerEvent: {}
+[3.458668] (-) TimerEvent: {}
+[3.560005] (-) TimerEvent: {}
+[3.661468] (-) TimerEvent: {}
+[3.763063] (-) TimerEvent: {}
+[3.864995] (-) TimerEvent: {}
+[3.969070] (-) TimerEvent: {}
+[4.070692] (-) TimerEvent: {}
+[4.173017] (-) TimerEvent: {}
+[4.274648] (-) TimerEvent: {}
+[4.379677] (-) TimerEvent: {}
+[4.481724] (-) TimerEvent: {}
+[4.583030] (-) TimerEvent: {}
+[4.684299] (-) TimerEvent: {}
+[4.785507] (-) TimerEvent: {}
+[4.886723] (-) TimerEvent: {}
+[4.988004] (-) TimerEvent: {}
+[5.089313] (-) TimerEvent: {}
+[5.190732] (-) TimerEvent: {}
+[5.291943] (-) TimerEvent: {}
+[5.393131] (-) TimerEvent: {}
+[5.494323] (-) TimerEvent: {}
+[5.595635] (-) TimerEvent: {}
+[5.696860] (-) TimerEvent: {}
+[5.798083] (-) TimerEvent: {}
+[5.899452] (-) TimerEvent: {}
+[6.000697] (-) TimerEvent: {}
+[6.101885] (-) TimerEvent: {}
+[6.203169] (-) TimerEvent: {}
+[6.304346] (-) TimerEvent: {}
+[6.405484] (-) TimerEvent: {}
+[6.506892] (-) TimerEvent: {}
+[6.608217] (-) TimerEvent: {}
+[6.709449] (-) TimerEvent: {}
+[6.810660] (-) TimerEvent: {}
+[6.912023] (-) TimerEvent: {}
+[7.013391] (-) TimerEvent: {}
+[7.114723] (-) TimerEvent: {}
+[7.215984] (-) TimerEvent: {}
+[7.317469] (-) TimerEvent: {}
+[7.422458] (-) TimerEvent: {}
+[7.524567] (-) TimerEvent: {}
+[7.626272] (-) TimerEvent: {}
+[7.727799] (-) TimerEvent: {}
+[7.829442] (-) TimerEvent: {}
+[7.930712] (-) TimerEvent: {}
+[8.031978] (-) TimerEvent: {}
+[8.133435] (-) TimerEvent: {}
+[8.234921] (-) TimerEvent: {}
+[8.338440] (ros2_rpi_motor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_rpi_motor', 'build', '--build-base', '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build', 'install', '--record', '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src/ros2_rpi_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jlukas', 'SSH_CLIENT': '192.168.8.161 60408 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jlukas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor', 'SSH_CONNECTION': '192.168.8.161 60408 192.168.8.165 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.354476] (-) TimerEvent: {}
+[8.473614] (-) TimerEvent: {}
+[8.575176] (-) TimerEvent: {}
+[8.676393] (-) TimerEvent: {}
+[8.777640] (-) TimerEvent: {}
+[8.878928] (-) TimerEvent: {}
+[8.980255] (-) TimerEvent: {}
+[9.081609] (-) TimerEvent: {}
+[9.183021] (-) TimerEvent: {}
+[9.284435] (-) TimerEvent: {}
+[9.385768] (-) TimerEvent: {}
+[9.487140] (-) TimerEvent: {}
+[9.588569] (-) TimerEvent: {}
+[9.689795] (-) TimerEvent: {}
+[9.791164] (-) TimerEvent: {}
+[9.892519] (-) TimerEvent: {}
+[9.993805] (-) TimerEvent: {}
+[10.095278] (-) TimerEvent: {}
+[10.196618] (-) TimerEvent: {}
+[10.297952] (-) TimerEvent: {}
+[10.399416] (-) TimerEvent: {}
+[10.501582] (-) TimerEvent: {}
+[10.603540] (-) TimerEvent: {}
+[10.705605] (-) TimerEvent: {}
+[10.807748] (-) TimerEvent: {}
+[10.909658] (-) TimerEvent: {}
+[11.011593] (-) TimerEvent: {}
+[11.113624] (-) TimerEvent: {}
+[11.215766] (-) TimerEvent: {}
+[11.317898] (-) TimerEvent: {}
+[11.321202] (ros2_rpi_motor) StdoutLine: {'line': b'running egg_info\n'}
+[11.328662] (ros2_rpi_motor) StdoutLine: {'line': b'writing ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/PKG-INFO\n'}
+[11.331615] (ros2_rpi_motor) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/dependency_links.txt\n'}
+[11.334138] (ros2_rpi_motor) StdoutLine: {'line': b'writing entry points to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/entry_points.txt\n'}
+[11.336391] (ros2_rpi_motor) StdoutLine: {'line': b'writing requirements to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/requires.txt\n'}
+[11.338218] (ros2_rpi_motor) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/top_level.txt\n'}
+[11.359221] (ros2_rpi_motor) StdoutLine: {'line': b"reading manifest file '../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/SOURCES.txt'\n"}
+[11.373119] (ros2_rpi_motor) StdoutLine: {'line': b"writing manifest file '../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info/SOURCES.txt'\n"}
+[11.375471] (ros2_rpi_motor) StdoutLine: {'line': b'running build\n'}
+[11.376875] (ros2_rpi_motor) StdoutLine: {'line': b'running build_py\n'}
+[11.379319] (ros2_rpi_motor) StdoutLine: {'line': b'copying ros2_rpi_motor/motor_subscriber.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build/lib/ros2_rpi_motor\n'}
+[11.384711] (ros2_rpi_motor) StdoutLine: {'line': b'running install\n'}
+[11.386678] (ros2_rpi_motor) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.388371] (ros2_rpi_motor) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.390119] (ros2_rpi_motor) StdoutLine: {'line': b'running install_lib\n'}
+[11.399522] (ros2_rpi_motor) StdoutLine: {'line': b'copying /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build/lib/ros2_rpi_motor/motor_subscriber.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor\n'}
+[11.408534] (ros2_rpi_motor) StdoutLine: {'line': b'byte-compiling /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor/motor_subscriber.py to motor_subscriber.cpython-310.pyc\n'}
+[11.417741] (ros2_rpi_motor) StdoutLine: {'line': b'running install_data\n'}
+[11.419154] (-) TimerEvent: {}
+[11.424507] (ros2_rpi_motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.443643] (ros2_rpi_motor) StdoutLine: {'line': b"removing '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.449085] (ros2_rpi_motor) StdoutLine: {'line': b'Copying ../../build/ros2_rpi_motor/ros2_rpi_motor.egg-info to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2_rpi_motor-0.0.0-py3.10.egg-info\n'}
+[11.465966] (ros2_rpi_motor) StdoutLine: {'line': b'running install_scripts\n'}
+[11.519495] (-) TimerEvent: {}
+[11.621054] (-) TimerEvent: {}
+[11.694745] (ros2_rpi_motor) StdoutLine: {'line': b'Installing motor_subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor\n'}
+[11.697013] (ros2_rpi_motor) StdoutLine: {'line': b'Installing publisher_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor\n'}
+[11.699125] (ros2_rpi_motor) StdoutLine: {'line': b'Installing subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor\n'}
+[11.704044] (ros2_rpi_motor) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/install.log'\n"}
+[11.721366] (-) TimerEvent: {}
+[11.825328] (-) TimerEvent: {}
+[11.928805] (-) TimerEvent: {}
+[12.006252] (ros2_rpi_motor) CommandEnded: {'returncode': 0}
+[12.029038] (-) TimerEvent: {}
+[12.131774] (-) TimerEvent: {}
+[12.233669] (-) TimerEvent: {}
+[12.336109] (-) TimerEvent: {}
+[12.438701] (-) TimerEvent: {}
+[12.543566] (-) TimerEvent: {}
+[12.646184] (-) TimerEvent: {}
+[12.753299] (-) TimerEvent: {}
+[12.778860] (ros2_rpi_motor) JobEnded: {'identifier': 'ros2_rpi_motor', 'rc': 0}
+[12.786921] (-) EventReactorShutdown: {}
