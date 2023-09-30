@@ -1,0 +1,139 @@
+[11.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[11.131s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8cf61390>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8d144f10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8d144f10>>)
+[11.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.656s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar'
+[11.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.781s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.782s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.783s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.784s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.785s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.786s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.789s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.790s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.791s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.794s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.795s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.796s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.797s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.798s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extensions ['ignore', 'ignore_ament_install']
+[11.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extension 'ignore'
+[11.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extension 'ignore_ament_install'
+[11.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extensions ['colcon_pkg']
+[11.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extension 'colcon_pkg'
+[11.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extensions ['colcon_meta']
+[11.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extension 'colcon_meta'
+[11.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extensions ['ros']
+[11.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_rpi_lidar) by extension 'ros'
+[11.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_rpi_lidar' with type 'ros.ament_python' and name 'ros2_rpi_lidar'
+[11.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[12.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[13.156s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install
+[13.327s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 184 installed packages in /opt/ros/humble
+[13.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[14.170s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'cmake_args' from command line to 'None'
+[14.170s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'cmake_target' from command line to 'None'
+[14.170s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.171s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[14.171s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[14.172s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[14.172s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[14.172s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[14.172s] Level 5:colcon.colcon_core.verb:set package 'ros2_rpi_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.173s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_rpi_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar', 'merge_install': False, 'path': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar', 'symlink_install': True, 'test_result_base': None}
+[14.330s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.495s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar' with build type 'ament_python'
+[14.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_rpi_lidar', 'ament_prefix_path')
+[14.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/ament_prefix_path.ps1'
+[14.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/ament_prefix_path.dsv'
+[14.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/ament_prefix_path.sh'
+[14.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.265s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar'
+[18.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.866s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ament_index/resource_index/packages/ros2_rpi_lidar
+[22.866s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/package.xml
+[22.867s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/module
+[22.871s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar/lidar_publisher
+[22.872s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar/lidar_publisher_rate
+[22.872s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar/lidar_subscriber
+[22.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build --no-deps install_data
+[27.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_rpi_lidar', 'pythonpath_develop')
+[28.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build --no-deps install_data
+[28.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/pythonpath_develop.ps1'
+[28.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/pythonpath_develop.dsv'
+[28.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/pythonpath_develop.sh'
+[28.362s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar' for CMake module files
+[28.368s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar' for CMake config files
+[28.377s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib'
+[28.379s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/bin'
+[28.380s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/pkgconfig/ros2_rpi_lidar.pc'
+[28.383s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages'
+[28.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_rpi_lidar', 'pythonpath')
+[28.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/pythonpath.ps1'
+[28.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/pythonpath.dsv'
+[28.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/hook/pythonpath.sh'
+[28.563s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/bin'
+[28.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_rpi_lidar)
+[28.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/package.ps1'
+[28.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/package.dsv'
+[28.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/package.sh'
+[28.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/package.bash'
+[28.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/package.zsh'
+[28.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/colcon-core/packages/ros2_rpi_lidar)
+[28.772s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.777s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[28.984s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.984s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.985s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.992s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[28.993s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/local_setup.ps1'
+[29.164s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/_local_setup_util_ps1.py'
+[29.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/setup.ps1'
+[29.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/local_setup.sh'
+[29.352s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/_local_setup_util_sh.py'
+[29.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/setup.sh'
+[29.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/local_setup.bash'
+[29.534s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/setup.bash'
+[29.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/local_setup.zsh'
+[29.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/setup.zsh'

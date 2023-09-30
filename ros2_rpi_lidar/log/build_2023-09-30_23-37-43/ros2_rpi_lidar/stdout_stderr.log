@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ros2_rpi_lidar.egg-info/PKG-INFO
+writing dependency_links to ros2_rpi_lidar.egg-info/dependency_links.txt
+writing entry points to ros2_rpi_lidar.egg-info/entry_points.txt
+writing requirements to ros2_rpi_lidar.egg-info/requires.txt
+writing top-level names to ros2_rpi_lidar.egg-info/top_level.txt
+reading manifest file 'ros2_rpi_lidar.egg-info/SOURCES.txt'
+writing manifest file 'ros2_rpi_lidar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2-rpi-lidar.egg-link (link to .)
+Installing lidar_publisher script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+Installing lidar_publisher_rate script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+Installing lidar_subscriber script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+
+Installed /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar
+running install_data

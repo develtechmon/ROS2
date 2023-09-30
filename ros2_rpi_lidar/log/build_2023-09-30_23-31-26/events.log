@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.003621] (ros2_rpi_lidar) JobQueued: {'identifier': 'ros2_rpi_lidar', 'dependencies': OrderedDict()}
+[0.005725] (ros2_rpi_lidar) JobStarted: {'identifier': 'ros2_rpi_lidar'}
+[0.097918] (-) TimerEvent: {}
+[0.200163] (-) TimerEvent: {}
+[0.301683] (-) TimerEvent: {}
+[0.403972] (-) TimerEvent: {}
+[0.505569] (-) TimerEvent: {}
+[0.607856] (-) TimerEvent: {}
+[0.710760] (-) TimerEvent: {}
+[0.816010] (-) TimerEvent: {}
+[0.922184] (-) TimerEvent: {}
+[1.023612] (-) TimerEvent: {}
+[1.124772] (-) TimerEvent: {}
+[1.225979] (-) TimerEvent: {}
+[1.327201] (-) TimerEvent: {}
+[1.428467] (-) TimerEvent: {}
+[1.529672] (-) TimerEvent: {}
+[1.630948] (-) TimerEvent: {}
+[1.732457] (-) TimerEvent: {}
+[1.833699] (-) TimerEvent: {}
+[1.934892] (-) TimerEvent: {}
+[2.036059] (-) TimerEvent: {}
+[2.137311] (-) TimerEvent: {}
+[2.238529] (-) TimerEvent: {}
+[2.339819] (-) TimerEvent: {}
+[2.441096] (-) TimerEvent: {}
+[2.542264] (-) TimerEvent: {}
+[2.643432] (-) TimerEvent: {}
+[2.744653] (-) TimerEvent: {}
+[2.845842] (-) TimerEvent: {}
+[2.947039] (-) TimerEvent: {}
+[3.048256] (-) TimerEvent: {}
+[3.149579] (-) TimerEvent: {}
+[3.250780] (-) TimerEvent: {}
+[3.352030] (-) TimerEvent: {}
+[3.453388] (-) TimerEvent: {}
+[3.554601] (-) TimerEvent: {}
+[3.655860] (-) TimerEvent: {}
+[3.757418] (-) TimerEvent: {}
+[3.858837] (-) TimerEvent: {}
+[3.961731] (-) TimerEvent: {}
+[4.063751] (-) TimerEvent: {}
+[4.165130] (-) TimerEvent: {}
+[4.267110] (-) TimerEvent: {}
+[4.368856] (-) TimerEvent: {}
+[4.470827] (-) TimerEvent: {}
+[4.573236] (-) TimerEvent: {}
+[4.674531] (-) TimerEvent: {}
+[4.775729] (-) TimerEvent: {}
+[4.877113] (-) TimerEvent: {}
+[4.978416] (-) TimerEvent: {}
+[5.079614] (-) TimerEvent: {}
+[5.180861] (-) TimerEvent: {}
+[5.282158] (-) TimerEvent: {}
+[5.383334] (-) TimerEvent: {}
+[5.484619] (-) TimerEvent: {}
+[5.585802] (-) TimerEvent: {}
+[5.687004] (-) TimerEvent: {}
+[5.788222] (-) TimerEvent: {}
+[5.889496] (-) TimerEvent: {}
+[5.990733] (-) TimerEvent: {}
+[6.091976] (-) TimerEvent: {}
+[6.193242] (-) TimerEvent: {}
+[6.294524] (-) TimerEvent: {}
+[6.395764] (-) TimerEvent: {}
+[6.497062] (-) TimerEvent: {}
+[6.598304] (-) TimerEvent: {}
+[6.699493] (-) TimerEvent: {}
+[6.800942] (-) TimerEvent: {}
+[6.902187] (-) TimerEvent: {}
+[7.003428] (-) TimerEvent: {}
+[7.104612] (-) TimerEvent: {}
+[7.205853] (-) TimerEvent: {}
+[7.307136] (-) TimerEvent: {}
+[7.408450] (-) TimerEvent: {}
+[7.509741] (-) TimerEvent: {}
+[7.610970] (-) TimerEvent: {}
+[7.712138] (-) TimerEvent: {}
+[7.813450] (-) TimerEvent: {}
+[7.914628] (-) TimerEvent: {}
+[8.015825] (-) TimerEvent: {}
+[8.117135] (-) TimerEvent: {}
+[8.218486] (-) TimerEvent: {}
+[8.319856] (-) TimerEvent: {}
+[8.388650] (ros2_rpi_lidar) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_rpi_lidar', 'build', '--build-base', '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build', 'install', '--record', '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jlukas', 'SSH_CLIENT': '192.168.8.161 53126 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jlukas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar', 'SSH_CONNECTION': '192.168.8.161 53126 192.168.8.165 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.421270] (-) TimerEvent: {}
+[8.523140] (-) TimerEvent: {}
+[8.624304] (-) TimerEvent: {}
+[8.725595] (-) TimerEvent: {}
+[8.826956] (-) TimerEvent: {}
+[8.928177] (-) TimerEvent: {}
+[9.029480] (-) TimerEvent: {}
+[9.130718] (-) TimerEvent: {}
+[9.232020] (-) TimerEvent: {}
+[9.333345] (-) TimerEvent: {}
+[9.434516] (-) TimerEvent: {}
+[9.535711] (-) TimerEvent: {}
+[9.636989] (-) TimerEvent: {}
+[9.738179] (-) TimerEvent: {}
+[9.839363] (-) TimerEvent: {}
+[9.940614] (-) TimerEvent: {}
+[10.041867] (-) TimerEvent: {}
+[10.143120] (-) TimerEvent: {}
+[10.244430] (-) TimerEvent: {}
+[10.345677] (-) TimerEvent: {}
+[10.446858] (-) TimerEvent: {}
+[10.548112] (-) TimerEvent: {}
+[10.649418] (-) TimerEvent: {}
+[10.750705] (-) TimerEvent: {}
+[10.851918] (-) TimerEvent: {}
+[10.953196] (-) TimerEvent: {}
+[11.054448] (-) TimerEvent: {}
+[11.080863] (ros2_rpi_lidar) StdoutLine: {'line': b'running egg_info\n'}
+[11.087468] (ros2_rpi_lidar) StdoutLine: {'line': b'writing ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/PKG-INFO\n'}
+[11.089813] (ros2_rpi_lidar) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/dependency_links.txt\n'}
+[11.092082] (ros2_rpi_lidar) StdoutLine: {'line': b'writing entry points to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/entry_points.txt\n'}
+[11.094430] (ros2_rpi_lidar) StdoutLine: {'line': b'writing requirements to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/requires.txt\n'}
+[11.096014] (ros2_rpi_lidar) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/top_level.txt\n'}
+[11.114819] (ros2_rpi_lidar) StdoutLine: {'line': b"reading manifest file '../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/SOURCES.txt'\n"}
+[11.127635] (ros2_rpi_lidar) StdoutLine: {'line': b"writing manifest file '../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/SOURCES.txt'\n"}
+[11.129366] (ros2_rpi_lidar) StdoutLine: {'line': b'running build\n'}
+[11.130459] (ros2_rpi_lidar) StdoutLine: {'line': b'running build_py\n'}
+[11.133285] (ros2_rpi_lidar) StdoutLine: {'line': b'copying ros2_rpi_lidar/lidar_publisher.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar\n'}
+[11.140215] (ros2_rpi_lidar) StdoutLine: {'line': b'running install\n'}
+[11.141741] (ros2_rpi_lidar) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[11.142956] (ros2_rpi_lidar) StderrLine: {'line': b'  warnings.warn(\n'}
+[11.144622] (ros2_rpi_lidar) StdoutLine: {'line': b'running install_lib\n'}
+[11.151979] (ros2_rpi_lidar) StdoutLine: {'line': b'copying /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/lidar_publisher.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar\n'}
+[11.154631] (-) TimerEvent: {}
+[11.162196] (ros2_rpi_lidar) StdoutLine: {'line': b'byte-compiling /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/lidar_publisher.py to lidar_publisher.cpython-310.pyc\n'}
+[11.170854] (ros2_rpi_lidar) StdoutLine: {'line': b'running install_data\n'}
+[11.176285] (ros2_rpi_lidar) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.192756] (ros2_rpi_lidar) StdoutLine: {'line': b"removing '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.197183] (ros2_rpi_lidar) StdoutLine: {'line': b'Copying ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar-0.0.0-py3.10.egg-info\n'}
+[11.211085] (ros2_rpi_lidar) StdoutLine: {'line': b'running install_scripts\n'}
+[11.254931] (-) TimerEvent: {}
+[11.356248] (-) TimerEvent: {}
+[11.412897] (ros2_rpi_lidar) StdoutLine: {'line': b'Installing lidar_publisher script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar\n'}
+[11.414778] (ros2_rpi_lidar) StdoutLine: {'line': b'Installing lidar_publisher_rate script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar\n'}
+[11.416876] (ros2_rpi_lidar) StdoutLine: {'line': b'Installing lidar_subscriber script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar\n'}
+[11.422198] (ros2_rpi_lidar) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log'\n"}
+[11.456623] (-) TimerEvent: {}
+[11.557995] (-) TimerEvent: {}
+[11.659376] (-) TimerEvent: {}
+[11.684133] (ros2_rpi_lidar) CommandEnded: {'returncode': 0}
+[11.759785] (-) TimerEvent: {}
+[11.862745] (-) TimerEvent: {}
+[11.964943] (-) TimerEvent: {}
+[12.068472] (-) TimerEvent: {}
+[12.172515] (-) TimerEvent: {}
+[12.277448] (-) TimerEvent: {}
+[12.290980] (ros2_rpi_lidar) JobEnded: {'identifier': 'ros2_rpi_lidar', 'rc': 0}
+[12.297790] (-) EventReactorShutdown: {}

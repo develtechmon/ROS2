@@ -14,6 +14,7 @@ class LidarPublisher(Node):
         topic_name = "/dkcar/lidar"
         self.publishers_ = self.create_publisher(Int32, topic_name, 5)
         self.timer_ = self.create_timer(0.5, self.publish_lidar_data)
+        self.publish_lidar_data()
         self.lidar = Sonar()
         
     def publish_lidar_data(self):

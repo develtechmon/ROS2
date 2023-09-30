@@ -27,13 +27,13 @@ def main(args=None):
     node=LidarPublisher()
     
     # Rate at which you want to publish data (e.g., 1 Hz)
-    rate = node.create_rate(1) # 1 Hz
+    rate = node.create_rate(2) # 1 Hz
     
     while rclpy.ok():
         node.publish_lidar_data()
         rate.sleep()
         
-    #rclpy.spin(node)
+    rclpy.spin(node)
     
     node.destroy_node()
     rclpy.shutdown()
