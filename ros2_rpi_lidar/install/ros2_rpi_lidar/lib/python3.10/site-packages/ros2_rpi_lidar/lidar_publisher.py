@@ -12,27 +12,16 @@ class LidarPublisher(Node):
         super().__init__('lidar_publisher')
         topic_name = "/dkcar/lidar"
         self.publishers_ = self.create_publisher(Range, topic_name, 5)
+        self.timer_ = self.create_timer(0.5, self.publish_ultrasonic_data)
+        self.lidar = Sonar()
         
-        message = Range()
-        self._message = message
+    
+    def publish_ultrasonic_data(self):
+        msg = Range()
+        msg.range = self.lidar.read()
+        self.publishers_.publish(msg)
+        self.get_logger().info(f'Published Lidar Data: {msg.range}')
 
-        self.scan()
-        
-        # timer_period = 0.5
-        # self.timers = self.create_timer(timer_period, self.timer_callback)
-        # self.i=0
-    
-    # def timer_callback(self):
-    #     msg = String()
-    #     msg.data = "Hello World"
-    #     self.publishers_.publish(msg)
-    
-    def scan(self):
-        message = Sonar()
-        while True:
-            range_cm = message.read()
-            self._message.range = range_cm * 0.01
-            self.publishers_(self._message)
         
 def main(args=None):
     rclpy.init(args=args)
