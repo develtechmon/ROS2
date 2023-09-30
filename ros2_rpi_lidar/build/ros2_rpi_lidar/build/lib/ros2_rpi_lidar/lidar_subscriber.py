@@ -9,7 +9,7 @@ class LidarSubscriber(Node):
     def __init__(self):
         super().__init__('lidar_subscriber')
         topic_name = "/dkcar/lidar"
-        self.subscription = self.create_subscription(Int32,topic_name,self.lidar_listener_callback,10)
+        self.subscription = self.create_subscription(Int32,topic_name,self.lidar_listener_callback,5)
     
     def lidar_listener_callback(self,msg):
         msg = Int32()
