@@ -28,7 +28,7 @@ class LidarPublisher(Node):
     def scan(self):
         message = Sonar()
         while True:
-            range_cm = Sonar.read()
+            range_cm = message.read()
             self._message.range = range_cm * 0.01
             self.publishers_(self._message)
         
