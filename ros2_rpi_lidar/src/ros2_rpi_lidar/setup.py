@@ -31,6 +31,7 @@ setup(
         'console_scripts': [
             'lidar_publisher  = ros2_rpi_lidar.lidar_publisher:main',
             'lidar_subscriber = ros2_rpi_lidar.lidar_subscriber:main',
+            'lidar_publisher_rate = ros2_rpi_lidar.lidar_publisher_with_rate:main',
         ],
     },
 )
