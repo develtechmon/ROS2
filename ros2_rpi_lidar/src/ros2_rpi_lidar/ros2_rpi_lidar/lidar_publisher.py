@@ -19,7 +19,7 @@ class LidarPublisher(Node):
     def publish_ultrasonic_data(self):
         msg = Range()
         msg.range = self.lidar.read()
-        self.publishers_.publish(msg)
+        self.publishers_.publish(float(msg))
         self.get_logger().info(f'Published Lidar Data: {msg.range}')
 
         
