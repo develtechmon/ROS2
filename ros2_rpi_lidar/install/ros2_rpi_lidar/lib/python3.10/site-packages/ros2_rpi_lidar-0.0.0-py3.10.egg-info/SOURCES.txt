@@ -12,6 +12,7 @@ resource/ros2_rpi_lidar
 ros2_rpi_lidar/__init__.py
 ros2_rpi_lidar/lidar_publisher.py
 ros2_rpi_lidar/lidar_vl53lox.py
+ros2_rpi_lidar/read_
 ros2_rpi_lidar/vl53lox.py
 test/test_copyright.py
 test/test_flake8.py

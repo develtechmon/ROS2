@@ -8,14 +8,12 @@
         "**/Thumbs.db": true,
         ".vscode": true,
         "build": true,
-        "install": true,
         "log": true,
         "src/ros2_rpi_lidar/test": true
     },
     "hide-files.files": [
         ".vscode",
         "build",
-        "install",
         "log",
         "src/ros2_rpi_lidar/test"
     ],
