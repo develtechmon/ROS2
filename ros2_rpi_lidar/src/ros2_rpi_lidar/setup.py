@@ -1,12 +1,18 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
+
 package_name = 'ros2_rpi_lidar'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(exclude=['test']),
+    # packages=find_packages(exclude=['test']),
+    packages=[package_name],
+    
+    py_modules=[
+        'ros2_rpi_lidar.distance',  # Add your module here
+    ],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),

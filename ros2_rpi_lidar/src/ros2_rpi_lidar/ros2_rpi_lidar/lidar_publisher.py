@@ -3,11 +3,12 @@ from rclpy.node import Node
 
 ## ros2 interface show sensor_msgs/msg/Range
 from sensor_msgs.msg import Range
+
 #from ros2_rpi_lidar.module.lidar_vl53lox import Sonar
-from lidar_vl53lox import *
+from ros2_rpi_lidar.distance import Sonar
 
 class LidarPublisher(Node):
-    def __init(self):
+    def __init__(self):
         super().__init__('lidar_publisher')
         topic_name = "/dkcar/lidar"
         self.publishers_ = self.create_publisher(Range, topic_name, 5)
