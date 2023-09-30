@@ -3,6 +3,7 @@ from rclpy.node import Node
 
 ## ros2 interface show sensor_msgs/msg/Range
 from sensor_msgs.msg import Range
+#from ros2_rpi_lidar.module.lidar_vl53lox import Sonar
 from lidar_vl53lox import Sonar
 
 class LidarPublisher(Node):

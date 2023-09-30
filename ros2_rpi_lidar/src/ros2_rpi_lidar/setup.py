@@ -11,7 +11,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'ros2_rpi_lidar'),glob('ros2_rpi_lidar/*')),
+        (os.path.join('share', package_name, 'module'),glob('module/*')),
 
     ],
     install_requires=['setuptools'],
