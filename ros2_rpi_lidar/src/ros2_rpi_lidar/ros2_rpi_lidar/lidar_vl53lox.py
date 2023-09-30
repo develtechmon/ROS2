@@ -20,9 +20,10 @@ class Sonar():
                 return self.vl53.range
             
 if __name__ == "__main__":
-    main = Sonar()
-    value = main.read()
-    print(value)
+    while True:
+        main = Sonar()
+        value = main.read()
+        print(value)
 
     
 
