@@ -19,7 +19,7 @@ class LidarPublisher(Node):
     
     def publish_ultrasonic_data(self):
         msg = Int32()
-        print(self.lidar.read)
+        #print(self.lidar.read)
         msg.data = self.lidar.read()
         self.publishers_.publish(msg)
         self.get_logger().info(f'Published Lidar Data: {msg.data}')
