@@ -1,0 +1,24 @@
+[0.801s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_vision/src/ros2_rpi_vision': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_vision build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/install.log --single-version-externally-managed
+[1.014s] running egg_info
+[1.015s] writing ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/PKG-INFO
+[1.015s] writing dependency_links to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/dependency_links.txt
+[1.015s] writing entry points to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/entry_points.txt
+[1.015s] writing requirements to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/requires.txt
+[1.016s] writing top-level names to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/top_level.txt
+[1.017s] reading manifest file '../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/SOURCES.txt'
+[1.018s] writing manifest file '../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/SOURCES.txt'
+[1.019s] running build
+[1.019s] running build_py
+[1.019s] running install
+[1.020s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.020s]   warnings.warn(
+[1.020s] running install_lib
+[1.021s] running install_data
+[1.021s] copying launch/rviz.launch.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/launch
+[1.022s] copying launch/rsp.launch.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/launch
+[1.022s] running install_egg_info
+[1.024s] removing '/home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages/ros2_rpi_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[1.024s] Copying ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info to /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages/ros2_rpi_vision-0.0.0-py3.10.egg-info
+[1.025s] running install_scripts
+[1.046s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/install.log'
+[1.072s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_vision/src/ros2_rpi_vision' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_vision build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/install.log --single-version-externally-managed

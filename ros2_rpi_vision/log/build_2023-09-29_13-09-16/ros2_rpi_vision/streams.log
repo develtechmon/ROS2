@@ -1,0 +1,44 @@
+[0.716s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_vision/src/ros2_rpi_vision': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_vision build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/install.log --single-version-externally-managed
+[0.922s] running egg_info
+[0.922s] creating ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info
+[0.923s] writing ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/PKG-INFO
+[0.923s] writing dependency_links to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/dependency_links.txt
+[0.923s] writing entry points to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/entry_points.txt
+[0.924s] writing requirements to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/requires.txt
+[0.924s] writing top-level names to ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/top_level.txt
+[0.924s] writing manifest file '../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/SOURCES.txt'
+[0.925s] reading manifest file '../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/SOURCES.txt'
+[0.926s] writing manifest file '../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info/SOURCES.txt'
+[0.926s] running build
+[0.926s] running build_py
+[0.927s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build
+[0.927s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build/lib
+[0.927s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build/lib/ros2_rpi_vision
+[0.927s] copying ros2_rpi_vision/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build/lib/ros2_rpi_vision
+[0.928s] running install
+[0.928s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.928s]   warnings.warn(
+[0.929s] running install_lib
+[0.930s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages/ros2_rpi_vision
+[0.930s] copying /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build/lib/ros2_rpi_vision/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages/ros2_rpi_vision
+[0.931s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages/ros2_rpi_vision/__init__.py to __init__.cpython-310.pyc
+[0.931s] running install_data
+[0.932s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ament_index
+[0.933s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ament_index/resource_index
+[0.933s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ament_index/resource_index/packages
+[0.933s] copying resource/ros2_rpi_vision -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ament_index/resource_index/packages
+[0.933s] copying package.xml -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision
+[0.934s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/meshes
+[0.934s] copying meshes/right_wheel_1.stl -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/meshes
+[0.934s] copying meshes/left_wheel_1.stl -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/meshes
+[0.935s] copying meshes/base_link.stl -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/meshes
+[0.935s] copying meshes/lidar_1.stl -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/meshes
+[0.935s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/launch
+[0.935s] copying launch/rviz.launch.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/launch
+[0.935s] creating /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/urdf
+[0.935s] copying urdf/vision_rpi_bot.urdf -> /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/share/ros2_rpi_vision/urdf
+[0.935s] running install_egg_info
+[0.937s] Copying ../../build/ros2_rpi_vision/ros2_rpi_vision.egg-info to /home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages/ros2_rpi_vision-0.0.0-py3.10.egg-info
+[0.938s] running install_scripts
+[0.959s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/install.log'
+[0.982s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_vision/src/ros2_rpi_vision' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_vision/install/ros2_rpi_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_vision build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_vision/build/ros2_rpi_vision/install.log --single-version-externally-managed

@@ -1,0 +1,26 @@
+<robot name="robot_name">
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <cylinder radius="2" length="1"/>
+                <!-- <mesh filename="package://ros2_rpi_vision/meshes/base_link.stl" scale="1.0"/> -->
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+                <cylinder radius="2" length="1"/>
+                <!-- <mesh filename="package://ros2_rpi_vision/meshes/base_link.stl" scale="1.0"/> -->
+            </geometry>
+        </collision>
+
+        <!-- <inertial>
+            <origin xyz="1.3841088297946575e-14 0.07688077783154026 0.036574669133040444" rpy="0 0 0"/>
+            <mass value="0.7546832571599116"/>
+            <inertia ixx="0.001523" iyy="0.000854" izz="0.002098" ixy="0.0" iyz="-3.9e-05" ixz="0.0"/>
+          </inertial> -->
+
+    </link>
+    
+</robot>
