@@ -5,9 +5,20 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        ".vscode": true,
+        "build": true,
+        "install": true,
+        "log": true,
+        "src/ros2_rpi_lidar/test": true
     },
-    "hide-files.files": [],
+    "hide-files.files": [
+        ".vscode",
+        "build",
+        "install",
+        "log",
+        "src/ros2_rpi_lidar/test"
+    ],
     "python.autoComplete.extraPaths": [
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
