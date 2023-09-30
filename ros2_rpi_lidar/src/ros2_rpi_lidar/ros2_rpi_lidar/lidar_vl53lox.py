@@ -1,4 +1,6 @@
 import time
+import rclpy
+from rclpy.node import Node
 
 import board
 import busio
@@ -6,7 +8,7 @@ import busio
 import adafruit_vl53l0x
 
 
-class Sonar():
+class Sonar(Node):
     def __init__(self) -> None:
         # Initialize I2C bus and sensor.
         self.i2c = busio.I2C(board.SCL, board.SDA)
