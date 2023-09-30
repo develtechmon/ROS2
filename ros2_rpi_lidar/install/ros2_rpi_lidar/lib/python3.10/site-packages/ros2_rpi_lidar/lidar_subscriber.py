@@ -12,7 +12,7 @@ class LidarSubscriber(Node):
         self.subscription = self.create_subscription(Int32,topic_name,self.lidar_listener_callback,5)
     
     def lidar_listener_callback(self,msg):
-        msg = Int32()
+        #msg = Int32()
         self.get_logger().info(f'Subscribed Lidar Data: {msg.data}')
 
         
