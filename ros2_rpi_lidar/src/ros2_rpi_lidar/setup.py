@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'lidar_publisher = ros2_rpi_lidar.lidar_publisher:main()'
         ],
     },
 )

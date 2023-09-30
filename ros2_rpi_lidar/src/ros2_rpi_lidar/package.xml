@@ -9,6 +9,10 @@
   
   <test_depend>rclpy</test_depend>
   <test_depend>std_msgs</test_depend>
+  <test_depend>sensor_msgs</test_depend>
+  <test_depend>board</test_depend>
+  <test_depend>busio</test_depend>
+  <test_depend>adafruit_vl53l0x</test_depend>
   
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
