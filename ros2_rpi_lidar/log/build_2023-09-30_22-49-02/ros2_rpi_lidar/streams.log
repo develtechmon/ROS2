@@ -1,0 +1,27 @@
+[8.509s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_lidar build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log --single-version-externally-managed
+[11.187s] running egg_info
+[11.193s] writing ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/PKG-INFO
+[11.195s] writing dependency_links to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/dependency_links.txt
+[11.197s] writing entry points to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/entry_points.txt
+[11.199s] writing requirements to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/requires.txt
+[11.201s] writing top-level names to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/top_level.txt
+[11.220s] reading manifest file '../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/SOURCES.txt'
+[11.233s] writing manifest file '../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/SOURCES.txt'
+[11.234s] running build
+[11.235s] running build_py
+[11.240s] copying ros2_rpi_lidar/lidar_subscriber.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[11.245s] running install
+[11.248s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.249s]   warnings.warn(
+[11.250s] running install_lib
+[11.260s] copying /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/lidar_subscriber.py -> /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[11.268s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/lidar_subscriber.py to lidar_subscriber.cpython-310.pyc
+[11.275s] running install_data
+[11.280s] running install_egg_info
+[11.297s] removing '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar-0.0.0-py3.10.egg-info' (and everything under it)
+[11.301s] Copying ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar-0.0.0-py3.10.egg-info
+[11.315s] running install_scripts
+[11.520s] Installing lidar_publisher script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[11.522s] Installing lidar_subscriber script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[11.527s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log'
+[11.791s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_lidar build --build-base /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build install --record /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log --single-version-externally-managed

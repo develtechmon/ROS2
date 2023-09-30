@@ -14,7 +14,7 @@ class Sonar():
         with self.vl53.continuous_mode():
             while True:
                 #time.sleep(0.1)
-                range = self.vl53.range * 0.1
+                range = self.vl53.range
                 return range
             
 if __name__ == "__main__":
