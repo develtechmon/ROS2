@@ -1,0 +1,23 @@
+[0.766s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build --no-deps install_data
+[1.007s] running develop
+[1.009s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.009s]   warnings.warn(
+[1.010s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.011s]   warnings.warn(
+[1.154s] running egg_info
+[1.154s] writing ros2_rpi_lidar.egg-info/PKG-INFO
+[1.155s] writing dependency_links to ros2_rpi_lidar.egg-info/dependency_links.txt
+[1.155s] writing entry points to ros2_rpi_lidar.egg-info/entry_points.txt
+[1.155s] writing requirements to ros2_rpi_lidar.egg-info/requires.txt
+[1.155s] writing top-level names to ros2_rpi_lidar.egg-info/top_level.txt
+[1.156s] reading manifest file 'ros2_rpi_lidar.egg-info/SOURCES.txt'
+[1.157s] writing manifest file 'ros2_rpi_lidar.egg-info/SOURCES.txt'
+[1.159s] running build_ext
+[1.159s] Creating /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2-rpi-lidar.egg-link (link to .)
+[1.160s] Installing lidar_publisher script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[1.160s] Installing lidar_publisher_rate script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[1.160s] Installing lidar_subscriber script to /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[1.161s] 
+[1.161s] Installed /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar
+[1.161s] running install_data
+[1.189s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build --no-deps install_data
