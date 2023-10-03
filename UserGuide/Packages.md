@@ -14,7 +14,7 @@ This is to install libraries needed for our Rpi
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install pytho3-pip
+sudo apt-get install python3-pip
 
 sudo pip install RPi.GPIO  
 ```
