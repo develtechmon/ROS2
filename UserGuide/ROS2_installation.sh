@@ -21,4 +21,9 @@ sudo apt upgrade
 
 sudo apt install ros-dev-tools
 
-sudo apt install ros-humble-desktop
+#sudo apt install ros-humble-desktop
+
+sudo apt install ros-humble-ros-base
+
+# Possible values are: setup.bash, setup.sh, setup.zsh
+source /opt/ros/humble/setup.bash
