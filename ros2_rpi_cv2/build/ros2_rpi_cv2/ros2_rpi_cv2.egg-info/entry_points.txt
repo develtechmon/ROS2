@@ -1,0 +1,5 @@
+[console_scripts]
+camera_publisher = ros2_rpi_cv2.camera_publisher:main
+camera_publisher_no_timer = ros2_rpi_cv2.camera_publisher_no_timer:main
+camera_subscriber = ros2_rpi_cv2.camera_subscriber:main
+

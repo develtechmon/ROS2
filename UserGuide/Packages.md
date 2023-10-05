@@ -23,3 +23,15 @@ To install `lidar sensor` for RPI
 ```
 pip3 install adafruit-circuitpython-vl53l0x
 ```
+This library is used for `cv2` images and video. Because sometime image stream using `cv2` will freeze. To resolve this, please use this library
+
+Link as follow:
+```
+https://github.com/ros2/rclcpp/issues/1335
+```
+
+Library as follow:
+```
+sudo apt install ros-humble-rmw-cyclonedds-cpp
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+```

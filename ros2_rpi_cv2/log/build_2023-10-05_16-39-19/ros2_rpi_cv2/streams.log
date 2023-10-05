@@ -1,0 +1,28 @@
+[1.817s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/src/ros2_rpi_cv2': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_cv2 build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log --single-version-externally-managed
+[2.518s] running egg_info
+[2.520s] writing ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/PKG-INFO
+[2.521s] writing dependency_links to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/dependency_links.txt
+[2.522s] writing entry points to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/entry_points.txt
+[2.523s] writing requirements to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/requires.txt
+[2.524s] writing top-level names to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/top_level.txt
+[2.528s] package init file 'scripts/__init__.py' not found (or not a regular file)
+[2.529s] reading manifest file '../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/SOURCES.txt'
+[2.532s] writing manifest file '../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/SOURCES.txt'
+[2.534s] running build
+[2.534s] running build_py
+[2.534s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/scripts
+[2.535s] copying scripts/camera.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/scripts
+[2.538s] running install
+[2.538s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.538s]   warnings.warn(
+[2.539s] running install_lib
+[2.541s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/scripts
+[2.542s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/scripts/camera.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/scripts
+[2.544s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/scripts/camera.py to camera.cpython-310.pyc
+[2.546s] running install_data
+[2.548s] running install_egg_info
+[2.552s] removing '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.553s] Copying ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2-0.0.0-py3.10.egg-info
+[2.558s] running install_scripts
+[2.616s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log'
+[2.671s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/src/ros2_rpi_cv2' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_cv2 build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log --single-version-externally-managed
