@@ -15,16 +15,19 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 
 from ros2_rpi_cv2.cv2_vision import cap
+import cv2
 
 class CameraPublisher(Node):
     def __init__(self):
         super().__init__('camera_publisher')
         topic_name = "/dkcar/camera"
         self.publishers_ = self.create_publisher(Image, topic_name, 10)
-        self.cv_bridge = CvBridge()
-        self.cap = cap
         self.timer_ = self.create_timer(0.01, self.publish_image)
-
+        self.cap = cap
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT,240)
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,320)
+        self.cv_bridge = CvBridge()
+    
     def publish_image(self):
         if self.cap.isOpened():
             ret, frame = self.cap.read()

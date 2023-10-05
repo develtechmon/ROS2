@@ -25,7 +25,8 @@ class CameraSubscriberNode(Node):
                 self.get_logger().warn("Image dimensions do not match, skipping frame.")
                 return
 
-            cv2.imshow("Camera Image", cv_image)
+            #cv2.imshow("Camera Image", cv_image)
+            print(cv_image)
             cv2.waitKey(1)
         except Exception as e:
             self.get_logger().error(f"Error processing image: {str(e)}")
