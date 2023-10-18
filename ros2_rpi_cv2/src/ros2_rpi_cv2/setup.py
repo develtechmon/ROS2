@@ -30,6 +30,9 @@ setup(
             'camera_publisher = ros2_rpi_cv2.camera_publisher:main',
             'camera_subscriber = ros2_rpi_cv2.camera_subscriber:main',
             'camera_publisher_no_timer = ros2_rpi_cv2.camera_publisher_no_timer:main',
+            'camera_mp_facedetection_subscriber = ros2_rpi_cv2.camera_subscriber_mp_facedetection:main',
+            'camera_mp_posedetection_subscriber = ros2_rpi_cv2.camera_subscriber_mp_posedetection:main',
+            'camera_mp_handdetection_subscriber = ros2_rpi_cv2.camera_subscriber_mp_handdetection:main',
         ],
     },
 )

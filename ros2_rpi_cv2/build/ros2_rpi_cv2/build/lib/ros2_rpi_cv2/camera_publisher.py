@@ -24,8 +24,8 @@ class CameraPublisher(Node):
         self.publishers_ = self.create_publisher(Image, topic_name, 10)
         self.timer_ = self.create_timer(0.01, self.publish_image)
         self.cap = cap
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT,240)
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,320)
+        #self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT,640) # 240
+        #self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,480)  # 320
         self.cv_bridge = CvBridge()
     
     def publish_image(self):

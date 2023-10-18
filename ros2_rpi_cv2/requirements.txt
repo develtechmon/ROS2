@@ -1,0 +1,2 @@
+pip install numpy --upgrade
+pip install mediapipe==0.10.0

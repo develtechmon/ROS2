@@ -1,0 +1,65 @@
+[2.247s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/src/ros2_rpi_cv2': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_cv2 build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log --single-version-externally-managed
+[3.043s] running egg_info
+[3.044s] creating ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info
+[3.045s] writing ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/PKG-INFO
+[3.047s] writing dependency_links to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/dependency_links.txt
+[3.047s] writing entry points to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/entry_points.txt
+[3.048s] writing requirements to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/requires.txt
+[3.048s] writing top-level names to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/top_level.txt
+[3.052s] writing manifest file '../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/SOURCES.txt'
+[3.053s] reading manifest file '../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/SOURCES.txt'
+[3.056s] writing manifest file '../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/SOURCES.txt'
+[3.057s] running build
+[3.058s] running build_py
+[3.058s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build
+[3.059s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib
+[3.059s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.060s] copying ros2_rpi_cv2/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.060s] copying ros2_rpi_cv2/camera_publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.061s] copying ros2_rpi_cv2/camera_subscriber_mp_posedetection.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.061s] copying ros2_rpi_cv2/cv2_vision.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.062s] copying ros2_rpi_cv2/camera_subscriber_mp_handdetection.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.064s] copying ros2_rpi_cv2/HandTrackingModule.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.064s] copying ros2_rpi_cv2/camera_publisher_no_timer.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.067s] copying ros2_rpi_cv2/camera_subscriber.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.067s] copying ros2_rpi_cv2/camera_subscriber_mp_facedetection.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2
+[3.068s] running install
+[3.069s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.069s]   warnings.warn(
+[3.071s] running install_lib
+[3.073s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.073s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.074s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/camera_publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.074s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/camera_subscriber_mp_posedetection.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.075s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/cv2_vision.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.075s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/camera_subscriber_mp_handdetection.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.076s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/HandTrackingModule.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.076s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/camera_publisher_no_timer.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.077s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/camera_subscriber.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.077s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/camera_subscriber_mp_facedetection.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2
+[3.079s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/__init__.py to __init__.cpython-310.pyc
+[3.081s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/camera_publisher.py to camera_publisher.cpython-310.pyc
+[3.082s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/camera_subscriber_mp_posedetection.py to camera_subscriber_mp_posedetection.cpython-310.pyc
+[3.084s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/cv2_vision.py to cv2_vision.cpython-310.pyc
+[3.085s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/camera_subscriber_mp_handdetection.py to camera_subscriber_mp_handdetection.cpython-310.pyc
+[3.087s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/HandTrackingModule.py to HandTrackingModule.cpython-310.pyc
+[3.095s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/camera_publisher_no_timer.py to camera_publisher_no_timer.cpython-310.pyc
+[3.095s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/camera_subscriber.py to camera_subscriber.cpython-310.pyc
+[3.096s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/camera_subscriber_mp_facedetection.py to camera_subscriber_mp_facedetection.cpython-310.pyc
+[3.099s] running install_data
+[3.100s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/share/ament_index
+[3.100s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/share/ament_index/resource_index
+[3.104s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/share/ament_index/resource_index/packages
+[3.104s] copying resource/ros2_rpi_cv2 -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/share/ament_index/resource_index/packages
+[3.105s] copying package.xml -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/share/ros2_rpi_cv2
+[3.106s] running install_egg_info
+[3.114s] Copying ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2-0.0.0-py3.10.egg-info
+[3.121s] running install_scripts
+[3.165s] Installing camera_mp_facedetection_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2
+[3.165s] Installing camera_mp_handdetection_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2
+[3.165s] Installing camera_mp_posedetection_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2
+[3.166s] Installing camera_publisher script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2
+[3.166s] Installing camera_publisher_no_timer script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2
+[3.166s] Installing camera_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2
+[3.168s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log'
+[3.238s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/src/ros2_rpi_cv2' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_cv2 build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log --single-version-externally-managed
