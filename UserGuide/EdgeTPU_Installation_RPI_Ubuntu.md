@@ -47,7 +47,9 @@ There is a problem to install this packages : sudo apt-get install python3-pycor
 due to unmet dependencies.
 
 To resolve this run following command
+you can download a specific PyCoral wheel file and pass it to pip install at this link : https://coral.ai/software/#pycoral-api
 $ pip install https://github.com/google-coral/pycoral/releases/download/v2.0.0/pycoral-2.0.0-cp39-cp39-linux_aarch64.whl
+
 $ pip install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_aarch64.whl#sha256=9839c3acb506b5003a9bd3860329a8ae20e675efbae14dbea02659b0054f42c6
 ```
 
