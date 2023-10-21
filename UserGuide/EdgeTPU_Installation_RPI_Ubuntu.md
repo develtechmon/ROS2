@@ -7,8 +7,13 @@ Step 1: Install `python 3.9` library.
 $ sudo apt update 
 $ sudo apt install wget software-properties-common
 $ sudo add-apt-repository ppa:deadsnakes/ppa
-$ sudo apt update 
+$ sudo apt update
+
+Install this version if you're using Virtual Environment
 $ sudo apt-get install python3.9-venv
+
+Install this version if you're not using Virtual Environment
+$ sudo apt-get install python3.9
 
 If you encounter no disutils found. Then run below command to resolve this
 sudo apt install python3.9-distutils
