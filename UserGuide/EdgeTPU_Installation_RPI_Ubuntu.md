@@ -9,6 +9,9 @@ $ sudo apt install wget software-properties-common
 $ sudo add-apt-repository ppa:deadsnakes/ppa
 $ sudo apt update 
 $ sudo apt-get install python3.9-venv
+
+If you encounter no disutils found. Then run below command to resolve this
+sudo apt install python3.9-distutils
 ```
 
 Step 2: Create new Virtual Environment
@@ -37,6 +40,8 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install libedgetpu1-std
 sudo apt-get install libedgetpu1-max
+
+python -m pip install tflite-runtime
 
 There is a problem to install this packages : sudo apt-get install python3-pycoral
 due to unmet dependencies.
