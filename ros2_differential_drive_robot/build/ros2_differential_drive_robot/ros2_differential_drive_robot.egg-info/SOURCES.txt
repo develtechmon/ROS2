@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/PKG-INFO
-../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt
-../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/dependency_links.txt
-../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/entry_points.txt
-../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/requires.txt
-../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/top_level.txt
-../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/zip-safe
 description/gazebo_control.xacro
 description/inertial_macros.xacro
 description/lidar.xacro
@@ -20,6 +13,10 @@ resource/ros2_differential_drive_robot
 ros2_differential_drive_robot/__init__.py
 ros2_differential_drive_robot/lidar_obstacle.py
 ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+ros2_differential_drive_robot.egg-info/PKG-INFO
+ros2_differential_drive_robot.egg-info/SOURCES.txt
+ros2_differential_drive_robot.egg-info/dependency_links.txt
+ros2_differential_drive_robot.egg-info/entry_points.txt
+ros2_differential_drive_robot.egg-info/requires.txt
+ros2_differential_drive_robot.egg-info/top_level.txt
+ros2_differential_drive_robot.egg-info/zip-safe

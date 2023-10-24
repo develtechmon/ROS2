@@ -1,0 +1,54 @@
+[0.920s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_lidar build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log --single-version-externally-managed
+[1.315s] running egg_info
+[1.317s] creating ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info
+[1.317s] writing ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/PKG-INFO
+[1.318s] writing dependency_links to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/dependency_links.txt
+[1.318s] writing entry points to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/entry_points.txt
+[1.319s] writing requirements to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/requires.txt
+[1.319s] writing top-level names to ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/top_level.txt
+[1.319s] writing manifest file '../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/SOURCES.txt'
+[1.323s] reading manifest file '../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/SOURCES.txt'
+[1.324s] writing manifest file '../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info/SOURCES.txt'
+[1.325s] running build
+[1.325s] running build_py
+[1.325s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build
+[1.325s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib
+[1.325s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[1.325s] copying ros2_rpi_lidar/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[1.325s] copying ros2_rpi_lidar/distance.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[1.326s] copying ros2_rpi_lidar/lidar_subscriber.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[1.326s] copying ros2_rpi_lidar/lidar_publisher_with_rate.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[1.326s] copying ros2_rpi_lidar/lidar_publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[1.326s] copying ros2_rpi_lidar/vl53lox.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar
+[1.326s] running install
+[1.342s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.343s]   warnings.warn(
+[1.343s] running install_lib
+[1.344s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[1.344s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/lidar_subscriber.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[1.344s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[1.345s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/lidar_publisher_with_rate.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[1.345s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/lidar_publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[1.345s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/vl53lox.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[1.345s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build/lib/ros2_rpi_lidar/distance.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar
+[1.346s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/lidar_subscriber.py to lidar_subscriber.cpython-310.pyc
+[1.347s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/__init__.py to __init__.cpython-310.pyc
+[1.348s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/lidar_publisher_with_rate.py to lidar_publisher_with_rate.cpython-310.pyc
+[1.348s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/lidar_publisher.py to lidar_publisher.cpython-310.pyc
+[1.349s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/vl53lox.py to vl53lox.cpython-310.pyc
+[1.350s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar/distance.py to distance.cpython-310.pyc
+[1.350s] running install_data
+[1.352s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ament_index
+[1.352s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ament_index/resource_index
+[1.353s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ament_index/resource_index/packages
+[1.353s] copying resource/ros2_rpi_lidar -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ament_index/resource_index/packages
+[1.353s] copying package.xml -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar
+[1.353s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/share/ros2_rpi_lidar/module
+[1.354s] running install_egg_info
+[1.357s] Copying ../../build/ros2_rpi_lidar/ros2_rpi_lidar.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages/ros2_rpi_lidar-0.0.0-py3.10.egg-info
+[1.358s] running install_scripts
+[1.385s] Installing lidar_publisher script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[1.386s] Installing lidar_publisher_rate script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[1.386s] Installing lidar_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/ros2_rpi_lidar
+[1.386s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log'
+[1.432s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/src/ros2_rpi_lidar' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/install/ros2_rpi_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_rpi_lidar build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_lidar/build/ros2_rpi_lidar/install.log --single-version-externally-managed
