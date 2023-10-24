@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/requires.txt
+writing top-level names to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/top_level.txt
+reading manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot
+running install
+running install_lib
+copying /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot
+byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py to lidar_obstacle_steer_leftright.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_obstacle script to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot
+Installing lidar_obstacle_steer script to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot
+writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log'

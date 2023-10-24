@@ -1,0 +1,127 @@
+[7.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e2148de40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e2148f640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e2148f640>>)
+[7.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.657s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot'
+[7.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.658s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.717s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.718s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.719s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.720s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.720s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.721s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.722s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.722s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.723s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.727s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.728s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.728s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extensions ['ignore', 'ignore_ament_install']
+[7.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extension 'ignore'
+[7.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extension 'ignore_ament_install'
+[7.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extensions ['colcon_pkg']
+[7.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extension 'colcon_pkg'
+[7.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extensions ['colcon_meta']
+[7.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extension 'colcon_meta'
+[7.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extensions ['ros']
+[7.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_differential_drive_robot) by extension 'ros'
+[7.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_differential_drive_robot' with type 'ros.ament_python' and name 'ros2_differential_drive_robot'
+[7.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.770s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install
+[8.930s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/humble
+[8.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'cmake_args' from command line to 'None'
+[9.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'cmake_target' from command line to 'None'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'cmake_clean_first' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'cmake_force_configure' from command line to 'False'
+[9.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'ament_cmake_args' from command line to 'None'
+[9.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[9.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_differential_drive_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.596s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_differential_drive_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot', 'symlink_install': False, 'test_result_base': None}
+[9.700s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.810s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.811s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot' with build type 'ament_python'
+[9.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_differential_drive_robot', 'ament_prefix_path')
+[9.950s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/hook/ament_prefix_path.ps1'
+[9.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/hook/ament_prefix_path.dsv'
+[9.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/hook/ament_prefix_path.sh'
+[10.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.284s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot'
+[12.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_differential_drive_robot build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log --single-version-externally-managed
+[17.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_differential_drive_robot build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log --single-version-externally-managed
+[17.159s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot' for CMake module files
+[17.163s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot' for CMake config files
+[17.171s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib'
+[17.173s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/bin'
+[17.173s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/pkgconfig/ros2_differential_drive_robot.pc'
+[17.174s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages'
+[17.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_differential_drive_robot', 'pythonpath')
+[17.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/hook/pythonpath.ps1'
+[17.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/hook/pythonpath.dsv'
+[17.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/hook/pythonpath.sh'
+[17.305s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/bin'
+[17.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_differential_drive_robot)
+[17.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/package.ps1'
+[17.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/package.dsv'
+[17.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/package.sh'
+[17.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/package.bash'
+[17.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/ros2_differential_drive_robot/package.zsh'
+[17.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/share/colcon-core/packages/ros2_differential_drive_robot)
+[17.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.410s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.558s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.608s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/local_setup.ps1'
+[17.729s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/_local_setup_util_ps1.py'
+[17.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/setup.ps1'
+[17.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/local_setup.sh'
+[17.845s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/_local_setup_util_sh.py'
+[17.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/setup.sh'
+[17.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/local_setup.bash'
+[17.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/setup.bash'
+[18.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/local_setup.zsh'
+[18.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/setup.zsh'

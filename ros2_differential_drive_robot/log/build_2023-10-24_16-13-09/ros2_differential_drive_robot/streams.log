@@ -1,0 +1,23 @@
+[5.106s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_differential_drive_robot build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log --single-version-externally-managed
+[6.800s] running egg_info
+[6.803s] writing ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/PKG-INFO
+[6.805s] writing dependency_links to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/dependency_links.txt
+[6.809s] writing entry points to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/entry_points.txt
+[6.811s] writing requirements to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/requires.txt
+[6.811s] writing top-level names to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/top_level.txt
+[6.824s] reading manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+[6.831s] writing manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+[6.832s] running build
+[6.833s] running build_py
+[6.835s] running install
+[6.839s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.840s]   warnings.warn(
+[6.841s] running install_lib
+[6.847s] running install_data
+[6.853s] running install_egg_info
+[6.865s] removing '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[6.872s] Copying ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info
+[6.890s] running install_scripts
+[7.003s] Installing lidar_obstacle script to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot
+[7.005s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log'
+[7.071s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_differential_drive_robot build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log --single-version-externally-managed

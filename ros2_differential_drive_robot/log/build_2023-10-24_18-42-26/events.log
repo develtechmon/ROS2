@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.006132] (ros2_differential_drive_robot) JobQueued: {'identifier': 'ros2_differential_drive_robot', 'dependencies': OrderedDict()}
+[0.006627] (ros2_differential_drive_robot) JobStarted: {'identifier': 'ros2_differential_drive_robot'}
+[0.099937] (-) TimerEvent: {}
+[0.203087] (-) TimerEvent: {}
+[0.307459] (-) TimerEvent: {}
+[0.409927] (-) TimerEvent: {}
+[0.513621] (-) TimerEvent: {}
+[0.614961] (-) TimerEvent: {}
+[0.716135] (-) TimerEvent: {}
+[0.817873] (-) TimerEvent: {}
+[0.919400] (-) TimerEvent: {}
+[1.021536] (-) TimerEvent: {}
+[1.122930] (-) TimerEvent: {}
+[1.224072] (-) TimerEvent: {}
+[1.325537] (-) TimerEvent: {}
+[1.427111] (-) TimerEvent: {}
+[1.528472] (-) TimerEvent: {}
+[1.629692] (-) TimerEvent: {}
+[1.730946] (-) TimerEvent: {}
+[1.832124] (-) TimerEvent: {}
+[1.933513] (-) TimerEvent: {}
+[2.034928] (-) TimerEvent: {}
+[2.137494] (-) TimerEvent: {}
+[2.238986] (-) TimerEvent: {}
+[2.340409] (-) TimerEvent: {}
+[2.442868] (-) TimerEvent: {}
+[2.544630] (-) TimerEvent: {}
+[2.651673] (-) TimerEvent: {}
+[2.755406] (-) TimerEvent: {}
+[2.857423] (-) TimerEvent: {}
+[2.960285] (-) TimerEvent: {}
+[3.061746] (-) TimerEvent: {}
+[3.163123] (-) TimerEvent: {}
+[3.264527] (-) TimerEvent: {}
+[3.366425] (-) TimerEvent: {}
+[3.468309] (-) TimerEvent: {}
+[3.570143] (-) TimerEvent: {}
+[3.671829] (-) TimerEvent: {}
+[3.773505] (-) TimerEvent: {}
+[3.875022] (-) TimerEvent: {}
+[3.976220] (-) TimerEvent: {}
+[4.077742] (-) TimerEvent: {}
+[4.179372] (-) TimerEvent: {}
+[4.280952] (-) TimerEvent: {}
+[4.382496] (-) TimerEvent: {}
+[4.483852] (-) TimerEvent: {}
+[4.585567] (-) TimerEvent: {}
+[4.687079] (-) TimerEvent: {}
+[4.788821] (-) TimerEvent: {}
+[4.891665] (-) TimerEvent: {}
+[4.992946] (-) TimerEvent: {}
+[5.011812] (ros2_differential_drive_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_differential_drive_robot', 'build', '--build-base', '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build', 'install', '--record', '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'jlukas', 'LC_TIME': 'ms_MY.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/Desktop/My_Project/ROS2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ms_MY.UTF-8', 'MANAGERPID': '1079', 'SYSTEMD_EXEC_PID': '1336', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jlukas', 'JOURNAL_STREAM': '8:39362', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jlukas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jlukas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jlukas:@/tmp/.ICE-unix/1280,unix/jlukas:/tmp/.ICE-unix/1280', 'INVOCATION_ID': 'dce608641ee642b19ef41f1de306b291', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ms_MY.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ms_MY.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ETHCD2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ms_MY.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f38e4045-1116-44cf-ba22-eb62c696e860', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ms_MY.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ms_MY.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ms_MY.UTF-8', 'LC_PAPER': 'ms_MY.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.093587] (-) TimerEvent: {}
+[5.195198] (-) TimerEvent: {}
+[5.297361] (-) TimerEvent: {}
+[5.398886] (-) TimerEvent: {}
+[5.500221] (-) TimerEvent: {}
+[5.601428] (-) TimerEvent: {}
+[5.703139] (-) TimerEvent: {}
+[5.804241] (-) TimerEvent: {}
+[5.906155] (-) TimerEvent: {}
+[6.007799] (-) TimerEvent: {}
+[6.109563] (-) TimerEvent: {}
+[6.211270] (-) TimerEvent: {}
+[6.312996] (-) TimerEvent: {}
+[6.414369] (-) TimerEvent: {}
+[6.515814] (-) TimerEvent: {}
+[6.610245] (ros2_differential_drive_robot) StdoutLine: {'line': b'running egg_info\n'}
+[6.612632] (ros2_differential_drive_robot) StdoutLine: {'line': b'writing ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/PKG-INFO\n'}
+[6.615306] (ros2_differential_drive_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/dependency_links.txt\n'}
+[6.616117] (-) TimerEvent: {}
+[6.617704] (ros2_differential_drive_robot) StdoutLine: {'line': b'writing entry points to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/entry_points.txt\n'}
+[6.619345] (ros2_differential_drive_robot) StdoutLine: {'line': b'writing requirements to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/requires.txt\n'}
+[6.620093] (ros2_differential_drive_robot) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/top_level.txt\n'}
+[6.630646] (ros2_differential_drive_robot) StdoutLine: {'line': b"reading manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'\n"}
+[6.636719] (ros2_differential_drive_robot) StdoutLine: {'line': b"writing manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'\n"}
+[6.638119] (ros2_differential_drive_robot) StdoutLine: {'line': b'running build\n'}
+[6.638646] (ros2_differential_drive_robot) StdoutLine: {'line': b'running build_py\n'}
+[6.640404] (ros2_differential_drive_robot) StdoutLine: {'line': b'copying ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot\n'}
+[6.642548] (ros2_differential_drive_robot) StdoutLine: {'line': b'running install\n'}
+[6.644803] (ros2_differential_drive_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.646423] (ros2_differential_drive_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.647173] (ros2_differential_drive_robot) StdoutLine: {'line': b'running install_lib\n'}
+[6.648019] (ros2_differential_drive_robot) StdoutLine: {'line': b'copying /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot\n'}
+[6.650286] (ros2_differential_drive_robot) StdoutLine: {'line': b'byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py to lidar_obstacle_steer_leftright.cpython-310.pyc\n'}
+[6.652964] (ros2_differential_drive_robot) StdoutLine: {'line': b'running install_data\n'}
+[6.659082] (ros2_differential_drive_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.669763] (ros2_differential_drive_robot) StdoutLine: {'line': b"removing '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.671485] (ros2_differential_drive_robot) StdoutLine: {'line': b'Copying ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info\n'}
+[6.684142] (ros2_differential_drive_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[6.716720] (-) TimerEvent: {}
+[6.782377] (ros2_differential_drive_robot) StdoutLine: {'line': b'Installing lidar_obstacle script to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot\n'}
+[6.784280] (ros2_differential_drive_robot) StdoutLine: {'line': b'Installing lidar_obstacle_steer script to /home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot\n'}
+[6.786931] (ros2_differential_drive_robot) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log'\n"}
+[6.817317] (-) TimerEvent: {}
+[6.843970] (ros2_differential_drive_robot) CommandEnded: {'returncode': 0}
+[6.918094] (-) TimerEvent: {}
+[7.024321] (-) TimerEvent: {}
+[7.126007] (-) TimerEvent: {}
+[7.227699] (-) TimerEvent: {}
+[7.284152] (ros2_differential_drive_robot) JobEnded: {'identifier': 'ros2_differential_drive_robot', 'rc': 0}
+[7.289479] (-) EventReactorShutdown: {}

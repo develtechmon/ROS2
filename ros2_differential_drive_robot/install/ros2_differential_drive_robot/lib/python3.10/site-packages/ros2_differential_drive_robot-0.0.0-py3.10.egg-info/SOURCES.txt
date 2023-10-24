@@ -13,10 +13,13 @@ description/inertial_macros.xacro
 description/lidar.xacro
 description/robot.urdf.xacro
 description/robot_core.xacro
+launch/gazebo.sim.launch.py
 launch/rsp.launch.py
 launch/rviz2.launch.py
 resource/ros2_differential_drive_robot
 ros2_differential_drive_robot/__init__.py
+ros2_differential_drive_robot/lidar_obstacle.py
+ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
