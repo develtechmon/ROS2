@@ -10,6 +10,7 @@ setup.py
 ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/zip-safe
 description/gazebo_control.xacro
 description/inertial_macros.xacro
+description/lidar.xacro
 description/robot.urdf.xacro
 description/robot_core.xacro
 launch/rsp.launch.py
