@@ -11,6 +11,7 @@ launch/rsp.launch.py
 launch/rviz2.launch.py
 resource/ros2_differential_drive_robot
 ros2_differential_drive_robot/__init__.py
+ros2_differential_drive_robot/lidar_dynamic_obstacle.py
 ros2_differential_drive_robot/lidar_obstacle.py
 ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py
 ros2_differential_drive_robot.egg-info/PKG-INFO
