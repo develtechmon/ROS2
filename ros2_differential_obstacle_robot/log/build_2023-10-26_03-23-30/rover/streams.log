@@ -1,0 +1,45 @@
+[0.627s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/src/rover': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build install --record /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/install.log --single-version-externally-managed
+[0.824s] running egg_info
+[0.824s] creating ../../build/rover/rover.egg-info
+[0.824s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[0.825s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[0.825s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[0.825s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[0.825s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[0.825s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.827s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.827s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.828s] running build
+[0.828s] running build_py
+[0.828s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build
+[0.828s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib
+[0.828s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+[0.828s] copying rover/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+[0.829s] running install
+[0.829s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.829s]   warnings.warn(
+[0.829s] running install_lib
+[0.830s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+[0.830s] copying /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+[0.830s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc
+[0.831s] running install_data
+[0.831s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index
+[0.832s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index
+[0.832s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index/packages
+[0.832s] copying resource/rover -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index/packages
+[0.832s] copying package.xml -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover
+[0.832s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+[0.833s] copying launch/rsp.launch.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+[0.833s] copying launch/gazebo.sim.launch.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+[0.833s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/description
+[0.833s] copying description/lidar.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/description
+[0.834s] copying description/camera.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/description
+[0.834s] copying description/robot.urdf.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/description
+[0.834s] copying description/gazebo_control.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/description
+[0.834s] copying description/robot_core.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/description
+[0.834s] copying description/inertial_macros.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/description
+[0.834s] running install_egg_info
+[0.835s] Copying ../../build/rover/rover.egg-info to /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[0.836s] running install_scripts
+[0.857s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/install.log'
+[0.876s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/src/rover' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build install --record /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/install.log --single-version-externally-managed
