@@ -11,3 +11,7 @@ https://answers.ros.org/question/191680/opengl-error-when-run-rviz/
 export DISPLAY=:0
 export LIBGL_ALWAYS_SOFTWARE=1
 ```
+or add this file into `.bashrc` file
+```
+export LIBGL_ALWAYS_SOFTWARE=1
+```
