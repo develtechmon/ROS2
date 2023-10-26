@@ -13,7 +13,7 @@ def generate_launch_description():
 
     # Process the URDF file
     pkg_path = os.path.join(get_package_share_directory('rover'))
-    xacro_file = os.path.join(pkg_path, 'description', 'robot.urdf.xacro')
+    xacro_file = os.path.join(pkg_path, 'urdf', 'robot.urdf.xacro')
     robot_description_config = xacro.process_file(xacro_file)
 
     # Create a robot state pubisher node

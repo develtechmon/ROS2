@@ -13,7 +13,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*')),
-        (os.path.join('share', package_name, 'description'), glob('description/*'))
+        (os.path.join('share', package_name, 'urdf'), glob('urdf/*'))
 
     ],
     install_requires=['setuptools'],

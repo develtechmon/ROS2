@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages",
+        "/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot",
+        "/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages",
+        "/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot",
+        "/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
