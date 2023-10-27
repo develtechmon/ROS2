@@ -1,24 +1,17 @@
 import launch
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import Node
+from launch.actions import ExecuteProcess
 
 def generate_launch_description():
     return LaunchDescription([
-        # Declare a launch argument for the parameter value
-        DeclareLaunchArgument(
-            'require_enable_button',
-            default_value='false',
-            description='Set the require_enable_button parameter'
-        ),
-        # Launch the 'teleop_twist_joy_node' and set the parameter
-        Node(
-            package='teleop_twist_joy',
-            executable='teleop_twist_joy_node',
-            name='teleop_twist_joy_node',
-            namespace='',
+        # Launch the 'teleop-twist-joy' using ExecuteProcess
+        ExecuteProcess(
+            cmd=['ros2', 'launch', 'teleop_twist_joy', 'teleop-launch.py'],
             output='screen',
-            parameters=[{'require_enable_button': LaunchConfiguration('require_enable_button')}]
-        )
+        ),
+        # Set the parameter using ExecuteProcess
+        ExecuteProcess(
+            cmd=['ros2', 'param', 'set', '/teleop_twist_joy_node/require_enable_button', 'false'],
+            output='screen',
+        ),
     ])
