@@ -6,6 +6,7 @@ In this guide we're going to install `LD06` lidar to our `machine`
 Refer to this link to get started
 ```
 https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2
+http://www.yahboom.net/study/LD06-DTOF
 ```
 
 ## Step 2: Check our Rosversion
@@ -74,5 +75,5 @@ rviz2
 
 From rviz select Fixed Frame --> base_link
 LaserScan --> Topic --> /scan
-TF --> 
+TF 
 ```
