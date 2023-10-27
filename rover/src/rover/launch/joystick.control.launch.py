@@ -1,26 +1,24 @@
-
 import launch
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
-from launch.actions import LogInfo
-from launch.actions import LaunchProcess
+from launch.actions import DeclareLaunchArgument, LogInfo, ExecuteProcess
+from launch.conditions import UnlessLaunchConfiguration
 from launch.substitutions import LaunchConfiguration
 
 def generate_launch_description():
     return LaunchDescription([
         # Launch the 'teleop-twist-joy' node with 'teleop-launch.py'
-        LaunchProcess(
+        ExecuteProcess(
             cmd=['ros2', 'launch', 'teleop_twist_joy', 'teleop-launch.py'],
             output='screen',
-            name='teleop_twist_joy_node',
+            name='teleop_twist_joy_launch',
         ),
-        # Wait for a moment before setting the parameter (adjust as needed)
+        # Add a brief delay before setting the parameter (adjust as needed)
         LogInfo(
             condition=launch.conditions.LaunchConfiguration('verbose'),
             value='Waiting for a moment before setting the parameter...',
         ),
         # Set the 'require_enable_button' parameter to 'false'
-        LaunchProcess(
+        ExecuteProcess(
             cmd=['ros2', 'param', 'set', '/teleop_twist_joy_node/require_enable_button', 'false'],
             output='screen',
             name='set_param',
@@ -31,11 +29,11 @@ def generate_launch_description():
             description='Enable verbose output'
         ),
         # You can adjust the sleep duration to suit your needs
-        LaunchProcess(
+        ExecuteProcess(
             cmd=['sleep', '2'],
             output='screen',
             name='wait_before_setting_param',
-            condition=launch.conditions.UnlessLaunchConfiguration('verbose'),
+            condition=UnlessLaunchConfiguration('verbose'),
         ),
     ])
 
