@@ -9,6 +9,7 @@ setup.py
 ../../build/rover/rover.egg-info/top_level.txt
 ../../build/rover/rover.egg-info/zip-safe
 launch/gazebo.sim.launch.py
+launch/joystick.control.launch.py
 launch/rsp.launch.py
 resource/rover
 rover/__init__.py

@@ -8,6 +8,7 @@
 /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/package.xml
 /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch/gazebo.sim.launch.py
 /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch/rsp.launch.py
+/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch/joystick.control.launch.py
 /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf/inertial_macros.xacro
 /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf/rover.xacro
 /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf/gazebo_control_differential_drive.xacro
