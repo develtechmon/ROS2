@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (ros2_rpi_cv2) JobQueued: {'identifier': 'ros2_rpi_cv2', 'dependencies': OrderedDict()}
+[0.002429] (ros2_rpi_cv2) JobStarted: {'identifier': 'ros2_rpi_cv2'}
+[0.099199] (-) TimerEvent: {}
+[0.200702] (-) TimerEvent: {}
+[0.305311] (-) TimerEvent: {}
+[0.408540] (-) TimerEvent: {}
+[0.513855] (-) TimerEvent: {}
+[0.617316] (-) TimerEvent: {}
+[0.722847] (-) TimerEvent: {}
+[0.825990] (-) TimerEvent: {}
+[0.927629] (-) TimerEvent: {}
+[1.032869] (-) TimerEvent: {}
+[1.134540] (-) TimerEvent: {}
+[1.236877] (-) TimerEvent: {}
+[1.341723] (-) TimerEvent: {}
+[1.444897] (-) TimerEvent: {}
+[1.546343] (-) TimerEvent: {}
+[1.647633] (-) TimerEvent: {}
+[1.749419] (-) TimerEvent: {}
+[1.850676] (-) TimerEvent: {}
+[1.952187] (-) TimerEvent: {}
+[2.054529] (-) TimerEvent: {}
+[2.155856] (-) TimerEvent: {}
+[2.257501] (-) TimerEvent: {}
+[2.361052] (-) TimerEvent: {}
+[2.462503] (-) TimerEvent: {}
+[2.564651] (-) TimerEvent: {}
+[2.667263] (-) TimerEvent: {}
+[2.768632] (-) TimerEvent: {}
+[2.871724] (-) TimerEvent: {}
+[2.975577] (-) TimerEvent: {}
+[3.076832] (-) TimerEvent: {}
+[3.178360] (-) TimerEvent: {}
+[3.279951] (-) TimerEvent: {}
+[3.381960] (-) TimerEvent: {}
+[3.483322] (-) TimerEvent: {}
+[3.584616] (-) TimerEvent: {}
+[3.686556] (-) TimerEvent: {}
+[3.787900] (-) TimerEvent: {}
+[3.889429] (-) TimerEvent: {}
+[3.991682] (-) TimerEvent: {}
+[4.093501] (-) TimerEvent: {}
+[4.195171] (-) TimerEvent: {}
+[4.296728] (-) TimerEvent: {}
+[4.398511] (-) TimerEvent: {}
+[4.502884] (-) TimerEvent: {}
+[4.604427] (-) TimerEvent: {}
+[4.706176] (-) TimerEvent: {}
+[4.808901] (-) TimerEvent: {}
+[4.912388] (-) TimerEvent: {}
+[5.013765] (-) TimerEvent: {}
+[5.117165] (-) TimerEvent: {}
+[5.224027] (-) TimerEvent: {}
+[5.330513] (-) TimerEvent: {}
+[5.432203] (-) TimerEvent: {}
+[5.537581] (-) TimerEvent: {}
+[5.639158] (-) TimerEvent: {}
+[5.743344] (-) TimerEvent: {}
+[5.845397] (-) TimerEvent: {}
+[5.947505] (-) TimerEvent: {}
+[6.049603] (-) TimerEvent: {}
+[6.151926] (-) TimerEvent: {}
+[6.253647] (-) TimerEvent: {}
+[6.355122] (-) TimerEvent: {}
+[6.457879] (-) TimerEvent: {}
+[6.560068] (-) TimerEvent: {}
+[6.662013] (-) TimerEvent: {}
+[6.763614] (-) TimerEvent: {}
+[6.864981] (-) TimerEvent: {}
+[6.966474] (-) TimerEvent: {}
+[7.067938] (-) TimerEvent: {}
+[7.169657] (-) TimerEvent: {}
+[7.271856] (-) TimerEvent: {}
+[7.372933] (-) TimerEvent: {}
+[7.474727] (-) TimerEvent: {}
+[7.578722] (-) TimerEvent: {}
+[7.681295] (-) TimerEvent: {}
+[7.782924] (-) TimerEvent: {}
+[7.893065] (-) TimerEvent: {}
+[7.994980] (-) TimerEvent: {}
+[8.096692] (-) TimerEvent: {}
+[8.198313] (-) TimerEvent: {}
+[8.299719] (-) TimerEvent: {}
+[8.401302] (-) TimerEvent: {}
+[8.502937] (-) TimerEvent: {}
+[8.604289] (-) TimerEvent: {}
+[8.705885] (-) TimerEvent: {}
+[8.807434] (-) TimerEvent: {}
+[8.909277] (-) TimerEvent: {}
+[9.013387] (-) TimerEvent: {}
+[9.115043] (-) TimerEvent: {}
+[9.219103] (-) TimerEvent: {}
+[9.321533] (-) TimerEvent: {}
+[9.423163] (-) TimerEvent: {}
+[9.527385] (-) TimerEvent: {}
+[9.631609] (-) TimerEvent: {}
+[9.733445] (-) TimerEvent: {}
+[9.836456] (-) TimerEvent: {}
+[9.940044] (-) TimerEvent: {}
+[10.043326] (-) TimerEvent: {}
+[10.146887] (-) TimerEvent: {}
+[10.249744] (-) TimerEvent: {}
+[10.316626] (ros2_rpi_cv2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_rpi_cv2', 'build', '--build-base', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build', 'install', '--record', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/src/ros2_rpi_cv2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jlukas', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'SYSTEMD_EXEC_PID': '1156', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jlukas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jlukas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jlukas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jlukas-desktop:@/tmp/.ICE-unix/1122,unix/jlukas-desktop:/tmp/.ICE-unix/1122', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9baa7165_a0c4_4514_923f_e54cb6e98510', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HX4CD2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.353386] (-) TimerEvent: {}
+[10.455269] (-) TimerEvent: {}
+[10.556961] (-) TimerEvent: {}
+[10.658681] (-) TimerEvent: {}
+[10.761036] (-) TimerEvent: {}
+[10.863027] (-) TimerEvent: {}
+[10.964593] (-) TimerEvent: {}
+[11.066139] (-) TimerEvent: {}
+[11.167372] (-) TimerEvent: {}
+[11.269000] (-) TimerEvent: {}
+[11.370391] (-) TimerEvent: {}
+[11.471941] (-) TimerEvent: {}
+[11.573420] (-) TimerEvent: {}
+[11.674882] (-) TimerEvent: {}
+[11.777106] (-) TimerEvent: {}
+[11.880513] (-) TimerEvent: {}
+[11.981981] (-) TimerEvent: {}
+[12.083230] (-) TimerEvent: {}
+[12.184522] (-) TimerEvent: {}
+[12.285905] (-) TimerEvent: {}
+[12.387559] (-) TimerEvent: {}
+[12.489036] (-) TimerEvent: {}
+[12.590735] (-) TimerEvent: {}
+[12.693527] (-) TimerEvent: {}
+[12.795402] (-) TimerEvent: {}
+[12.899192] (-) TimerEvent: {}
+[13.000511] (-) TimerEvent: {}
+[13.102182] (-) TimerEvent: {}
+[13.203539] (-) TimerEvent: {}
+[13.305121] (-) TimerEvent: {}
+[13.406596] (-) TimerEvent: {}
+[13.508248] (-) TimerEvent: {}
+[13.610207] (-) TimerEvent: {}
+[13.713107] (-) TimerEvent: {}
+[13.743535] (ros2_rpi_cv2) StdoutLine: {'line': b'running egg_info\n'}
+[13.752602] (ros2_rpi_cv2) StdoutLine: {'line': b'writing ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/PKG-INFO\n'}
+[13.756435] (ros2_rpi_cv2) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/dependency_links.txt\n'}
+[13.759954] (ros2_rpi_cv2) StdoutLine: {'line': b'writing entry points to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/entry_points.txt\n'}
+[13.763217] (ros2_rpi_cv2) StdoutLine: {'line': b'writing requirements to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/requires.txt\n'}
+[13.765521] (ros2_rpi_cv2) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/top_level.txt\n'}
+[13.795819] (ros2_rpi_cv2) StdoutLine: {'line': b"reading manifest file '../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/SOURCES.txt'\n"}
+[13.813584] (-) TimerEvent: {}
+[13.819849] (ros2_rpi_cv2) StdoutLine: {'line': b"writing manifest file '../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info/SOURCES.txt'\n"}
+[13.822015] (ros2_rpi_cv2) StdoutLine: {'line': b'running build\n'}
+[13.824140] (ros2_rpi_cv2) StdoutLine: {'line': b'running build_py\n'}
+[13.834713] (ros2_rpi_cv2) StdoutLine: {'line': b'copying ros2_rpi_cv2/camera_publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2\n'}
+[13.841649] (ros2_rpi_cv2) StdoutLine: {'line': b'running install\n'}
+[13.846598] (ros2_rpi_cv2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.848711] (ros2_rpi_cv2) StderrLine: {'line': b'  warnings.warn(\n'}
+[13.852151] (ros2_rpi_cv2) StdoutLine: {'line': b'running install_lib\n'}
+[13.873695] (ros2_rpi_cv2) StdoutLine: {'line': b'copying /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/build/lib/ros2_rpi_cv2/camera_publisher.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2\n'}
+[13.890216] (ros2_rpi_cv2) StdoutLine: {'line': b'byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2/camera_publisher.py to camera_publisher.cpython-310.pyc\n'}
+[13.901811] (ros2_rpi_cv2) StdoutLine: {'line': b'running install_data\n'}
+[13.905740] (ros2_rpi_cv2) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.918107] (-) TimerEvent: {}
+[13.928994] (ros2_rpi_cv2) StdoutLine: {'line': b"removing '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.937916] (ros2_rpi_cv2) StdoutLine: {'line': b'Copying ../../build/ros2_rpi_cv2/ros2_rpi_cv2.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages/ros2_rpi_cv2-0.0.0-py3.10.egg-info\n'}
+[13.959167] (ros2_rpi_cv2) StdoutLine: {'line': b'running install_scripts\n'}
+[14.018669] (-) TimerEvent: {}
+[14.121096] (-) TimerEvent: {}
+[14.218966] (ros2_rpi_cv2) StdoutLine: {'line': b'Installing camera_mp_facedetection_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2\n'}
+[14.221509] (ros2_rpi_cv2) StdoutLine: {'line': b'Installing camera_mp_handdetection_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2\n'}
+[14.223729] (-) TimerEvent: {}
+[14.226585] (ros2_rpi_cv2) StdoutLine: {'line': b'Installing camera_mp_posedetection_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2\n'}
+[14.232751] (ros2_rpi_cv2) StdoutLine: {'line': b'Installing camera_publisher script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2\n'}
+[14.235904] (ros2_rpi_cv2) StdoutLine: {'line': b'Installing camera_publisher_no_timer script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2\n'}
+[14.237109] (ros2_rpi_cv2) StdoutLine: {'line': b'Installing camera_subscriber script to /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/ros2_rpi_cv2\n'}
+[14.241698] (ros2_rpi_cv2) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/build/ros2_rpi_cv2/install.log'\n"}
+[14.324125] (-) TimerEvent: {}
+[14.429559] (-) TimerEvent: {}
+[14.505746] (ros2_rpi_cv2) CommandEnded: {'returncode': 0}
+[14.530737] (-) TimerEvent: {}
+[14.632037] (-) TimerEvent: {}
+[14.734914] (-) TimerEvent: {}
+[14.836809] (-) TimerEvent: {}
+[14.940607] (-) TimerEvent: {}
+[15.047911] (-) TimerEvent: {}
+[15.150898] (-) TimerEvent: {}
+[15.254265] (-) TimerEvent: {}
+[15.337181] (ros2_rpi_cv2) JobEnded: {'identifier': 'ros2_rpi_cv2', 'rc': 0}
+[15.344241] (-) EventReactorShutdown: {}
