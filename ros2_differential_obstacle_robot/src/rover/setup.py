@@ -1,7 +1,6 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
-
 package_name = 'rover'
 
 setup(
@@ -25,6 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'lidar_differential = rover.lidar_obstacle_diff:main',
         ],
     },
 )

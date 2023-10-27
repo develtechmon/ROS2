@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/rover/rover.egg-info
+writing ../../build/rover/rover.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+writing requirements to ../../build/rover/rover.egg-info/requires.txt
+writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+copying rover/lidar_obstacle.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+copying rover/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+copying /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover/lidar_obstacle.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+copying /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+byte-compiling /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/lidar_obstacle.py to lidar_obstacle.cpython-310.pyc
+byte-compiling /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index/packages
+copying resource/rover -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index/packages
+copying package.xml -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+copying launch/rsp.launch.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+copying launch/gazebo.sim.launch.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+copying urdf/robot.urdf.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+copying urdf/inertial_macros.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+copying urdf/gazebo_control_differential_drive.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+copying urdf/rover.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+running install_egg_info
+Copying ../../build/rover/rover.egg-info to /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_obstacle_differential script to /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/rover
+writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/install.log'

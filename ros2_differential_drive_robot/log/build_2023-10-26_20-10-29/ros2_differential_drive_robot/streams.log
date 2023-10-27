@@ -1,0 +1,32 @@
+[0.939s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build
+[1.215s] running develop
+[1.242s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.242s]   warnings.warn(
+[1.244s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.244s]   warnings.warn(
+[1.396s] Removing /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2-differential-drive-robot.egg-link (link to .)
+[1.430s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build
+[1.435s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_differential_drive_robot build --build-base /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build install --record /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log --single-version-externally-managed
+[1.775s] running egg_info
+[1.776s] writing ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/PKG-INFO
+[1.784s] writing dependency_links to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/dependency_links.txt
+[1.785s] writing entry points to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/entry_points.txt
+[1.786s] writing requirements to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/requires.txt
+[1.787s] writing top-level names to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/top_level.txt
+[1.798s] reading manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+[1.805s] writing manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+[1.808s] running build
+[1.808s] running build_py
+[1.809s] copying ros2_differential_drive_robot/lidar_dynamic_obstacle.py -> /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot
+[1.809s] copying ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py -> /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot
+[1.813s] running install
+[1.815s] running install_lib
+[1.815s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.815s]   warnings.warn(
+[1.816s] copying /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot/lidar_dynamic_obstacle.py -> /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot
+[1.816s] copying /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build/lib/ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py -> /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot
+[1.817s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot/lidar_dynamic_obstacle.py to lidar_dynamic_obstacle.cpython-310.pyc
+[1.818s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot/lidar_obstacle_steer_leftright.py to lidar_obstacle_steer_leftright.cpython-310.pyc
+[1.821s] running install_data
+[1.822s] error: can't copy 'launch/__pycache__': doesn't exist or not a regular file
+[1.866s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/src/ros2_differential_drive_robot' returned '1': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_differential_drive_robot build --build-base /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/build install --record /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log --single-version-externally-managed

@@ -1,0 +1,47 @@
+[1.582s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/src/rover': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build install --record /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/install.log --single-version-externally-managed
+[2.253s] running egg_info
+[2.255s] creating ../../build/rover/rover.egg-info
+[2.259s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[2.264s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[2.265s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[2.265s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[2.265s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[2.266s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[2.267s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[2.268s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[2.269s] running build
+[2.271s] running build_py
+[2.271s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build
+[2.272s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib
+[2.272s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+[2.272s] copying rover/lidar_obstacle.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+[2.272s] copying rover/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover
+[2.272s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.272s]   warnings.warn(
+[2.273s] running install
+[2.273s] running install_lib
+[2.276s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+[2.277s] copying /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover/lidar_obstacle.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+[2.278s] copying /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build/lib/rover/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover
+[2.281s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/lidar_obstacle.py to lidar_obstacle.cpython-310.pyc
+[2.281s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc
+[2.281s] running install_data
+[2.281s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index
+[2.281s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index
+[2.283s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index/packages
+[2.284s] copying resource/rover -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index/packages
+[2.284s] copying package.xml -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover
+[2.285s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+[2.286s] copying launch/rsp.launch.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+[2.286s] copying launch/gazebo.sim.launch.py -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/launch
+[2.286s] creating /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+[2.286s] copying urdf/robot.urdf.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+[2.286s] copying urdf/inertial_macros.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+[2.286s] copying urdf/gazebo_control_differential_drive.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+[2.286s] copying urdf/rover.xacro -> /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/urdf
+[2.286s] running install_egg_info
+[2.287s] Copying ../../build/rover/rover.egg-info to /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[2.288s] running install_scripts
+[2.360s] Installing lidar_obstacle_differential script to /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/rover
+[2.360s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/install.log'
+[2.441s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/src/rover' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/build install --record /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/build/rover/install.log --single-version-externally-managed

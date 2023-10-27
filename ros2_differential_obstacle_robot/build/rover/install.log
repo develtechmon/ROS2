@@ -1,4 +1,6 @@
+/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/lidar_obstacle_diff.py
 /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/__init__.py
+/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/__pycache__/lidar_obstacle_diff.cpython-310.pyc
 /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover/__pycache__/__init__.cpython-310.pyc
 /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/ament_index/resource_index/packages/rover
 /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/share/rover/package.xml
@@ -15,3 +17,4 @@
 /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/entry_points.txt
 /home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/zip-safe
+/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install/rover/lib/rover/lidar_differential
