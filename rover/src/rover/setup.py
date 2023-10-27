@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'lidar_differential = rover.lidar_obstacle_diff:main',
+            'lidar_obstacle_region_split = rover.lidar_obstacle_avoidance_region_split:main',
         ],
     },
 )

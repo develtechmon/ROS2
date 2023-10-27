@@ -15,19 +15,19 @@ class LidarObstacleAvoidanceSteer(Node):
 
     def lidar_callback(self,msg):
         min_distance = min(msg.ranges)
-        critical_distance = 0.5
+        critical_distance = 1.0
         max_angular_speed = 0.05
         max_linear_speed = 1.0
         min_linear_speed = 0.3
 
         if min_distance > critical_distance:
             print("no obstacle detected")
-            self.twist.angular.z = max_linear_speed
-            self.twist.linear.x = 0.0
+            self.twist.angular.z = 0.0
+            self.twist.linear.x = -0.5 
         else:
             print("obstacle detected")
-            self.twist.angular.z = min_linear_speed
-            self.twist.linear.x = max_angular_speed
+            self.twist.angular.z = -1.0
+            self.twist.linear.x =  0.5 
         self.publisher.publish(self.twist)
 
 def main(args=None):
