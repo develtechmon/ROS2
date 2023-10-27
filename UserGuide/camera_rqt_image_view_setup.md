@@ -59,9 +59,12 @@ mmal service 16.1 (platform:bcm2835-v4l2-0):
 This command will publish `/camera/image_raw` topics that will be used for our computer vision project
 ```
 ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640,480]"
+
+use below command if you have frame_id
+ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640,480]" -p camera_frame_id:=camera_link_optical
 ```
 
-## Step 5 : To view `published topic image` above.
+## Step 5 : To view `published topic image` especially `/image/raw`.
 
 Run below command to view our publish image either from `simulation` or `rpi camera` 
 ```
@@ -70,7 +73,7 @@ ros2 run rqt_image_view rqt_image_view
 
 Select topic from list `/camera/image_raw`. You should see your `simulated` or `rpi` camera video.
 
-## Step 5 : `Rviz2` limiation
+## Step 5 : `Rviz2` limitation
 
 Bear in mind `rviz2` cant handle compressed image. Therefore next step, we're going to create compressed and uncompressed images.
 
@@ -78,6 +81,19 @@ Basically, what we did. This command will take the compress image from `Gazebo` 
 
 ```
 ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed
+
+use below command without camera.
+ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/image_raw/compressed -r out:=/image_raw/uncompressed
+```
+
+## Step 6 : To view uncompressed image using `Rviz2` or `rqt`
+
+Run below command to view our publish image either from `simulation` or `rpi camera` 
+```
+ros2 run rqt_image_view rqt_image_view
+
+and select 
+/image_raw/uncompressed.
 ```
 
 
