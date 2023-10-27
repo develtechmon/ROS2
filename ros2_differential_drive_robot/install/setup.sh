@@ -35,7 +35,7 @@ COLCON_CURRENT_PREFIX="/opt/ros/humble"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 # setting COLCON_CURRENT_PREFIX avoids relying on the build time prefix of the sourced script
-COLCON_CURRENT_PREFIX="/home/jlukas/My_Project/ROS2/ros2_differential_obstacle_robot/install"
+COLCON_CURRENT_PREFIX="/home/jlukas/My_Project/ROS2/rover/install"
 _colcon_prefix_chain_sh_source_script "$COLCON_CURRENT_PREFIX/local_setup.sh"
 
 

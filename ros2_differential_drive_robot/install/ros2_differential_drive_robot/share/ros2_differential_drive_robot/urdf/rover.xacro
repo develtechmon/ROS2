@@ -38,7 +38,7 @@
         <visual>
             <origin xyz="0.0 0.0 0.0"/>
             <geometry>
-                <box size="0.8 0.7 0.2"/>
+                <box size="0.8 0.7 0.3"/>
             </geometry>
             <material name="orange"/>
         </visual>
@@ -48,7 +48,7 @@
                 <box size="0.8 0.7 0.2"/>
             </geometry>
         </collision>
-        <xacro:inertial_box mass="0.5" x="0.8" y="0.7" z="0.2">
+        <xacro:inertial_box mass="0.5" x="0.8" y="0.7" z="0.3">
             <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
@@ -180,7 +180,7 @@
     </gazebo>
 
     <joint name="lidar_joint" type="fixed">
-        <origin xyz="0.0 0.0 0.1"/>
+        <origin xyz="0.0 0.0 0.25" rpy="0 0 0"/>
         <parent link="chassis_link"/>
         <child link="lidar_holder"/>
     </joint>
@@ -189,20 +189,24 @@
     <link name="lidar_holder">
         <visual>
             <geometry>
-                <cylinder radius="0.15" length="0.25"/>
+                <cylinder radius="0.05" length="0.25"/>
             </geometry>
             <material name="red"/>
         </visual>
 
         <collision>
             <geometry>
-                <cylinder radius="0.15" length="0.25"/>
+                <cylinder radius="0.05" length="0.25"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="0.1" length="0.25" radius="0.15">
+        <xacro:inertial_cylinder mass="0.1" length="0.25" radius="0.05">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="lidar_holder">
+        <material>Gazebo/Red</material>
+    </gazebo>
 
      <!-- LIDAR HOLDER -->
      <joint name="lidar_holder_joint" type="fixed">
@@ -215,24 +219,24 @@
      <link name="lidar_link">
         <visual>
             <geometry>
-                <cylinder radius="0.12" length="0.05"/>
+                <cylinder radius="0.1" length="0.05"/>
             </geometry>
             <material name="blue"/>
         </visual>
 
         <collision>
             <geometry>
-                <cylinder radius="0.12" length="0.05"/>
+                <cylinder radius="0.1" length="0.05"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass="0.1" length="0.05" radius="0.12">
+        <xacro:inertial_cylinder mass="0.1" length="0.2" radius="0.1">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
-    
+
     <!-- CAMERA -->
     <joint name="camera_joint" type="fixed">
-        <origin xyz="0.41 0.0 0.0"/>
+        <origin xyz="0.38 0.0 0.25"/>
         <parent link="chassis_link"/>
         <child link="camera_link"/>
     </joint>
@@ -240,14 +244,14 @@
     <link name="camera_link">
         <visual>
             <geometry>
-                <box size="0.03 0.1 0.1"/> 
+                <box size="0.04 0.1 0.2"/> 
             </geometry>
             <material name="black"/>
         </visual>
 
         <collision>
             <geometry>
-                <box size="0.05 0.05 0.05"/> 
+                <box size="0.05 0.1 0.2"/> 
             </geometry>
         </collision>
     </link>
@@ -258,20 +262,23 @@
         <sensor name="laser" type="ray">
           <pose> 0 0 0 0 0 0 </pose>
           <visualize>true</visualize>
-          <update_rate>10.0</update_rate>
+          <update_rate>10</update_rate>
           <ray>
             <scan>
               <horizontal>
                 <samples>360</samples>
-                <resolution>1</resolution>
+                <!-- <resolution>1</resolution> -->
+                <!-- <min_angle>0.00</min_angle> -->
                 <min_angle>0.00</min_angle>
                 <max_angle>3.14</max_angle>
               </horizontal>
             </scan>
             <range>
-              <min>0.120</min>
-              <max>3.5</max>
-              <resolution>0.015</resolution>
+              <min>0.3</min>
+              <max>12</max>
+              <!-- <min>0.120</min>
+              <max>3.5</max> -->
+              <!-- <resolution>0.015</resolution> -->
             </range>
           </ray>
           <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">

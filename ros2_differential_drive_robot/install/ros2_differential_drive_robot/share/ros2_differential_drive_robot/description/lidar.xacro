@@ -14,6 +14,7 @@
             </geometry>
             <material name="black"/>
         </visual>
+        
         <visual>
             <origin xyz="0 0 -0.05"/>
             <geometry>

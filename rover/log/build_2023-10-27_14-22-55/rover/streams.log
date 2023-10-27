@@ -1,0 +1,24 @@
+[0.755s] Invoking command in '/home/jlukas/My_Project/ROS2/rover/src/rover': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/rover/build/rover/build install --record /home/jlukas/My_Project/ROS2/rover/build/rover/install.log --single-version-externally-managed
+[0.968s] running egg_info
+[0.969s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[0.970s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[0.970s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[0.970s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[0.972s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.973s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.973s] running build
+[0.973s] running build_py
+[0.973s] running install
+[0.973s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.973s]   warnings.warn(
+[0.974s] running install_lib
+[0.975s] running install_data
+[0.976s] copying urdf/rover.xacro -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/urdf
+[0.976s] running install_egg_info
+[0.978s] removing '/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info' (and everything under it)
+[0.978s] Copying ../../build/rover/rover.egg-info to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[0.979s] running install_scripts
+[0.998s] Installing lidar_differential script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+[0.999s] writing list of installed files to '/home/jlukas/My_Project/ROS2/rover/build/rover/install.log'
+[1.026s] Invoked command in '/home/jlukas/My_Project/ROS2/rover/src/rover' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/rover/build/rover/build install --record /home/jlukas/My_Project/ROS2/rover/build/rover/install.log --single-version-externally-managed

@@ -29,7 +29,7 @@
   <gazebo reference="camera_link">
     <material>Gazebo/Red</material>
     <sensor type="camera" name="camera">
-      <!-- <pose>0 0 0 0 0 0</pose> -->
+      <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
       <update_rate>10.0</update_rate>
       <camera name="head">

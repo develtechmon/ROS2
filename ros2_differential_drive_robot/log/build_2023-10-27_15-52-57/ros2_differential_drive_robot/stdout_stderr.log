@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/requires.txt
+writing top-level names to ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/top_level.txt
+reading manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_differential_drive_robot/ros2_differential_drive_robot.egg-info to /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages/ros2_differential_drive_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_dynamic_obstacle script to /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot
+Installing lidar_obstacle script to /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot
+Installing lidar_obstacle_steer script to /home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/ros2_differential_drive_robot
+writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/build/ros2_differential_drive_robot/install.log'
