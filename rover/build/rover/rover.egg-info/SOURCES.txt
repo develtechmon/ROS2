@@ -15,9 +15,13 @@ resource/rover
 rover/__init__.py
 rover/lidar_obstacle_avoidance_region_split.py
 rover/lidar_obstacle_diff.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+rover.egg-info/PKG-INFO
+rover.egg-info/SOURCES.txt
+rover.egg-info/dependency_links.txt
+rover.egg-info/entry_points.txt
+rover.egg-info/requires.txt
+rover.egg-info/top_level.txt
+rover.egg-info/zip-safe
 urdf/gazebo_control_differential_drive.xacro
 urdf/inertial_macros.xacro
 urdf/robot.urdf.xacro

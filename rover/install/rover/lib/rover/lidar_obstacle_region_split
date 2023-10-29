@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'rover==0.0.0','console_scripts','lidar_obstacle_region_split'
+# EASY-INSTALL-ENTRY-SCRIPT: 'rover','console_scripts','lidar_obstacle_region_split'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'rover==0.0.0'
+__requires__ = 'rover'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('rover==0.0.0', 'console_scripts', 'lidar_obstacle_region_split')())
+    sys.exit(load_entry_point('rover', 'console_scripts', 'lidar_obstacle_region_split')())
