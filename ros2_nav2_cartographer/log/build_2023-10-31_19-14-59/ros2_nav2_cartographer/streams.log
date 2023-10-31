@@ -1,0 +1,20 @@
+[0.477s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/src/ros2_nav2_cartographer': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/prefix_override:/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_nav2_cartographer build --build-base /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build install --record /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/install.log --single-version-externally-managed
+[0.614s] running egg_info
+[0.614s] writing ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/PKG-INFO
+[0.616s] writing dependency_links to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/dependency_links.txt
+[0.616s] writing entry points to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/entry_points.txt
+[0.616s] writing requirements to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/requires.txt
+[0.616s] writing top-level names to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/top_level.txt
+[0.617s] reading manifest file '../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/SOURCES.txt'
+[0.618s] writing manifest file '../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/SOURCES.txt'
+[0.618s] running build
+[0.618s] running build_py
+[0.618s] running install
+[0.618s] running install_lib
+[0.619s] running install_data
+[0.619s] running install_egg_info
+[0.620s] removing '/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer-0.0.0-py3.10.egg-info' (and everything under it)
+[0.621s] Copying ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info to /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer-0.0.0-py3.10.egg-info
+[0.622s] running install_scripts
+[0.636s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/install.log'
+[0.661s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/src/ros2_nav2_cartographer' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/prefix_override:/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_nav2_cartographer build --build-base /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build install --record /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/install.log --single-version-externally-managed

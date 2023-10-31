@@ -11,6 +11,7 @@ def generate_launch_description():
     config_dir = os.path.join(get_package_share_directory('ros2_nav2_cartographer'),'config')
     return LaunchDescription([
         
+        # Remember - To launch mapping. You can run turtlebo gazebo first, and then launch this file and lastly rviz
         Node(
             package='cartographer_ros',
             output='screen',
