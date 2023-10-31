@@ -1,0 +1,18 @@
+[0.406s] Invoking command in '/home/jlukas/My_Project/ROS2/rover/build/rover': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/rover/build/rover/build --no-deps install_data
+[0.548s] running develop
+[0.621s] running egg_info
+[0.621s] writing rover.egg-info/PKG-INFO
+[0.621s] writing dependency_links to rover.egg-info/dependency_links.txt
+[0.622s] writing entry points to rover.egg-info/entry_points.txt
+[0.622s] writing requirements to rover.egg-info/requires.txt
+[0.622s] writing top-level names to rover.egg-info/top_level.txt
+[0.623s] reading manifest file 'rover.egg-info/SOURCES.txt'
+[0.623s] writing manifest file 'rover.egg-info/SOURCES.txt'
+[0.624s] running build_ext
+[0.624s] Creating /home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover.egg-link (link to .)
+[0.624s] Installing lidar_differential script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+[0.625s] Installing lidar_obstacle_region_split script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+[0.625s] 
+[0.625s] Installed /home/jlukas/My_Project/ROS2/rover/build/rover
+[0.625s] running install_data
+[0.646s] Invoked command in '/home/jlukas/My_Project/ROS2/rover/build/rover' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/rover/build/rover/build --no-deps install_data

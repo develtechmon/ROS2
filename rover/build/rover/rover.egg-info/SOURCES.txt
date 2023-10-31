@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/rover/rover.egg-info/PKG-INFO
-../../build/rover/rover.egg-info/SOURCES.txt
-../../build/rover/rover.egg-info/dependency_links.txt
-../../build/rover/rover.egg-info/entry_points.txt
-../../build/rover/rover.egg-info/requires.txt
-../../build/rover/rover.egg-info/top_level.txt
-../../build/rover/rover.egg-info/zip-safe
 launch/gazebo.sim.launch.py
 launch/joystick.control.launch.py
 launch/rsp.launch.py

@@ -1,0 +1,44 @@
+[0.441s] Invoking command in '/home/jlukas/My_Project/ROS2/rover/build/rover': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/rover/build/rover/build --no-deps install_data
+[0.602s] running develop
+[0.602s] /home/jlukas/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.602s] !!
+[0.602s] 
+[0.602s]         ********************************************************************************
+[0.602s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.602s]         Instead, use pypa/build, pypa/installer or other
+[0.602s]         standards-based tools.
+[0.602s] 
+[0.602s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.602s]         ********************************************************************************
+[0.602s] 
+[0.602s] !!
+[0.602s]   easy_install.initialize_options(self)
+[0.615s] /home/jlukas/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.615s] !!
+[0.615s] 
+[0.615s]         ********************************************************************************
+[0.615s]         Please avoid running ``setup.py`` directly.
+[0.615s]         Instead, use pypa/build, pypa/installer or other
+[0.615s]         standards-based tools.
+[0.615s] 
+[0.615s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.616s]         ********************************************************************************
+[0.616s] 
+[0.616s] !!
+[0.616s]   self.initialize_options()
+[0.691s] running egg_info
+[0.697s] writing rover.egg-info/PKG-INFO
+[0.698s] writing dependency_links to rover.egg-info/dependency_links.txt
+[0.698s] writing entry points to rover.egg-info/entry_points.txt
+[0.698s] writing requirements to rover.egg-info/requires.txt
+[0.698s] writing top-level names to rover.egg-info/top_level.txt
+[0.711s] reading manifest file 'rover.egg-info/SOURCES.txt'
+[0.712s] writing manifest file 'rover.egg-info/SOURCES.txt'
+[0.719s] running build_ext
+[0.719s] Creating /home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover.egg-link (link to .)
+[0.720s] Installing lidar_differential script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+[0.720s] Installing lidar_obstacle_region_split script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+[0.720s] 
+[0.720s] Installed /home/jlukas/My_Project/ROS2/rover/build/rover
+[0.720s] running install_data
+[0.742s] Invoked command in '/home/jlukas/My_Project/ROS2/rover/build/rover' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/rover/build/rover/build --no-deps install_data

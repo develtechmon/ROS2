@@ -1,0 +1,36 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating rover.egg-info
+writing rover.egg-info/PKG-INFO
+writing dependency_links to rover.egg-info/dependency_links.txt
+writing entry points to rover.egg-info/entry_points.txt
+writing requirements to rover.egg-info/requires.txt
+writing top-level names to rover.egg-info/top_level.txt
+writing manifest file 'rover.egg-info/SOURCES.txt'
+reading manifest file 'rover.egg-info/SOURCES.txt'
+writing manifest file 'rover.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover.egg-link (link to .)
+Installing lidar_differential script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+Installing lidar_obstacle_region_split script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+
+Installed /home/jlukas/My_Project/ROS2/rover/build/rover
+running install_data
+creating /home/jlukas/My_Project/ROS2/rover/install/rover/share/ament_index
+creating /home/jlukas/My_Project/ROS2/rover/install/rover/share/ament_index/resource_index
+creating /home/jlukas/My_Project/ROS2/rover/install/rover/share/ament_index/resource_index/packages
+copying resource/rover -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/ament_index/resource_index/packages
+copying package.xml -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover
+creating /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/launch
+copying launch/rsp.launch.py -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/launch
+copying launch/joystick.control.launch.py -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/launch
+copying launch/gazebo.sim.launch.py -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/launch
+creating /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/urdf
+copying urdf/robot.urdf.xacro -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/urdf
+copying urdf/inertial_macros.xacro -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/urdf
+copying urdf/gazebo_control_differential_drive.xacro -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/urdf
+copying urdf/rover.xacro -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/urdf
