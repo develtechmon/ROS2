@@ -1,0 +1,23 @@
+[1.766s] Invoking command in '/home/jlukas/My_Project/ROS2/rover/src/rover': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/rover/build/rover/build install --record /home/jlukas/My_Project/ROS2/rover/build/rover/install.log --single-version-externally-managed
+[2.111s] running egg_info
+[2.111s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[2.112s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[2.112s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[2.113s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[2.113s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[2.114s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[2.116s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[2.116s] running build
+[2.116s] running build_py
+[2.117s] running install
+[2.118s] running install_lib
+[2.123s] running install_data
+[2.125s] copying urdf/rover.xacro -> /home/jlukas/My_Project/ROS2/rover/install/rover/share/rover/urdf
+[2.125s] running install_egg_info
+[2.127s] removing '/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info' (and everything under it)
+[2.127s] Copying ../../build/rover/rover.egg-info to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[2.129s] running install_scripts
+[2.161s] Installing lidar_differential script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+[2.162s] Installing lidar_obstacle_region_split script to /home/jlukas/My_Project/ROS2/rover/install/rover/lib/rover
+[2.162s] writing list of installed files to '/home/jlukas/My_Project/ROS2/rover/build/rover/install.log'
+[2.212s] Invoked command in '/home/jlukas/My_Project/ROS2/rover/src/rover' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/My_Project/ROS2/rover/build/rover/build install --record /home/jlukas/My_Project/ROS2/rover/build/rover/install.log --single-version-externally-managed

@@ -67,7 +67,7 @@
     </gazebo>
 
     <joint name="wheel_front_right_joint" type="continuous">
-        <origin xyz="0.15 0.4 0.0" rpy="1.57 0.0 0.0"/>
+        <origin xyz="-0.15 0.4 0.0" rpy="1.57 0.0 0.0"/>
         <parent link="base_link"/>
         <child link="wheel_front_right_link"/>
         <axis xyz="0.0 0.0 1.0"/>
@@ -97,7 +97,7 @@
     </gazebo>
 
     <joint name="wheel_front_left_joint_joint" type="continuous">
-        <origin xyz="0.15 -0.4 0.0" rpy="1.57 0.0 0.0"/>
+        <origin xyz="-0.15 -0.4 0.0" rpy="1.57 0.0 0.0"/>
         <parent link="base_link"/>
         <child link="wheel_front_left_link"/>
         <axis xyz="0.0 0.0 1.0"/>
@@ -130,7 +130,7 @@
 
     <!-- CASTER HOLDER -->
     <joint name="caster_cylinder_joint_joint" type="fixed">
-        <origin xyz="-0.3 0.0 -0.1"/>
+        <origin xyz="0.3 0.0 -0.1"/>
         <parent link="chassis_link"/>
         <child link="caster_cylinder_link"/>
     </joint>
@@ -189,7 +189,7 @@
     </gazebo>
 
     <joint name="lidar_joint" type="fixed">
-        <origin xyz="0.0 0.0 0.25" rpy="0 0 0"/>
+        <origin xyz="0.0 0.0 0.25" rpy="0 0 1.5708"/> 
         <parent link="chassis_link"/>
         <child link="lidar_holder"/>
     </joint>
@@ -219,7 +219,7 @@
 
      <!-- LIDAR HOLDER -->
      <joint name="lidar_holder_joint" type="fixed">
-        <origin xyz="0.0 0.0 0.15" rpy="0.0 0.0 4.71239"/>
+        <origin xyz="0.0 0.0 0.15" rpy="0.0 0.0 0"/>
         <parent link="lidar_holder"/>
         <child link="lidar_link"/>
     </joint>
@@ -245,7 +245,7 @@
 
     <!-- CAMERA -->
     <joint name="camera_joint" type="fixed">
-        <origin xyz="0.38 0.0 0.25"/>
+        <origin xyz="-0.38 0.0 0.25" rpy="0 0 ${pi}"/>
         <parent link="chassis_link"/>
         <child link="camera_link"/>
     </joint>
