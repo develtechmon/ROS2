@@ -1,0 +1,25 @@
+[2.010s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/rover/src/rover': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build install --record /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/install.log --single-version-externally-managed
+[2.614s] running egg_info
+[2.615s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[2.618s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[2.618s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[2.618s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[2.619s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[2.621s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[2.623s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[2.624s] running build
+[2.624s] running build_py
+[2.628s] running install
+[2.628s] running install_lib
+[2.628s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.629s]   warnings.warn(
+[2.630s] running install_data
+[2.632s] copying launch/joystick.control.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch
+[2.632s] running install_egg_info
+[2.635s] removing '/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info' (and everything under it)
+[2.636s] Copying ../../build/rover/rover.egg-info to /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[2.639s] running install_scripts
+[2.682s] Installing lidar_differential script to /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/rover
+[2.682s] Installing lidar_obstacle_region_split script to /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/rover
+[2.684s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/install.log'
+[2.712s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/rover/src/rover' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover build --build-base /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build install --record /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/install.log --single-version-externally-managed

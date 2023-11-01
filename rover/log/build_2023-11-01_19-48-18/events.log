@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (rover) JobQueued: {'identifier': 'rover', 'dependencies': OrderedDict()}
+[0.000479] (rover) JobStarted: {'identifier': 'rover'}
+[0.099378] (-) TimerEvent: {}
+[0.200180] (-) TimerEvent: {}
+[0.301720] (-) TimerEvent: {}
+[0.402619] (-) TimerEvent: {}
+[0.503725] (-) TimerEvent: {}
+[0.605301] (-) TimerEvent: {}
+[0.706407] (-) TimerEvent: {}
+[0.807166] (-) TimerEvent: {}
+[0.908129] (-) TimerEvent: {}
+[1.008761] (-) TimerEvent: {}
+[1.109378] (-) TimerEvent: {}
+[1.210377] (-) TimerEvent: {}
+[1.311004] (-) TimerEvent: {}
+[1.412129] (-) TimerEvent: {}
+[1.513576] (-) TimerEvent: {}
+[1.614812] (-) TimerEvent: {}
+[1.715550] (-) TimerEvent: {}
+[1.816176] (-) TimerEvent: {}
+[1.916898] (-) TimerEvent: {}
+[1.933731] (rover) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rover', 'build', '--build-base', '/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build', 'install', '--record', '/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/rover/src/rover', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'jlukas', 'LC_TIME': 'ms_MY.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/Desktop/My_Project/ROS2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ms_MY.UTF-8', 'MANAGERPID': '979', 'SYSTEMD_EXEC_PID': '1216', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jlukas/Desktop/My_Project/ROS2/rover/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jlukas', 'JOURNAL_STREAM': '8:31632', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jlukas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/jlukas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jlukas:@/tmp/.ICE-unix/1169,unix/jlukas:/tmp/.ICE-unix/1169', 'INVOCATION_ID': '560304e90827484aa331ed2233fa62e1', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ms_MY.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ms_MY.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.L7RJD2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ms_MY.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b4edba41-9a5e-4a7f-bfda-a5f85a1e8b76', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ms_MY.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ms_MY.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover:/home/jlukas/My_Project/ROS2/rover/build/rover:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ms_MY.UTF-8', 'LC_PAPER': 'ms_MY.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.017651] (-) TimerEvent: {}
+[2.118437] (-) TimerEvent: {}
+[2.219675] (-) TimerEvent: {}
+[2.320581] (-) TimerEvent: {}
+[2.421383] (-) TimerEvent: {}
+[2.498984] (rover) StdoutLine: {'line': b'running egg_info\n'}
+[2.500336] (rover) StdoutLine: {'line': b'creating ../../build/rover/rover.egg-info\n'}
+[2.501008] (rover) StdoutLine: {'line': b'writing ../../build/rover/rover.egg-info/PKG-INFO\n'}
+[2.501931] (rover) StdoutLine: {'line': b'writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt\n'}
+[2.502835] (rover) StdoutLine: {'line': b'writing entry points to ../../build/rover/rover.egg-info/entry_points.txt\n'}
+[2.503520] (rover) StdoutLine: {'line': b'writing requirements to ../../build/rover/rover.egg-info/requires.txt\n'}
+[2.504028] (rover) StdoutLine: {'line': b'writing top-level names to ../../build/rover/rover.egg-info/top_level.txt\n'}
+[2.505067] (rover) StdoutLine: {'line': b"writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'\n"}
+[2.508819] (rover) StdoutLine: {'line': b"reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'\n"}
+[2.511224] (rover) StdoutLine: {'line': b"writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'\n"}
+[2.512584] (rover) StdoutLine: {'line': b'running build\n'}
+[2.512912] (rover) StdoutLine: {'line': b'running build_py\n'}
+[2.513631] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build\n'}
+[2.513917] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib\n'}
+[2.514318] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib/rover\n'}
+[2.514497] (rover) StdoutLine: {'line': b'copying rover/lidar_obstacle_diff.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib/rover\n'}
+[2.515216] (rover) StdoutLine: {'line': b'copying rover/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib/rover\n'}
+[2.515559] (rover) StdoutLine: {'line': b'copying rover/lidar_obstacle_avoidance_region_split.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib/rover\n'}
+[2.516116] (rover) StdoutLine: {'line': b'running install\n'}
+[2.516381] (rover) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.516639] (rover) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.517214] (rover) StdoutLine: {'line': b'running install_lib\n'}
+[2.519101] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover\n'}
+[2.520071] (rover) StdoutLine: {'line': b'copying /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib/rover/lidar_obstacle_diff.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover\n'}
+[2.520314] (rover) StdoutLine: {'line': b'copying /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib/rover/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover\n'}
+[2.520534] (rover) StdoutLine: {'line': b'copying /home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/build/lib/rover/lidar_obstacle_avoidance_region_split.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover\n'}
+[2.521349] (rover) StdoutLine: {'line': b'byte-compiling /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover/lidar_obstacle_diff.py to lidar_obstacle_diff.cpython-310.pyc\n'}
+[2.521561] (-) TimerEvent: {}
+[2.522795] (rover) StdoutLine: {'line': b'byte-compiling /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc\n'}
+[2.523305] (rover) StdoutLine: {'line': b'byte-compiling /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover/lidar_obstacle_avoidance_region_split.py to lidar_obstacle_avoidance_region_split.cpython-310.pyc\n'}
+[2.524338] (rover) StdoutLine: {'line': b'running install_data\n'}
+[2.525302] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/ament_index\n'}
+[2.525753] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/ament_index/resource_index\n'}
+[2.526580] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/ament_index/resource_index/packages\n'}
+[2.526854] (rover) StdoutLine: {'line': b'copying resource/rover -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/ament_index/resource_index/packages\n'}
+[2.527179] (rover) StdoutLine: {'line': b'copying package.xml -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover\n'}
+[2.527760] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch\n'}
+[2.527977] (rover) StdoutLine: {'line': b'copying launch/gazebo.sim.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch\n'}
+[2.528429] (rover) StdoutLine: {'line': b'copying launch/rsp.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch\n'}
+[2.528609] (rover) StdoutLine: {'line': b'copying launch/joystick.control.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/launch\n'}
+[2.529087] (rover) StdoutLine: {'line': b'creating /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf\n'}
+[2.529267] (rover) StdoutLine: {'line': b'copying urdf/inertial_macros.xacro -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf\n'}
+[2.529565] (rover) StdoutLine: {'line': b'copying urdf/rover.xacro -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf\n'}
+[2.530206] (rover) StdoutLine: {'line': b'copying urdf/gazebo_control_differential_drive.xacro -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf\n'}
+[2.530470] (rover) StdoutLine: {'line': b'copying urdf/robot.urdf.xacro -> /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/share/rover/urdf\n'}
+[2.531177] (rover) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.534403] (rover) StdoutLine: {'line': b'Copying ../../build/rover/rover.egg-info to /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info\n'}
+[2.538486] (rover) StdoutLine: {'line': b'running install_scripts\n'}
+[2.587397] (rover) StdoutLine: {'line': b'Installing lidar_differential script to /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/rover\n'}
+[2.587916] (rover) StdoutLine: {'line': b'Installing lidar_obstacle_region_split script to /home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/rover\n'}
+[2.588650] (rover) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/rover/build/rover/install.log'\n"}
+[2.622466] (-) TimerEvent: {}
+[2.629671] (rover) CommandEnded: {'returncode': 0}
+[2.723419] (-) TimerEvent: {}
+[2.800805] (rover) JobEnded: {'identifier': 'rover', 'rc': 0}
+[2.805825] (-) EventReactorShutdown: {}
