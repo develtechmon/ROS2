@@ -11,16 +11,19 @@ class MotorController(Node):
         
         # Define GPIO pins for left and right wheels as class attributes
         self.left_motor_pins = {
+            'enable': 25,
+            'input1': 24,
+            'input2': 23
+        }
+
+        self.right_motor_pins = {
             'enable': 17,
             'input1': 22,
             'input2': 27
         }
 
-        self.right_motor_pins = {
-            'enable': 25,
-            'input1': 24,
-            'input2': 23
-        }
+        # Disable GPIO warnings
+        GPIO.setwarnings(False)
 
         # Set GPIO mode
         GPIO.setmode(GPIO.BCM)
@@ -55,9 +58,9 @@ class MotorController(Node):
         right_direction = GPIO.HIGH if right_speed >= 0 else GPIO.LOW
 
         # Set motor directions
-        GPIO.output(self.left_motor_pins['input1'], right_direction)
+        GPIO.output(self.left_motor_pins['input1'],  left_direction)
         GPIO.output(self.left_motor_pins['input2'], not left_direction) 
-        GPIO.output(self.right_motor_pins['input1'], left_direction)
+        GPIO.output(self.right_motor_pins['input1'], right_direction)
         GPIO.output(self.right_motor_pins['input2'], not right_direction)
 
         # Set motor speed via PWM
