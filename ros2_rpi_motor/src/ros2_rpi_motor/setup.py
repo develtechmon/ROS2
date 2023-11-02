@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
         'subscriber_node = ros2_rpi_motor.subscriber:main',
         'publisher_node = ros2_rpi_motor.publisher:main',
-        'motor_subscriber_node   = ros2_rpi_motor.motor_subscriber:main',
+        'motor_subscriber_node  = ros2_rpi_motor.motor_subscriber:main',
+        'motor_l298n = ros2_rpi_motor.motor_l298n:main',
         ],
     },
 )

@@ -11,6 +11,7 @@ setup.py
 resource/ros2_rpi_motor
 ros2_rpi_motor/__init__.py
 ros2_rpi_motor/motor.py
+ros2_rpi_motor/motor_l298n.py
 ros2_rpi_motor/motor_subscriber.py
 ros2_rpi_motor/publisher.py
 ros2_rpi_motor/subscriber.py
