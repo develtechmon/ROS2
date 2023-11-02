@@ -6,16 +6,10 @@ import RPi.GPIO as GPIO
 class MotorController(Node):
     def __init__(self):
         super().__init__('motor_controller')
-        self.cmd_vel_sub = self.create_subscription(Twist, '/cmd_vel', self.cmd_vel_callback, 10)
-        self.setup_gpio_pins()
-        self.left_motor_pins = None
-        self.right_motor_pins = None
-
-
-    def setup_gpio_pins(self):
-        GPIO.setmode(GPIO.BCM)
-
-        # Define GPIO pins for left and right wheels
+        self.cmd_vel_sub = self.create_subscription(
+            Twist, '/cmd_vel', self.cmd_vel_callback, 10)
+        
+        # Define GPIO pins for left and right wheels as class attributes
         self.left_motor_pins = {
             'enable': 17,
             'input1': 22,
@@ -28,17 +22,20 @@ class MotorController(Node):
             'input2': 23
         }
 
-        for pin in self.left_motor_pins.values():
-            GPIO.setup(pin, GPIO.OUT)
-
-        for pin in self.right_motor_pins.values():
-            GPIO.setup(pin, GPIO.OUT)
-
-        # Set PWM for the enable pins
+        # Set GPIO mode
+        GPIO.setmode(GPIO.BCM)
+        
+        # Initialize PWM objects
         self.left_motor_pwm = GPIO.PWM(self.left_motor_pins['enable'], 100)
         self.right_motor_pwm = GPIO.PWM(self.right_motor_pins['enable'], 100)
         self.left_motor_pwm.start(0)
         self.right_motor_pwm.start(0)
+        
+        # Set up GPIO pins
+        for pin in self.left_motor_pins.values():
+            GPIO.setup(pin, GPIO.OUT)
+        for pin in self.right_motor_pins.values():
+            GPIO.setup(pin, GPIO.OUT)
 
     def cmd_vel_callback(self, msg):
         linear = msg.linear.x
@@ -73,5 +70,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
-
