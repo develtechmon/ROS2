@@ -17,7 +17,7 @@ rosversion -d
 ## Step 3: Create our `lidar` package and follow rest of the setup
 ```
 mkdir -p ldlidar_ros2_ws/src
-cd ldlidar_ros2_ws_src
+cd ldlidar_ros2_ws/src
 ```
 
 ## Step 4: Clone the package. This is only for `ROS2`

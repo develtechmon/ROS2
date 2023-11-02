@@ -72,6 +72,8 @@ ros2 run rqt_image_view rqt_image_view
 ```
 
 Select topic from list `/camera/image_raw`. You should see your `simulated` or `rpi` camera video.
+Or you can run `ros2_rpi_cv2` project which publish `/dkcar/image` topic. Select this topic from the `rqt_image` to 
+view the video.
 
 ## Step 5 : `Rviz2` limitation
 
