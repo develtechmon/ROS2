@@ -24,6 +24,12 @@ class MotorController(Node):
 
         # Set GPIO mode
         GPIO.setmode(GPIO.BCM)
+
+        # Set up GPIO pins
+        for pin in self.left_motor_pins.values():
+            GPIO.setup(pin, GPIO.OUT)
+        for pin in self.right_motor_pins.values():
+            GPIO.setup(pin, GPIO.OUT)
         
         # Initialize PWM objects
         self.left_motor_pwm = GPIO.PWM(self.left_motor_pins['enable'], 100)
@@ -31,11 +37,6 @@ class MotorController(Node):
         self.left_motor_pwm.start(0)
         self.right_motor_pwm.start(0)
         
-        # Set up GPIO pins
-        for pin in self.left_motor_pins.values():
-            GPIO.setup(pin, GPIO.OUT)
-        for pin in self.right_motor_pins.values():
-            GPIO.setup(pin, GPIO.OUT)
 
     def cmd_vel_callback(self, msg):
         linear = msg.linear.x
