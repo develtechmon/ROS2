@@ -1,0 +1,22 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ros2_rpi_motor.egg-info/PKG-INFO
+writing dependency_links to ros2_rpi_motor.egg-info/dependency_links.txt
+writing entry points to ros2_rpi_motor.egg-info/entry_points.txt
+writing requirements to ros2_rpi_motor.egg-info/requires.txt
+writing top-level names to ros2_rpi_motor.egg-info/top_level.txt
+reading manifest file 'ros2_rpi_motor.egg-info/SOURCES.txt'
+writing manifest file 'ros2_rpi_motor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2-rpi-motor.egg-link (link to .)
+Installing motor_l298n script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+Installing motor_subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+Installing publisher_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+Installing subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+
+Installed /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor
+running install_data

@@ -44,10 +44,15 @@ class MotorController(Node):
     def cmd_vel_callback(self, msg):
         linear = msg.linear.x
         angular = msg.angular.z
+        
+        wheel_radius = 0.3
+        wheel_base = 0.11
 
         # Calculate motor speeds based on linear and angular velocity
-        left_speed = linear - angular
-        right_speed = linear + angular
+        #left_speed  = (2*linear - (angular * wheel_base))/2*wheel_radius
+        #right_speed = (2*linear + (angular * wheel_base))/2*wheel_radius
+        left_speed  = (linear - angular) / 2
+        right_speed = (linear + angular) / 2
 
         # Convert speed values to PWM duty cycle
         left_duty_cycle = abs(left_speed) * 100

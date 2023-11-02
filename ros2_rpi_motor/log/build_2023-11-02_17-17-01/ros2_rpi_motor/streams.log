@@ -1,0 +1,24 @@
+[10.324s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build --no-deps install_data
+[13.531s] running develop
+[13.541s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[13.543s]   warnings.warn(
+[13.556s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.557s]   warnings.warn(
+[15.612s] running egg_info
+[15.613s] writing ros2_rpi_motor.egg-info/PKG-INFO
+[15.616s] writing dependency_links to ros2_rpi_motor.egg-info/dependency_links.txt
+[15.619s] writing entry points to ros2_rpi_motor.egg-info/entry_points.txt
+[15.620s] writing requirements to ros2_rpi_motor.egg-info/requires.txt
+[15.622s] writing top-level names to ros2_rpi_motor.egg-info/top_level.txt
+[15.641s] reading manifest file 'ros2_rpi_motor.egg-info/SOURCES.txt'
+[15.652s] writing manifest file 'ros2_rpi_motor.egg-info/SOURCES.txt'
+[15.671s] running build_ext
+[15.673s] Creating /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages/ros2-rpi-motor.egg-link (link to .)
+[15.683s] Installing motor_l298n script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+[15.684s] Installing motor_subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+[15.686s] Installing publisher_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+[15.688s] Installing subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/ros2_rpi_motor
+[15.691s] 
+[15.692s] Installed /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor
+[15.693s] running install_data
+[15.989s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/prefix_override:/home/jlukas/My_Project/ROS2/ros2_rpi_motor/install/ros2_rpi_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/My_Project/ROS2/ros2_rpi_motor/build/ros2_rpi_motor/build --no-deps install_data
