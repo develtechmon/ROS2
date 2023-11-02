@@ -56,9 +56,9 @@ class MotorController(Node):
 
         # Set motor directions
         GPIO.output(self.left_motor_pins['input1'], left_direction)
-        GPIO.output(self.left_motor_pins['input2'], not left_direction)
+        GPIO.output(self.left_motor_pins['input2'], not right_direction) 
         GPIO.output(self.right_motor_pins['input1'], right_direction)
-        GPIO.output(self.right_motor_pins['input2'], not right_direction)
+        GPIO.output(self.right_motor_pins['input2'], not left_direction)
 
         # Set motor speed via PWM
         self.left_motor_pwm.ChangeDutyCycle(left_duty_cycle)
