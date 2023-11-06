@@ -1,0 +1,53 @@
+[0.575s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/src/ros2_nav2_cartographer': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/prefix_override:/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_nav2_cartographer build --build-base /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build install --record /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/install.log --single-version-externally-managed
+[0.732s] running egg_info
+[0.732s] creating ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info
+[0.732s] writing ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/PKG-INFO
+[0.734s] writing dependency_links to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/entry_points.txt
+[0.734s] writing requirements to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/requires.txt
+[0.734s] writing top-level names to ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/top_level.txt
+[0.734s] writing manifest file '../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/SOURCES.txt'
+[0.735s] reading manifest file '../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/SOURCES.txt'
+[0.736s] writing manifest file '../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/SOURCES.txt'
+[0.736s] running build
+[0.736s] running build_py
+[0.737s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build
+[0.737s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build/lib
+[0.737s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build/lib/ros2_nav2_cartographer
+[0.737s] copying ros2_nav2_cartographer/spawn_entity.py -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build/lib/ros2_nav2_cartographer
+[0.737s] copying ros2_nav2_cartographer/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build/lib/ros2_nav2_cartographer
+[0.737s] running install
+[0.737s] running install_lib
+[0.737s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer
+[0.738s] copying /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build/lib/ros2_nav2_cartographer/spawn_entity.py -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer
+[0.738s] copying /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build/lib/ros2_nav2_cartographer/__init__.py -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer
+[0.738s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer/spawn_entity.py to spawn_entity.cpython-310.pyc
+[0.739s] byte-compiling /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer/__init__.py to __init__.cpython-310.pyc
+[0.739s] running install_data
+[0.740s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ament_index
+[0.740s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ament_index/resource_index
+[0.740s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ament_index/resource_index/packages
+[0.740s] copying resource/ros2_nav2_cartographer -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ament_index/resource_index/packages
+[0.741s] copying package.xml -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer
+[0.741s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/launch
+[0.741s] copying launch/maze_navigation.launch.py -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/launch
+[0.741s] copying launch/tb3_navigation.launch.py -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/launch
+[0.741s] copying launch/tb3_mapping.launch.py -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/launch
+[0.741s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/config
+[0.741s] copying config/tb3_world.pgm -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/config
+[0.741s] copying config/tb3_world.yaml -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/config
+[0.741s] copying config/turtlebot3_lds_2d.lua -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/config
+[0.741s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/rviz
+[0.742s] copying rviz/tb3_navigation2.rviz -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/rviz
+[0.742s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/param
+[0.742s] copying param/tb3_nav_params.yaml -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/param
+[0.742s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/world
+[0.743s] creating /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/world/maze
+[0.743s] copying world/maze/model.config -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/world/maze
+[0.743s] copying world/maze/model.sdf -> /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/share/ros2_nav2_cartographer/world/maze
+[0.744s] running install_egg_info
+[0.746s] Copying ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info to /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages/ros2_nav2_cartographer-0.0.0-py3.10.egg-info
+[0.747s] running install_scripts
+[0.763s] Installing sdf_spawner script to /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/ros2_nav2_cartographer
+[0.763s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/install.log'
+[0.790s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/src/ros2_nav2_cartographer' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/prefix_override:/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_nav2_cartographer build --build-base /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/build install --record /home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/build/ros2_nav2_cartographer/install.log --single-version-externally-managed

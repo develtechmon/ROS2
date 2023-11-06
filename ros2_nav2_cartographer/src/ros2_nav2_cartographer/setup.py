@@ -15,6 +15,8 @@ setup(
         (os.path.join('share', package_name, 'config'), glob('config/*')),
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*')),
         (os.path.join('share', package_name, 'param'), glob('param/*')),
+        (os.path.join('share', package_name, 'world/maze'), glob('world/maze/*')),
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,6 +27,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'sdf_spawner  = ros2_nav2_cartographer.spawn_entity:main',
         ],
     },
 )

@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages",
+        "/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages",
+        "/home/jlukas/My_Project/ROS2/ros2_nav2_cartographer/install/ros2_nav2_cartographer/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
