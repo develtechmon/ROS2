@@ -8,8 +8,15 @@ setup.py
 ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/requires.txt
 ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/top_level.txt
 ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/zip-safe
+launch/gazebo.sim.launch.py
+launch/joystick.control.launch.py
+launch/rsp.launch.py
 resource/ros2_diff_nav2_slam
 ros2_diff_nav2_slam/__init__.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/diff.robot.xacro
+urdf/gazebo_control_differential_drive.xacro
+urdf/inertial_macros.xacro
+urdf/robot.urdf.xacro

@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="diff_robot">
+    
+    <xacro:include filename="inertial_macros.xacro"/>
+
+    <material name="white">
+        <color rgba="1 1 1 1"/>
+    </material>
+
+    <material name="orange">
+        <color rgba="1 0.3 0.1 1"/>
+    </material> 
+
+    <material name="blue">
+        <color rgba="0.2 0.2 1 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <!-- BASE LINK -->
+    <link name="base_link"></link>
+
+    <!-- BASE JOINT -->
+    <joint name="chassis_joint" type="fixed">
+    <origin xyz="-0.05 0.0 0.0"/>
+    <parent link="base_link"/>
+    <child link="chassis_link"/>
+    </joint>
+
+    <!-- CHASSIS LINK -->
+    <link name="chassis_link">
+    <visual>
+        <origin xyz="0.095 0.0 0.0275" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.19 0.11 0.055"/>
+        </geometry>
+        <material name="red"/>
+    </visual>
+
+    <collision>
+        <geometry>
+            <box size="0.19 0.11 0.055"/>
+        </geometry>
+    </collision>
+    <xacro:inertial_box mass="0.1" x="0.19" y="0.11" z="0.055">
+        <origin xyz="0.0 0.0 0.0275" rpy="0 0 0"/>
+    </xacro:inertial_box>
+    </link>
+
+    <gazebo reference="chassis_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+    <!-- RIGHT WHEEL JOINT -->
+    <joint name="right_wheel_joint" type="continuous">
+        <origin xyz="0.0 -0.07 0.0" rpy="-1.57 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="right_wheel_link"/>
+        <axis xyz="0.0 0.0 1.0"/>
+    </joint>
+
+    <!-- RIGHT WHEEL LINK -->
+    <link name="right_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.0325" length="0.025"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+
+        <collision>
+            <geometry>
+                <cylinder radius="0.0325" length="0.025"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.0325">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="right_wheel_link">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <!-- LEFT WHEEL JOINT -->
+    <joint name="left_wheel_joint" type="continuous">
+        <origin xyz="0.0 0.07 0.0" rpy="1.57 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="left_wheel_link"/>
+        <axis xyz="0.0 0.0 -1.0"/>
+    </joint>
+    
+    <!-- LEFT WHEEL LINK -->
+    <link name="left_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.0325" length="0.025"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+
+        <collision>
+            <geometry>
+                <cylinder radius="0.0325" length="0.025"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.025" radius="0.0325">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="left_wheel_link">
+        <material>Gazebo/White</material>
+    </gazebo>
+
+    <!-- CAMERA JOINT -->
+    <joint name="camera_joint" type="fixed">
+        <origin xyz="0.18 0.0 0.09" rpy="0.0 0.0 0.0"/>
+        <parent link="chassis_link"/>
+        <child link="camera_link"/>
+    </joint>
+
+    <!-- CAMERA LINK -->
+    <link name="camera_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.015 0.04 0.08"/>
+            </geometry>
+            <material name="blue"/>
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="0.015 0.04 0.08"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+    </joint>
+
+    <link name="camera_link_optical"></link>
+
+    <!-- LIDAR CASE JOINT -->
+    <joint name="lidar_case_joint" type="fixed">
+        <origin xyz="0.065 0.0 0.09" rpy="0.0 0.0 0.0"/>
+        <parent link="chassis_link"/>
+        <child link="lidar_case_link"/>
+    </joint>
+    
+    <!-- LIDAR CASE LINK -->
+    <link name="lidar_case_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.085 0.09 0.1"/>
+        </geometry>
+        <material name="red"/>
+    </visual>
+
+    <collision>
+        <geometry>
+            <box size="0.085 0.09 0.1"/>
+        </geometry>
+    </collision>
+    <xacro:inertial_box mass="0.1" x="0.085" y="0.09" z="0.1">
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </xacro:inertial_box>
+    </link>
+    
+    <gazebo reference="lidar_case_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+    <!-- LIDAR  JOINT -->
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="0.0 0.0 0.06" rpy="0.0 0.0 4.71239"/>
+        <parent link="lidar_case_link"/>
+        <child link="lidar_link"/>
+    </joint>
+    
+    <!-- LIDAR LINK -->
+    <link name="lidar_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <cylinder radius="0.0175" length="0.0175"/>
+        </geometry>
+        <material name="blue"/>
+    </visual>
+    <collision>
+        <geometry>
+            <cylinder radius="0.0175" length="0.0175"/>
+        </geometry>
+    </collision>
+    <xacro:inertial_cylinder mass="0.1" length="0.0175" radius="0.0175">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="lidar_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <!-- CASTER HOLDER JOINT -->
+    <joint name="caster_holder_joint" type="fixed">
+        <origin xyz="0.17 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <parent link="chassis_link"/>
+        <child link="caster_holder_link"/>
+    </joint>
+    
+    <!-- CASTER HOLDER LINK -->
+    <link name="caster_holder_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <cylinder radius="0.0175" length="0.040"/>
+        </geometry>
+        <material name="white"/>
+    </visual>
+
+    <collision>
+        <geometry>
+            <cylinder radius="0.0175" length="0.040"/>
+        </geometry>
+    </collision>
+    <xacro:inertial_cylinder mass="0.1" length="0.0175" radius="0.040">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:inertial_cylinder>
+    </link>
+
+    <gazebo reference="caster_holder_link">
+        <material>Gazebo/white</material>
+    </gazebo>
+
+    <!-- CASTER BALL JOINT -->
+    <joint name="caster_ball_joint" type="fixed">
+        <origin xyz="0.0 0.0 -0.020" rpy="0.0 0.0 0.0"/>
+        <parent link="caster_holder_link"/>
+        <child link="caster_link"/>
+    </joint>
+    
+    <!-- CASTER BALL LINK -->
+    <link name="caster_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <sphere radius="0.0125"/>
+        </geometry>
+        <material name="white"/>
+    </visual>
+
+    <collision>
+        <geometry>
+            <sphere radius="0.0125"/>
+        </geometry>
+    </collision>
+    <xacro:inertial_sphere mass="0.1" radius="0.0125">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:inertial_sphere>
+    </link>
+
+    <gazebo reference="caster_link">
+        <material>Gazebo/white</material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
+
+    <!-- GAZEBO Lidar Plugin -->
+    <gazebo reference="lidar_link">
+        <material>Gazebo/Blue</material>
+        <sensor name="laser" type="ray">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <ray>
+            <scan>
+                <horizontal>
+                <samples>360</samples>
+                <!-- <resolution>1</resolution> -->
+                <!-- <min_angle>0.00</min_angle> -->
+                <min_angle>0.00</min_angle>
+                <max_angle>6.28319</max_angle> 
+                <!-- 3.14 is 180 degree -->
+                </horizontal>
+            </scan>
+            <range>
+                <min>0.3</min>
+                <max>12</max>
+                <!-- <min>0.120</min>
+                <max>3.5</max> -->
+                <!-- <resolution>0.015</resolution> -->
+            </range>
+            </ray>
+            <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
+            <ros>
+                <remapping>~/out:=scan</remapping>
+            </ros>
+            <output_type>sensor_msgs/LaserScan</output_type>
+            <frame_name>lidar_link</frame_name>
+            </plugin>
+        </sensor>
+        </gazebo>
+    
+    <!-- CAMERA  Plugin -->
+    <gazebo reference="camera_link">
+        <material>Gazebo/Black</material>
+        <sensor type="camera" name="camera">
+        <pose>0 0 0 0 0 0</pose>
+        <visualize>true</visualize>
+        <update_rate>10.0</update_rate>
+        <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+            <width>800</width>
+            <height>800</height>
+            <format>R8G8B8</format>
+        </image>
+        <clip>
+            <near>0.02</near>
+            <far>300</far>
+        </clip>
+        </camera>
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+            <alwaysOn>true</alwaysOn>
+            <updateRate>0.0</updateRate>
+            <cameraName>rrbot/camera1</cameraName>
+            <imageTopicName>image_raw</imageTopicName>
+            <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+            <frameName>camera_link</frameName>
+            <hackBaseline>0.07</hackBaseline>
+            <distortionK1>0.0</distortionK1>
+            <distortionK2>0.0</distortionK2>
+            <distortionK3>0.0</distortionK3>
+            <distortionT1>0.0</distortionT1>
+            <distortionT2>0.0</distortionT2>
+        </plugin>
+        </sensor>
+    </gazebo>
+    
+</robot>
