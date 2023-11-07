@@ -28,17 +28,17 @@ def generate_launch_description():
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
              )
     
-    joystick = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([os.path.join(
-                get_package_share_directory(package_name),'launch','joystick.control.launch.py'
-            )])
-    )
+    # joystick = IncludeLaunchDescription(
+    #         PythonLaunchDescriptionSource([os.path.join(
+    #             get_package_share_directory(package_name),'launch','joystick.control.launch.py'
+    #         )])
+    # )
 
     return LaunchDescription([    
 
         rsp,
         gazebo,
-        joystick,
+        # joystick,
         
         Node(package='gazebo_ros', executable='spawn_entity.py',
                         arguments=['-topic', 'robot_description',
