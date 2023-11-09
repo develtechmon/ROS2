@@ -23,34 +23,37 @@ def generate_launch_description():
             )]), launch_arguments={'use_sim_time': 'true'}.items()
     )
     
+    gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
              )
     
-    joystick = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([os.path.join(
-                get_package_share_directory(package_name),'launch','joystick.control.launch.py'
-            )])
-    )
+    # joystick = IncludeLaunchDescription(
+    #         PythonLaunchDescriptionSource([os.path.join(
+    #             get_package_share_directory(package_name),'launch','joystick.control.launch.py'
+    #         )])
+    # )
 
     return LaunchDescription([    
 
         rsp,
         gazebo,
-        joystick,
+        # joystick,
         
         Node(package='gazebo_ros', executable='spawn_entity.py',
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'botluke'],
                         output='screen'),
         
-        Node(
-            package='rviz2',
-            namespace='rviz2',
-            executable='rviz2',
-            name='simulation_in_rviz2'
-        ),
+        # Node(
+        #     package='rviz2',
+        #     namespace='rviz2',
+        #     executable='rviz2',
+        #     name='simulation_in_rviz2'
+        # ),
         
         DeclareLaunchArgument(
             'use_sim_time',

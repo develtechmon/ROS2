@@ -1,0 +1,23 @@
+[0.822s] Invoking command in '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/src/ros2_diff_nav2_slam': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/prefix_override:/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_diff_nav2_slam build --build-base /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build install --record /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log --single-version-externally-managed
+[1.034s] running egg_info
+[1.035s] writing ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/PKG-INFO
+[1.036s] writing dependency_links to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/dependency_links.txt
+[1.036s] writing entry points to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/entry_points.txt
+[1.036s] writing requirements to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/requires.txt
+[1.036s] writing top-level names to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/top_level.txt
+[1.038s] reading manifest file '../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/SOURCES.txt'
+[1.039s] writing manifest file '../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/SOURCES.txt'
+[1.039s] running build
+[1.039s] running build_py
+[1.040s] running install
+[1.040s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.040s]   warnings.warn(
+[1.040s] running install_lib
+[1.041s] running install_data
+[1.042s] copying config/my_controllers.yaml -> /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/config
+[1.042s] running install_egg_info
+[1.044s] removing '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.044s] Copying ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info to /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam-0.0.0-py3.10.egg-info
+[1.045s] running install_scripts
+[1.065s] writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log'
+[1.088s] Invoked command in '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/src/ros2_diff_nav2_slam' returned '0': PYTHONPATH=/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/prefix_override:/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_diff_nav2_slam build --build-base /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build install --record /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log --single-version-externally-managed

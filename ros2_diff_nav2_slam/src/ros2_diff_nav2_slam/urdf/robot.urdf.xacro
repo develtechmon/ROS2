@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="diff_robot">
+
     <xacro:include filename="diff.robot.xacro"/>
-    <xacro:include filename="gazebo_control_differential_drive.xacro" />
+    <xacro:include filename="ros2_control.xacro" />
+    <!-- <xacro:include filename="gazebo_control_differential_drive.xacro" /> -->
+
 </robot>
