@@ -31,6 +31,30 @@ def generate_launch_description():
                     launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
              )
     
+    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
+                        arguments=['-topic', 'robot_description',
+                                   '-entity', 'botluke'],
+                        output='screen')
+    
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["diff_cont"],
+    )
+    
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_broad"],
+    )
+    
+    # rviz = Node(
+    #     package='rviz2',
+    #     namespace='rviz2',
+    #     executable='rviz2',
+    #     name='simulation_in_rviz2'
+    # ),
+
     # joystick = IncludeLaunchDescription(
     #         PythonLaunchDescriptionSource([os.path.join(
     #             get_package_share_directory(package_name),'launch','joystick.control.launch.py'
@@ -41,20 +65,12 @@ def generate_launch_description():
 
         rsp,
         gazebo,
-        # joystick,
-        
-        Node(package='gazebo_ros', executable='spawn_entity.py',
-                        arguments=['-topic', 'robot_description',
-                                   '-entity', 'botluke'],
-                        output='screen'),
-        
-        # Node(
-        #     package='rviz2',
-        #     namespace='rviz2',
-        #     executable='rviz2',
-        #     name='simulation_in_rviz2'
-        # ),
-        
+        #joystick,
+        spawn_entity,
+        diff_drive_spawner,
+        joint_broad_spawner,
+        #rviz
+
         DeclareLaunchArgument(
             'use_sim_time',
             default_value='false',
