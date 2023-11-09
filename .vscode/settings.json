@@ -1,5 +1,11 @@
 {
     "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
         "ros2_diff_nav2_slam/build": true,
         "ros2_diff_nav2_slam/install": true,
         "ros2_diff_nav2_slam/log": true,

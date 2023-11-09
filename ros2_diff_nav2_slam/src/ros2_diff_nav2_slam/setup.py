@@ -26,6 +26,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        'motor_subscriber_node = ros2_diff_nav2_slam.motor_subscriber_node:main',
         ],
     },
 )
