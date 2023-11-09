@@ -18,6 +18,7 @@ launch/launch_sim.launch.py
 launch/rsp.launch.py
 resource/ros2_diff_nav2_slam
 ros2_diff_nav2_slam/__init__.py
+ros2_diff_nav2_slam/motor_subscriber_node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
