@@ -7,7 +7,8 @@ class MotorController(Node):
     def __init__(self):
         super().__init__('motor_controller')
         self.cmd_vel_sub = self.create_subscription(
-            Twist, '/cmd_vel', self.cmd_vel_callback, 10)
+            # Twist, '/cmd_vel', self.cmd_vel_callback, 10)
+            Twist, '/diff_cont/cmd_vel_unstamped', self.cmd_vel_callback, 10)
         
         # Define GPIO pins for left and right wheels as class attributes
         self.left_motor_pins = {
