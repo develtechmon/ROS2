@@ -58,7 +58,7 @@ def generate_launch_description():
         spawn_entity,
         # joystick,
         diff_drive_spawner,
-        joint_broad_spawner
+        joint_broad_spawner,
 
         Node(
             package='rviz2',

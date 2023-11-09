@@ -1,0 +1,49 @@
+[2.384s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/src/ros2_diff_nav2_slam': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_diff_nav2_slam build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log --single-version-externally-managed
+[3.030s] running egg_info
+[3.031s] creating ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info
+[3.031s] writing ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/PKG-INFO
+[3.032s] writing dependency_links to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/dependency_links.txt
+[3.033s] writing entry points to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/entry_points.txt
+[3.035s] writing requirements to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/requires.txt
+[3.040s] writing top-level names to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/top_level.txt
+[3.041s] writing manifest file '../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/SOURCES.txt'
+[3.073s] reading manifest file '../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/SOURCES.txt'
+[3.075s] writing manifest file '../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/SOURCES.txt'
+[3.082s] running build
+[3.082s] running build_py
+[3.082s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build
+[3.083s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build/lib
+[3.083s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build/lib/ros2_diff_nav2_slam
+[3.085s] copying ros2_diff_nav2_slam/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build/lib/ros2_diff_nav2_slam
+[3.085s] running install
+[3.086s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.086s]   warnings.warn(
+[3.089s] running install_lib
+[3.091s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam
+[3.091s] copying /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build/lib/ros2_diff_nav2_slam/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam
+[3.099s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam/__init__.py to __init__.cpython-310.pyc
+[3.107s] running install_data
+[3.107s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ament_index
+[3.108s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ament_index/resource_index
+[3.111s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ament_index/resource_index/packages
+[3.115s] copying resource/ros2_diff_nav2_slam -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ament_index/resource_index/packages
+[3.115s] copying package.xml -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam
+[3.118s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/launch
+[3.119s] copying launch/launch_sim.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/launch
+[3.119s] copying launch/gazebo.sim.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/launch
+[3.120s] copying launch/rsp.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/launch
+[3.120s] copying launch/joystick.control.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/launch
+[3.120s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/urdf
+[3.120s] copying urdf/ros2_control.xacro -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/urdf
+[3.120s] copying urdf/inertial_macros.xacro -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/urdf
+[3.122s] copying urdf/diff.robot.xacro -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/urdf
+[3.122s] copying urdf/gazebo_control_differential_drive.xacro -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/urdf
+[3.122s] copying urdf/robot.urdf.xacro -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/urdf
+[3.123s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/config
+[3.149s] copying config/my_controllers.yaml -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/config
+[3.150s] copying config/gazebo_params.yaml -> /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/share/ros2_diff_nav2_slam/config
+[3.154s] running install_egg_info
+[3.160s] Copying ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info to /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam-0.0.0-py3.10.egg-info
+[3.162s] running install_scripts
+[3.238s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log'
+[3.343s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/src/ros2_diff_nav2_slam' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_diff_nav2_slam build --build-base /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build install --record /home/jlukas/Desktop/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log --single-version-externally-managed

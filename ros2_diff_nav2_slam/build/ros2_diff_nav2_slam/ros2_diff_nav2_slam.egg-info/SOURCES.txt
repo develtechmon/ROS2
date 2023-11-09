@@ -9,9 +9,11 @@ setup.py
 ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/top_level.txt
 ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/zip-safe
 config/gazebo_params.yaml
+config/joystick.yaml
 config/my_controllers.yaml
 launch/gazebo.sim.launch.py
 launch/joystick.control.launch.py
+launch/joystick.steam.launch.py
 launch/launch_sim.launch.py
 launch/rsp.launch.py
 resource/ros2_diff_nav2_slam

@@ -14,6 +14,8 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([os.path.join(
                 get_package_share_directory('teleop_twist_joy'),'launch','teleop-launch.py'
             )]),
+    launch_arguments={'cmd_vel_remapping': '/cmd_vel:=/diff_cont/cmd_vel_unstamped'}.items()
+
     )
 
     return LaunchDescription([
