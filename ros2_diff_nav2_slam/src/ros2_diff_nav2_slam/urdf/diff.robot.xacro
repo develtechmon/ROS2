@@ -284,7 +284,7 @@
         <material>Gazebo/Blue</material>
         <sensor name="laser" type="ray">
             <pose> 0 0 0 0 0 0 </pose>
-            <visualize>true</visualize>
+            <visualize>false</visualize>
             <update_rate>10</update_rate>
             <ray>
             <scan>
@@ -307,7 +307,7 @@
             </ray>
             <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
             <ros>
-                <remapping>~/out:=scan</remapping>
+                <remapping>~/out:=scan_sim</remapping>
             </ros>
             <output_type>sensor_msgs/LaserScan</output_type>
             <frame_name>lidar_link</frame_name>
