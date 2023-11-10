@@ -16,6 +16,7 @@ setup(
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*')),
         (os.path.join('share', package_name, 'param'), glob('param/*')),
         (os.path.join('share', package_name, 'world/maze'), glob('world/maze/*')),
+        (os.path.join('share', package_name, 'world/maze_v1'), glob('world/maze_v1/*')),
 
     ],
     install_requires=['setuptools'],

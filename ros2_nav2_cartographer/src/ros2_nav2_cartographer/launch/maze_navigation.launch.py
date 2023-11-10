@@ -27,7 +27,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch')
-    maze_path = os.path.join(get_package_share_directory('ros2_nav2_cartographer'),'world','maze','model.sdf')
+    maze_path = os.path.join(get_package_share_directory('ros2_nav2_cartographer'),'world','maze_v1','model.sdf')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
     # config_dir = os.path.join(get_package_share_directory('autonomous_tb3'),'config')
@@ -36,8 +36,11 @@ def generate_launch_description():
     # rviz_config= os.path.join(config_dir,'tb3_nav.rviz')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    x_pose = LaunchConfiguration('x_pose', default='-2.50')
-    y_pose = LaunchConfiguration('y_pose', default='-6.14')
+    # x_pose = LaunchConfiguration('x_pose', default='-2.50')
+    # y_pose = LaunchConfiguration('y_pose', default='-6.14')
+    
+    x_pose = LaunchConfiguration('x_pose', default='2.5844')
+    y_pose = LaunchConfiguration('y_pose', default='-1.5859')
 
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(

@@ -12,7 +12,12 @@
         "ros2_diff_nav2_slam/.vscode": true,
         "ros2_diff_nav2_slam/src/ros2_diff_nav2_slam/test": true,
         "ros2_diff_nav2_slam/src/ros2_diff_nav2_slam/resource": true,
-        "ros2_diff_nav2_slam/src/ros2_diff_nav2_slam/setup.cfg": true
+        "ros2_diff_nav2_slam/src/ros2_diff_nav2_slam/setup.cfg": true,
+        "ros2_nav2_cartographer/build": true,
+        "ros2_nav2_cartographer/install": true,
+        "ros2_nav2_cartographer/log": true,
+        "ros2_nav2_cartographer/src/ros2_nav2_cartographer/setup.cfg": true,
+        "ros2_nav2_cartographer/src/ros2_nav2_cartographer/test": true
     },
     "hide-files.files": []
 }

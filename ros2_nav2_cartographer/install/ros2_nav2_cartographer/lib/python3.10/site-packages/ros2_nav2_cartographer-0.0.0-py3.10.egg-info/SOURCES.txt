@@ -8,10 +8,14 @@ setup.py
 ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/requires.txt
 ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/top_level.txt
 ../../build/ros2_nav2_cartographer/ros2_nav2_cartographer.egg-info/zip-safe
+config/maze_map.pgm
+config/maze_map.yaml
 config/tb3_world.pgm
 config/tb3_world.yaml
 config/turtlebot3_lds_2d.lua
+launch/maze_mapping.launch.py
 launch/maze_navigation.launch.py
+launch/maze_navigation_nav2.launch.py
 launch/tb3_mapping.launch.py
 launch/tb3_navigation.launch.py
 param/tb3_nav_params.yaml
@@ -24,3 +28,5 @@ test/test_flake8.py
 test/test_pep257.py
 world/maze/model.config
 world/maze/model.sdf
+world/maze_v1/model.config
+world/maze_v1/model.sdf
