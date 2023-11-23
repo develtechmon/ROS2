@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.004521] (ros2_diff_nav2_slam) JobQueued: {'identifier': 'ros2_diff_nav2_slam', 'dependencies': OrderedDict()}
+[0.005352] (ros2_diff_nav2_slam) JobStarted: {'identifier': 'ros2_diff_nav2_slam'}
+[0.096910] (-) TimerEvent: {}
+[0.198812] (-) TimerEvent: {}
+[0.300869] (-) TimerEvent: {}
+[0.402412] (-) TimerEvent: {}
+[0.505726] (-) TimerEvent: {}
+[0.607283] (-) TimerEvent: {}
+[0.710798] (-) TimerEvent: {}
+[0.812989] (-) TimerEvent: {}
+[0.920664] (-) TimerEvent: {}
+[1.029399] (-) TimerEvent: {}
+[1.132040] (-) TimerEvent: {}
+[1.239008] (-) TimerEvent: {}
+[1.343449] (-) TimerEvent: {}
+[1.444976] (-) TimerEvent: {}
+[1.547916] (-) TimerEvent: {}
+[1.650515] (-) TimerEvent: {}
+[1.753807] (-) TimerEvent: {}
+[1.856047] (-) TimerEvent: {}
+[1.957566] (-) TimerEvent: {}
+[2.059246] (-) TimerEvent: {}
+[2.160776] (-) TimerEvent: {}
+[2.262578] (-) TimerEvent: {}
+[2.363903] (-) TimerEvent: {}
+[2.465759] (-) TimerEvent: {}
+[2.567281] (-) TimerEvent: {}
+[2.668763] (-) TimerEvent: {}
+[2.770443] (-) TimerEvent: {}
+[2.871689] (-) TimerEvent: {}
+[2.972966] (-) TimerEvent: {}
+[3.074630] (-) TimerEvent: {}
+[3.175877] (-) TimerEvent: {}
+[3.277206] (-) TimerEvent: {}
+[3.378562] (-) TimerEvent: {}
+[3.479850] (-) TimerEvent: {}
+[3.581245] (-) TimerEvent: {}
+[3.683381] (-) TimerEvent: {}
+[3.784703] (-) TimerEvent: {}
+[3.886000] (-) TimerEvent: {}
+[3.987827] (-) TimerEvent: {}
+[4.089137] (-) TimerEvent: {}
+[4.190580] (-) TimerEvent: {}
+[4.291815] (-) TimerEvent: {}
+[4.393111] (-) TimerEvent: {}
+[4.494449] (-) TimerEvent: {}
+[4.595750] (-) TimerEvent: {}
+[4.697286] (-) TimerEvent: {}
+[4.798680] (-) TimerEvent: {}
+[4.900114] (-) TimerEvent: {}
+[5.001516] (-) TimerEvent: {}
+[5.102978] (-) TimerEvent: {}
+[5.204444] (-) TimerEvent: {}
+[5.305965] (-) TimerEvent: {}
+[5.407735] (-) TimerEvent: {}
+[5.510008] (-) TimerEvent: {}
+[5.613664] (-) TimerEvent: {}
+[5.716313] (-) TimerEvent: {}
+[5.818946] (-) TimerEvent: {}
+[5.922416] (-) TimerEvent: {}
+[6.024299] (-) TimerEvent: {}
+[6.127504] (-) TimerEvent: {}
+[6.229710] (-) TimerEvent: {}
+[6.331238] (-) TimerEvent: {}
+[6.434087] (-) TimerEvent: {}
+[6.535532] (-) TimerEvent: {}
+[6.638688] (-) TimerEvent: {}
+[6.740405] (-) TimerEvent: {}
+[6.843491] (-) TimerEvent: {}
+[6.945038] (-) TimerEvent: {}
+[7.051718] (-) TimerEvent: {}
+[7.153065] (-) TimerEvent: {}
+[7.254695] (-) TimerEvent: {}
+[7.355995] (-) TimerEvent: {}
+[7.457283] (-) TimerEvent: {}
+[7.558567] (-) TimerEvent: {}
+[7.659947] (-) TimerEvent: {}
+[7.761343] (-) TimerEvent: {}
+[7.863070] (-) TimerEvent: {}
+[7.964393] (-) TimerEvent: {}
+[8.065759] (-) TimerEvent: {}
+[8.167146] (-) TimerEvent: {}
+[8.268442] (-) TimerEvent: {}
+[8.369871] (-) TimerEvent: {}
+[8.471248] (-) TimerEvent: {}
+[8.572476] (-) TimerEvent: {}
+[8.673771] (-) TimerEvent: {}
+[8.775191] (-) TimerEvent: {}
+[8.876495] (-) TimerEvent: {}
+[8.977885] (-) TimerEvent: {}
+[9.079236] (-) TimerEvent: {}
+[9.180534] (-) TimerEvent: {}
+[9.281822] (-) TimerEvent: {}
+[9.383193] (-) TimerEvent: {}
+[9.484611] (-) TimerEvent: {}
+[9.585867] (-) TimerEvent: {}
+[9.687208] (-) TimerEvent: {}
+[9.788494] (-) TimerEvent: {}
+[9.889904] (-) TimerEvent: {}
+[9.991377] (-) TimerEvent: {}
+[10.092675] (-) TimerEvent: {}
+[10.194044] (-) TimerEvent: {}
+[10.295515] (-) TimerEvent: {}
+[10.396923] (-) TimerEvent: {}
+[10.498308] (-) TimerEvent: {}
+[10.599891] (-) TimerEvent: {}
+[10.701708] (-) TimerEvent: {}
+[10.803536] (-) TimerEvent: {}
+[10.904937] (-) TimerEvent: {}
+[11.006314] (-) TimerEvent: {}
+[11.107618] (-) TimerEvent: {}
+[11.209042] (-) TimerEvent: {}
+[11.310853] (-) TimerEvent: {}
+[11.412792] (-) TimerEvent: {}
+[11.514199] (-) TimerEvent: {}
+[11.615908] (-) TimerEvent: {}
+[11.717644] (-) TimerEvent: {}
+[11.819276] (-) TimerEvent: {}
+[11.920566] (-) TimerEvent: {}
+[12.021862] (-) TimerEvent: {}
+[12.123521] (-) TimerEvent: {}
+[12.225177] (-) TimerEvent: {}
+[12.327754] (-) TimerEvent: {}
+[12.429150] (-) TimerEvent: {}
+[12.530582] (-) TimerEvent: {}
+[12.632211] (-) TimerEvent: {}
+[12.733841] (-) TimerEvent: {}
+[12.835429] (-) TimerEvent: {}
+[12.936947] (-) TimerEvent: {}
+[12.994014] (ros2_diff_nav2_slam) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_diff_nav2_slam', 'build', '--build-base', '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build', 'install', '--record', '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/src/ros2_diff_nav2_slam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jlukas', 'SSH_CLIENT': '192.168.8.140 60428 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install:/home/jlukas/ldlidar_ros2_ws/install:/home/jlukas/My_Project/ROS2/rover/install:/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jlukas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam:/home/jlukas/My_Project/ROS2/rover/install/rover:/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.140 60428 192.168.8.165 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/prefix_override:/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages:/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages:/home/jlukas/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/home/jlukas/My_Project/ROS2/ros2_differential_drive_robot/install/ros2_differential_drive_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2'}, 'shell': False}
+[13.040219] (-) TimerEvent: {}
+[13.149738] (-) TimerEvent: {}
+[13.251536] (-) TimerEvent: {}
+[13.352708] (-) TimerEvent: {}
+[13.453946] (-) TimerEvent: {}
+[13.555421] (-) TimerEvent: {}
+[13.656952] (-) TimerEvent: {}
+[13.758311] (-) TimerEvent: {}
+[13.859537] (-) TimerEvent: {}
+[13.960973] (-) TimerEvent: {}
+[14.062553] (-) TimerEvent: {}
+[14.163799] (-) TimerEvent: {}
+[14.265049] (-) TimerEvent: {}
+[14.366389] (-) TimerEvent: {}
+[14.467644] (-) TimerEvent: {}
+[14.569002] (-) TimerEvent: {}
+[14.670489] (-) TimerEvent: {}
+[14.771809] (-) TimerEvent: {}
+[14.873144] (-) TimerEvent: {}
+[14.974575] (-) TimerEvent: {}
+[15.076077] (-) TimerEvent: {}
+[15.177333] (-) TimerEvent: {}
+[15.278861] (-) TimerEvent: {}
+[15.380154] (-) TimerEvent: {}
+[15.481411] (-) TimerEvent: {}
+[15.582881] (-) TimerEvent: {}
+[15.684310] (-) TimerEvent: {}
+[15.785609] (-) TimerEvent: {}
+[15.887073] (-) TimerEvent: {}
+[15.988376] (-) TimerEvent: {}
+[16.089722] (-) TimerEvent: {}
+[16.191070] (-) TimerEvent: {}
+[16.292342] (-) TimerEvent: {}
+[16.393672] (-) TimerEvent: {}
+[16.406170] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running egg_info\n'}
+[16.413929] (ros2_diff_nav2_slam) StdoutLine: {'line': b'writing ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/PKG-INFO\n'}
+[16.418293] (ros2_diff_nav2_slam) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/dependency_links.txt\n'}
+[16.421066] (ros2_diff_nav2_slam) StdoutLine: {'line': b'writing entry points to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/entry_points.txt\n'}
+[16.423279] (ros2_diff_nav2_slam) StdoutLine: {'line': b'writing requirements to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/requires.txt\n'}
+[16.425127] (ros2_diff_nav2_slam) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/top_level.txt\n'}
+[16.449884] (ros2_diff_nav2_slam) StdoutLine: {'line': b"reading manifest file '../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/SOURCES.txt'\n"}
+[16.466061] (ros2_diff_nav2_slam) StdoutLine: {'line': b"writing manifest file '../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info/SOURCES.txt'\n"}
+[16.468087] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running build\n'}
+[16.469286] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running build_py\n'}
+[16.474079] (ros2_diff_nav2_slam) StdoutLine: {'line': b'copying ros2_diff_nav2_slam/motor_subscriber_node.py -> /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build/lib/ros2_diff_nav2_slam\n'}
+[16.479531] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running install\n'}
+[16.481341] (ros2_diff_nav2_slam) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[16.483025] (ros2_diff_nav2_slam) StderrLine: {'line': b'  warnings.warn(\n'}
+[16.484746] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running install_lib\n'}
+[16.493973] (-) TimerEvent: {}
+[16.495288] (ros2_diff_nav2_slam) StdoutLine: {'line': b'copying /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/build/lib/ros2_diff_nav2_slam/motor_subscriber_node.py -> /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam\n'}
+[16.505725] (ros2_diff_nav2_slam) StdoutLine: {'line': b'byte-compiling /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam/motor_subscriber_node.py to motor_subscriber_node.cpython-310.pyc\n'}
+[16.522142] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running install_data\n'}
+[16.541510] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.560518] (ros2_diff_nav2_slam) StdoutLine: {'line': b"removing '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.565597] (ros2_diff_nav2_slam) StdoutLine: {'line': b'Copying ../../build/ros2_diff_nav2_slam/ros2_diff_nav2_slam.egg-info to /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/python3.10/site-packages/ros2_diff_nav2_slam-0.0.0-py3.10.egg-info\n'}
+[16.583247] (ros2_diff_nav2_slam) StdoutLine: {'line': b'running install_scripts\n'}
+[16.594430] (-) TimerEvent: {}
+[16.695900] (-) TimerEvent: {}
+[16.797238] (-) TimerEvent: {}
+[16.822863] (ros2_diff_nav2_slam) StdoutLine: {'line': b'Installing motor_subscriber_node script to /home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/install/ros2_diff_nav2_slam/lib/ros2_diff_nav2_slam\n'}
+[16.829116] (ros2_diff_nav2_slam) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/My_Project/ROS2/ros2_diff_nav2_slam/build/ros2_diff_nav2_slam/install.log'\n"}
+[16.897595] (-) TimerEvent: {}
+[16.999376] (-) TimerEvent: {}
+[17.100815] (-) TimerEvent: {}
+[17.115916] (ros2_diff_nav2_slam) CommandEnded: {'returncode': 0}
+[17.201391] (-) TimerEvent: {}
+[17.303276] (-) TimerEvent: {}
+[17.404974] (-) TimerEvent: {}
+[17.607168] (-) TimerEvent: {}
+[17.709793] (-) TimerEvent: {}
+[17.813260] (-) TimerEvent: {}
+[17.915980] (-) TimerEvent: {}
+[18.019663] (-) TimerEvent: {}
+[18.086008] (ros2_diff_nav2_slam) JobEnded: {'identifier': 'ros2_diff_nav2_slam', 'rc': 0}
+[18.094049] (-) EventReactorShutdown: {}

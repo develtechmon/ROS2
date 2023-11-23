@@ -23,6 +23,7 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/jlukas/ldlidar_ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/jlukas/My_Project/ROS2/ros2_rpi_cv2/install\local_setup.ps1"
 
 # source this prefix

@@ -52,8 +52,11 @@ class MotorController(Node):
         # Calculate motor speeds based on linear and angular velocity
         #left_speed  = (2*linear - (angular * wheel_base))/2*wheel_radius
         #right_speed = (2*linear + (angular * wheel_base))/2*wheel_radius
-        left_speed  = (linear - angular) / 2
-        right_speed = (linear + angular) / 2
+        # left_speed  = (linear - angular) / 2
+        # right_speed = (linear + angular) / 2
+
+        left_speed  = (linear - 0.5 * angular) / 2
+        right_speed = (linear + 0.5 * angular) / 2
 
         # Convert speed values to PWM duty cycle
         left_duty_cycle = abs(left_speed) * 100
