@@ -54,9 +54,9 @@ sudo apt-get install python3-serial
 
 To run with local echo enabled run following command
 ```
-miniterm -e <serial port> <baud rate>
+pyserial-miniterm -e <serial port> <baud rate>
 
-miniterm -e /dev/ttyUSB0 57600
+pyserial-miniterm -e /dev/ttyUSB0 57600
 ```
 
 
