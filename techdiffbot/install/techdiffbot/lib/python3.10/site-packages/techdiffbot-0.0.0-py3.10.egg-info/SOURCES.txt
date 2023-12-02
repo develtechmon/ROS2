@@ -9,7 +9,11 @@ setup.py
 ../../build/techdiffbot/techdiffbot.egg-info/top_level.txt
 ../../build/techdiffbot/techdiffbot.egg-info/zip-safe
 config/gazebo_params.yaml
+config/joystick.yaml
+config/my_controllers.yaml
 launch/gazebo.sim.launch.py
+launch/joystick.control.launch.py
+launch/joystick.steam.launch.py
 launch/rsp.launch.py
 resource/techdiffbot
 techdiffbot/__init__.py
@@ -20,3 +24,4 @@ urdf/core.robot.xacro
 urdf/diff.robot.urdf.xacro
 urdf/gazebo_control_differential_drive.xacro
 urdf/inertial_macros.xacro
+urdf/ros2_control.xacro

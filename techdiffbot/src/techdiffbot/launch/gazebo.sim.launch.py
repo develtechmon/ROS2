@@ -55,20 +55,20 @@ def generate_launch_description():
         name='simulation_in_rviz2'
     ),
 
-    # joystick = IncludeLaunchDescription(
-    #         PythonLaunchDescriptionSource([os.path.join(
-    #             get_package_share_directory(package_name),'launch','joystick.control.launch.py'
-    #         )])
-    # )
+    joystick = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([os.path.join(
+                get_package_share_directory(package_name),'launch','joystick.control.launch.py'
+            )])
+    )
 
     return LaunchDescription([    
 
         rsp,
         gazebo,
-        #joystick,
         spawn_entity,
-        #diff_drive_spawner,
-        #joint_broad_spawner,
+        diff_drive_spawner,
+        joint_broad_spawner,
+        joystick,
         #rviz,
 
         DeclareLaunchArgument(
