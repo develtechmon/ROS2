@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.004377] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.005059] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.005371] (techdiffbot) JobQueued: {'identifier': 'techdiffbot', 'dependencies': OrderedDict()}
+[0.006384] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.097068] (-) TimerEvent: {}
+[0.199203] (-) TimerEvent: {}
+[0.301342] (-) TimerEvent: {}
+[0.403875] (-) TimerEvent: {}
+[0.506643] (-) TimerEvent: {}
+[0.612743] (-) TimerEvent: {}
+[0.714236] (-) TimerEvent: {}
+[0.816911] (-) TimerEvent: {}
+[0.919399] (-) TimerEvent: {}
+[1.021183] (-) TimerEvent: {}
+[1.034990] (serial) JobStarted: {'identifier': 'serial'}
+[1.121705] (-) TimerEvent: {}
+[1.228537] (-) TimerEvent: {}
+[1.332299] (-) TimerEvent: {}
+[1.434228] (-) TimerEvent: {}
+[1.536092] (-) TimerEvent: {}
+[1.638637] (-) TimerEvent: {}
+[1.740595] (-) TimerEvent: {}
+[1.842471] (-) TimerEvent: {}
+[1.944562] (-) TimerEvent: {}
+[2.030934] (techdiffbot) JobStarted: {'identifier': 'techdiffbot'}
+[2.045716] (-) TimerEvent: {}
+[2.148410] (-) TimerEvent: {}
+[2.251425] (-) TimerEvent: {}
+[2.352801] (-) TimerEvent: {}
+[2.454862] (-) TimerEvent: {}
+[2.629101] (-) TimerEvent: {}
+[2.732594] (-) TimerEvent: {}
+[2.834696] (-) TimerEvent: {}
+[2.938263] (-) TimerEvent: {}
+[3.040266] (-) TimerEvent: {}
+[3.143845] (-) TimerEvent: {}
+[3.246226] (-) TimerEvent: {}
+[3.346222] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[3.346854] (-) TimerEvent: {}
+[3.357035] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[3.364448] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jlukas/My_Project/ROS2/techdiffbot/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/jlukas/My_Project/ROS2/techdiffbot/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 54420 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial/lib:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/My_Project/ROS2/techdiffbot/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install:/home/jlukas/ldlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jlukas/My_Project/ROS2/techdiffbot/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 54420 192.168.8.165 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble')]), 'shell': False}
+[3.397264] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[3.406386] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[3.415498] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 54420 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial/lib:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/My_Project/ROS2/techdiffbot/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install:/home/jlukas/ldlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 54420 192.168.8.165 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble')]), 'shell': False}
+[3.448059] (-) TimerEvent: {}
+[3.550360] (-) TimerEvent: {}
+[3.652438] (-) TimerEvent: {}
+[3.754834] (-) TimerEvent: {}
+[3.866234] (-) TimerEvent: {}
+[3.968997] (-) TimerEvent: {}
+[4.070794] (-) TimerEvent: {}
+[4.074164] (serial) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[4.097331] (serial) StdoutLine: {'line': b'[ 28%] Built target gtest\n'}
+[4.147053] (serial) StdoutLine: {'line': b'[ 57%] Built target serial\n'}
+[4.171146] (-) TimerEvent: {}
+[4.233869] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[4.271469] (-) TimerEvent: {}
+[4.375645] (-) TimerEvent: {}
+[4.478589] (-) TimerEvent: {}
+[4.486476] (serial) StdoutLine: {'line': b'[ 71%] Built target serial-test\n'}
+[4.494618] (serial) StdoutLine: {'line': b'[ 85%] Built target serial_example\n'}
+[4.514887] (serial) StdoutLine: {'line': b'[100%] Built target serial-test-timer\n'}
+[4.578971] (-) TimerEvent: {}
+[4.680582] (-) TimerEvent: {}
+[4.782037] (-) TimerEvent: {}
+[4.883530] (-) TimerEvent: {}
+[4.985176] (-) TimerEvent: {}
+[5.086535] (-) TimerEvent: {}
+[5.188123] (-) TimerEvent: {}
+[5.289564] (-) TimerEvent: {}
+[5.390934] (-) TimerEvent: {}
+[5.492381] (-) TimerEvent: {}
+[5.593728] (-) TimerEvent: {}
+[5.695136] (-) TimerEvent: {}
+[5.796610] (-) TimerEvent: {}
+[5.898009] (-) TimerEvent: {}
+[5.999319] (-) TimerEvent: {}
+[6.100783] (-) TimerEvent: {}
+[6.202220] (-) TimerEvent: {}
+[6.303670] (-) TimerEvent: {}
+[6.405056] (-) TimerEvent: {}
+[6.506505] (-) TimerEvent: {}
+[6.608040] (-) TimerEvent: {}
+[6.709408] (-) TimerEvent: {}
+[6.810895] (-) TimerEvent: {}
+[6.912316] (-) TimerEvent: {}
+[7.013811] (-) TimerEvent: {}
+[7.115402] (-) TimerEvent: {}
+[7.217188] (-) TimerEvent: {}
+[7.318669] (-) TimerEvent: {}
+[7.421522] (-) TimerEvent: {}
+[7.523348] (-) TimerEvent: {}
+[7.625087] (-) TimerEvent: {}
+[7.728039] (-) TimerEvent: {}
+[7.830710] (-) TimerEvent: {}
+[7.932758] (-) TimerEvent: {}
+[8.034683] (-) TimerEvent: {}
+[8.142440] (-) TimerEvent: {}
+[8.193690] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[8.207779] (serial) CommandEnded: {'returncode': 0}
+[8.244888] (-) TimerEvent: {}
+[8.346486] (-) TimerEvent: {}
+[8.448010] (-) TimerEvent: {}
+[8.511804] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[8.548330] (-) TimerEvent: {}
+[8.601201] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jlukas/My_Project/ROS2/techdiffbot/build/diffdrive_arduino'], 'cwd': '/home/jlukas/My_Project/ROS2/techdiffbot/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 54420 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial/lib:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/My_Project/ROS2/techdiffbot/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install:/home/jlukas/ldlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jlukas/My_Project/ROS2/techdiffbot/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 54420 192.168.8.165 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble')]), 'shell': False}
+[8.648690] (-) TimerEvent: {}
+[8.683141] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[8.692442] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial'], 'cwd': '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 54420 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial/lib:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/My_Project/ROS2/techdiffbot/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install:/home/jlukas/ldlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 54420 192.168.8.165 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble')]), 'shell': False}
+[8.702620] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.704516] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.706628] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml\n'}
+[8.723677] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[8.726931] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[8.730448] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[8.733501] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[8.738853] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[8.744034] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[8.748967] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[8.750344] (-) TimerEvent: {}
+[8.753361] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[8.755967] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[8.759927] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[8.762710] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[8.767866] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[8.772161] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[8.775914] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[8.779286] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[8.783498] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[8.785693] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.787719] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[8.790800] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[8.792848] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.795157] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[8.797663] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[8.799510] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/lib/libserial.a\n'}
+[8.801414] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[8.803713] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/include/serial/serial.h\n'}
+[8.805471] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[8.807088] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/include/serial/v8stdint.h\n'}
+[8.808936] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[8.810536] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[8.812290] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.sh\n'}
+[8.814119] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[8.815784] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[8.817766] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.dsv\n'}
+[8.821271] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[8.826046] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[8.829803] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[8.833863] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[8.837734] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/path.sh\n'}
+[8.841536] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/path.dsv\n'}
+[8.845403] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.bash\n'}
+[8.849028] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.sh\n'}
+[8.850545] (-) TimerEvent: {}
+[8.853525] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.zsh\n'}
+[8.857322] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.dsv\n'}
+[8.860028] (serial) StdoutLine: {'line': b'-- Symlinking: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.dsv\n'}
+[8.915083] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[8.918979] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[8.922553] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.926381] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.930004] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[8.932914] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[8.936208] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[8.940770] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[8.947236] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[8.949162] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[8.950609] (-) TimerEvent: {}
+[8.964491] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[8.970283] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[8.973882] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.977392] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.979174] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[8.982806] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[8.987616] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.xml\n'}
+[9.051192] (-) TimerEvent: {}
+[9.155248] (-) TimerEvent: {}
+[9.257245] (-) TimerEvent: {}
+[9.359090] (-) TimerEvent: {}
+[9.462447] (-) TimerEvent: {}
+[9.566076] (-) TimerEvent: {}
+[9.668110] (-) TimerEvent: {}
+[9.771013] (-) TimerEvent: {}
+[9.877723] (-) TimerEvent: {}
+[9.981426] (-) TimerEvent: {}
+[10.065604] (serial) CommandEnded: {'returncode': 0}
+[10.082985] (-) TimerEvent: {}
+[10.185429] (-) TimerEvent: {}
+[10.288450] (-) TimerEvent: {}
+[10.400819] (-) TimerEvent: {}
+[10.504333] (-) TimerEvent: {}
+[10.607521] (-) TimerEvent: {}
+[10.709054] (-) TimerEvent: {}
+[10.811437] (-) TimerEvent: {}
+[10.913856] (-) TimerEvent: {}
+[11.015851] (-) TimerEvent: {}
+[11.117410] (-) TimerEvent: {}
+[11.220966] (-) TimerEvent: {}
+[11.322515] (-) TimerEvent: {}
+[11.424059] (-) TimerEvent: {}
+[11.526127] (-) TimerEvent: {}
+[11.628250] (-) TimerEvent: {}
+[11.730718] (-) TimerEvent: {}
+[11.833330] (-) TimerEvent: {}
+[11.937063] (-) TimerEvent: {}
+[12.039374] (-) TimerEvent: {}
+[12.143359] (-) TimerEvent: {}
+[12.229329] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[12.244192] (-) TimerEvent: {}
+[12.351231] (-) TimerEvent: {}
+[12.455417] (-) TimerEvent: {}
+[12.559074] (-) TimerEvent: {}
+[12.663099] (-) TimerEvent: {}
+[12.765801] (-) TimerEvent: {}
+[12.870350] (-) TimerEvent: {}
+[12.976756] (-) TimerEvent: {}
+[13.081051] (-) TimerEvent: {}
+[13.185447] (-) TimerEvent: {}
+[13.288759] (-) TimerEvent: {}
+[13.292481] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[13.388982] (-) TimerEvent: {}
+[13.490561] (-) TimerEvent: {}
+[13.545588] (techdiffbot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/techdiffbot', 'build', '--build-base', '/home/jlukas/My_Project/ROS2/techdiffbot/build/techdiffbot/build', 'install', '--record', '/home/jlukas/My_Project/ROS2/techdiffbot/build/techdiffbot/install.log', '--single-version-externally-managed'], 'cwd': '/home/jlukas/My_Project/ROS2/techdiffbot/src/techdiffbot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jlukas', 'SSH_CLIENT': '192.168.8.140 54420 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial/lib:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jlukas', 'OLDPWD': '/home/jlukas/My_Project/ROS2/techdiffbot/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/techdiffbot/install:/home/jlukas/ldlidar_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jlukas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/jlukas/My_Project/ROS2/techdiffbot/build/techdiffbot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.140 54420 192.168.8.165 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jlukas/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/jlukas/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2'}, 'shell': False}
+[13.591140] (-) TimerEvent: {}
+[13.693557] (-) TimerEvent: {}
+[13.795711] (-) TimerEvent: {}
+[13.897000] (-) TimerEvent: {}
+[13.998356] (-) TimerEvent: {}
+[14.099680] (-) TimerEvent: {}
+[14.200978] (-) TimerEvent: {}
+[14.302166] (-) TimerEvent: {}
+[14.403530] (-) TimerEvent: {}
+[14.504819] (-) TimerEvent: {}
+[14.606125] (-) TimerEvent: {}
+[14.707425] (-) TimerEvent: {}
+[14.808731] (-) TimerEvent: {}
+[14.910009] (-) TimerEvent: {}
+[15.011256] (-) TimerEvent: {}
+[15.112634] (-) TimerEvent: {}
+[15.213914] (-) TimerEvent: {}
+[15.315219] (-) TimerEvent: {}
+[15.416701] (-) TimerEvent: {}
+[15.518038] (-) TimerEvent: {}
+[15.619313] (-) TimerEvent: {}
+[15.720599] (-) TimerEvent: {}
+[15.821840] (-) TimerEvent: {}
+[15.923103] (-) TimerEvent: {}
+[16.024453] (-) TimerEvent: {}
+[16.125739] (-) TimerEvent: {}
+[16.227060] (-) TimerEvent: {}
+[16.328397] (-) TimerEvent: {}
+[16.429692] (-) TimerEvent: {}
+[16.530940] (-) TimerEvent: {}
+[16.632280] (-) TimerEvent: {}
+[16.733515] (-) TimerEvent: {}
+[16.809695] (techdiffbot) StdoutLine: {'line': b'running egg_info\n'}
+[16.815090] (techdiffbot) StdoutLine: {'line': b'writing ../../build/techdiffbot/techdiffbot.egg-info/PKG-INFO\n'}
+[16.817375] (techdiffbot) StdoutLine: {'line': b'writing dependency_links to ../../build/techdiffbot/techdiffbot.egg-info/dependency_links.txt\n'}
+[16.819214] (techdiffbot) StdoutLine: {'line': b'writing entry points to ../../build/techdiffbot/techdiffbot.egg-info/entry_points.txt\n'}
+[16.821265] (techdiffbot) StdoutLine: {'line': b'writing requirements to ../../build/techdiffbot/techdiffbot.egg-info/requires.txt\n'}
+[16.822934] (techdiffbot) StdoutLine: {'line': b'writing top-level names to ../../build/techdiffbot/techdiffbot.egg-info/top_level.txt\n'}
+[16.833780] (-) TimerEvent: {}
+[16.844329] (techdiffbot) StdoutLine: {'line': b"reading manifest file '../../build/techdiffbot/techdiffbot.egg-info/SOURCES.txt'\n"}
+[16.857124] (techdiffbot) StdoutLine: {'line': b"writing manifest file '../../build/techdiffbot/techdiffbot.egg-info/SOURCES.txt'\n"}
+[16.858714] (techdiffbot) StdoutLine: {'line': b'running build\n'}
+[16.859944] (techdiffbot) StdoutLine: {'line': b'running build_py\n'}
+[16.862001] (techdiffbot) StdoutLine: {'line': b'running install\n'}
+[16.865005] (techdiffbot) StdoutLine: {'line': b'running install_lib\n'}
+[16.876297] (techdiffbot) StdoutLine: {'line': b'running install_data\n'}
+[16.889205] (techdiffbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.909066] (techdiffbot) StdoutLine: {'line': b"removing '/home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.913545] (techdiffbot) StdoutLine: {'line': b'Copying ../../build/techdiffbot/techdiffbot.egg-info to /home/jlukas/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot-0.0.0-py3.10.egg-info\n'}
+[16.927383] (techdiffbot) StdoutLine: {'line': b'running install_scripts\n'}
+[16.934154] (-) TimerEvent: {}
+[17.035483] (-) TimerEvent: {}
+[17.118547] (techdiffbot) StdoutLine: {'line': b"writing list of installed files to '/home/jlukas/My_Project/ROS2/techdiffbot/build/techdiffbot/install.log'\n"}
+[17.135886] (-) TimerEvent: {}
+[17.237257] (-) TimerEvent: {}
+[17.338659] (-) TimerEvent: {}
+[17.405372] (techdiffbot) CommandEnded: {'returncode': 0}
+[17.439125] (-) TimerEvent: {}
+[17.541001] (-) TimerEvent: {}
+[17.643891] (-) TimerEvent: {}
+[17.745721] (-) TimerEvent: {}
+[17.849483] (-) TimerEvent: {}
+[17.951112] (-) TimerEvent: {}
+[18.046898] (techdiffbot) JobEnded: {'identifier': 'techdiffbot', 'rc': 0}
+[18.054364] (-) TimerEvent: {}
+[18.055100] (-) EventReactorShutdown: {}

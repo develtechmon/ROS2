@@ -1,0 +1,34 @@
+[2.272s] Invoking command in '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/techdiffbot/build/serial -- -j4 -l4
+[6.382s] [ 28%] Built target serial
+[6.389s] [ 42%] Built target gtest_main
+[6.445s] [ 57%] Built target gtest
+[6.896s] [ 71%] Built target serial_example
+[7.074s] [ 85%] Built target serial-test-timer
+[7.176s] [100%] Built target serial-test
+[8.469s] Invoked command in '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/techdiffbot/build/serial -- -j4 -l4
+[8.974s] Invoking command in '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/My_Project/ROS2/techdiffbot/build/serial
+[9.092s] -- Install configuration: ""
+[9.102s] -- Execute custom install script
+[9.130s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/lib/libserial.a
+[9.143s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/include/serial/serial.h
+[9.150s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/include/serial/v8stdint.h
+[9.161s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.sh
+[9.168s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.dsv
+[9.184s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[9.200s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[9.203s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.sh
+[9.216s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.dsv
+[9.225s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/path.sh
+[9.232s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/path.dsv
+[9.240s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.bash
+[9.253s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.sh
+[9.261s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.zsh
+[9.266s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.dsv
+[9.274s] -- Symlinking: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.dsv
+[9.367s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/packages/serial
+[9.373s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.378s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[9.384s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig.cmake
+[9.389s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig-version.cmake
+[9.395s] -- Up-to-date symlink: /home/jlukas/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.xml
+[9.436s] Invoked command in '/home/jlukas/My_Project/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/My_Project/ROS2/techdiffbot/build/serial
