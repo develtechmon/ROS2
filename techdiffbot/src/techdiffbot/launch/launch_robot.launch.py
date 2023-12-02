@@ -11,7 +11,6 @@ from launch.actions import RegisterEventHandler
 from launch.event_handlers import OnProcessStart
 import os
 
-
 def generate_launch_description():
     package_name = 'techdiffbot'
 
@@ -68,8 +67,8 @@ def generate_launch_description():
     return LaunchDescription([    
         rsp,
         delayed_controller_manager,
-        delayed_diff_drive_spawner,
-        delayed_joint_broad_spawner,
-        joystick,
+        #delayed_diff_drive_spawner,
+        #delayed_joint_broad_spawner,
+        #joystick,
         #rviz,
     ])
