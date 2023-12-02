@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial
+CMAKE_SOURCE_DIR = /home/jlukas/My_Project/ROS2/techdiffbot/src/serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial
+CMAKE_BINARY_DIR = /home/jlukas/My_Project/ROS2/techdiffbot/build/serial
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/serial-test-timer.dir/depend.make
@@ -70,18 +70,18 @@ include tests/CMakeFiles/serial-test-timer.dir/progress.make
 include tests/CMakeFiles/serial-test-timer.dir/flags.make
 
 tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o: tests/CMakeFiles/serial-test-timer.dir/flags.make
-tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc
+tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o: /home/jlukas/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc
 tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o: tests/CMakeFiles/serial-test-timer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o"
-	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o -MF CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o.d -o CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o -c /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jlukas/My_Project/ROS2/techdiffbot/build/serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o"
+	cd /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o -MF CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o.d -o CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o -c /home/jlukas/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc
 
 tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.i"
-	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc > CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.i
+	cd /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jlukas/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc > CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.i
 
 tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.s"
-	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc -o CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.s
+	cd /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jlukas/My_Project/ROS2/techdiffbot/src/serial/tests/unit/unix_timer_tests.cc -o CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.s
 
 # Object files for target serial-test-timer
 serial__test__timer_OBJECTS = \
@@ -96,18 +96,18 @@ tests/serial-test-timer: gtest/libgtest_main.a
 tests/serial-test-timer: gtest/libgtest.a
 tests/serial-test-timer: libserial.a
 tests/serial-test-timer: tests/CMakeFiles/serial-test-timer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable serial-test-timer"
-	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serial-test-timer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlukas/My_Project/ROS2/techdiffbot/build/serial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable serial-test-timer"
+	cd /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serial-test-timer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/serial-test-timer.dir/build: tests/serial-test-timer
 .PHONY : tests/CMakeFiles/serial-test-timer.dir/build
 
 tests/CMakeFiles/serial-test-timer.dir/clean:
-	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/serial-test-timer.dir/cmake_clean.cmake
+	cd /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/serial-test-timer.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/serial-test-timer.dir/clean
 
 tests/CMakeFiles/serial-test-timer.dir/depend:
-	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial/tests /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/tests /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/tests/CMakeFiles/serial-test-timer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jlukas/My_Project/ROS2/techdiffbot/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlukas/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/My_Project/ROS2/techdiffbot/src/serial/tests /home/jlukas/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/tests /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/tests/CMakeFiles/serial-test-timer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/serial-test-timer.dir/depend
 
