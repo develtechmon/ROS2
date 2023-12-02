@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlukas/My_Project/ROS2/techdiffbot/src/serial
+CMAKE_SOURCE_DIR = /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlukas/My_Project/ROS2/techdiffbot/build/serial
+CMAKE_BINARY_DIR = /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jlukas/My_Project/ROS2/techdiffbot/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlukas/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/My_Project/ROS2/techdiffbot/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

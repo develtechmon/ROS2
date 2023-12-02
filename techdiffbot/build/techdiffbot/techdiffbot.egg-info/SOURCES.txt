@@ -4,9 +4,11 @@ setup.py
 config/gazebo_params.yaml
 config/joystick.yaml
 config/my_controllers.yaml
+config/real_robot_params.yaml
 launch/gazebo.sim.launch.py
 launch/joystick.control.launch.py
 launch/joystick.steam.launch.py
+launch/launch_robot.launch.py
 launch/rsp.launch.py
 resource/techdiffbot
 techdiffbot/__init__.py
@@ -21,4 +23,5 @@ urdf/core.robot.xacro
 urdf/diff.robot.urdf.xacro
 urdf/gazebo_control_differential_drive.xacro
 urdf/inertial_macros.xacro
-urdf/ros2_control.xacro
+urdf/ros2_control_gazebo.xacro
+urdf/ros2_control_real_robot.xacro

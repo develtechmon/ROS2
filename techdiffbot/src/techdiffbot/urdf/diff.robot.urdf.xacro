@@ -4,6 +4,7 @@
     <xacro:include filename="core.robot.xacro"/>
     
     <!-- <xacro:include filename="gazebo_control_differential_drive.xacro" /> -->
-    <xacro:include filename="ros2_control.xacro" />
+    <!-- <xacro:include filename="ros2_control_gazebo.xacro" /> -->
+    <xacro:include filename="ros2_control_real_robot.xacro" />
 
 </robot>

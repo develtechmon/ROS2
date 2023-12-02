@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/ros/humble/src/gtest_vendor/include -I/home/jlukas/My_Project/ROS2/techdiffbot/src/serial/include -I/opt/ros/humble/src/gtest_vendor/.
+CXX_INCLUDES = -I/opt/ros/humble/src/gtest_vendor/include -I/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial/include -I/opt/ros/humble/src/gtest_vendor/.
 
 CXX_FLAGS = 
 
