@@ -1,0 +1,186 @@
+[14.609s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[14.610s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8c390dc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c3908b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c3908b0>>)
+[15.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[15.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[15.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[15.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[15.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[15.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[15.405s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/My_Project/ROS2/test'
+[15.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[15.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[15.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[15.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[15.408s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[15.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[15.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[15.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[15.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[15.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[15.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[15.630s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[15.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[15.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[15.632s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[15.633s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[15.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[15.636s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[15.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[15.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[15.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[15.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[15.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[15.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[15.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[15.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[15.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[15.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[15.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[15.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[15.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[15.647s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[15.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[15.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[15.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[15.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[15.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[15.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[15.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[15.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[15.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[15.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[15.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[15.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[15.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[15.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[15.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[15.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[15.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[15.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[15.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[15.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[15.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[15.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[15.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[15.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[15.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[15.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[15.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[15.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[15.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[15.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[17.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[17.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[17.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/ldlidar_ros2_ws/install
+[17.647s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/humble
+[17.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[18.855s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[18.856s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[18.856s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[18.857s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[18.857s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[18.857s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[18.857s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[18.858s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[18.858s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[18.858s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/My_Project/ROS2/test/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/My_Project/ROS2/test/install/serial', 'merge_install': False, 'path': '/home/jlukas/My_Project/ROS2/test/src/serial', 'symlink_install': True, 'test_result_base': None}
+[19.043s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[19.044s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[19.044s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.044s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[19.045s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[19.045s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[19.045s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[19.045s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[19.046s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.046s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/My_Project/ROS2/test/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/jlukas/My_Project/ROS2/test/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[19.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[19.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[19.417s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/My_Project/ROS2/test/src/serial' with build type 'ament_cmake'
+[19.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/My_Project/ROS2/test/src/serial'
+[19.658s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[19.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jlukas/My_Project/ROS2/test/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/My_Project/ROS2/test/install/serial
+[23.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jlukas/My_Project/ROS2/test/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/My_Project/ROS2/test/install/serial
+[23.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/test/build/serial -- -j4 -l4
+[25.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/test/build/serial -- -j4 -l4
+[25.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/My_Project/ROS2/test/build/serial
+[27.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[27.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/My_Project/ROS2/test/build/serial
+[27.740s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial' for CMake module files
+[27.749s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial' for CMake config files
+[27.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[27.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[27.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[27.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[28.046s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/lib'
+[28.048s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/bin'
+[28.050s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/lib/pkgconfig/serial.pc'
+[28.053s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/lib/python3.10/site-packages'
+[28.056s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/bin'
+[28.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.ps1'
+[28.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.dsv'
+[28.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.sh'
+[28.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.bash'
+[28.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.zsh'
+[28.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/My_Project/ROS2/test/install/serial/share/colcon-core/packages/serial)
+[28.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[29.067s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial' for CMake module files
+[29.074s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial' for CMake config files
+[29.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[29.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[29.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[29.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[29.282s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/lib'
+[29.283s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/bin'
+[29.284s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/lib/pkgconfig/serial.pc'
+[29.287s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/lib/python3.10/site-packages'
+[29.289s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/serial/bin'
+[29.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.ps1'
+[29.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.dsv'
+[29.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.sh'
+[29.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.bash'
+[29.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.zsh'
+[29.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/My_Project/ROS2/test/install/serial/share/colcon-core/packages/serial)
+[29.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/My_Project/ROS2/test/src/diffdrive_arduino' with build type 'ament_cmake'
+[29.507s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/My_Project/ROS2/test/src/diffdrive_arduino'
+[29.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/test/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/My_Project/ROS2/test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlukas/My_Project/ROS2/test/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino
+[61.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/test/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/My_Project/ROS2/test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jlukas/My_Project/ROS2/test/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino
+[61.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/My_Project/ROS2/test/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/My_Project/ROS2/test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/test/build/diffdrive_arduino -- -j4 -l4
+[69.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/My_Project/ROS2/test/build/diffdrive_arduino' returned '2': AMENT_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/My_Project/ROS2/test/install/serial:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/My_Project/ROS2/test/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/test/build/diffdrive_arduino -- -j4 -l4
+[70.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[70.391s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino' for CMake module files
+[70.397s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino' for CMake config files
+[70.402s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/bin'
+[70.403s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[70.405s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/lib/python3.10/site-packages'
+[70.408s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/bin'
+[70.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[70.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[70.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[70.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[70.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[70.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/My_Project/ROS2/test/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[70.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[70.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[70.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[70.638s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[70.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[70.938s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[70.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[70.947s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[70.957s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[70.959s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[71.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/test/install/local_setup.ps1'
+[71.263s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/test/install/_local_setup_util_ps1.py'
+[71.278s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/test/install/setup.ps1'
+[71.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/test/install/local_setup.sh'
+[71.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/My_Project/ROS2/test/install/_local_setup_util_sh.py'
+[71.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/test/install/setup.sh'
+[71.682s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/test/install/local_setup.bash'
+[71.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/test/install/setup.bash'
+[71.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/My_Project/ROS2/test/install/local_setup.zsh'
+[71.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/My_Project/ROS2/test/install/setup.zsh'

@@ -1,0 +1,49 @@
+[0.890s] Invoking command in '/home/jlukas/My_Project/ROS2/test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jlukas/My_Project/ROS2/test/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/My_Project/ROS2/test/install/serial
+[1.182s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.929s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.134s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.232s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.118s] -- Configuring done
+[4.455s] -- Generating done
+[4.482s] -- Build files have been written to: /home/jlukas/My_Project/ROS2/test/build/serial
+[4.510s] Invoked command in '/home/jlukas/My_Project/ROS2/test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jlukas/My_Project/ROS2/test/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/My_Project/ROS2/test/install/serial
+[4.534s] Invoking command in '/home/jlukas/My_Project/ROS2/test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/test/build/serial -- -j4 -l4
+[4.880s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[4.885s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[4.886s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[5.104s] [ 28%] Built target serial
+[5.108s] [ 42%] Built target gtest_main
+[5.116s] [ 57%] Built target gtest
+[5.215s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[5.227s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[5.230s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[5.352s] [ 71%] Built target serial_example
+[5.379s] [ 85%] Built target serial-test-timer
+[5.736s] [100%] Built target serial-test
+[5.831s] Invoked command in '/home/jlukas/My_Project/ROS2/test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/My_Project/ROS2/test/build/serial -- -j4 -l4
+[6.328s] Invoking command in '/home/jlukas/My_Project/ROS2/test/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/My_Project/ROS2/test/build/serial
+[6.388s] -- Install configuration: ""
+[6.393s] -- Execute custom install script
+[6.396s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/lib/libserial.a
+[6.473s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/include/serial/serial.h
+[6.548s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/include/serial/v8stdint.h
+[6.626s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/environment/library_path.sh
+[6.703s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/environment/library_path.dsv
+[6.781s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[6.856s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[6.932s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/environment/ament_prefix_path.sh
+[7.007s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/environment/ament_prefix_path.dsv
+[7.081s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/environment/path.sh
+[7.156s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/environment/path.dsv
+[7.232s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/local_setup.bash
+[7.306s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/local_setup.sh
+[7.380s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/local_setup.zsh
+[7.455s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/local_setup.dsv
+[7.529s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.dsv
+[7.604s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/ament_index/resource_index/packages/serial
+[7.682s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.756s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[7.831s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/cmake/serialConfig.cmake
+[7.904s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/cmake/serialConfig-version.cmake
+[7.978s] -- Symlinking: /home/jlukas/My_Project/ROS2/test/install/serial/share/serial/package.xml
+[8.071s] Invoked command in '/home/jlukas/My_Project/ROS2/test/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/My_Project/ROS2/test/build/serial
