@@ -17,7 +17,10 @@
         "ros2_nav2_cartographer/install": true,
         "ros2_nav2_cartographer/log": true,
         "ros2_nav2_cartographer/src/ros2_nav2_cartographer/setup.cfg": true,
-        "ros2_nav2_cartographer/src/ros2_nav2_cartographer/test": true
+        "ros2_nav2_cartographer/src/ros2_nav2_cartographer/test": true,
+        "techdiffbot/src/techdiffbot/test": true,
+        "techdiffbot/src/techdiffbot/resource": true
     },
-    "hide-files.files": []
+    "hide-files.files": [],
+    "ros.distro": "humble"
 }
