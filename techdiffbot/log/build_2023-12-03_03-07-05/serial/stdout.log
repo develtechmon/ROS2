@@ -24,20 +24,20 @@
 -- Generating done
 -- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial
 [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
-[ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
-[ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
-[ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
 [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
-[ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
-[ 42%] Built target gtest_main
-[ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
 [ 50%] Built target serial
 [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[ 57%] Built target gtest_main
 [ 64%] [32m[1mLinking CXX executable serial_example[0m
 [ 64%] Built target serial_example
 [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
 [ 71%] Built target gtest
-[ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
 [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
 [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
 [100%] [32m[1mLinking CXX executable serial-test[0m
