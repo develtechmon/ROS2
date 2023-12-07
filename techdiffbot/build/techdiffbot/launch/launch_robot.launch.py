@@ -1,1 +1,1 @@
-/home/jlukas/My_Project/ROS2/techdiffbot/src/techdiffbot/launch/launch_robot.launch.py
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot/launch/launch_robot.launch.py

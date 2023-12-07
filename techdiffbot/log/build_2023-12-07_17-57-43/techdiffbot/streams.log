@@ -1,0 +1,18 @@
+[2.011s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[2.531s] running develop
+[2.837s] running egg_info
+[2.839s] writing techdiffbot.egg-info/PKG-INFO
+[2.839s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[2.839s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[2.839s] writing requirements to techdiffbot.egg-info/requires.txt
+[2.840s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[2.843s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[2.844s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[2.850s] running build_ext
+[2.850s] Creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[2.855s] 
+[2.855s] Installed /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+[2.856s] running install_data
+[2.856s] copying urdf/core.robot.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[2.856s] copying config/my_controllers.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[2.919s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data

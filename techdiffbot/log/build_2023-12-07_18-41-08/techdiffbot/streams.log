@@ -1,0 +1,17 @@
+[3.444s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[4.571s] running develop
+[5.567s] running egg_info
+[5.567s] writing techdiffbot.egg-info/PKG-INFO
+[5.567s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[5.568s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[5.568s] writing requirements to techdiffbot.egg-info/requires.txt
+[5.568s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[5.575s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[5.580s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[5.589s] running build_ext
+[5.591s] Creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[5.595s] 
+[5.595s] Installed /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+[5.595s] running install_data
+[5.603s] copying urdf/core.robot.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.747s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
