@@ -28,6 +28,7 @@ colcon build
 ```
 ros2 launch ldlidar ldlidar.launch.py lidar_frame:=odom
 
-To launch with specific port:
-ros2 launch ldlidar ldlidar.launch.py lidar_frame:=odom serial_port:=/dev/ttyUSB1
+To launch with specific port and lidar_link from urdf
+ros2 launch ldlidar ldlidar.launch.py lidar_frame:=lidar_link serial_port:=/dev/ttyUSB1
+
 ```
