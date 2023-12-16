@@ -60,7 +60,7 @@ This command will publish `/camera/image_raw` topics that will be used for our c
 ```
 ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640,480]"
 
-use below command if you have frame_id
+use below command if you want to use urdf frame_id: - Normally i'll choose this one
 ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640,480]" -p camera_frame_id:=camera_link_optical
 ```
 
