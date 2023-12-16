@@ -27,4 +27,7 @@ colcon build
 ## Step 3: Launch our Package to work with `Odom` in RViz2
 ```
 ros2 launch ldlidar ldlidar.launch.py lidar_frame:=odom
+
+To launch with specific port:
+ros2 launch ldlidar ldlidar.launch.py lidar_frame:=odom serial_port:=/dev/ttyUSB0
 ```
