@@ -1,1 +1,0 @@
-/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

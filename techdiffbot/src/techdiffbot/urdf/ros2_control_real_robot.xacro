@@ -14,7 +14,7 @@
         </hardware>
 
         <!-- Note everything below here is the same as the Gazebo one -->
-        <joint name="left_wheel_joint">
+        <joint name="right_wheel_joint">
             <command_interface name="velocity">
                 <param name="min">-10</param>
                 <param name="max">10</param>
@@ -23,7 +23,7 @@
             <state_interface name="velocity"/>
         </joint>
 
-        <joint name="right_wheel_joint">
+        <joint name="left_wheel_joint">
             <command_interface name="velocity">
                 <param name="min">-10</param>
                 <param name="max">10</param>
