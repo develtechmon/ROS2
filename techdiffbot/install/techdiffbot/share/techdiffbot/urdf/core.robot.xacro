@@ -60,7 +60,7 @@
 
     <!-- LEFT WHEEL JOINT -->
     <joint name="left_wheel_joint" type="continuous">
-        <origin xyz="0.0 0.105 0.0" rpy="${pi/2} 0.0 0.0"/>
+        <origin xyz="0.0 0.105 0.0" rpy="-${pi/2} 0.0 0.0"/>
         <parent link="base_link"/>
         <child link="left_wheel_link"/>
         <axis xyz="0.0 0.0 -1.0"/>
@@ -83,7 +83,7 @@
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="0.05" length="0.027" radius="0.03405">
-            <origin xyz="0.0 0.0 -1.0" rpy="${pi/2} 0.0 0.0"/>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         </xacro:inertial_cylinder>
     </link>
 
@@ -93,7 +93,7 @@
 
     <!-- RIGHT WHEEL JOINT -->
     <joint name="right_wheel_joint" type="continuous">
-        <origin xyz="0.0 -0.105 0.0" rpy="-${pi/2} 0.0 0.0"/>
+        <origin xyz="0.0 -0.105 0.0" rpy="${pi/2} 0.0 0.0"/>
         <parent link="base_link"/>
         <child link="right_wheel_link"/>
         <axis xyz="0.0 0.0 1.0"/>
@@ -116,7 +116,7 @@
         </geometry>
     </collision>
     <xacro:inertial_cylinder mass="0.05" length="0.027" radius="0.03405">
-        <origin xyz="0.0 -0.105 0.0" rpy="-${pi/2} 0.0 0.0"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
     </xacro:inertial_cylinder>
     </link>
 
