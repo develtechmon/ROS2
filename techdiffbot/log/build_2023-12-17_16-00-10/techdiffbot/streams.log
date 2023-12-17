@@ -1,0 +1,17 @@
+[26.551s] Invoking command in '/home/jlukas/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[30.880s] running develop
+[33.643s] running egg_info
+[33.645s] writing techdiffbot.egg-info/PKG-INFO
+[33.646s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[33.650s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[33.652s] writing requirements to techdiffbot.egg-info/requires.txt
+[33.653s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[33.683s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[33.700s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[33.719s] running build_ext
+[33.722s] Creating /home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[33.733s] 
+[33.734s] Installed /home/jlukas/ROS2/techdiffbot/build/techdiffbot
+[33.736s] running install_data
+[33.746s] copying launch/lidar.launch.py -> /home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[34.136s] Invoked command in '/home/jlukas/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data

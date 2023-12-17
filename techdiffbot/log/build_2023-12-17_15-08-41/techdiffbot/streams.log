@@ -1,0 +1,21 @@
+[64.640s] Invoking command in '/home/jlukas/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[75.100s] running develop
+[78.083s] running egg_info
+[78.085s] writing techdiffbot.egg-info/PKG-INFO
+[78.088s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[78.100s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[78.109s] writing requirements to techdiffbot.egg-info/requires.txt
+[78.110s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[78.185s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[78.202s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[78.230s] running build_ext
+[78.235s] Creating /home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[78.245s] 
+[78.247s] Installed /home/jlukas/ROS2/techdiffbot/build/techdiffbot
+[78.248s] running install_data
+[78.276s] copying launch/camera.launch.py -> /home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[78.294s] copying launch/lidar.launch.py -> /home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[78.302s] copying urdf/ros2_control_real_robot.xacro -> /home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[78.315s] copying config/gazebo_params.yaml -> /home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[78.319s] copying config/my_controllers.yaml -> /home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[79.067s] Invoked command in '/home/jlukas/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data

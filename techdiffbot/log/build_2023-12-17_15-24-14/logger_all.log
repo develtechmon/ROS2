@@ -1,0 +1,269 @@
+[25.485s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[25.500s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb22fdd80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb22fcc40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb22fcc40>>)
+[28.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[28.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[28.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[28.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[28.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[28.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[28.618s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/ROS2/techdiffbot'
+[28.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[28.629s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[28.631s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[28.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[28.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[28.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[28.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[28.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[28.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[29.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[29.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[29.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[29.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[29.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[29.352s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[29.354s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[29.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[29.366s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[29.368s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[29.373s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[29.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[29.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[29.379s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[29.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[29.383s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[29.384s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[29.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[29.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[29.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[29.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[29.390s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[29.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[29.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[29.394s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[29.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[29.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[29.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[29.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[29.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[29.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[29.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[29.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[29.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[29.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[29.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[29.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[29.656s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[29.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[29.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[29.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[29.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[29.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[29.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[29.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[29.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[29.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[29.702s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[29.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['ignore', 'ignore_ament_install']
+[29.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'ignore'
+[29.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'ignore_ament_install'
+[29.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['colcon_pkg']
+[29.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'colcon_pkg'
+[29.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['colcon_meta']
+[29.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'colcon_meta'
+[29.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['ros']
+[29.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'ros'
+[29.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/techdiffbot' with type 'ros.ament_python' and name 'techdiffbot'
+[29.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[29.742s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[29.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[29.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[29.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[34.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[34.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[35.649s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/ldlidar_ros2_ws/install
+[36.082s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[36.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[45.480s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[45.525s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[45.525s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[45.526s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[45.527s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[45.527s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[45.528s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[45.529s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[45.530s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[45.533s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/jlukas/ROS2/techdiffbot/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[45.940s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[45.943s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[45.945s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[45.947s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[45.950s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[45.952s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[45.954s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[45.957s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[45.959s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[45.961s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/ROS2/techdiffbot/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/ROS2/techdiffbot/install/serial', 'merge_install': False, 'path': '/home/jlukas/ROS2/techdiffbot/src/serial', 'symlink_install': True, 'test_result_base': None}
+[46.318s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_args' from command line to 'None'
+[46.320s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_target' from command line to 'None'
+[46.321s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[46.322s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_clean_cache' from command line to 'False'
+[46.323s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_clean_first' from command line to 'False'
+[46.323s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_force_configure' from command line to 'False'
+[46.324s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'ament_cmake_args' from command line to 'None'
+[46.325s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'catkin_cmake_args' from command line to 'None'
+[46.325s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[46.326s] DEBUG:colcon.colcon_core.verb:Building package 'techdiffbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/ROS2/techdiffbot/build/techdiffbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/ROS2/techdiffbot/install/techdiffbot', 'merge_install': False, 'path': '/home/jlukas/ROS2/techdiffbot/src/techdiffbot', 'symlink_install': True, 'test_result_base': None}
+[46.722s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[47.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[47.632s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/ROS2/techdiffbot/src/diffdrive_arduino' with build type 'ament_cmake'
+[47.639s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/ROS2/techdiffbot/src/diffdrive_arduino'
+[48.111s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[48.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[49.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/ROS2/techdiffbot/src/serial' with build type 'ament_cmake'
+[49.737s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/ROS2/techdiffbot/src/serial'
+[49.992s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[49.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[50.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jlukas/ROS2/techdiffbot/src/techdiffbot' with build type 'ament_python'
+[51.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('techdiffbot', 'ament_prefix_path')
+[51.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/ament_prefix_path.ps1'
+[51.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/ament_prefix_path.dsv'
+[51.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/ament_prefix_path.sh'
+[51.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[51.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[52.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino -- -j4 -l4
+[52.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/ROS2/techdiffbot/build/serial -- -j4 -l4
+[76.052s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jlukas/ROS2/techdiffbot/src/techdiffbot'
+[82.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[82.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[83.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino -- -j4 -l4
+[84.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/ROS2/techdiffbot/build/serial -- -j4 -l4
+[85.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino
+[85.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/ROS2/techdiffbot/build/serial
+[89.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[89.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/ROS2/techdiffbot/build/serial
+[94.663s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial' for CMake module files
+[94.732s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial' for CMake config files
+[94.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[95.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[96.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[96.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[96.520s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/lib'
+[96.529s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/bin'
+[96.531s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/lib/pkgconfig/serial.pc'
+[96.601s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/lib/python3.10/site-packages'
+[96.604s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/bin'
+[96.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.ps1'
+[96.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.dsv'
+[96.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.sh'
+[96.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.bash'
+[97.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.zsh'
+[97.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/ROS2/techdiffbot/install/serial/share/colcon-core/packages/serial)
+[97.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[97.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino
+[97.990s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino' for CMake module files
+[98.050s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino' for CMake config files
+[98.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[98.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[98.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[98.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[98.517s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/lib'
+[98.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[98.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[98.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[98.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[98.862s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[98.863s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[98.871s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/lib/python3.10/site-packages'
+[98.876s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[99.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[99.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[99.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[99.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[99.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[99.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[101.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[101.576s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial' for CMake module files
+[101.586s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial' for CMake config files
+[101.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[101.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[101.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[101.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[101.857s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/lib'
+[101.858s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/bin'
+[101.859s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/lib/pkgconfig/serial.pc'
+[101.862s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/lib/python3.10/site-packages'
+[101.865s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/serial/bin'
+[102.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.ps1'
+[102.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.dsv'
+[102.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.sh'
+[102.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.bash'
+[102.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.zsh'
+[102.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/ROS2/techdiffbot/install/serial/share/colcon-core/packages/serial)
+[102.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[102.905s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino' for CMake module files
+[103.017s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino' for CMake config files
+[103.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[103.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[103.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[103.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[103.282s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/lib'
+[103.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[103.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[103.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[103.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[103.579s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[103.581s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[103.585s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/lib/python3.10/site-packages'
+[103.588s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[104.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[104.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[104.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[104.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[104.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[104.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[107.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[117.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('techdiffbot', 'pythonpath_develop')
+[117.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[117.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/build/techdiffbot/share/techdiffbot/hook/pythonpath_develop.ps1'
+[117.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/build/techdiffbot/share/techdiffbot/hook/pythonpath_develop.dsv'
+[118.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/build/techdiffbot/share/techdiffbot/hook/pythonpath_develop.sh'
+[118.377s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/techdiffbot' for CMake module files
+[118.393s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/techdiffbot' for CMake config files
+[118.413s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib'
+[118.415s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/bin'
+[118.417s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/pkgconfig/techdiffbot.pc'
+[118.423s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages'
+[118.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('techdiffbot', 'pythonpath')
+[118.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/pythonpath.ps1'
+[118.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/pythonpath.dsv'
+[118.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/pythonpath.sh'
+[118.706s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/bin'
+[118.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(techdiffbot)
+[119.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.ps1'
+[119.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.dsv'
+[119.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.sh'
+[119.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.bash'
+[119.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.zsh'
+[119.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/ROS2/techdiffbot/install/techdiffbot/share/colcon-core/packages/techdiffbot)
+[119.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[119.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[119.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[119.210s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[120.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[120.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[120.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[120.186s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[120.356s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[120.361s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[120.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/ROS2/techdiffbot/install/local_setup.ps1'
+[120.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/ROS2/techdiffbot/install/_local_setup_util_ps1.py'
+[120.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/ROS2/techdiffbot/install/setup.ps1'
+[121.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/ROS2/techdiffbot/install/local_setup.sh'
+[121.119s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/ROS2/techdiffbot/install/_local_setup_util_sh.py'
+[121.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/ROS2/techdiffbot/install/setup.sh'
+[121.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/ROS2/techdiffbot/install/local_setup.bash'
+[121.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/ROS2/techdiffbot/install/setup.bash'
+[121.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/ROS2/techdiffbot/install/local_setup.zsh'
+[121.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/ROS2/techdiffbot/install/setup.zsh'
