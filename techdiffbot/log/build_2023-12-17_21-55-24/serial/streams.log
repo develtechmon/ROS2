@@ -1,0 +1,81 @@
+[3.516s] Invoking command in '/home/jlukas/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble /usr/bin/cmake /home/jlukas/ROS2/techdiffbot/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/ROS2/techdiffbot/install/serial
+[4.505s] -- The C compiler identification is GNU 11.4.0
+[5.393s] -- The CXX compiler identification is GNU 11.4.0
+[5.508s] -- Detecting C compiler ABI info
+[7.126s] -- Detecting C compiler ABI info - done
+[7.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.262s] -- Detecting C compile features
+[7.287s] -- Detecting C compile features - done
+[7.350s] -- Detecting CXX compiler ABI info
+[8.437s] -- Detecting CXX compiler ABI info - done
+[8.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.550s] -- Detecting CXX compile features
+[8.556s] -- Detecting CXX compile features - done
+[8.644s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.554s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[12.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.762s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[14.061s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[14.193s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.245s] -- Looking for pthread.h
+[15.655s] -- Looking for pthread.h - found
+[15.658s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.882s] -- Found Threads: TRUE  
+[18.283s] -- Configuring done
+[18.527s] -- Generating done
+[18.577s] -- Build files have been written to: /home/jlukas/ROS2/techdiffbot/build/serial
+[18.687s] Invoked command in '/home/jlukas/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble /usr/bin/cmake /home/jlukas/ROS2/techdiffbot/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/ROS2/techdiffbot/install/serial
+[18.768s] Invoking command in '/home/jlukas/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/ROS2/techdiffbot/build/serial -- -j4 -l4
+[19.480s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[19.509s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[19.555s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[19.564s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[82.844s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[98.281s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[99.051s] [ 42%] Built target serial
+[255.901s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[256.041s] [ 50%] Built target gtest_main
+[501.168s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[501.826s] [ 57%] Built target gtest
+[502.204s] [ 64%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[512.523s] [ 71%] [32m[1mLinking CXX executable serial_example[0m
+[514.149s] [ 71%] Built target serial_example
+[514.442s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[548.997s] [ 85%] [32m[1mLinking CXX executable serial-test-timer[0m
+[551.354s] [ 85%] Built target serial-test-timer
+[551.963s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[579.450s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[579.708s]                  from [01m[K/home/jlukas/ROS2/techdiffbot/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[579.736s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[579.738s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[579.739s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[587.872s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[590.141s] [100%] Built target serial-test
+[591.525s] Invoked command in '/home/jlukas/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/ROS2/techdiffbot/build/serial -- -j4 -l4
+[592.842s] Invoking command in '/home/jlukas/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/ROS2/techdiffbot/build/serial
+[592.928s] -- Install configuration: ""
+[592.939s] -- Execute custom install script
+[592.946s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/lib/libserial.a
+[593.044s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/include/serial/serial.h
+[593.135s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/include/serial/v8stdint.h
+[593.246s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.sh
+[593.344s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.dsv
+[593.462s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[593.555s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[593.692s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.sh
+[593.786s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.dsv
+[593.880s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/environment/path.sh
+[593.974s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/environment/path.dsv
+[594.066s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/local_setup.bash
+[594.161s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/local_setup.sh
+[594.256s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/local_setup.zsh
+[594.351s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/local_setup.dsv
+[594.444s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.dsv
+[594.541s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/packages/serial
+[594.641s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[594.736s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[594.833s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig.cmake
+[594.925s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig-version.cmake
+[595.028s] -- Symlinking: /home/jlukas/ROS2/techdiffbot/install/serial/share/serial/package.xml
+[595.278s] Invoked command in '/home/jlukas/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/ROS2/techdiffbot/install/techdiffbot:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/ROS2/techdiffbot/build/serial

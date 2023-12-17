@@ -2,9 +2,9 @@ package.xml
 setup.cfg
 setup.py
 config/gazebo_params.yaml
+config/gazebo_ros2_ctl_use_sim.yaml
 config/joystick.yaml
 config/my_controllers.yaml
-config/real_robot_params.yaml
 launch/camera.launch.py
 launch/gazebo.sim.launch.py
 launch/joystick.control.launch.py
@@ -23,7 +23,8 @@ techdiffbot.egg-info/top_level.txt
 techdiffbot.egg-info/zip-safe
 urdf/core.robot.xacro
 urdf/diff.robot.urdf.xacro
-urdf/gazebo_control_differential_drive.xacro
+urdf/gazebo_control.xacro
 urdf/inertial_macros.xacro
+urdf/real.robot.gazebo.sim.xacro
+urdf/ros2_control.xacro
 urdf/ros2_control_gazebo.xacro
-urdf/ros2_control_real_robot.xacro
