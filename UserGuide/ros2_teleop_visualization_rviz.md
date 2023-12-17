@@ -31,3 +31,8 @@ rviz2
 ```
 From rviz2 select `Panels` and you should see under `rviz_plugin_tutorials` there is `Teleop`. 
 You will use this package in your run.
+
+## Step 6: From panel, you will need specify the `Output Topic` as follow
+```
+/diff_cont/cmd_vel_unstamped
+```
