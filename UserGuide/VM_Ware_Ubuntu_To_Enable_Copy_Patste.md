@@ -18,3 +18,14 @@ And the `reboot` your VM ubuntu machine
 sudo reboot now
 ```
 You should now able to copy and paste between 2 machines (Windows and Ubuntu)
+
+## 2. To enable `drag` and  `drop`
+Copy following command in terminal
+```
+gsettings set org.gnome.nautilus.preferences use-experimental-views false
+```
+
+Refer to this link
+```
+https://askubuntu.com/questions/1236588/drag-drop-not-working-for-ubuntu-20-04-lts-on-vmware-workstation-15-pro
+```
