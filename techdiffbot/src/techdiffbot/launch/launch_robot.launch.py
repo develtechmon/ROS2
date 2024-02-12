@@ -51,6 +51,19 @@ def generate_launch_description():
         arguments=["joint_broad"],
     )
 
+    '''
+    Here, join_broad_spawner will be started after controller_manager finished its execution.
+    This is also similar to below code:
+
+    delayed_joint_broad_spawner = RegisterEventHandler(
+        event_handler=OnExecutionComplete(
+            target_action=controller_manager,
+            on_completion=[joint_broad_spawner],
+        )
+    )
+
+    See this link: https://roboticscasual.com/tutorial-ros2-launch-files-all-you-need-to-know/
+    '''
     delayed_joint_broad_spawner = RegisterEventHandler(
         event_handler=OnProcessStart(
             target_action=controller_manager,
