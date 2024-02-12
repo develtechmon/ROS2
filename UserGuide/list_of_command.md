@@ -25,8 +25,11 @@ Alternatively, you can use below command to launch `robot_state_publisher`,`join
 ## To `spawn` our `Robot` into `Gazebo` world
 - ros2 run gazebo_ros spawn_entity.py -topic robot_description -entity lukebot
 
-## To launch the `saved world`
+## To launch the `saved world` in Gazebo
 - ros2 launch ros2_differential_drive_robot gazebo.sim.launch.py world:=/src/ros2_differential_drive_robot/worlds/obstacle_avoidance.world
+
+## To launch the `saved world` in Gazebo directly using Gazebo command directly
+- ros2 launch gazebo_ros gazebo.launch.py world:=./src/techdiffbot/world/gazebo_techdiffbot_first_world
 
 ## To launch and view our `saved rviz2` file
 - rviz2 -d src/articubot_one/config/view_bot.rviz
@@ -38,4 +41,7 @@ Alternatively, you can use below command to launch `robot_state_publisher`,`join
 - ros2 topic echo /scan 
 
 ## To run our `keyboard` control
-- ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+- ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+## To re-map velocity topic
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
