@@ -13,14 +13,14 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 import xacro
 import os
 
-
 def generate_launch_description():
     package_name = 'techdiffbot'
 
     rsp = IncludeLaunchDescription(
             PythonLaunchDescriptionSource([os.path.join(
                 get_package_share_directory(package_name),'launch','rsp.launch.py'
-            )]), launch_arguments={'use_sim_time': 'true'}.items()
+            # )]), launch_arguments={'use_sim_time': 'true'}.items()   
+            )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'true'}.items()
     )
     
     gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
@@ -31,7 +31,7 @@ def generate_launch_description():
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
 
                     # Added Gazebo Launch Argumets to Launch to Saved world
-                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file, 'world': gazebo_worlds_file}.items()
+                    #launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file, 'world': gazebo_worlds_file}.items()
                     #launch_arguments={'world': gazebo_worlds_file}.items()
              )
     
@@ -62,7 +62,8 @@ def generate_launch_description():
     joystick = IncludeLaunchDescription(
             PythonLaunchDescriptionSource([os.path.join(
                 get_package_share_directory(package_name),'launch','joystick.control.launch.py'
-            )])
+            )]), launch_arguments={'use_sim_time': 'true'}.items()
+            
     )
 
     return LaunchDescription([    
@@ -75,8 +76,8 @@ def generate_launch_description():
         joystick,
         #rviz,
 
-        DeclareLaunchArgument(
-            'use_sim_time',
-            default_value='false',
-            description='Use sim time if true'),
+        # DeclareLaunchArgument(
+        #     'use_sim_time',
+        #     default_value='false',
+        #     description='Use sim time if true'),
     ])

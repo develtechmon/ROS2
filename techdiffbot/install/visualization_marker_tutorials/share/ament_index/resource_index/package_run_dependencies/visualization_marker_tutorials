@@ -1,1 +1,1 @@
-/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/visualization_marker_tutorials
+rclcpp;geometry_msgs;visualization_msgs;ament_lint_auto;ament_lint_common

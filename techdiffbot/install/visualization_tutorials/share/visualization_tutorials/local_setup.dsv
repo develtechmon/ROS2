@@ -1,1 +1,2 @@
-/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials/ament_cmake_environment_hooks/local_setup.dsv
+source;share/visualization_tutorials/environment/ament_prefix_path.sh
+source;share/visualization_tutorials/environment/path.sh

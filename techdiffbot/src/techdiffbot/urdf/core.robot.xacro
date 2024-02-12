@@ -26,15 +26,15 @@
     <!-- BASE LINK -->
     <link name="base_link"></link>
 
-    <!-- BASE FOOTPRINT LINK -->
-    <link name="base_footprint"></link>
-
     <!-- BASE FOOTPRINT JOINT -->
     <joint name="base_footprint_joint" type="fixed">
         <parent link="base_link"/>
         <child link="base_footprint"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
+
+     <!-- BASE FOOTPRINT LINK -->
+     <link name="base_footprint"></link>
 
     <!-- CHASSIS JOINT -->
     <joint name="chassis_joint" type="fixed">
@@ -183,7 +183,7 @@
     <!-- LIDAR CASE LINK -->
     <link name="lidar_case_link">
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <!-- <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> -->
         <geometry>
             <box size="0.08 0.18 0.095"/>
         </geometry>
@@ -206,7 +206,7 @@
 
     <!-- LIDAR  JOINT -->
     <joint name="lidar_joint" type="fixed">
-        <origin xyz="0.0 0.0 0.055 " rpy="0.0 0.0 0"/>
+        <origin xyz="0.0 0.0 0.055 " rpy="0.0 0.0 4.71239"/>
         <parent link="lidar_case_link"/>
         <child link="lidar_link"/>
     </joint>
@@ -214,12 +214,13 @@
     <!-- LIDAR LINK -->
     <link name="lidar_link">
     <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <!-- <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> -->
         <geometry>
             <cylinder radius="0.0175" length="0.0175"/>
         </geometry>
         <material name="blue"/>
     </visual>
+    
     <collision>
         <geometry>
             <cylinder radius="0.0175" length="0.0175"/>
@@ -307,27 +308,35 @@
             <visualize>true</visualize>
             <update_rate>10</update_rate>
             <ray>
-            <scan>
-                <horizontal>
-                <samples>360</samples>
-                <!-- <resolution>1</resolution> -->
-                <!-- <min_angle>0.00</min_angle> -->
-                <min_angle>0.00</min_angle>
-                <max_angle>6.28319</max_angle> 
-                <!-- 3.14 is 180 degree -->
-                </horizontal>
-            </scan>
-            <range>
-                <min>0.3</min>
-                <max>12</max>
-                <!-- <min>0.120</min>
-                <max>3.5</max> -->
-                <!-- <resolution>0.015</resolution> -->
-            </range>
+                <scan>
+                    <horizontal>
+                    <samples>360</samples>
+                    <!-- <resolution>1</resolution> -->
+                    <!-- <min_angle>0.00</min_angle> -->
+                    
+                    <!-- <min_angle>-3.14</min_angle>
+                    <max_angle>3.14</max_angle> -->
+
+                    <min_angle>0.00</min_angle>
+                    <max_angle>3.14</max_angle> 
+
+                    <!-- <max_angle>6.28319</max_angle>  -->
+
+                    <!-- 3.14 is 180 degree -->
+                  </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>12</max> 
+                    <!-- <min>0.120</min>
+                    <max>3.5</max> -->
+                    <!-- <resolution>0.015</resolution> -->
+                </range>
             </ray>
             <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
             <ros>
-                <remapping>~/out:=scan_sim</remapping>
+                <remapping>~/out:=scan</remapping>
+                <!-- <argument>~/out:=scan</argument> -->
             </ros>
             <output_type>sensor_msgs/LaserScan</output_type>
             <frame_name>lidar_link</frame_name>
@@ -343,32 +352,34 @@
         <visualize>true</visualize>
         <update_rate>10.0</update_rate>
         <camera name="head">
-        <horizontal_fov>1.3962634</horizontal_fov>
-        <image>
-            <width>800</width>
-            <height>800</height>
-            <format>R8G8B8</format>
-        </image>
-        <clip>
-            <near>0.02</near>
-            <far>300</far>
-        </clip>
+            <horizontal_fov>1.089</horizontal_fov>
+            <image>
+                <width>640</width>
+                <height>480</height>
+                <format>R8G8B8</format>
+            </image>
+            <clip>
+                <near>0.05</near>
+                <far>8.0</far>
+            </clip>
         </camera>
-        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <!-- <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
             <alwaysOn>true</alwaysOn>
             <updateRate>0.0</updateRate>
-            <cameraName>rrbot/camera1</cameraName>
             <imageTopicName>image_raw</imageTopicName>
             <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-            <frameName>camera_link</frameName>
+            <frameName>camera_link_optical</frameName>
             <hackBaseline>0.07</hackBaseline>
             <distortionK1>0.0</distortionK1>
             <distortionK2>0.0</distortionK2>
             <distortionK3>0.0</distortionK3>
             <distortionT1>0.0</distortionT1>
             <distortionT2>0.0</distortionT2>
+        </plugin> -->
+
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+            <frame_name>camera_link_optical</frame_name>
         </plugin>
         </sensor>
     </gazebo>
-    
 </robot>

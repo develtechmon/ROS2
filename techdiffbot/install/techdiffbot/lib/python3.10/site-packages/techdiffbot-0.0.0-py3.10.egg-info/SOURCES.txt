@@ -11,6 +11,7 @@ setup.py
 config/gazebo_params.yaml
 config/gazebo_ros2_ctl_use_sim.yaml
 config/joystick.yaml
+config/mapper_params_online_async.yaml
 config/my_controllers.yaml
 launch/camera.launch.py
 launch/gazebo.sim.launch.py

@@ -1,1 +1,1 @@
-/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials
+geometry_msgs;rclcpp;rviz_common;rviz_rendering;sensor_msgs;libqt5-core;libqt5-gui;libqt5-widgets;ament_lint_auto;ament_lint_common

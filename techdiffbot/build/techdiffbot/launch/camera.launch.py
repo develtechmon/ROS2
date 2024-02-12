@@ -1,1 +1,0 @@
-/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot/launch/camera.launch.py

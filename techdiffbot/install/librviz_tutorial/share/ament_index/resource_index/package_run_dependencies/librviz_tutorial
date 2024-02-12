@@ -1,1 +1,1 @@
-/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/librviz_tutorial
+rclcpp;rviz_common;rviz_default_plugins;rviz_rendering;libqt5-core;libqt5-gui;libqt5-widgets;ament_lint_auto;ament_lint_common
