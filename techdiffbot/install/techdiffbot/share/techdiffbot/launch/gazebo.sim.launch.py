@@ -29,9 +29,10 @@ def generate_launch_description():
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+
+                    # Added Gazebo Launch Argumets to Launch to Saved world
                     launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file, 'world': gazebo_worlds_file}.items()
                     #launch_arguments={'world': gazebo_worlds_file}.items()
-
              )
     
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
