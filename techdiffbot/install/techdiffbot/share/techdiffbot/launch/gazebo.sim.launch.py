@@ -4,7 +4,7 @@ from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
 from launch.substitutions import LaunchConfiguration
-from launch.actions import DeclareLaunchArgument
+from launch.actions import DeclareLaunchArgument, ExecuteProcess
 from launch_ros.actions import Node
 
 from launch.actions import IncludeLaunchDescription
@@ -24,11 +24,14 @@ def generate_launch_description():
     )
     
     gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+    gazebo_worlds_file = os.path.join(get_package_share_directory(package_name),'world','gazebo_techdiffbot_first_world')
 
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
+                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file, 'world': gazebo_worlds_file}.items()
+                    #launch_arguments={'world': gazebo_worlds_file}.items()
+
              )
     
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',

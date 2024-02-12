@@ -1,0 +1,4 @@
+source;share/librviz_tutorial/local_setup.bash
+source;share/librviz_tutorial/local_setup.dsv
+source;share/librviz_tutorial/local_setup.sh
+source;share/librviz_tutorial/local_setup.zsh

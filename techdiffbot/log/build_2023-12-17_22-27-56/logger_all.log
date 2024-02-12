@@ -1,0 +1,639 @@
+[1.190s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.190s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7ff90feb90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7ff9558220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7ff9558220>>)
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.243s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[1.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'ignore_ament_install'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['colcon_pkg']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'colcon_pkg'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['colcon_meta']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'colcon_meta'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/techdiffbot) by extension 'ros'
+[1.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/techdiffbot' with type 'ros.ament_python' and name 'techdiffbot'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'ignore'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'ignore_ament_install'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extensions ['colcon_pkg']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'colcon_pkg'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extensions ['colcon_meta']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'colcon_meta'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extensions ['ros']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'ros'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extensions ['cmake', 'python']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'cmake'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'python'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extensions ['python_setup_py']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials) by extension 'python_setup_py'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extension 'ignore'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extension 'ignore_ament_install'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extensions ['colcon_pkg']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extension 'colcon_pkg'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extensions ['colcon_meta']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extension 'colcon_meta'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extensions ['ros']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/interactive_marker_tutorials) by extension 'ros'
+[1.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization_tutorials/interactive_marker_tutorials' with type 'ros.ament_cmake' and name 'interactive_marker_tutorials'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extension 'ignore'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extension 'ignore_ament_install'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extensions ['colcon_pkg']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extension 'colcon_pkg'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extensions ['colcon_meta']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extension 'colcon_meta'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extensions ['ros']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/librviz_tutorial) by extension 'ros'
+[1.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization_tutorials/librviz_tutorial' with type 'ros.ament_cmake' and name 'librviz_tutorial'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extension 'ignore'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extension 'ignore_ament_install'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extensions ['colcon_pkg']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extension 'colcon_pkg'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extensions ['colcon_meta']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extension 'colcon_meta'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extensions ['ros']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_plugin_tutorials) by extension 'ros'
+[1.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization_tutorials/rviz_plugin_tutorials' with type 'ros.ament_cmake' and name 'rviz_plugin_tutorials'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_python_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_python_tutorial) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/rviz_python_tutorial) ignored
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extension 'ignore_ament_install'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extensions ['colcon_pkg']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extension 'colcon_pkg'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extensions ['colcon_meta']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extension 'colcon_meta'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extensions ['ros']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_marker_tutorials) by extension 'ros'
+[1.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization_tutorials/visualization_marker_tutorials' with type 'ros.ament_cmake' and name 'visualization_marker_tutorials'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extension 'ignore'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extension 'ignore_ament_install'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extensions ['colcon_pkg']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extension 'colcon_pkg'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extensions ['colcon_meta']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extension 'colcon_meta'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extensions ['ros']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization_tutorials/visualization_tutorials) by extension 'ros'
+[1.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization_tutorials/visualization_tutorials' with type 'ros.ament_cmake' and name 'visualization_tutorials'
+[1.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.411s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install
+[1.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/ldlidar_ros2_ws/install
+[1.457s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install
+[1.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jlukas/Desktop/My_Project/ROS2/rover/install
+[1.494s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 430 installed packages in /opt/ros/humble
+[1.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.622s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.622s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_target' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'interactive_marker_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.639s] DEBUG:colcon.colcon_core.verb:Building package 'interactive_marker_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/interactive_marker_tutorials', 'symlink_install': True, 'test_result_base': None}
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_args' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_target' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'librviz_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.656s] DEBUG:colcon.colcon_core.verb:Building package 'librviz_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial', 'symlink_install': True, 'test_result_base': None}
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_args' from command line to 'None'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_target' from command line to 'None'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rviz_plugin_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.675s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_plugin_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials', 'symlink_install': True, 'test_result_base': None}
+[1.691s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.692s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.692s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial', 'symlink_install': True, 'test_result_base': None}
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_target' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_clean_first' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'cmake_force_configure' from command line to 'False'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'ament_cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.711s] Level 5:colcon.colcon_core.verb:set package 'techdiffbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.711s] DEBUG:colcon.colcon_core.verb:Building package 'techdiffbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot', 'symlink_install': True, 'test_result_base': None}
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_target' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[1.729s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[1.730s] Level 5:colcon.colcon_core.verb:set package 'visualization_marker_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.730s] DEBUG:colcon.colcon_core.verb:Building package 'visualization_marker_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials', 'symlink_install': True, 'test_result_base': None}
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_args' from command line to 'None'
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_target' from command line to 'None'
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[1.751s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[1.752s] Level 5:colcon.colcon_core.verb:set package 'visualization_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.752s] DEBUG:colcon.colcon_core.verb:Building package 'visualization_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials', 'merge_install': False, 'path': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_tutorials', 'symlink_install': True, 'test_result_base': None}
+[1.769s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.787s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/interactive_marker_tutorials' with build type 'ament_cmake'
+[1.787s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/interactive_marker_tutorials'
+[1.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.920s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial' with build type 'ament_cmake'
+[1.920s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial'
+[1.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.057s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials' with build type 'ament_cmake'
+[2.057s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials'
+[2.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials' with build type 'ament_cmake'
+[2.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials'
+[2.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/interactive_marker_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials
+[2.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial
+[2.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials
+[2.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials
+[4.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials
+[4.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials -- -j4 -l4
+[5.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/interactive_marker_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials
+[5.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials -- -j4 -l4
+[8.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials
+[8.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials -- -j4 -l4
+[10.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial
+[10.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial -- -j4 -l4
+[24.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials -- -j4 -l4
+[24.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials
+[29.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_marker_tutorials)
+[29.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials
+[29.274s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials' for CMake module files
+[29.282s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials' for CMake config files
+[29.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_marker_tutorials', 'cmake_prefix_path')
+[29.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.ps1'
+[29.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.dsv'
+[29.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.sh'
+[29.328s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib'
+[29.328s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/bin'
+[29.329s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/pkgconfig/visualization_marker_tutorials.pc'
+[29.329s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/python3.10/site-packages'
+[29.329s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/bin'
+[29.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.ps1'
+[29.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv'
+[29.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.sh'
+[29.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.bash'
+[29.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.zsh'
+[29.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/colcon-core/packages/visualization_marker_tutorials)
+[30.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_marker_tutorials)
+[30.143s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials' for CMake module files
+[30.144s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials' for CMake config files
+[30.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_marker_tutorials', 'cmake_prefix_path')
+[30.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.ps1'
+[30.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.dsv'
+[30.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/hook/cmake_prefix_path.sh'
+[30.280s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib'
+[30.280s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/bin'
+[30.280s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/pkgconfig/visualization_marker_tutorials.pc'
+[30.281s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/python3.10/site-packages'
+[30.281s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/bin'
+[30.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.ps1'
+[30.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv'
+[30.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.sh'
+[30.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.bash'
+[30.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.zsh'
+[30.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/colcon-core/packages/visualization_marker_tutorials)
+[30.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/diffdrive_arduino' with build type 'ament_cmake'
+[30.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/diffdrive_arduino'
+[30.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino -- -j4 -l4
+[31.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino -- -j4 -l4
+[31.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino
+[31.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[31.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino
+[31.435s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino' for CMake module files
+[31.436s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino' for CMake config files
+[31.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[31.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[31.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[31.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[31.500s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib'
+[31.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[31.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[31.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[31.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[31.555s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[31.555s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[31.555s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib/python3.10/site-packages'
+[31.556s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[31.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[31.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[31.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[31.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[31.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[31.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[31.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[31.977s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino' for CMake module files
+[31.978s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino' for CMake config files
+[31.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[32.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[32.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[32.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[32.023s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib'
+[32.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[32.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[32.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[32.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[32.049s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[32.049s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[32.051s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib/python3.10/site-packages'
+[32.051s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/bin'
+[32.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[32.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[32.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[32.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[32.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[32.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[32.085s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial' with build type 'ament_cmake'
+[32.086s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial'
+[32.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial -- -j4 -l4
+[33.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial -- -j4 -l4
+[33.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial
+[34.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[34.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial
+[34.063s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial' for CMake module files
+[34.064s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial' for CMake config files
+[34.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[34.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[34.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[34.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[34.123s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/lib'
+[34.124s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/bin'
+[34.124s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/lib/pkgconfig/serial.pc'
+[34.124s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/lib/python3.10/site-packages'
+[34.124s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/bin'
+[34.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.ps1'
+[34.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.dsv'
+[34.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.sh'
+[34.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.bash'
+[34.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.zsh'
+[34.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/colcon-core/packages/serial)
+[34.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[34.716s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial' for CMake module files
+[34.717s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial' for CMake config files
+[34.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[34.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[34.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[34.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[34.777s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/lib'
+[34.777s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/bin'
+[34.778s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/lib/pkgconfig/serial.pc'
+[34.778s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/lib/python3.10/site-packages'
+[34.778s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/bin'
+[34.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.ps1'
+[34.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.dsv'
+[34.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.sh'
+[34.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.bash'
+[34.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.zsh'
+[34.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/colcon-core/packages/serial)
+[34.812s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot' with build type 'ament_python'
+[34.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('techdiffbot', 'ament_prefix_path')
+[34.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/ament_prefix_path.ps1'
+[34.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/ament_prefix_path.dsv'
+[34.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/ament_prefix_path.sh'
+[34.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.604s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot'
+[35.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[37.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial -- -j4 -l4
+[37.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial
+[37.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('techdiffbot', 'pythonpath_develop')
+[37.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps install_data
+[37.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/share/techdiffbot/hook/pythonpath_develop.ps1'
+[37.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/share/techdiffbot/hook/pythonpath_develop.dsv'
+[37.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/share/techdiffbot/hook/pythonpath_develop.sh'
+[37.959s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot' for CMake module files
+[37.959s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot' for CMake config files
+[37.960s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib'
+[37.960s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/bin'
+[37.960s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/pkgconfig/techdiffbot.pc'
+[37.960s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages'
+[37.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('techdiffbot', 'pythonpath')
+[38.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/pythonpath.ps1'
+[38.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/pythonpath.dsv'
+[38.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/hook/pythonpath.sh'
+[38.024s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/bin'
+[38.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(techdiffbot)
+[38.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.ps1'
+[38.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.dsv'
+[38.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.sh'
+[38.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.bash'
+[38.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/package.zsh'
+[38.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/colcon-core/packages/techdiffbot)
+[38.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(librviz_tutorial)
+[38.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial
+[38.344s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial' for CMake module files
+[38.345s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial' for CMake config files
+[38.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('librviz_tutorial', 'cmake_prefix_path')
+[38.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.ps1'
+[38.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.dsv'
+[38.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.sh'
+[38.402s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib'
+[38.402s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/bin'
+[38.402s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib/pkgconfig/librviz_tutorial.pc'
+[38.403s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib/python3.10/site-packages'
+[38.403s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/bin'
+[38.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.ps1'
+[38.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.dsv'
+[38.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.sh'
+[38.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.bash'
+[38.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.zsh'
+[38.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/colcon-core/packages/librviz_tutorial)
+[38.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(librviz_tutorial)
+[38.613s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial' for CMake module files
+[38.614s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial' for CMake config files
+[38.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('librviz_tutorial', 'cmake_prefix_path')
+[38.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.ps1'
+[38.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.dsv'
+[38.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/hook/cmake_prefix_path.sh'
+[38.647s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib'
+[38.647s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/bin'
+[38.647s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib/pkgconfig/librviz_tutorial.pc'
+[38.647s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib/python3.10/site-packages'
+[38.648s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/bin'
+[38.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.ps1'
+[38.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.dsv'
+[38.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.sh'
+[38.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.bash'
+[38.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.zsh'
+[38.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/colcon-core/packages/librviz_tutorial)
+[48.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials -- -j4 -l4
+[48.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials
+[49.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interactive_marker_tutorials)
+[49.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials
+[49.263s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials' for CMake module files
+[49.264s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials' for CMake config files
+[49.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'cmake_prefix_path')
+[49.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.ps1'
+[49.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.dsv'
+[49.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.sh'
+[49.288s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib'
+[49.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'ld_library_path_lib')
+[49.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.ps1'
+[49.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.dsv'
+[49.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.sh'
+[49.307s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin'
+[49.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'path')
+[49.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.ps1'
+[49.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.dsv'
+[49.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.sh'
+[49.331s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/pkgconfig/interactive_marker_tutorials.pc'
+[49.332s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/python3.10/site-packages'
+[49.332s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin'
+[49.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'pythonscriptspath')
+[49.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.ps1'
+[49.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.dsv'
+[49.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.sh'
+[49.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.ps1'
+[49.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.dsv'
+[49.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.sh'
+[49.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.bash'
+[49.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.zsh'
+[49.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/colcon-core/packages/interactive_marker_tutorials)
+[49.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interactive_marker_tutorials)
+[49.576s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials' for CMake module files
+[49.576s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials' for CMake config files
+[49.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'cmake_prefix_path')
+[49.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.ps1'
+[49.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.dsv'
+[49.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/cmake_prefix_path.sh'
+[49.616s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib'
+[49.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'ld_library_path_lib')
+[49.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.ps1'
+[49.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.dsv'
+[49.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/ld_library_path_lib.sh'
+[49.639s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin'
+[49.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'path')
+[49.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.ps1'
+[49.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.dsv'
+[49.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/path.sh'
+[49.663s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/pkgconfig/interactive_marker_tutorials.pc'
+[49.664s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/python3.10/site-packages'
+[49.664s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin'
+[49.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('interactive_marker_tutorials', 'pythonscriptspath')
+[49.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.ps1'
+[49.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.dsv'
+[49.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/hook/pythonscriptspath.sh'
+[49.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.ps1'
+[49.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.dsv'
+[49.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.sh'
+[49.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.bash'
+[49.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.zsh'
+[49.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/colcon-core/packages/interactive_marker_tutorials)
+[56.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials -- -j4 -l4
+[56.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials
+[56.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_plugin_tutorials)
+[56.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials
+[56.799s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials' for CMake module files
+[56.800s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials' for CMake config files
+[56.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plugin_tutorials', 'cmake_prefix_path')
+[56.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.ps1'
+[56.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.dsv'
+[56.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.sh'
+[56.818s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib'
+[56.818s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/bin'
+[56.818s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/pkgconfig/rviz_plugin_tutorials.pc'
+[56.818s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/python3.10/site-packages'
+[56.818s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/bin'
+[56.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.ps1'
+[56.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv'
+[56.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.sh'
+[56.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.bash'
+[56.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.zsh'
+[56.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/colcon-core/packages/rviz_plugin_tutorials)
+[56.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_plugin_tutorials)
+[56.978s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials' for CMake module files
+[56.979s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials' for CMake config files
+[56.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plugin_tutorials', 'cmake_prefix_path')
+[56.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.ps1'
+[56.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.dsv'
+[56.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/hook/cmake_prefix_path.sh'
+[56.998s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib'
+[56.998s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/bin'
+[56.999s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/pkgconfig/rviz_plugin_tutorials.pc'
+[56.999s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/python3.10/site-packages'
+[56.999s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/bin'
+[57.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.ps1'
+[57.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv'
+[57.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.sh'
+[57.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.bash'
+[57.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.zsh'
+[57.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/colcon-core/packages/rviz_plugin_tutorials)
+[57.022s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_tutorials' with build type 'ament_cmake'
+[57.022s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_tutorials'
+[57.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib:${LD_LIBRARY_PATH} PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin:${PATH} /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials
+[58.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials' returned '0': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib:${LD_LIBRARY_PATH} PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin:${PATH} /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_tutorials -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials
+[58.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib:${LD_LIBRARY_PATH} PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin:${PATH} /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials -- -j4 -l4
+[58.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials' returned '0': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib:${LD_LIBRARY_PATH} PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin:${PATH} /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials -- -j4 -l4
+[58.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib:${LD_LIBRARY_PATH} PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin:${PATH} /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials
+[58.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tutorials)
+[58.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials' returned '0': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino:/home/jlukas/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib:${LD_LIBRARY_PATH} PATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin:${PATH} /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_tutorials
+[58.773s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials' for CMake module files
+[58.774s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials' for CMake config files
+[58.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tutorials', 'cmake_prefix_path')
+[58.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.ps1'
+[58.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.dsv'
+[58.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.sh'
+[58.794s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/bin'
+[58.794s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/lib/pkgconfig/visualization_tutorials.pc'
+[58.794s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/lib/python3.10/site-packages'
+[58.795s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/bin'
+[58.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.ps1'
+[58.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.dsv'
+[58.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.sh'
+[58.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.bash'
+[58.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.zsh'
+[58.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/colcon-core/packages/visualization_tutorials)
+[58.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tutorials)
+[58.915s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials' for CMake module files
+[58.915s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials' for CMake config files
+[58.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tutorials', 'cmake_prefix_path')
+[58.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.ps1'
+[58.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.dsv'
+[58.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/hook/cmake_prefix_path.sh'
+[58.937s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/bin'
+[58.937s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/lib/pkgconfig/visualization_tutorials.pc'
+[58.938s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/lib/python3.10/site-packages'
+[58.938s] Level 1:colcon.colcon_core.environment:checking '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/bin'
+[58.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.ps1'
+[58.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.dsv'
+[58.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.sh'
+[58.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.bash'
+[58.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.zsh'
+[58.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/colcon-core/packages/visualization_tutorials)
+[58.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[58.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[58.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[58.971s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[59.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[59.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[59.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[59.016s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[59.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/local_setup.ps1'
+[59.038s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/_local_setup_util_ps1.py'
+[59.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/setup.ps1'
+[59.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/local_setup.sh'
+[59.060s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/_local_setup_util_sh.py'
+[59.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/setup.sh'
+[59.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/local_setup.bash'
+[59.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/setup.bash'
+[59.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/local_setup.zsh'
+[59.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/setup.zsh'

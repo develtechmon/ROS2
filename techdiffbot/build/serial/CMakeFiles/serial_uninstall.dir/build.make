@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlukas/ROS2/techdiffbot/src/serial
+CMAKE_SOURCE_DIR = /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlukas/ROS2/techdiffbot/build/serial
+CMAKE_BINARY_DIR = /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial
 
 # Utility rule file for serial_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/serial_uninstall.dir/compiler_depend.make
 include CMakeFiles/serial_uninstall.dir/progress.make
 
 CMakeFiles/serial_uninstall:
-	/usr/bin/cmake -P /home/jlukas/ROS2/techdiffbot/build/serial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 serial_uninstall: CMakeFiles/serial_uninstall
 serial_uninstall: CMakeFiles/serial_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/serial_uninstall.dir/clean:
 .PHONY : CMakeFiles/serial_uninstall.dir/clean
 
 CMakeFiles/serial_uninstall.dir/depend:
-	cd /home/jlukas/ROS2/techdiffbot/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlukas/ROS2/techdiffbot/src/serial /home/jlukas/ROS2/techdiffbot/src/serial /home/jlukas/ROS2/techdiffbot/build/serial /home/jlukas/ROS2/techdiffbot/build/serial /home/jlukas/ROS2/techdiffbot/build/serial/CMakeFiles/serial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/CMakeFiles/serial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serial_uninstall.dir/depend
 

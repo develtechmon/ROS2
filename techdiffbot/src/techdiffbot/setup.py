@@ -14,7 +14,9 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
-        (os.path.join('share', package_name, 'config'), glob('config/*'))
+        (os.path.join('share', package_name, 'config'), glob('config/*')),
+        (os.path.join('share', package_name, 'rviz2'), glob('rviz2/*')),
+        (os.path.join('share', package_name, 'world'), glob('world/*'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,

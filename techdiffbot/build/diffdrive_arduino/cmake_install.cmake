@@ -1,8 +1,8 @@
-# Install script for directory: /home/jlukas/ROS2/techdiffbot/src/diffdrive_arduino
+# Install script for directory: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/diffdrive_arduino
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jlukas/ROS2/techdiffbot/install/diffdrive_arduino")
+  set(CMAKE_INSTALL_PREFIX "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdiffdrive_arduino.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino/libdiffdrive_arduino.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino/libdiffdrive_arduino.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdiffdrive_arduino.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdiffdrive_arduino.so")
     file(RPATH_CHANGE
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake"
-         "/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino/CMakeFiles/Export/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake")
+         "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino/CMakeFiles/Export/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -82,9 +82,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diffdrive_arduino/cmake" TYPE FILE FILES "/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino/CMakeFiles/Export/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diffdrive_arduino/cmake" TYPE FILE FILES "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino/CMakeFiles/Export/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diffdrive_arduino/cmake" TYPE FILE FILES "/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino/CMakeFiles/Export/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/diffdrive_arduino/cmake" TYPE FILE FILES "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino/CMakeFiles/Export/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake")
   endif()
 endif()
 
@@ -96,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jlukas/ROS2/techdiffbot/build/diffdrive_arduino/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

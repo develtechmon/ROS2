@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials/libpong_library.so" "TARGETS" "pong_library" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

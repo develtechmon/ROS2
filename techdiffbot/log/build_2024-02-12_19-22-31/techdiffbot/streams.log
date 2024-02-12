@@ -1,0 +1,32 @@
+[14.769s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build
+[15.060s] running develop
+[15.472s] Removing /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[15.500s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build
+[15.503s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/techdiffbot build --build-base /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build install --record /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/install.log --single-version-externally-managed
+[15.773s] running egg_info
+[15.774s] writing ../../build/techdiffbot/techdiffbot.egg-info/PKG-INFO
+[15.774s] writing dependency_links to ../../build/techdiffbot/techdiffbot.egg-info/dependency_links.txt
+[15.775s] writing entry points to ../../build/techdiffbot/techdiffbot.egg-info/entry_points.txt
+[15.776s] writing requirements to ../../build/techdiffbot/techdiffbot.egg-info/requires.txt
+[15.776s] writing top-level names to ../../build/techdiffbot/techdiffbot.egg-info/top_level.txt
+[15.779s] reading manifest file '../../build/techdiffbot/techdiffbot.egg-info/SOURCES.txt'
+[15.782s] writing manifest file '../../build/techdiffbot/techdiffbot.egg-info/SOURCES.txt'
+[15.782s] running build
+[15.783s] running build_py
+[15.783s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build
+[15.783s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build/lib
+[15.783s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build/lib/techdiffbot
+[15.783s] copying techdiffbot/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build/lib/techdiffbot
+[15.783s] running install
+[15.783s] running install_lib
+[15.785s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot
+[15.785s] copying /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build/lib/techdiffbot/__init__.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot
+[15.785s] byte-compiling /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot/__init__.py to __init__.cpython-310.pyc
+[15.785s] running install_data
+[15.787s] copying launch/lidar.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[15.787s] copying urdf/core.robot.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[15.787s] running install_egg_info
+[15.789s] Copying ../../build/techdiffbot/techdiffbot.egg-info to /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot-0.0.0-py3.10.egg-info
+[15.914s] running install_scripts
+[15.934s] writing list of installed files to '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/install.log'
+[15.961s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/techdiffbot build --build-base /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build install --record /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/install.log --single-version-externally-managed

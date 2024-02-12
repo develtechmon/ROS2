@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials/librviz_plugin_tutorials.so" "TARGETS" "rviz_plugin_tutorials" "ARCHIVE_DESTINATION" "lib/rviz_plugin_tutorials" "LIBRARY_DESTINATION" "lib/rviz_plugin_tutorials" "RUNTIME_DESTINATION" "lib/rviz_plugin_tutorials")

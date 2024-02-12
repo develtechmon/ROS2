@@ -1,0 +1,15 @@
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/ament_index/resource_index/package_run_dependencies/visualization_tutorials
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/ament_index/resource_index/parent_prefix_path/visualization_tutorials
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/environment/ament_prefix_path.sh
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/environment/ament_prefix_path.dsv
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/environment/path.sh
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/environment/path.dsv
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/local_setup.bash
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/local_setup.sh
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/local_setup.zsh
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/local_setup.dsv
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.dsv
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/ament_index/resource_index/packages/visualization_tutorials
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/cmake/visualization_tutorialsConfig.cmake
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/cmake/visualization_tutorialsConfig-version.cmake
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_tutorials/share/visualization_tutorials/package.xml

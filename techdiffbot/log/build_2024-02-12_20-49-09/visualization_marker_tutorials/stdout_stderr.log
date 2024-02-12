@@ -1,0 +1,22 @@
+[ 50%] Built target points_and_lines
+[100%] Built target basic_shapes
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/basic_shapes
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/points_and_lines
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/visualization_marker_tutorials
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/visualization_marker_tutorials
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.sh
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.dsv
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.bash
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.sh
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.zsh
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.dsv
+-- Symlinking: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/packages/visualization_marker_tutorials
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig.cmake
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig-version.cmake
+-- Up-to-date symlink: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.xml

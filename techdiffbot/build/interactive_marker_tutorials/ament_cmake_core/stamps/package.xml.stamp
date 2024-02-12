@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>interactive_marker_tutorials</name>
+  <version>0.10.3</version>
+  <description>The interactive_marker_tutorials package</description>
+
+  <maintainer email="mabel@openrobotics.org">Mabel Zhang</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/interactive_marker_tutorials</url>
+
+  <author>David Gossow</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>interactive_markers</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>visualization_msgs</depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rosidl_runtime_py</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

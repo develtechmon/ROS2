@@ -55,7 +55,7 @@ class MotorController(Node):
         left_speed  = (linear - angular) / 2
         right_speed = (linear + angular) / 2
 
-        # Convert speed values to PWM duty cycle
+        # Convert speed values to PWM duty cycle 
         left_duty_cycle = abs(left_speed) * 100
         right_duty_cycle = abs(right_speed) * 100
 
