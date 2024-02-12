@@ -44,4 +44,8 @@ Alternatively, you can use below command to launch `robot_state_publisher`,`join
 - ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 ## To re-map velocity topic
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+- ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+# To run `SLAM Toolbox` to enable `map` topic before nav
+- ros2 launch slam_toolbox online_async_launch.py params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
+
