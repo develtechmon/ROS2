@@ -10,6 +10,11 @@ PIXHAWK 2.4.8
 
 ## Install the nav2 package
 sudo apt-get install ros-foxy-navigation2 ros-foxy-nav2-bringup ros-foxy-turtlebot3*
+sudo apt-get install ros-humble-nav2*
+sudo apt-get install ros-humble-turtlebot3*
+sudo apt-get install ros-humble-navigation2
+sudo apt-get install ros-humble-nav2-bringup
+sudo apt-get install ros-humble-tf2*
 
 ## Launch gazebo_simulation_file with our slam_world
 ros2 launch techdiffbot gazebo.sim.launch.py world:=./src/techdiffbot/world/slam_world
