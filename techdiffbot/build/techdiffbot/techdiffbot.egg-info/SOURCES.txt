@@ -12,7 +12,9 @@ config/gazebo_params.yaml
 config/gazebo_ros2_ctl_use_sim.yaml
 config/joystick.yaml
 config/mapper_params_online_async.yaml
+config/mapper_params_online_async_old.yaml
 config/my_controllers.yaml
+config/twist_mux.yaml
 launch/camera.launch.py
 launch/gazebo.sim.launch.py
 launch/joystick.control.launch.py
@@ -34,3 +36,6 @@ urdf/real.robot.gazebo.sim.xacro
 urdf/ros2_control.xacro
 urdf/ros2_control_gazebo.xacro
 world/gazebo_techdiffbot_first_world
+world/my_map
+world/new_slam_map
+world/slam_world

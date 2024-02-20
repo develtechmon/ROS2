@@ -1,0 +1,136 @@
+[0.267s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials
+[0.369s] -- The C compiler identification is GNU 11.4.0
+[0.457s] -- The CXX compiler identification is GNU 11.4.0
+[0.469s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.628s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.628s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.638s] -- Detecting CXX compiler ABI info
+[0.854s] -- Detecting CXX compiler ABI info - done
+[0.862s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.862s] -- Detecting CXX compile features
+[0.862s] -- Detecting CXX compile features - done
+[0.862s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.146s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.330s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.420s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.425s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.436s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.660s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.717s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.800s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.805s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.868s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.963s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.969s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.985s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.999s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.024s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.039s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.059s] -- Looking for pthread.h
+[2.201s] -- Looking for pthread.h - found
+[2.201s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.328s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.329s] -- Found Threads: TRUE  
+[2.545s] -- Found rviz_common: 11.2.10 (/opt/ros/humble/share/rviz_common/cmake)
+[2.568s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.571s] -- Found OGRE
+[2.571s] --   static     : OFF
+[2.571s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.571s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.571s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.571s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.572s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.572s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.572s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.572s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.572s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.572s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.573s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.600s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.610s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.801s] -- Found X11: /usr/include   
+[2.802s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.927s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.927s] -- Looking for gethostbyname
+[3.107s] -- Looking for gethostbyname - found
+[3.107s] -- Looking for connect
+[3.233s] -- Looking for connect - found
+[3.234s] -- Looking for remove
+[3.423s] -- Looking for remove - found
+[3.423s] -- Looking for shmat
+[3.608s] -- Looking for shmat - found
+[3.608s] -- Looking for IceConnectionNumber in ICE
+[3.798s] -- Looking for IceConnectionNumber in ICE - found
+[3.799s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.799s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[4.317s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.971s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.972s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.952s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.205s] -- Deploy OGRE media
+[6.205s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.212s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.212s] -- Configured cppcheck include dirs: 
+[6.212s] -- Configured cppcheck exclude dirs and/or files: 
+[6.215s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.215s] -- Configured cpplint exclude dirs and/or files: 
+[6.217s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.218s] -- Added test 'lint_cmake' to check CMake code style
+[6.220s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.223s] -- Added test 'uncrustify' to check C / C++ code style
+[6.223s] -- Configured uncrustify additional arguments: 
+[6.225s] -- Added test 'xmllint' to check XML markup files
+[6.233s] -- Configuring done
+[6.273s] -- Generating done
+[6.276s] -- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials
+[6.302s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials
+[6.303s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials -- -j4 -l4
+[6.409s] [ 12%] [34m[1mAutomatic MOC for target rviz_plugin_tutorials[0m
+[7.769s] [ 12%] Built target rviz_plugin_tutorials_autogen
+[7.905s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/drive_widget.cpp.o[0m
+[7.914s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/rviz_plugin_tutorials_autogen/mocs_compilation.cpp.o[0m
+[9.159s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/imu_visual.cpp.o[0m
+[10.337s] [ 62%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/imu_display.cpp.o[0m
+[66.885s] [ 75%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/teleop_panel.cpp.o[0m
+[74.337s] [ 87%] [32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/plant_flag_tool.cpp.o[0m
+[82.624s] [100%] [32m[1mLinking CXX shared library librviz_plugin_tutorials.so[0m
+[85.457s] [100%] Built target rviz_plugin_tutorials
+[85.478s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials -- -j4 -l4
+[85.588s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials
+[85.597s] -- Install configuration: ""
+[85.598s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/plugin_description.xml
+[85.598s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so
+[85.606s] -- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so" to ""
+[85.606s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[85.607s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[85.607s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons
+[85.607s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes
+[85.607s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Imu.png
+[85.608s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Teleop.png
+[85.608s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/PlantFlag.png
+[85.608s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/send_test_msgs.py
+[85.608s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials
+[85.608s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials
+[85.608s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.sh
+[85.608s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.dsv
+[85.609s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.sh
+[85.609s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.dsv
+[85.609s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.bash
+[85.609s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.sh
+[85.610s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.zsh
+[85.610s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.dsv
+[85.611s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv
+[85.611s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/packages/rviz_plugin_tutorials
+[85.612s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials
+[85.612s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[85.612s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[85.612s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials
+[85.612s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[85.612s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig.cmake
+[85.612s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig-version.cmake
+[85.613s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.xml
+[85.615s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials

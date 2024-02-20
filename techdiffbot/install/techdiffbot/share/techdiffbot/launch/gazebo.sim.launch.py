@@ -33,6 +33,8 @@ def generate_launch_description():
                     # Added Gazebo Launch Argumets to Launch to Saved world
                     #launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file, 'world': gazebo_worlds_file}.items()
                     #launch_arguments={'world': gazebo_worlds_file}.items()
+                    launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
+
              )
     
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
@@ -57,7 +59,7 @@ def generate_launch_description():
         namespace='rviz2',
         executable='rviz2',
         name='simulation_in_rviz2'
-    ),
+    )
 
     joystick = IncludeLaunchDescription(
             PythonLaunchDescriptionSource([os.path.join(
@@ -66,9 +68,19 @@ def generate_launch_description():
             
     )
 
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
+    twist_mux = Node(
+            package="twist_mux",
+            executable="twist_mux",
+            parameters=[twist_mux_params, {'use_sim_time': True}],
+            remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
+        )
+
+
     return LaunchDescription([    
 
         rsp,
+        twist_mux,
         gazebo,
         spawn_entity,
         diff_drive_spawner,

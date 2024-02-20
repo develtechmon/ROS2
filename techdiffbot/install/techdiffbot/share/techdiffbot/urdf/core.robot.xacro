@@ -314,11 +314,11 @@
                     <!-- <resolution>1</resolution> -->
                     <!-- <min_angle>0.00</min_angle> -->
                     
-                    <!-- <min_angle>-3.14</min_angle>
-                    <max_angle>3.14</max_angle> -->
+                    <min_angle>-3.14</min_angle>
+                    <max_angle>3.14</max_angle>
 
-                    <min_angle>0.00</min_angle>
-                    <max_angle>3.14</max_angle> 
+                    <!-- <min_angle>0.00</min_angle>
+                    <max_angle>3.14</max_angle>  -->
 
                     <!-- <max_angle>6.28319</max_angle>  -->
 

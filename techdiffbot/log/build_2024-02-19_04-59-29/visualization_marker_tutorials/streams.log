@@ -1,0 +1,81 @@
+[0.153s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.422s] -- The CXX compiler identification is GNU 11.4.0
+[0.431s] -- Detecting C compiler ABI info
+[0.584s] -- Detecting C compiler ABI info - done
+[0.603s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.603s] -- Detecting C compile features
+[0.603s] -- Detecting C compile features - done
+[0.606s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.859s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.860s] -- Detecting CXX compile features
+[0.864s] -- Detecting CXX compile features - done
+[0.865s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.129s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.246s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.318s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.325s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.336s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.506s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.510s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.713s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.732s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.840s] -- Looking for pthread.h
+[1.994s] -- Looking for pthread.h - found
+[1.994s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.130s] -- Found Threads: TRUE  
+[2.373s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.436s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.794s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.925s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.932s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.932s] -- Configured cppcheck include dirs: 
+[2.932s] -- Configured cppcheck exclude dirs and/or files: 
+[2.934s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.934s] -- Configured cpplint exclude dirs and/or files: 
+[2.935s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.936s] -- Added test 'lint_cmake' to check CMake code style
+[2.937s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.944s] -- Added test 'uncrustify' to check C / C++ code style
+[2.944s] -- Configured uncrustify additional arguments: 
+[2.944s] -- Added test 'xmllint' to check XML markup files
+[2.952s] -- Configuring done
+[2.985s] -- Generating done
+[2.985s] -- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials
+[2.991s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials
+[2.995s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials -- -j4 -l4
+[3.135s] [ 25%] [32mBuilding CXX object CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o[0m
+[3.154s] [ 50%] [32mBuilding CXX object CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.o[0m
+[42.104s] [ 75%] [32m[1mLinking CXX executable points_and_lines[0m
+[42.721s] [ 75%] Built target points_and_lines
+[43.668s] [100%] [32m[1mLinking CXX executable basic_shapes[0m
+[44.069s] [100%] Built target basic_shapes
+[44.119s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials -- -j4 -l4
+[44.920s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials
+[44.933s] -- Install configuration: ""
+[44.959s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/basic_shapes
+[44.962s] -- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/basic_shapes" to ""
+[44.962s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/points_and_lines
+[44.965s] -- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/points_and_lines" to ""
+[44.965s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/visualization_marker_tutorials
+[44.966s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/visualization_marker_tutorials
+[44.966s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.sh
+[44.967s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.dsv
+[44.967s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.sh
+[44.967s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.dsv
+[44.968s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.bash
+[44.968s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.sh
+[44.968s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.zsh
+[44.969s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.dsv
+[44.969s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv
+[44.970s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/packages/visualization_marker_tutorials
+[44.970s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.971s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig.cmake
+[44.971s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig-version.cmake
+[44.971s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.xml
+[44.975s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials

@@ -20,9 +20,14 @@
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config/joystick.yaml
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config/my_controllers.yaml
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config/gazebo_ros2_ctl_use_sim.yaml
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config/twist_mux.yaml
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config/mapper_params_online_async_old.yaml
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config/gazebo_params.yaml
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2/rviz2_techdiffbot_1.rviz
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world/slam_world
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world/new_slam_map
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world/gazebo_techdiffbot_first_world
+/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world/my_map
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot-0.0.0-py3.10.egg-info/entry_points.txt
 /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot-0.0.0-py3.10.egg-info/requires.txt

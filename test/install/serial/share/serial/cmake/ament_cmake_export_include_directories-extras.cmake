@@ -1,1 +1,0 @@
-/home/jlukas/My_Project/ROS2/test/build/serial/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

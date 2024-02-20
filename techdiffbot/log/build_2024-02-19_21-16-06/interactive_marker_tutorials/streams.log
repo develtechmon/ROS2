@@ -1,0 +1,40 @@
+[0.608s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials -- -j4 -l4
+[1.304s] [ 14%] Built target selection
+[1.306s] [ 28%] Built target cube
+[1.313s] [ 42%] Built target simple_marker
+[1.330s] [ 57%] Built target basic_controls
+[1.395s] [ 71%] Built target pong_library
+[1.403s] [ 85%] Built target menu
+[1.415s] [100%] Built target pong
+[1.433s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials -- -j4 -l4
+[1.779s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials
+[1.863s] -- Install configuration: ""
+[1.864s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/pong
+[1.864s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin/basic_controls.py
+[1.864s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin/cube.py
+[1.864s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin/menu.py
+[1.864s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/bin/simple_marker.py
+[1.864s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/libpong_library.so
+[1.864s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/basic_controls
+[1.865s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/cube
+[1.865s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/selection
+[1.865s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/simple_marker
+[1.865s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/lib/interactive_marker_tutorials/menu
+[1.866s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/interactive_marker_tutorials
+[1.868s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/interactive_marker_tutorials
+[1.868s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/ament_prefix_path.sh
+[1.868s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/ament_prefix_path.dsv
+[1.868s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/path.sh
+[1.868s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/environment/path.dsv
+[1.869s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.bash
+[1.869s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.sh
+[1.870s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.zsh
+[1.871s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/local_setup.dsv
+[1.871s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.dsv
+[1.871s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/ament_index/resource_index/packages/interactive_marker_tutorials
+[1.871s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/ament_index/resource_index/rclcpp_components/interactive_marker_tutorials
+[1.874s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.874s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig.cmake
+[1.874s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/cmake/interactive_marker_tutorialsConfig-version.cmake
+[1.875s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials/share/interactive_marker_tutorials/package.xml
+[1.875s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials

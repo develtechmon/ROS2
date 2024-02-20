@@ -9,7 +9,7 @@ PIXHAWK 2.4.8
 
 
 ## Install the nav2 package
-sudo apt-get install ros-foxy-navigation2 ros-foxy-nav2-bringup ros-foxy-turtlebot3*
+sudo apt-get install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-turtlebot3*
 sudo apt-get install ros-humble-nav2*
 sudo apt-get install ros-humble-turtlebot3*
 sudo apt-get install ros-humble-navigation2
@@ -81,7 +81,7 @@ ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbo
 
 ## In other terminal source the "./install/bash" file. To bring up the saved map into our rviz2 please follow below sequence:
 open "rviz2" first and follow below command sequence
-ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=my_map.yaml -p use_sime_time:=true
+ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=my_map.yaml -p use_sim_time:=true
 ros2 run nav2_util lifecycle_bringup map_server
 
 At this point, you should the saved "map" in our "rviz2"
