@@ -2,6 +2,7 @@
 sudo apt-get install python3-pip
 
 ## Install ros2-foxy
+'''
 locale  # check for UTF-8
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
@@ -25,7 +26,7 @@ sudo apt install ros-dev-tools
 -- Replace ".bash" with your shell if you're not using bash
 -- Possible values are: setup.bash, setup.sh, setup.zsh
 source /opt/ros/foxy/setup.bash
-
+'''
 ## Install Colcon Package
 sudo apt install python3-colcon-common-extensions
 echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
