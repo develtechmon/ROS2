@@ -38,6 +38,7 @@ cp -r /opt/ros/humble/share/slam_toolbox/config/mapper_params_online_async.yaml 
 ```
 
 ## Step 4: Edit the `Yaml` file with below Configuration
+![image](https://github.com/develtechmon/ROS2/assets/125783320/fdfcd2b9-c9f6-4625-a85d-efbdee854d00)
 
 To start with `mapping` plese enable `mode:mapping` as follow
 Here we're using `mapping` mode to start
