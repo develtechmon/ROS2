@@ -22,8 +22,8 @@ sudo apt upgrade
 sudo apt install ros-foxy-desktop python3-argcomplete
 sudo apt install ros-dev-tools
 
-# Replace ".bash" with your shell if you're not using bash
-# Possible values are: setup.bash, setup.sh, setup.zsh
+-- Replace ".bash" with your shell if you're not using bash
+-- Possible values are: setup.bash, setup.sh, setup.zsh
 source /opt/ros/foxy/setup.bash
 
 ## Install Colcon Package
@@ -73,7 +73,7 @@ ros2 launch gazebo_ros gazebo.launch.py
 ## Install following packages for nav2
 sudo apt-get install ros-foxy-navigation2 ros-foxy-nav2-bringup ros-foxy-turtlebot3*
 sudo apt-get install ros-foxy-nav2*
-sudo apt-get install ros-humble-tf2*
+sudo apt-get install ros-foxy-tf2*
 
 ## Clone 
 git clone https://github.com/joshnewans/diffdrive_arduino.git 
@@ -87,6 +87,12 @@ ros2 run controller_manager spawner.py joint_broad
 
 ## To start mapping run following command. Please ensure mode mapping is enabled
 ros2 launch slam_toolbox online_async_launch.py params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
-
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+## To start mapping run following command. Please ensure mode mapping is disabled and mode localization is enabled
+colcon build
+ros2 launch techdiffbot gazebo.sim.launch.py world:=./src/techdiffbot/world/my_map 
+rviz2
+ros2 launch slam_toolbox online_async_launch.py params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
 ros2 launch nav2_bringup navigation_launch.py use_sime_time:=true
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom << run this to solve missing odom and base link issues after launching bringup nav2
