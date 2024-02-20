@@ -1,5 +1,5 @@
 ## Install python3 package
-sudo apt-get install python3-pip
+```sudo apt-get install python3-pip```
 
 ## Install ros2-foxy
 ```
