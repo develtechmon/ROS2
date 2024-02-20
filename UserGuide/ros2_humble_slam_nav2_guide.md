@@ -67,7 +67,7 @@ ros2 launch techdiffbot gazebo.sim.launch.py world:=./src/techdiffbot/world/my_m
 rviz2 -d src/techdiffbot/rviz2/my_map.rviz
 ```
 
-## Step 8: Launch our `Slam Toolbox` with `YAML` file
+## Step 8: To start Mapping Launch our `Slam Toolbox` with `mapper_params_online_async.Yaml` file 
 ```
 For Foxy - no slam
 ros2 launch slam_toolbox online_async_launch.py params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
@@ -87,6 +87,10 @@ or
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+
+Move the robot around the area and once you're done please `return` the robot to its `original initial position in map` at which point it start to move.
+
+Then save the `gazebo` map into your `/config/world/`
 
 ## Step 9: Save our Generated Map
 Once you're done generating map, now it's time to save our `map`.
@@ -128,7 +132,7 @@ odom_frame: odom
 map_frame: map
 base_frame: base_footprint
 scan_topic: /scan
-#use_map_saver: true
+use_map_saver: true
 
 # 1: To start with mapping - enable mapping mode below
 #mode: mapping <----------- disable this
@@ -217,7 +221,6 @@ ros2 launch techdiffbot lidar.launch.py
 
 In Dev machine run following
 ```
-ros2 launch techdiffbot gazebo.sim.launch.py world:=./src/techdiffbot/world/my_map 
 rviz2 -d src/techdiffbot/rviz2/my_map.rviz
 
 #For Humble - with Slam

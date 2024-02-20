@@ -23,6 +23,7 @@ launch/launch_robot.launch.py
 launch/lidar.launch.py
 launch/rsp.launch.py
 resource/techdiffbot
+rviz2/my_maze.rviz
 rviz2/rviz2_techdiffbot_1.rviz
 techdiffbot/__init__.py
 test/test_copyright.py
@@ -37,5 +38,6 @@ urdf/ros2_control.xacro
 urdf/ros2_control_gazebo.xacro
 world/gazebo_techdiffbot_first_world
 world/my_map
+world/my_maze
 world/new_slam_map
 world/slam_world

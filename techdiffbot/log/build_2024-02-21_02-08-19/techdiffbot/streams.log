@@ -1,0 +1,19 @@
+[1.647s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/techdiffbot build --build-base /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build install --record /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/install.log --single-version-externally-managed
+[2.045s] running egg_info
+[2.046s] writing ../../build/techdiffbot/techdiffbot.egg-info/PKG-INFO
+[2.046s] writing dependency_links to ../../build/techdiffbot/techdiffbot.egg-info/dependency_links.txt
+[2.046s] writing entry points to ../../build/techdiffbot/techdiffbot.egg-info/entry_points.txt
+[2.047s] writing requirements to ../../build/techdiffbot/techdiffbot.egg-info/requires.txt
+[2.050s] writing top-level names to ../../build/techdiffbot/techdiffbot.egg-info/top_level.txt
+[2.051s] reading manifest file '../../build/techdiffbot/techdiffbot.egg-info/SOURCES.txt'
+[2.052s] writing manifest file '../../build/techdiffbot/techdiffbot.egg-info/SOURCES.txt'
+[2.052s] running build
+[2.053s] running build_py
+[2.053s] running install
+[2.053s] running install_lib
+[2.055s] running install_data
+[2.057s] copying config/mapper_params_online_async.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[2.057s] copying rviz2/my_maze.rviz -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2
+[2.058s] copying world/my_maze -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[2.058s] error: can't copy 'world/maze': doesn't exist or not a regular file
+[2.094s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/techdiffbot' returned '1': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/techdiffbot build --build-base /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build install --record /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/install.log --single-version-externally-managed
