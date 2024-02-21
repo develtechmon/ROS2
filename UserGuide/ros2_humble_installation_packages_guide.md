@@ -62,7 +62,7 @@ sudo apt-get install ros-humble-robot-state
 sudo apt-get install joystick jstest-gtk evtest
 sudo apt install ros-humble-joy-tester
 sudo apt-get install v4l-utils
-sudo apt-get install ros-foxy-twist-mux
+sudo apt-get install ros-humble-twist-mux
 ```
 
 ## Step 5: Install following packages for image rqt
