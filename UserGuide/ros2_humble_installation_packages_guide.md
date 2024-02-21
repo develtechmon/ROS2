@@ -107,7 +107,7 @@ sudo apt-get install ros-humble-tf2*
 ## Step 11: Clone for Serial and Diffdriver Controller
 You may need to clone this library into your `techdiffbot` src directory by running following command
 ```
-git clone https://github.com/joshnewans/diffdrive_arduino.git 
+git clone https://github.com/joshnewans/diffdrive_arduino.git -b humble
 git clone https://github.com/joshnewans/serial.git
 cd ../
 rosdep update && rosdep install --from-path src --ignore-src -y
