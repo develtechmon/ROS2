@@ -19,7 +19,7 @@ Our `base_link` is not actually on the ground but we can pretend it is and every
 
 ## Step 2: Install the `Slam` and `Nav2` packages
 ```
-sudo apt-get install ros-foxy-twist-mux
+sudo apt-get install ros-humble-twist-mux
 sudo apt-get install ros-humble-slam-toolbox
 sudo apt-get install ros-humble-nav2*
 sudo apt-get install ros-humble-tf2*
