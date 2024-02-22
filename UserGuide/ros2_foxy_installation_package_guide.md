@@ -123,4 +123,5 @@ rviz2
 ros2 launch slam_toolbox online_async_launch.py params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
 ros2 launch nav2_bringup navigation_launch.py use_sime_time:=true
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom << run this to solve missing odom and base link issues after launching bringup nav2
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 right_wheel left_wheel << run this if you observe transform problem regarding left_wheel and right_wheel
 ```
