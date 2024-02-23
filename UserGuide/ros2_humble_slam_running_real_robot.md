@@ -1,6 +1,6 @@
 # Getting Started
 
-In this userguide, i'm going to show on how to runnig SLAM in our actual robot that made of
+In this userguide, i'm going to show on how to running SLAM in our actual robot that made of
 * LD019 Lidar x 1
 * RPi 4B 4GB x 1
 * 2 Encoder Motor x 2
@@ -24,7 +24,7 @@ parameters to ensure it match to our Lidar Transform
      use_map_saver: true
  
      # 1: To start with mapping - enable mapping mode below
--    mode: mapping 
+     mode: mapping 
 ```
 
 ## Step 2 : Change Wheel Position
