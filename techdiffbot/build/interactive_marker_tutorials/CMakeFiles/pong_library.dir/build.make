@@ -119,10 +119,10 @@ libpong_library.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesu
 libpong_library.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
 libpong_library.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 libpong_library.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
-libpong_library.so: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+libpong_library.so: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 libpong_library.so: /opt/ros/humble/lib/libtf2_ros.so
 libpong_library.so: /opt/ros/humble/lib/libtf2.so
-libpong_library.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libpong_library.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libpong_library.so: /opt/ros/humble/lib/libmessage_filters.so
 libpong_library.so: /opt/ros/humble/lib/librclcpp_action.so
 libpong_library.so: /opt/ros/humble/lib/librclcpp.so
@@ -213,7 +213,7 @@ libpong_library.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesuppor
 libpong_library.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 libpong_library.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libpong_library.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
-libpong_library.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libpong_library.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libpong_library.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 libpong_library.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libpong_library.so: /opt/ros/humble/lib/librcpputils.so

@@ -177,11 +177,12 @@
     <joint name="lidar_case_joint" type="fixed">
         <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
         <parent link="chassis_link"/>
-        <child link="lidar_case_link"/>
+	<!-- <child link="lidar_case_link"/> -->
+        <child link="ldlidar_base"/>
     </joint>
     
     <!-- LIDAR CASE LINK -->
-    <link name="lidar_case_link">
+    <link name="ldlidar_base">
     <visual>
         <!-- <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> -->
         <geometry>
@@ -200,14 +201,22 @@
     </xacro:inertial_box>
     </link>
 
-    <gazebo reference="lidar_case_link">
+     <joint name="ldlidar_link_joint" type="fixed">
+        <parent link="ldlidar_base"/>
+        <child link="ldlidar_link"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+    </joint>
+
+    <link name="ldlidar_link"/>
+
+    <gazebo reference="ldlidar_base">
         <material>Gazebo/Red</material>
     </gazebo>
 
     <!-- LIDAR  JOINT -->
     <joint name="lidar_joint" type="fixed">
         <origin xyz="0.0 0.0 0.055 " rpy="0.0 0.0 4.71239"/>
-        <parent link="lidar_case_link"/>
+        <parent link="ldlidar_base"/>
         <child link="lidar_link"/>
     </joint>
     

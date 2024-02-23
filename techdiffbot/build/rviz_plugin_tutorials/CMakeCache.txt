@@ -239,19 +239,19 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 CURL_DIR:PATH=CURL_DIR-NOTFOUND
 
 //Path to a file.
-CURL_INCLUDE_DIR:PATH=/usr/include/x86_64-linux-gnu
+CURL_INCLUDE_DIR:PATH=/usr/include/aarch64-linux-gnu
 
 //Path to a library.
 CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
+CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libcurl.so
 
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/share/eigen3/cmake
 
 //Path to a library.
-FREEIMAGE_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libfreeimage.so
+FREEIMAGE_LIBRARIES:FILEPATH=FREEIMAGE_LIBRARIES-NOTFOUND
 
 //Path to a file.
 FREETYPE_INCLUDE_DIR_freetype2:PATH=/usr/include/freetype2
@@ -263,7 +263,7 @@ FREETYPE_INCLUDE_DIR_ft2build:PATH=/usr/include/freetype2
 FREETYPE_LIBRARY_DEBUG:FILEPATH=FREETYPE_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-FREETYPE_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libfreetype.so
+FREETYPE_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libfreetype.so
 
 //Path to a library.
 FastCDR_LIBRARY_DEBUG:FILEPATH=FastCDR_LIBRARY_DEBUG-NOTFOUND
@@ -284,7 +284,7 @@ FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastrtps.so
 Fontconfig_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
+Fontconfig_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libfontconfig.so
 
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
@@ -296,28 +296,28 @@ OPENGL_GLX_INCLUDE_DIR:PATH=/usr/include
 OPENGL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-OPENGL_egl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libEGL.so
+OPENGL_egl_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libEGL.so
 
 //Path to a library.
-OPENGL_glu_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLU.so
+OPENGL_glu_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libGLU.so
 
 //Path to a library.
-OPENGL_glx_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLX.so
+OPENGL_glx_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libGLX.so
 
 //Path to a library.
-OPENGL_opengl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libOpenGL.so
+OPENGL_opengl_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libOpenGL.so
 
 //Path to a file.
 OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
-OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
 
 //Path to a file.
 OPENSSL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
@@ -326,25 +326,25 @@ PKG_CONFIG_ARGN:STRING=
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //The directory containing a CMake configuration file for Qt5Core.
-Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
+Qt5Core_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Core
 
 //The directory containing a CMake configuration file for Qt5Gui.
-Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
+Qt5Gui_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui
 
 //The directory containing a CMake configuration file for Qt5Widgets.
-Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
+Qt5Widgets_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
-Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
+Qt5_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5
 
 //Name of the computer/site where compile is being run
-SITE:STRING=jlukas
+SITE:STRING=jlukas-desktop
 
 //Path to a file.
 TINYXML2_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-TINYXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+TINYXML2_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libtinyxml2.so
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
@@ -353,19 +353,19 @@ TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 X11_ICE_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_ICE_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libICE.so
+X11_ICE_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libICE.so
 
 //Path to a file.
 X11_SM_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_SM_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libSM.so
+X11_SM_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libSM.so
 
 //Path to a file.
 X11_X11_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_X11_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libX11.so
+X11_X11_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libX11.so
 
 //Path to a file.
 X11_X11_xcb_INCLUDE_PATH:PATH=X11_X11_xcb_INCLUDE_PATH-NOTFOUND
@@ -395,13 +395,13 @@ X11_Xaccessstr_INCLUDE_PATH:PATH=/usr/include
 X11_Xau_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xau_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXau.so
+X11_Xau_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXau.so
 
 //Path to a file.
 X11_Xaw_INCLUDE_PATH:PATH=X11_Xaw_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
-X11_Xaw_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXaw.so
+X11_Xaw_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXaw.so
 
 //Path to a file.
 X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
@@ -413,7 +413,7 @@ X11_Xcomposite_LIB:FILEPATH=X11_Xcomposite_LIB-NOTFOUND
 X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xcursor_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXcursor.so
+X11_Xcursor_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXcursor.so
 
 //Path to a file.
 X11_Xdamage_INCLUDE_PATH:PATH=X11_Xdamage_INCLUDE_PATH-NOTFOUND
@@ -425,37 +425,37 @@ X11_Xdamage_LIB:FILEPATH=X11_Xdamage_LIB-NOTFOUND
 X11_Xdmcp_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xdmcp_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXdmcp.so
+X11_Xdmcp_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXdmcp.so
 
 //Path to a file.
 X11_Xext_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xext_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXext.so
+X11_Xext_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXext.so
 
 //Path to a file.
 X11_Xfixes_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xfixes_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXfixes.so
+X11_Xfixes_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXfixes.so
 
 //Path to a file.
 X11_Xft_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xft_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXft.so
+X11_Xft_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXft.so
 
 //Path to a file.
 X11_Xi_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xi_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXi.so
+X11_Xi_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXi.so
 
 //Path to a file.
 X11_Xinerama_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xinerama_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXinerama.so
+X11_Xinerama_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXinerama.so
 
 //Path to a file.
 X11_Xkb_INCLUDE_PATH:PATH=/usr/include
@@ -470,25 +470,25 @@ X11_Xlib_INCLUDE_PATH:PATH=/usr/include
 X11_Xmu_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xmu_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXmu.so
+X11_Xmu_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXmu.so
 
 //Path to a file.
 X11_Xpm_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xpm_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXpm.so
+X11_Xpm_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXpm.so
 
 //Path to a file.
 X11_Xrandr_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xrandr_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXrandr.so
+X11_Xrandr_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXrandr.so
 
 //Path to a file.
 X11_Xrender_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xrender_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXrender.so
+X11_Xrender_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXrender.so
 
 //Path to a file.
 X11_Xshape_INCLUDE_PATH:PATH=/usr/include
@@ -497,13 +497,13 @@ X11_Xshape_INCLUDE_PATH:PATH=/usr/include
 X11_Xss_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xss_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXss.so
+X11_Xss_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXss.so
 
 //Path to a file.
 X11_Xt_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xt_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXt.so
+X11_Xt_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXt.so
 
 //Path to a file.
 X11_Xtst_INCLUDE_PATH:PATH=X11_Xtst_INCLUDE_PATH-NOTFOUND
@@ -518,7 +518,7 @@ X11_Xutil_INCLUDE_PATH:PATH=/usr/include
 X11_Xv_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xv_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXv.so
+X11_Xv_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXv.so
 
 //Path to a file.
 X11_Xxf86misc_INCLUDE_PATH:PATH=X11_Xxf86misc_INCLUDE_PATH-NOTFOUND
@@ -530,7 +530,7 @@ X11_Xxf86misc_LIB:FILEPATH=X11_Xxf86misc_LIB-NOTFOUND
 X11_Xxf86vm_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_Xxf86vm_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXxf86vm.so
+X11_Xxf86vm_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXxf86vm.so
 
 //Path to a file.
 X11_dpms_INCLUDE_PATH:PATH=/usr/include
@@ -539,7 +539,7 @@ X11_dpms_INCLUDE_PATH:PATH=/usr/include
 X11_xcb_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_xcb_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libxcb.so
+X11_xcb_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libxcb.so
 
 //Path to a file.
 X11_xcb_icccm_INCLUDE_PATH:PATH=X11_xcb_icccm_INCLUDE_PATH-NOTFOUND
@@ -566,7 +566,7 @@ X11_xcb_xkb_LIB:FILEPATH=X11_xcb_xkb_LIB-NOTFOUND
 X11_xkbcommon_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
-X11_xkbcommon_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libxkbcommon.so
+X11_xkbcommon_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libxkbcommon.so
 
 //Path to a file.
 X11_xkbcommon_X11_INCLUDE_PATH:PATH=X11_xkbcommon_X11_INCLUDE_PATH-NOTFOUND
@@ -581,7 +581,7 @@ X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 X11_xkbfile_LIB:FILEPATH=X11_xkbfile_LIB-NOTFOUND
 
 //Path to a library.
-XAW_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libXaw.so
+XAW_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libXaw.so
 
 //Path to a file.
 ZLIB_INCLUDE_DIR:PATH=/usr/include
@@ -590,7 +590,7 @@ ZLIB_INCLUDE_DIR:PATH=/usr/include
 ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libz.so
 
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/lib/librviz_common.so
@@ -722,7 +722,7 @@ ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/bin/ament_uncrustify
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for assimp.
-assimp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/assimp-5.2
+assimp_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/assimp-5.2
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
@@ -734,10 +734,10 @@ class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake
 composition_interfaces_DIR:PATH=/opt/ros/humble/share/composition_interfaces/cmake
 
 //The directory containing a CMake configuration file for console_bridge.
-console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
+console_bridge_DIR:PATH=/usr/lib/aarch64-linux-gnu/console_bridge/cmake
 
 //The directory containing a CMake configuration file for draco.
-draco_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/draco
+draco_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/draco
 
 //The directory containing a CMake configuration file for eigen3_cmake_module.
 eigen3_cmake_module_DIR:PATH=/opt/ros/humble/share/eigen3_cmake_module/cmake
@@ -752,7 +752,7 @@ fastrtps_DIR:PATH=/opt/ros/humble/share/fastrtps/cmake
 fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
 
 //The directory containing a CMake configuration file for fmt.
-fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
+fmt_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/fmt
 
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
@@ -773,34 +773,34 @@ libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
 message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
 
 //Path to a library.
-onelib:FILEPATH=/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so
+onelib:FILEPATH=/opt/ros/humble/lib/aarch64-linux-gnu/liburdfdom_world.so
 
 //Path to a library.
 onelibd:FILEPATH=onelibd-NOTFOUND
 
 //The directory containing a CMake configuration file for orocos_kdl.
-orocos_kdl_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/orocos_kdl
+orocos_kdl_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/orocos_kdl
 
 //Path to a library.
-orocos_kdl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+orocos_kdl_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 
 //The directory containing a CMake configuration file for orocos_kdl_vendor.
 orocos_kdl_vendor_DIR:PATH=/opt/ros/humble/share/orocos_kdl_vendor/cmake
 
 //Path to a library.
-pkgcfg_lib_PC_CURL_curl:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
+pkgcfg_lib_PC_CURL_curl:FILEPATH=/usr/lib/aarch64-linux-gnu/libcurl.so
 
 //Path to a library.
-pkgcfg_lib_PKG_FONTCONFIG_fontconfig:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
+pkgcfg_lib_PKG_FONTCONFIG_fontconfig:FILEPATH=/usr/lib/aarch64-linux-gnu/libfontconfig.so
 
 //Path to a library.
-pkgcfg_lib_PKG_FONTCONFIG_freetype:FILEPATH=/usr/lib/x86_64-linux-gnu/libfreetype.so
+pkgcfg_lib_PKG_FONTCONFIG_freetype:FILEPATH=/usr/lib/aarch64-linux-gnu/libfreetype.so
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/humble/share/pluginlib/cmake
@@ -932,7 +932,7 @@ rviz_rendering_DIR:PATH=/opt/ros/humble/share/rviz_rendering/cmake
 sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for spdlog.
-spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
+spdlog_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/spdlog
 
 //The directory containing a CMake configuration file for spdlog_vendor.
 spdlog_vendor_DIR:PATH=/opt/ros/humble/share/spdlog_vendor/cmake
@@ -971,16 +971,16 @@ urdf_DIR:PATH=/opt/ros/humble/share/urdf/cmake
 urdf_parser_plugin_DIR:PATH=/opt/ros/humble/share/urdf_parser_plugin/cmake
 
 //The directory containing a CMake configuration file for urdfdom.
-urdfdom_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom/cmake
+urdfdom_DIR:PATH=/opt/ros/humble/lib/aarch64-linux-gnu/urdfdom/cmake
 
 //The directory containing a CMake configuration file for urdfdom_headers.
-urdfdom_headers_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/urdfdom_headers/cmake
+urdfdom_headers_DIR:PATH=/opt/ros/humble/lib/aarch64-linux-gnu/urdfdom_headers/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
 
 //The directory containing a CMake configuration file for yaml-cpp.
-yaml-cpp_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp
+yaml-cpp_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/yaml-cpp
 
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/humble/cmake
@@ -1163,17 +1163,17 @@ FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
 //Details about finding FastRTPS
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/humble/include][/opt/ros/humble/lib/libfastrtps.so;/opt/ros/humble/lib/libfastcdr.so][v()]
 //Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][c ][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/aarch64-linux-gnu/libOpenGL.so][/usr/lib/aarch64-linux-gnu/libGLX.so][/usr/include][c ][v()]
 //Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/aarch64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding X11
-FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libX11.so][c ][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/usr/include][/usr/lib/aarch64-linux-gnu/libX11.so][c ][v()]
 //Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/x86_64-linux-gnu/libz.so][/usr/include][v1.2.11()]
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/aarch64-linux-gnu/libz.so][/usr/include][v1.2.11()]
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_freetype2
 FREETYPE_INCLUDE_DIR_freetype2-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_ft2build
@@ -1208,32 +1208,32 @@ OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_SSL_LIBRARY
 OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
-PC_CURL_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
+PC_CURL_CFLAGS:INTERNAL=-I/usr/include/aarch64-linux-gnu
 PC_CURL_CFLAGS_I:INTERNAL=
 PC_CURL_CFLAGS_OTHER:INTERNAL=
 PC_CURL_FOUND:INTERNAL=1
-PC_CURL_INCLUDEDIR:INTERNAL=/usr/include/x86_64-linux-gnu
-PC_CURL_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
-PC_CURL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lcurl
+PC_CURL_INCLUDEDIR:INTERNAL=/usr/include/aarch64-linux-gnu
+PC_CURL_INCLUDE_DIRS:INTERNAL=/usr/include/aarch64-linux-gnu
+PC_CURL_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lcurl
 PC_CURL_LDFLAGS_OTHER:INTERNAL=
-PC_CURL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+PC_CURL_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 PC_CURL_LIBRARIES:INTERNAL=curl
-PC_CURL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PC_CURL_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 PC_CURL_LIBS:INTERNAL=
 PC_CURL_LIBS_L:INTERNAL=
 PC_CURL_LIBS_OTHER:INTERNAL=
 PC_CURL_LIBS_PATHS:INTERNAL=
 PC_CURL_MODULE_NAME:INTERNAL=libcurl
 PC_CURL_PREFIX:INTERNAL=/usr
-PC_CURL_STATIC_CFLAGS:INTERNAL=-I/usr/include/x86_64-linux-gnu
+PC_CURL_STATIC_CFLAGS:INTERNAL=-I/usr/include/aarch64-linux-gnu
 PC_CURL_STATIC_CFLAGS_I:INTERNAL=
 PC_CURL_STATIC_CFLAGS_OTHER:INTERNAL=
-PC_CURL_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/x86_64-linux-gnu
-PC_CURL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/mit-krb5;-lcurl;-lnghttp2;-lidn2;-lrtmp;-lssh;-lpsl;-lssl;-lcrypto;-lssl;-lcrypto;-lgssapi_krb5;-llber;-lldap;-llber;-lzstd;-lbrotlidec;-lz
+PC_CURL_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/aarch64-linux-gnu
+PC_CURL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-L/usr/lib/aarch64-linux-gnu/mit-krb5;-lcurl;-lnghttp2;-lidn2;-lrtmp;-lssh;-lpsl;-lssl;-lcrypto;-lssl;-lcrypto;-lgssapi_krb5;-llber;-lldap;-llber;-lzstd;-lbrotlidec;-lz
 PC_CURL_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_CURL_STATIC_LIBDIR:INTERNAL=
 PC_CURL_STATIC_LIBRARIES:INTERNAL=curl;nghttp2;idn2;rtmp;ssh;psl;ssl;crypto;ssl;crypto;gssapi_krb5;lber;ldap;lber;zstd;brotlidec;z
-PC_CURL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/mit-krb5
+PC_CURL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu;/usr/lib/aarch64-linux-gnu/mit-krb5
 PC_CURL_STATIC_LIBS:INTERNAL=
 PC_CURL_STATIC_LIBS_L:INTERNAL=
 PC_CURL_STATIC_LIBS_OTHER:INTERNAL=
@@ -1253,11 +1253,11 @@ PKG_FONTCONFIG_CFLAGS_OTHER:INTERNAL=
 PKG_FONTCONFIG_FOUND:INTERNAL=1
 PKG_FONTCONFIG_INCLUDEDIR:INTERNAL=/usr/include
 PKG_FONTCONFIG_INCLUDE_DIRS:INTERNAL=/usr/include/uuid;/usr/include/freetype2;/usr/include/libpng16
-PKG_FONTCONFIG_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfontconfig;-lfreetype
+PKG_FONTCONFIG_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lfontconfig;-lfreetype
 PKG_FONTCONFIG_LDFLAGS_OTHER:INTERNAL=
-PKG_FONTCONFIG_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+PKG_FONTCONFIG_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 PKG_FONTCONFIG_LIBRARIES:INTERNAL=fontconfig;freetype
-PKG_FONTCONFIG_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PKG_FONTCONFIG_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 PKG_FONTCONFIG_LIBS:INTERNAL=
 PKG_FONTCONFIG_LIBS_L:INTERNAL=
 PKG_FONTCONFIG_LIBS_OTHER:INTERNAL=
@@ -1268,11 +1268,11 @@ PKG_FONTCONFIG_STATIC_CFLAGS:INTERNAL=-I/usr/include/uuid;-I/usr/include/freetyp
 PKG_FONTCONFIG_STATIC_CFLAGS_I:INTERNAL=
 PKG_FONTCONFIG_STATIC_CFLAGS_OTHER:INTERNAL=
 PKG_FONTCONFIG_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/uuid;/usr/include/freetype2;/usr/include/libpng16
-PKG_FONTCONFIG_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lfontconfig;-luuid;-lexpat;-lm;-lfreetype;-lpng16;-lm;-lz;-lm;-lz;-lbrotlidec;-lbrotlicommon
+PKG_FONTCONFIG_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lfontconfig;-luuid;-lexpat;-lm;-lfreetype;-lpng16;-lm;-lz;-lm;-lz;-lbrotlidec;-lbrotlicommon
 PKG_FONTCONFIG_STATIC_LDFLAGS_OTHER:INTERNAL=
 PKG_FONTCONFIG_STATIC_LIBDIR:INTERNAL=
 PKG_FONTCONFIG_STATIC_LIBRARIES:INTERNAL=fontconfig;uuid;expat;m;freetype;png16;m;z;m;z;brotlidec;brotlicommon
-PKG_FONTCONFIG_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PKG_FONTCONFIG_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 PKG_FONTCONFIG_STATIC_LIBS:INTERNAL=
 PKG_FONTCONFIG_STATIC_LIBS_L:INTERNAL=
 PKG_FONTCONFIG_STATIC_LIBS_OTHER:INTERNAL=
@@ -1290,7 +1290,7 @@ TINYXML2_LIBRARY-ADVANCED:INTERNAL=1
 X11_ICE_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_ICE_LIB
 X11_ICE_LIB-ADVANCED:INTERNAL=1
-//Have library /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+//Have library /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
 X11_LIB_X11_SOLO:INTERNAL=1
 //ADVANCED property for variable: X11_SM_INCLUDE_PATH
 X11_SM_INCLUDE_PATH-ADVANCED:INTERNAL=1
@@ -1454,11 +1454,11 @@ _OPENSSL_CFLAGS_OTHER:INTERNAL=
 _OPENSSL_FOUND:INTERNAL=1
 _OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
 _OPENSSL_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto
+_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lssl;-lcrypto
 _OPENSSL_LDFLAGS_OTHER:INTERNAL=
-_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 _OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
-_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 _OPENSSL_LIBS:INTERNAL=
 _OPENSSL_LIBS_L:INTERNAL=
 _OPENSSL_LIBS_OTHER:INTERNAL=
@@ -1469,11 +1469,11 @@ _OPENSSL_STATIC_CFLAGS:INTERNAL=
 _OPENSSL_STATIC_CFLAGS_I:INTERNAL=
 _OPENSSL_STATIC_CFLAGS_OTHER:INTERNAL=
 _OPENSSL_STATIC_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
+_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
 _OPENSSL_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
 _OPENSSL_STATIC_LIBDIR:INTERNAL=
 _OPENSSL_STATIC_LIBRARIES:INTERNAL=ssl;crypto;dl
-_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 _OPENSSL_STATIC_LIBS:INTERNAL=
 _OPENSSL_STATIC_LIBS_L:INTERNAL=
 _OPENSSL_STATIC_LIBS_OTHER:INTERNAL=
@@ -1486,7 +1486,7 @@ _OPENSSL_openssl_VERSION:INTERNAL=
 //Path to a program.
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-aarch64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
 __pkg_config_arguments_PC_CURL:INTERNAL=QUIET;libcurl
 __pkg_config_arguments_PKG_FONTCONFIG:INTERNAL=QUIET;fontconfig

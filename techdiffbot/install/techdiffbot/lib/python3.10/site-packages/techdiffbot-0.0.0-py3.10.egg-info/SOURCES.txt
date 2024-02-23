@@ -11,6 +11,7 @@ setup.py
 config/gazebo_params.yaml
 config/gazebo_ros2_ctl_use_sim.yaml
 config/joystick.yaml
+config/lifecycle_mgr_slam.yaml
 config/mapper_params_online_async.yaml
 config/mapper_params_online_async_old.yaml
 config/my_controllers.yaml
@@ -20,6 +21,7 @@ launch/gazebo.sim.launch.py
 launch/joystick.control.launch.py
 launch/joystick.steam.launch.py
 launch/launch_robot.launch.py
+launch/ldlidar_slam.launch.py
 launch/lidar.launch.py
 launch/rsp.launch.py
 resource/techdiffbot
