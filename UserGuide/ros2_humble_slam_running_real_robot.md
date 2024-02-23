@@ -43,9 +43,72 @@ wheel_radius: 0.03405
 
 ## Step 3 : Change `src/techdiffbot/urdf/core.robot.xacro` file parameter
 To ensure we're using `correct` lidar link, we have to modify `link` and `joint name` parameter under `Lidar` section
-to ensure it's recognizable and work with our Lidar `base_frame` above.
+to ensure it's recognizable and work with our `ldlidar_base` and `ldlidar_link` above.
 
-Please check `Lidar` section at `core.robot.xacro` on how to setup this parameter.
+Please check `Lidar` section at `core.robot.xacro` on how to setup this parameter. Below example i'm using an example of
+Lidar from `articubot` to make things easy to understand.
+```
+    <joint name="laser_joint" type="fixed">
+        <parent link="chassis"/>
+        <child link="ldlidar_base"/> 
+        <origin xyz="0.122 0 0.212" rpy="0 0 0"/>
+    </joint>
+
+    <link name="ldlidar_base"> <================================= our ldlidar_base
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <cylinder radius="0.01" length="0.1"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+   </link>
+
+    <joint name="ldlidar_link_joint" type="fixed">
+        <parent link="ldlidar_base"/>
+        <child link="ldlidar_link"/>
+        <origin xyz="0 0 0.02745" rpy="0 0 0" />
+    </joint>
+
+    <link name="ldlidar_link"> <================================= our ldlidar_link
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <visual>
+            <origin xyz="0 0 -0.05"/>
+            <geometry>
+                <cylinder radius="0.01" length="0.1"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+   </link>
+
+```
 
 ## Step 3 : Set fixed `bus ID` to our Arduino port.
 See below example on how I set a fixed port ID for arduino nano which is configure inside `src/techdiffbot/urdf/ros2_control.xacro`
@@ -53,14 +116,14 @@ See below example on how I set a fixed port ID for arduino nano which is configu
        <param name="left_wheel_name">left_wheel_joint</param>
        <param name="right_wheel_name">right_wheel_joint</param>
        <param name="loop_rate">30</param>
-      <param name="device">/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0-port0</param> <------- set the Port numbe by constant path
+       <param name="device">/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0-port0</param> <------- set the Port numbe by constant path
        <param name="baud_rate">57600</param>
        <param name="timeout_ms">1000</param>
        <param name="enc_counts_per_rev">1320</param>
 ```
 
 ## Step 4 : Build the directory again
-From top directory run following command to compile all the changes that we made just now. 
+From top directory run following command to compile all the changes that we've made just now. 
 ```
 colcon build
 . install/setup.bash
@@ -68,10 +131,11 @@ colcon build
 
 ## Step 5 : To start mapping, follow this sequence
 ```
-## In new terminal run following 
+## In new terminal run following
+. install/setup.bash
 ros2 launch techdiffbot launch_robot.launch.py
 
-## In new terminal run following. Here we're using `ldlidar_link` as our Frame to ensure it matches with our URDF file
+## In new terminal run following. Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
 . install/setup.bash
 ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
 
