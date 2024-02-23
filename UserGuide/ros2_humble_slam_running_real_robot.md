@@ -142,6 +142,9 @@ ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
 ## In new terminal run following command to start with the mapping
 ros2 run slam_toolbox async_slam_toolbox_node src/techdiffbot/config/mapper_params_online_async.yaml 
 
+## Might consider to run this commad to have a static transform
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom ldlidar_base
+
 ## Open Rviz2
 rviz2
 select map
