@@ -233,19 +233,31 @@ colcon build
 Follow below command by sequence.
 
 ## For simulation
+```
+1. In new terminal run Gazebo
+ros2 launch techdiffbot gazebo.sim.launch.py  world:=./src/techdiffbot/world/my_maze 
 
+2. In new terminal run Rviz
+rviz2 -d src/techdiffbot/rviz2/my_maze.rviz 
+
+3. In new terminal run SLAM toolbox
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml 
+
+4. In new terminal run 
 
 
 ```
-## In new terminal run following
-. install/setup.bash
+
+
+## Ro real Robot
+```
+1.In new terminal run following
 ros2 launch techdiffbot launch_robot.launch.py
 
-## In new terminal run following. Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
-. install/setup.bash
+2. In new terminal run following. Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
 ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
 
-## In new terminal run following command to start with the mapping
+3. In new terminal run following command to start with the mapping
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml 
 
 ## Might consider to run this commad to have a static transform - optional
