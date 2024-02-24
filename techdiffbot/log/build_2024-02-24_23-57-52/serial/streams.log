@@ -1,0 +1,33 @@
+[3.366s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial -- -j4 -l4
+[3.660s] [ 28%] Built target serial
+[3.679s] [ 42%] Built target gtest
+[3.687s] [ 57%] Built target gtest_main
+[3.799s] [ 71%] Built target serial_example
+[3.833s] [ 85%] Built target serial-test
+[3.846s] [100%] Built target serial-test-timer
+[5.638s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial -- -j4 -l4
+[6.195s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial
+[6.237s] -- Install configuration: ""
+[6.238s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/lib/libserial.a
+[6.239s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/include/serial/serial.h
+[6.239s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/include/serial/v8stdint.h
+[6.241s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.sh
+[6.241s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/library_path.dsv
+[6.242s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[6.244s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[6.245s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.sh
+[6.245s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/ament_prefix_path.dsv
+[6.246s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/path.sh
+[6.247s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/environment/path.dsv
+[6.247s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.bash
+[6.250s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.sh
+[6.250s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.zsh
+[6.251s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/local_setup.dsv
+[6.251s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.dsv
+[6.252s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/ament_index/resource_index/packages/serial
+[6.253s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.254s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[6.255s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig.cmake
+[6.255s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/cmake/serialConfig-version.cmake
+[6.258s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial/share/serial/package.xml
+[6.269s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial

@@ -176,7 +176,7 @@ cube: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 cube: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 cube: /opt/ros/humble/lib/librosidl_typesupport_c.so
 cube: /opt/ros/humble/lib/librcpputils.so
-cube: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+cube: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 cube: /opt/ros/humble/lib/librmw.so
 cube: /opt/ros/humble/lib/librosidl_runtime_c.so
 cube: /opt/ros/humble/lib/librcutils.so

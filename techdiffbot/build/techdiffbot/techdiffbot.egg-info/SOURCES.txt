@@ -13,7 +13,6 @@ config/gazebo_ros2_ctl_use_sim.yaml
 config/joystick.yaml
 config/lifecycle_mgr_slam.yaml
 config/mapper_params_online_async.yaml
-config/mapper_params_online_async_old.yaml
 config/my_controllers.yaml
 config/nav2_params.yaml
 config/twist_mux.yaml

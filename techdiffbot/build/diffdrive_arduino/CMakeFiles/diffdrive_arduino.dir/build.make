@@ -176,10 +176,10 @@ libdiffdrive_arduino.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libdiffdrive_arduino.so: /opt/ros/humble/lib/libclass_loader.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/libclass_loader.so
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librcl.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/libtracetools.so
@@ -192,7 +192,7 @@ libdiffdrive_arduino.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesuppo
 libdiffdrive_arduino.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librclcpp_lifecycle.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librclcpp.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librcl_lifecycle.so
@@ -204,7 +204,7 @@ libdiffdrive_arduino.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesuppo
 libdiffdrive_arduino.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librcpputils.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librcutils.so
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libdiffdrive_arduino.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -284,7 +284,7 @@ libdiffdrive_arduino.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librcpputils.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdiffdrive_arduino.so: /opt/ros/humble/lib/librcutils.so
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libdiffdrive_arduino.so: CMakeFiles/diffdrive_arduino.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libdiffdrive_arduino.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/diffdrive_arduino.dir/link.txt --verbose=$(VERBOSE)

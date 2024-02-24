@@ -1,0 +1,2717 @@
+[0.000000] (-) TimerEvent: {}
+[0.001972] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.002325] (interactive_marker_tutorials) JobQueued: {'identifier': 'interactive_marker_tutorials', 'dependencies': OrderedDict()}
+[0.002516] (librviz_tutorial) JobQueued: {'identifier': 'librviz_tutorial', 'dependencies': OrderedDict()}
+[0.002887] (rviz_plugin_tutorials) JobQueued: {'identifier': 'rviz_plugin_tutorials', 'dependencies': OrderedDict()}
+[0.003001] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003101] (techdiffbot) JobQueued: {'identifier': 'techdiffbot', 'dependencies': OrderedDict()}
+[0.003194] (visualization_marker_tutorials) JobQueued: {'identifier': 'visualization_marker_tutorials', 'dependencies': OrderedDict()}
+[0.003289] (visualization_tutorials) JobQueued: {'identifier': 'visualization_tutorials', 'dependencies': OrderedDict([('interactive_marker_tutorials', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials'), ('librviz_tutorial', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial'), ('rviz_plugin_tutorials', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials'), ('visualization_marker_tutorials', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials')])}
+[0.003536] (interactive_marker_tutorials) JobStarted: {'identifier': 'interactive_marker_tutorials'}
+[0.099725] (-) TimerEvent: {}
+[0.201406] (-) TimerEvent: {}
+[0.302783] (-) TimerEvent: {}
+[0.404045] (-) TimerEvent: {}
+[0.504960] (-) TimerEvent: {}
+[0.605719] (-) TimerEvent: {}
+[0.706403] (-) TimerEvent: {}
+[0.713454] (librviz_tutorial) JobStarted: {'identifier': 'librviz_tutorial'}
+[0.806693] (-) TimerEvent: {}
+[0.907435] (-) TimerEvent: {}
+[1.011452] (-) TimerEvent: {}
+[1.112382] (-) TimerEvent: {}
+[1.213382] (-) TimerEvent: {}
+[1.314454] (-) TimerEvent: {}
+[1.395038] (rviz_plugin_tutorials) JobStarted: {'identifier': 'rviz_plugin_tutorials'}
+[1.414768] (-) TimerEvent: {}
+[1.515636] (-) TimerEvent: {}
+[1.619466] (-) TimerEvent: {}
+[1.720289] (-) TimerEvent: {}
+[1.821085] (-) TimerEvent: {}
+[1.922773] (-) TimerEvent: {}
+[2.023552] (-) TimerEvent: {}
+[2.076770] (visualization_marker_tutorials) JobStarted: {'identifier': 'visualization_marker_tutorials'}
+[2.123734] (-) TimerEvent: {}
+[2.225255] (-) TimerEvent: {}
+[2.326083] (-) TimerEvent: {}
+[2.427288] (-) TimerEvent: {}
+[2.528116] (-) TimerEvent: {}
+[2.629270] (-) TimerEvent: {}
+[2.730464] (-) TimerEvent: {}
+[2.765687] (interactive_marker_tutorials) JobProgress: {'identifier': 'interactive_marker_tutorials', 'progress': 'cmake'}
+[2.766816] (interactive_marker_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/interactive_marker_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/interactive_marker_tutorials'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[2.788667] (librviz_tutorial) JobProgress: {'identifier': 'librviz_tutorial', 'progress': 'cmake'}
+[2.789897] (librviz_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial', '-DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[2.804090] (rviz_plugin_tutorials) JobProgress: {'identifier': 'rviz_plugin_tutorials', 'progress': 'cmake'}
+[2.808393] (rviz_plugin_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/rviz_plugin_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[2.829150] (visualization_marker_tutorials) JobProgress: {'identifier': 'visualization_marker_tutorials', 'progress': 'cmake'}
+[2.830500] (visualization_marker_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/visualization_marker_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[2.833646] (-) TimerEvent: {}
+[2.934596] (-) TimerEvent: {}
+[3.035834] (-) TimerEvent: {}
+[3.137133] (-) TimerEvent: {}
+[3.238122] (-) TimerEvent: {}
+[3.339101] (-) TimerEvent: {}
+[3.440257] (-) TimerEvent: {}
+[3.541286] (-) TimerEvent: {}
+[3.642403] (-) TimerEvent: {}
+[3.743622] (-) TimerEvent: {}
+[3.844609] (-) TimerEvent: {}
+[3.946808] (-) TimerEvent: {}
+[4.049309] (-) TimerEvent: {}
+[4.100988] (interactive_marker_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.102353] (visualization_marker_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.106574] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.107544] (librviz_tutorial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.149527] (-) TimerEvent: {}
+[4.251160] (-) TimerEvent: {}
+[4.352271] (-) TimerEvent: {}
+[4.453502] (-) TimerEvent: {}
+[4.554824] (-) TimerEvent: {}
+[4.655976] (-) TimerEvent: {}
+[4.756960] (-) TimerEvent: {}
+[4.858259] (-) TimerEvent: {}
+[4.960063] (-) TimerEvent: {}
+[5.014126] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.015200] (librviz_tutorial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.016200] (interactive_marker_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.024514] (visualization_marker_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.060292] (-) TimerEvent: {}
+[5.069771] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.070769] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.071639] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.082176] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.160523] (-) TimerEvent: {}
+[5.262350] (-) TimerEvent: {}
+[5.364300] (-) TimerEvent: {}
+[5.466006] (-) TimerEvent: {}
+[5.572666] (-) TimerEvent: {}
+[5.582269] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.584388] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.587431] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.605910] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.613513] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.616094] (librviz_tutorial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.617351] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.618159] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.620269] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.623080] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.624382] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.625321] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.626568] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.636750] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.639129] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.641776] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.643691] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.644680] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.645347] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.658760] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.673015] (-) TimerEvent: {}
+[5.774185] (-) TimerEvent: {}
+[5.875230] (-) TimerEvent: {}
+[5.976239] (-) TimerEvent: {}
+[6.078496] (-) TimerEvent: {}
+[6.154377] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.163555] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.168686] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.175457] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.178646] (-) TimerEvent: {}
+[6.190024] (librviz_tutorial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.191231] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.193206] (librviz_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.195498] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.196657] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.198672] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.207017] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.208487] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.210897] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.212550] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.214558] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.217499] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.263358] (librviz_tutorial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.263985] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.264564] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.269946] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.278783] (-) TimerEvent: {}
+[6.380201] (-) TimerEvent: {}
+[6.482510] (-) TimerEvent: {}
+[6.584683] (-) TimerEvent: {}
+[6.688479] (-) TimerEvent: {}
+[6.790241] (-) TimerEvent: {}
+[6.891687] (-) TimerEvent: {}
+[6.994129] (-) TimerEvent: {}
+[7.096993] (-) TimerEvent: {}
+[7.200744] (-) TimerEvent: {}
+[7.302651] (-) TimerEvent: {}
+[7.397142] (librviz_tutorial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.399844] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.401461] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.402055] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.402696] (-) TimerEvent: {}
+[7.503548] (-) TimerEvent: {}
+[7.604973] (-) TimerEvent: {}
+[7.722776] (-) TimerEvent: {}
+[7.824526] (-) TimerEvent: {}
+[7.927993] (-) TimerEvent: {}
+[8.028780] (-) TimerEvent: {}
+[8.129625] (-) TimerEvent: {}
+[8.230429] (-) TimerEvent: {}
+[8.331230] (-) TimerEvent: {}
+[8.432076] (-) TimerEvent: {}
+[8.533140] (-) TimerEvent: {}
+[8.586096] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[8.586895] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[8.590814] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.633327] (-) TimerEvent: {}
+[8.734636] (-) TimerEvent: {}
+[8.836018] (-) TimerEvent: {}
+[8.875868] (librviz_tutorial) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.936292] (-) TimerEvent: {}
+[9.037722] (-) TimerEvent: {}
+[9.139213] (-) TimerEvent: {}
+[9.238763] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.239718] (-) TimerEvent: {}
+[9.240915] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.275149] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.340049] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.340683] (-) TimerEvent: {}
+[9.341241] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.367609] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.398857] (librviz_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.440941] (-) TimerEvent: {}
+[9.464475] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.465318] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.478282] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.490017] (librviz_tutorial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.541164] (-) TimerEvent: {}
+[9.598991] (librviz_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.629147] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.630125] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.630658] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.641340] (-) TimerEvent: {}
+[9.736199] (librviz_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.741518] (-) TimerEvent: {}
+[9.842808] (-) TimerEvent: {}
+[9.857526] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.858571] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.859193] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.937842] (librviz_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.943039] (-) TimerEvent: {}
+[10.044609] (-) TimerEvent: {}
+[10.146190] (-) TimerEvent: {}
+[10.247829] (-) TimerEvent: {}
+[10.349609] (-) TimerEvent: {}
+[10.451209] (-) TimerEvent: {}
+[10.552877] (-) TimerEvent: {}
+[10.586686] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[10.603446] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.604049] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.613018] (librviz_tutorial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.653048] (-) TimerEvent: {}
+[10.658588] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.659508] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.660382] (librviz_tutorial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.753254] (-) TimerEvent: {}
+[10.854896] (-) TimerEvent: {}
+[10.956452] (-) TimerEvent: {}
+[11.058189] (-) TimerEvent: {}
+[11.159595] (-) TimerEvent: {}
+[11.260985] (-) TimerEvent: {}
+[11.270655] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[11.361227] (-) TimerEvent: {}
+[11.462803] (-) TimerEvent: {}
+[11.564334] (-) TimerEvent: {}
+[11.625413] (librviz_tutorial) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.626138] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.630606] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.664549] (-) TimerEvent: {}
+[11.765865] (-) TimerEvent: {}
+[11.850853] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.866038] (-) TimerEvent: {}
+[11.898669] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.966224] (-) TimerEvent: {}
+[11.988142] (librviz_tutorial) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.989094] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.002148] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.066421] (-) TimerEvent: {}
+[12.167347] (-) TimerEvent: {}
+[12.244651] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.267598] (-) TimerEvent: {}
+[12.369147] (-) TimerEvent: {}
+[12.470908] (-) TimerEvent: {}
+[12.539130] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.553911] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.581135] (-) TimerEvent: {}
+[12.601039] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.601988] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.604267] (librviz_tutorial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.663214] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.681307] (-) TimerEvent: {}
+[12.709241] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.744797] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.771313] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.772323] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.773073] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.781544] (-) TimerEvent: {}
+[12.792156] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.881764] (-) TimerEvent: {}
+[12.957193] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.982182] (-) TimerEvent: {}
+[13.084207] (-) TimerEvent: {}
+[13.186429] (-) TimerEvent: {}
+[13.262583] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.269364] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.270040] (librviz_tutorial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.270534] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.275266] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.278729] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.286623] (-) TimerEvent: {}
+[13.388277] (-) TimerEvent: {}
+[13.437476] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.440498] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.488623] (-) TimerEvent: {}
+[13.591698] (-) TimerEvent: {}
+[13.693775] (-) TimerEvent: {}
+[13.722483] (librviz_tutorial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.728485] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.729706] (librviz_tutorial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.736209] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.746251] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.751732] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.793925] (-) TimerEvent: {}
+[13.894967] (-) TimerEvent: {}
+[13.896664] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.902747] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.995192] (-) TimerEvent: {}
+[14.097019] (-) TimerEvent: {}
+[14.198524] (-) TimerEvent: {}
+[14.299445] (-) TimerEvent: {}
+[14.400485] (-) TimerEvent: {}
+[14.501439] (-) TimerEvent: {}
+[14.602330] (-) TimerEvent: {}
+[14.703000] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found rviz_common: 11.2.11 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[14.703603] (-) TimerEvent: {}
+[14.715610] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[14.718550] (librviz_tutorial) StdoutLine: {'line': b'-- Found rviz_common: 11.2.11 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[14.803822] (-) TimerEvent: {}
+[14.904687] (-) TimerEvent: {}
+[14.959112] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[14.959771] (librviz_tutorial) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[14.967852] (librviz_tutorial) StdoutLine: {'line': b'-- Found OGRE\n'}
+[14.969149] (librviz_tutorial) StdoutLine: {'line': b'--   static     : OFF\n'}
+[14.970170] (librviz_tutorial) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[14.970926] (librviz_tutorial) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[14.971806] (librviz_tutorial) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[14.972293] (librviz_tutorial) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[14.972855] (librviz_tutorial) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[14.973517] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found OGRE\n'}
+[14.974179] (librviz_tutorial) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[14.974878] (librviz_tutorial) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[14.975517] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   static     : OFF\n'}
+[14.985379] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[14.985839] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[14.986212] (rviz_plugin_tutorials) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[14.986561] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[14.986904] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[14.987263] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[14.987618] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[14.988092] (librviz_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[14.988621] (librviz_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[14.989111] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[14.989760] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[14.990386] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[14.990920] (librviz_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[14.991368] (librviz_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[14.991840] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[14.992310] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[14.992863] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[14.993332] (librviz_tutorial) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[15.004930] (-) TimerEvent: {}
+[15.100327] (librviz_tutorial) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[15.101232] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[15.105099] (-) TimerEvent: {}
+[15.143776] (librviz_tutorial) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[15.149431] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[15.205386] (-) TimerEvent: {}
+[15.306292] (-) TimerEvent: {}
+[15.407331] (-) TimerEvent: {}
+[15.509382] (-) TimerEvent: {}
+[15.610831] (-) TimerEvent: {}
+[15.712266] (-) TimerEvent: {}
+[15.772686] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[15.773762] (librviz_tutorial) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[15.776324] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[15.777794] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[15.812499] (-) TimerEvent: {}
+[15.914669] (-) TimerEvent: {}
+[16.016488] (-) TimerEvent: {}
+[16.118128] (-) TimerEvent: {}
+[16.167559] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.218310] (-) TimerEvent: {}
+[16.223967] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[16.232410] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[16.233105] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[16.234953] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[16.318528] (-) TimerEvent: {}
+[16.419410] (-) TimerEvent: {}
+[16.487049] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[16.519883] (-) TimerEvent: {}
+[16.621772] (-) TimerEvent: {}
+[16.665769] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[16.666757] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for connect\n'}
+[16.676913] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[16.677888] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for connect\n'}
+[16.721954] (-) TimerEvent: {}
+[16.822980] (-) TimerEvent: {}
+[16.924076] (-) TimerEvent: {}
+[16.962139] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[17.024410] (-) TimerEvent: {}
+[17.062726] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[17.081077] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.081914] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[17.082550] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.083175] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[17.083608] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for remove\n'}
+[17.092860] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[17.094555] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for remove\n'}
+[17.095547] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[17.096038] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[17.102534] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.111238] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.118490] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.124592] (-) TimerEvent: {}
+[17.132971] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[17.134148] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[17.142772] (visualization_marker_tutorials) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.163395] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.224907] (-) TimerEvent: {}
+[17.277209] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[17.288123] (visualization_marker_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials\n'}
+[17.301102] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[17.311527] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[17.313468] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[17.325248] (-) TimerEvent: {}
+[17.351965] (visualization_marker_tutorials) CommandEnded: {'returncode': 0}
+[17.353773] (visualization_marker_tutorials) JobProgress: {'identifier': 'visualization_marker_tutorials', 'progress': 'build'}
+[17.353975] (visualization_marker_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials', '--', '-j4', '-l4'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[17.425434] (-) TimerEvent: {}
+[17.516517] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[17.518206] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[17.525764] (-) TimerEvent: {}
+[17.535777] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[17.537898] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[17.625990] (-) TimerEvent: {}
+[17.685210] (visualization_marker_tutorials) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o\x1b[0m\n'}
+[17.686650] (visualization_marker_tutorials) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.o\x1b[0m\n'}
+[17.726286] (-) TimerEvent: {}
+[17.827555] (-) TimerEvent: {}
+[17.928509] (-) TimerEvent: {}
+[17.939121] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[17.940997] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[18.029153] (-) TimerEvent: {}
+[18.102584] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[18.105763] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[18.129356] (-) TimerEvent: {}
+[18.230293] (-) TimerEvent: {}
+[18.331923] (-) TimerEvent: {}
+[18.417551] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[18.427590] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[18.428689] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[18.432116] (-) TimerEvent: {}
+[18.534088] (-) TimerEvent: {}
+[18.587699] (librviz_tutorial) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[18.599044] (librviz_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[18.599740] (librviz_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[18.634315] (-) TimerEvent: {}
+[18.736013] (-) TimerEvent: {}
+[18.837604] (-) TimerEvent: {}
+[18.939110] (-) TimerEvent: {}
+[19.040658] (-) TimerEvent: {}
+[19.142536] (-) TimerEvent: {}
+[19.244241] (-) TimerEvent: {}
+[19.345921] (-) TimerEvent: {}
+[19.368125] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[19.446249] (-) TimerEvent: {}
+[19.547890] (-) TimerEvent: {}
+[19.563543] (librviz_tutorial) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[19.570682] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.648146] (-) TimerEvent: {}
+[19.751235] (-) TimerEvent: {}
+[19.859753] (-) TimerEvent: {}
+[19.961960] (-) TimerEvent: {}
+[20.063420] (-) TimerEvent: {}
+[20.166938] (-) TimerEvent: {}
+[20.261260] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[20.262652] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[20.267177] (-) TimerEvent: {}
+[20.368727] (-) TimerEvent: {}
+[20.469600] (-) TimerEvent: {}
+[20.476744] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[20.521972] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[20.523765] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[20.524350] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[20.551770] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[20.552429] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[20.569805] (-) TimerEvent: {}
+[20.571870] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[20.589342] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.595563] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[20.613294] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[20.613962] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[20.619900] (interactive_marker_tutorials) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.637663] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.670004] (-) TimerEvent: {}
+[20.771405] (-) TimerEvent: {}
+[20.872927] (-) TimerEvent: {}
+[20.882935] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[20.896884] (interactive_marker_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials\n'}
+[20.961170] (interactive_marker_tutorials) CommandEnded: {'returncode': 0}
+[20.962811] (interactive_marker_tutorials) JobProgress: {'identifier': 'interactive_marker_tutorials', 'progress': 'build'}
+[20.962980] (interactive_marker_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials', '--', '-j4', '-l4'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[20.973073] (-) TimerEvent: {}
+[21.074741] (-) TimerEvent: {}
+[21.176261] (-) TimerEvent: {}
+[21.277959] (-) TimerEvent: {}
+[21.379597] (-) TimerEvent: {}
+[21.455947] (interactive_marker_tutorials) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/basic_controls.dir/src/basic_controls.cpp.o\x1b[0m\n'}
+[21.468434] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/selection.dir/src/selection.cpp.o\x1b[0m\n'}
+[21.475367] (librviz_tutorial) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[21.476480] (librviz_tutorial) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[21.479863] (-) TimerEvent: {}
+[21.486788] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/simple_marker.dir/src/simple_marker.cpp.o\x1b[0m\n'}
+[21.532727] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/cube.dir/src/cube.cpp.o\x1b[0m\n'}
+[21.580165] (-) TimerEvent: {}
+[21.681888] (-) TimerEvent: {}
+[21.783271] (-) TimerEvent: {}
+[21.885194] (-) TimerEvent: {}
+[21.986704] (-) TimerEvent: {}
+[22.088108] (-) TimerEvent: {}
+[22.189541] (-) TimerEvent: {}
+[22.290926] (-) TimerEvent: {}
+[22.392386] (-) TimerEvent: {}
+[22.493972] (-) TimerEvent: {}
+[22.595502] (-) TimerEvent: {}
+[22.697000] (-) TimerEvent: {}
+[22.799562] (-) TimerEvent: {}
+[22.901582] (-) TimerEvent: {}
+[23.003270] (-) TimerEvent: {}
+[23.104796] (-) TimerEvent: {}
+[23.206704] (-) TimerEvent: {}
+[23.308234] (-) TimerEvent: {}
+[23.410093] (-) TimerEvent: {}
+[23.511556] (-) TimerEvent: {}
+[23.613446] (-) TimerEvent: {}
+[23.715012] (-) TimerEvent: {}
+[23.816891] (-) TimerEvent: {}
+[23.918683] (-) TimerEvent: {}
+[24.019726] (-) TimerEvent: {}
+[24.121296] (-) TimerEvent: {}
+[24.141186] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[24.221513] (-) TimerEvent: {}
+[24.323624] (-) TimerEvent: {}
+[24.425080] (-) TimerEvent: {}
+[24.526055] (-) TimerEvent: {}
+[24.627116] (-) TimerEvent: {}
+[24.728882] (-) TimerEvent: {}
+[24.830477] (-) TimerEvent: {}
+[24.932076] (-) TimerEvent: {}
+[25.033648] (-) TimerEvent: {}
+[25.135650] (-) TimerEvent: {}
+[25.237206] (-) TimerEvent: {}
+[25.263497] (librviz_tutorial) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.11 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[25.337419] (-) TimerEvent: {}
+[25.438951] (-) TimerEvent: {}
+[25.541644] (-) TimerEvent: {}
+[25.643363] (-) TimerEvent: {}
+[25.744948] (-) TimerEvent: {}
+[25.846632] (-) TimerEvent: {}
+[25.948465] (-) TimerEvent: {}
+[26.050485] (-) TimerEvent: {}
+[26.152430] (-) TimerEvent: {}
+[26.164998] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Deploy OGRE media\n'}
+[26.182575] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[26.247203] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[26.252673] (-) TimerEvent: {}
+[26.255530] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[26.256763] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[26.353274] (-) TimerEvent: {}
+[26.378109] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[26.379617] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[26.405569] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[26.436536] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[26.453493] (-) TimerEvent: {}
+[26.474093] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[26.510958] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[26.512741] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[26.523159] (rviz_plugin_tutorials) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[26.543912] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[26.553774] (-) TimerEvent: {}
+[26.655507] (-) TimerEvent: {}
+[26.757547] (-) TimerEvent: {}
+[26.859402] (-) TimerEvent: {}
+[26.961222] (-) TimerEvent: {}
+[27.009759] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[27.027095] (rviz_plugin_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials\n'}
+[27.061435] (-) TimerEvent: {}
+[27.162562] (-) TimerEvent: {}
+[27.223762] (rviz_plugin_tutorials) CommandEnded: {'returncode': 0}
+[27.225943] (rviz_plugin_tutorials) JobProgress: {'identifier': 'rviz_plugin_tutorials', 'progress': 'build'}
+[27.226200] (rviz_plugin_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials', '--', '-j4', '-l4'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[27.262803] (-) TimerEvent: {}
+[27.363921] (-) TimerEvent: {}
+[27.465655] (-) TimerEvent: {}
+[27.567493] (-) TimerEvent: {}
+[27.669440] (-) TimerEvent: {}
+[27.771515] (-) TimerEvent: {}
+[27.873653] (-) TimerEvent: {}
+[27.975860] (-) TimerEvent: {}
+[28.011791] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_plugin_tutorials\x1b[0m\n'}
+[28.076145] (-) TimerEvent: {}
+[28.178075] (-) TimerEvent: {}
+[28.280100] (-) TimerEvent: {}
+[28.381882] (-) TimerEvent: {}
+[28.484294] (-) TimerEvent: {}
+[28.586647] (-) TimerEvent: {}
+[28.689245] (-) TimerEvent: {}
+[28.791851] (-) TimerEvent: {}
+[28.894561] (-) TimerEvent: {}
+[28.996636] (-) TimerEvent: {}
+[29.098738] (-) TimerEvent: {}
+[29.201078] (-) TimerEvent: {}
+[29.303621] (-) TimerEvent: {}
+[29.406192] (-) TimerEvent: {}
+[29.508329] (-) TimerEvent: {}
+[29.610675] (-) TimerEvent: {}
+[29.712794] (-) TimerEvent: {}
+[29.815164] (-) TimerEvent: {}
+[29.917192] (-) TimerEvent: {}
+[30.019322] (-) TimerEvent: {}
+[30.120358] (-) TimerEvent: {}
+[30.221535] (-) TimerEvent: {}
+[30.322740] (-) TimerEvent: {}
+[30.425451] (-) TimerEvent: {}
+[30.528078] (-) TimerEvent: {}
+[30.630346] (-) TimerEvent: {}
+[30.732931] (-) TimerEvent: {}
+[30.835641] (-) TimerEvent: {}
+[30.937947] (-) TimerEvent: {}
+[31.040150] (-) TimerEvent: {}
+[31.142281] (-) TimerEvent: {}
+[31.244298] (-) TimerEvent: {}
+[31.346693] (-) TimerEvent: {}
+[31.449068] (-) TimerEvent: {}
+[31.551787] (-) TimerEvent: {}
+[31.653087] (-) TimerEvent: {}
+[31.754220] (-) TimerEvent: {}
+[31.855399] (-) TimerEvent: {}
+[31.956582] (-) TimerEvent: {}
+[32.058080] (-) TimerEvent: {}
+[32.160510] (-) TimerEvent: {}
+[32.263532] (-) TimerEvent: {}
+[32.306098] (librviz_tutorial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[32.363770] (-) TimerEvent: {}
+[32.465925] (-) TimerEvent: {}
+[32.568465] (-) TimerEvent: {}
+[32.670984] (-) TimerEvent: {}
+[32.773566] (-) TimerEvent: {}
+[32.875712] (-) TimerEvent: {}
+[32.985311] (-) TimerEvent: {}
+[33.087765] (-) TimerEvent: {}
+[33.190416] (-) TimerEvent: {}
+[33.292759] (-) TimerEvent: {}
+[33.394979] (-) TimerEvent: {}
+[33.497056] (-) TimerEvent: {}
+[33.599156] (-) TimerEvent: {}
+[33.701114] (-) TimerEvent: {}
+[33.772345] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[33.801463] (-) TimerEvent: {}
+[33.817618] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[33.820715] (librviz_tutorial) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[33.822957] (librviz_tutorial) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[33.873845] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[33.877777] (librviz_tutorial) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[33.886015] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[33.901752] (-) TimerEvent: {}
+[33.909271] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[33.927795] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[33.963191] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[33.969603] (librviz_tutorial) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[33.985947] (librviz_tutorial) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[34.002060] (-) TimerEvent: {}
+[34.045295] (librviz_tutorial) StdoutLine: {'line': b'-- Configuring done\n'}
+[34.102300] (-) TimerEvent: {}
+[34.204238] (-) TimerEvent: {}
+[34.306062] (-) TimerEvent: {}
+[34.407835] (-) TimerEvent: {}
+[34.409705] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 12%] Built target rviz_plugin_tutorials_autogen\n'}
+[34.508189] (-) TimerEvent: {}
+[34.610748] (-) TimerEvent: {}
+[34.613301] (librviz_tutorial) StdoutLine: {'line': b'-- Generating done\n'}
+[34.654384] (librviz_tutorial) StdoutLine: {'line': b'-- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial\n'}
+[34.711195] (-) TimerEvent: {}
+[34.721783] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/drive_widget.cpp.o\x1b[0m\n'}
+[34.755955] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/rviz_plugin_tutorials_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[34.779772] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/imu_display.cpp.o\x1b[0m\n'}
+[34.811424] (-) TimerEvent: {}
+[34.874563] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/imu_visual.cpp.o\x1b[0m\n'}
+[34.909067] (librviz_tutorial) CommandEnded: {'returncode': 0}
+[34.934518] (-) TimerEvent: {}
+[34.936561] (librviz_tutorial) JobProgress: {'identifier': 'librviz_tutorial', 'progress': 'build'}
+[34.936799] (librviz_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial', '--', '-j4', '-l4'], 'cwd': '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jlukas'), ('SSH_CLIENT', '192.168.8.140 55493 22'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jlukas/Desktop/My_Project/articubot_one/install/serial/lib:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino/lib:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jlukas'), ('OLDPWD', '/home/jlukas/Desktop/My_Project/ROS2'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install:/home/jlukas/Desktop/My_Project/ROS2/rover/install:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install:/home/jlukas/Desktop/My_Project/articubot_one/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jlukas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jlukas/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('PWD', '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.140 55493 192.168.8.141 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install/ldlidar:/home/jlukas/Desktop/My_Project/articubot_one/install/serial:/home/jlukas/Desktop/My_Project/articubot_one/install/diffdrive_arduino:/home/jlukas/Desktop/My_Project/articubot_one/install/articubot_one:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_node:/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install/ldlidar_component:/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble')]), 'shell': False}
+[35.034764] (-) TimerEvent: {}
+[35.136440] (-) TimerEvent: {}
+[35.238677] (-) TimerEvent: {}
+[35.340936] (-) TimerEvent: {}
+[35.443089] (-) TimerEvent: {}
+[35.545030] (-) TimerEvent: {}
+[35.646673] (-) TimerEvent: {}
+[35.685449] (librviz_tutorial) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mAutomatic MOC for target myviz\x1b[0m\n'}
+[35.746932] (-) TimerEvent: {}
+[35.848527] (-) TimerEvent: {}
+[35.950250] (-) TimerEvent: {}
+[36.051737] (-) TimerEvent: {}
+[36.153295] (-) TimerEvent: {}
+[36.255253] (-) TimerEvent: {}
+[36.357280] (-) TimerEvent: {}
+[36.459482] (-) TimerEvent: {}
+[36.561608] (-) TimerEvent: {}
+[36.663633] (-) TimerEvent: {}
+[36.765422] (-) TimerEvent: {}
+[36.866402] (-) TimerEvent: {}
+[36.967509] (-) TimerEvent: {}
+[37.068606] (-) TimerEvent: {}
+[37.170765] (-) TimerEvent: {}
+[37.273361] (-) TimerEvent: {}
+[37.375741] (-) TimerEvent: {}
+[37.477993] (-) TimerEvent: {}
+[37.580018] (-) TimerEvent: {}
+[37.681066] (-) TimerEvent: {}
+[37.782179] (-) TimerEvent: {}
+[37.883439] (-) TimerEvent: {}
+[37.984732] (-) TimerEvent: {}
+[38.086295] (-) TimerEvent: {}
+[38.187786] (-) TimerEvent: {}
+[38.289683] (-) TimerEvent: {}
+[38.391619] (-) TimerEvent: {}
+[38.493183] (-) TimerEvent: {}
+[38.594210] (-) TimerEvent: {}
+[38.695372] (-) TimerEvent: {}
+[38.797134] (-) TimerEvent: {}
+[38.898813] (-) TimerEvent: {}
+[39.000488] (-) TimerEvent: {}
+[39.101539] (-) TimerEvent: {}
+[39.203205] (-) TimerEvent: {}
+[39.304769] (-) TimerEvent: {}
+[39.406515] (-) TimerEvent: {}
+[39.507626] (-) TimerEvent: {}
+[39.608681] (-) TimerEvent: {}
+[39.709746] (-) TimerEvent: {}
+[39.810796] (-) TimerEvent: {}
+[39.911847] (-) TimerEvent: {}
+[40.013438] (-) TimerEvent: {}
+[40.115122] (-) TimerEvent: {}
+[40.216618] (-) TimerEvent: {}
+[40.318179] (-) TimerEvent: {}
+[40.420625] (-) TimerEvent: {}
+[40.521908] (-) TimerEvent: {}
+[40.623015] (-) TimerEvent: {}
+[40.724085] (-) TimerEvent: {}
+[40.825985] (-) TimerEvent: {}
+[40.927070] (-) TimerEvent: {}
+[41.028160] (-) TimerEvent: {}
+[41.129466] (-) TimerEvent: {}
+[41.231948] (-) TimerEvent: {}
+[41.338297] (-) TimerEvent: {}
+[41.442312] (-) TimerEvent: {}
+[41.544456] (-) TimerEvent: {}
+[41.646779] (-) TimerEvent: {}
+[41.749367] (-) TimerEvent: {}
+[41.851361] (-) TimerEvent: {}
+[41.952315] (-) TimerEvent: {}
+[42.053385] (-) TimerEvent: {}
+[42.130907] (librviz_tutorial) StdoutLine: {'line': b'[ 20%] Built target myviz_autogen\n'}
+[42.153670] (-) TimerEvent: {}
+[42.255874] (-) TimerEvent: {}
+[42.358125] (-) TimerEvent: {}
+[42.422896] (librviz_tutorial) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/myviz.dir/myviz_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[42.458334] (-) TimerEvent: {}
+[42.560209] (-) TimerEvent: {}
+[42.661984] (-) TimerEvent: {}
+[42.763977] (-) TimerEvent: {}
+[42.865761] (-) TimerEvent: {}
+[42.967012] (-) TimerEvent: {}
+[43.068941] (-) TimerEvent: {}
+[43.170920] (-) TimerEvent: {}
+[43.272030] (-) TimerEvent: {}
+[43.373442] (-) TimerEvent: {}
+[43.474693] (-) TimerEvent: {}
+[43.575919] (-) TimerEvent: {}
+[43.677724] (-) TimerEvent: {}
+[43.779830] (-) TimerEvent: {}
+[43.881772] (-) TimerEvent: {}
+[43.982898] (-) TimerEvent: {}
+[44.084001] (-) TimerEvent: {}
+[44.185306] (-) TimerEvent: {}
+[44.287593] (-) TimerEvent: {}
+[44.389703] (-) TimerEvent: {}
+[44.491531] (-) TimerEvent: {}
+[44.593291] (-) TimerEvent: {}
+[44.695056] (-) TimerEvent: {}
+[44.796869] (-) TimerEvent: {}
+[44.898782] (-) TimerEvent: {}
+[45.000011] (-) TimerEvent: {}
+[45.102369] (-) TimerEvent: {}
+[45.204505] (-) TimerEvent: {}
+[45.306343] (-) TimerEvent: {}
+[45.408309] (-) TimerEvent: {}
+[45.510399] (-) TimerEvent: {}
+[45.612410] (-) TimerEvent: {}
+[45.714723] (-) TimerEvent: {}
+[45.816455] (-) TimerEvent: {}
+[45.918436] (-) TimerEvent: {}
+[46.019663] (-) TimerEvent: {}
+[46.121714] (-) TimerEvent: {}
+[46.223469] (-) TimerEvent: {}
+[46.325437] (-) TimerEvent: {}
+[46.427242] (-) TimerEvent: {}
+[46.529289] (-) TimerEvent: {}
+[46.631438] (-) TimerEvent: {}
+[46.733602] (-) TimerEvent: {}
+[46.835914] (-) TimerEvent: {}
+[46.937783] (-) TimerEvent: {}
+[47.039942] (-) TimerEvent: {}
+[47.141857] (-) TimerEvent: {}
+[47.243558] (-) TimerEvent: {}
+[47.345246] (-) TimerEvent: {}
+[47.447119] (-) TimerEvent: {}
+[47.549067] (-) TimerEvent: {}
+[47.651065] (-) TimerEvent: {}
+[47.753092] (-) TimerEvent: {}
+[47.854910] (-) TimerEvent: {}
+[47.957071] (-) TimerEvent: {}
+[48.058369] (-) TimerEvent: {}
+[48.159641] (-) TimerEvent: {}
+[48.260948] (-) TimerEvent: {}
+[48.363176] (-) TimerEvent: {}
+[48.464474] (-) TimerEvent: {}
+[48.566774] (-) TimerEvent: {}
+[48.668475] (-) TimerEvent: {}
+[48.770386] (-) TimerEvent: {}
+[48.872650] (-) TimerEvent: {}
+[48.974522] (-) TimerEvent: {}
+[49.076620] (-) TimerEvent: {}
+[49.178496] (-) TimerEvent: {}
+[49.280218] (-) TimerEvent: {}
+[49.382063] (-) TimerEvent: {}
+[49.483862] (-) TimerEvent: {}
+[49.585901] (-) TimerEvent: {}
+[49.687703] (-) TimerEvent: {}
+[49.792907] (-) TimerEvent: {}
+[49.895344] (-) TimerEvent: {}
+[49.997321] (-) TimerEvent: {}
+[50.099468] (-) TimerEvent: {}
+[50.201348] (-) TimerEvent: {}
+[50.303439] (-) TimerEvent: {}
+[50.405352] (-) TimerEvent: {}
+[50.507227] (-) TimerEvent: {}
+[50.608614] (-) TimerEvent: {}
+[50.709986] (-) TimerEvent: {}
+[50.811239] (-) TimerEvent: {}
+[50.912610] (-) TimerEvent: {}
+[51.014961] (-) TimerEvent: {}
+[51.117068] (-) TimerEvent: {}
+[51.218470] (-) TimerEvent: {}
+[51.320034] (-) TimerEvent: {}
+[51.421367] (-) TimerEvent: {}
+[51.523319] (-) TimerEvent: {}
+[51.625532] (-) TimerEvent: {}
+[51.727466] (-) TimerEvent: {}
+[51.829727] (-) TimerEvent: {}
+[51.931911] (-) TimerEvent: {}
+[52.033902] (-) TimerEvent: {}
+[52.135800] (-) TimerEvent: {}
+[52.237049] (-) TimerEvent: {}
+[52.338349] (-) TimerEvent: {}
+[52.439732] (-) TimerEvent: {}
+[52.541767] (-) TimerEvent: {}
+[52.643372] (-) TimerEvent: {}
+[52.745200] (-) TimerEvent: {}
+[52.846981] (-) TimerEvent: {}
+[52.948924] (-) TimerEvent: {}
+[53.050964] (-) TimerEvent: {}
+[53.152685] (-) TimerEvent: {}
+[53.254473] (-) TimerEvent: {}
+[53.356380] (-) TimerEvent: {}
+[53.458062] (-) TimerEvent: {}
+[53.560036] (-) TimerEvent: {}
+[53.662228] (-) TimerEvent: {}
+[53.764383] (-) TimerEvent: {}
+[53.866562] (-) TimerEvent: {}
+[53.969000] (-) TimerEvent: {}
+[54.071233] (-) TimerEvent: {}
+[54.173622] (-) TimerEvent: {}
+[54.274941] (-) TimerEvent: {}
+[54.378049] (-) TimerEvent: {}
+[54.480783] (-) TimerEvent: {}
+[54.583864] (-) TimerEvent: {}
+[54.687204] (-) TimerEvent: {}
+[54.789326] (-) TimerEvent: {}
+[54.890529] (-) TimerEvent: {}
+[54.992546] (-) TimerEvent: {}
+[55.094421] (-) TimerEvent: {}
+[55.196410] (-) TimerEvent: {}
+[55.298966] (-) TimerEvent: {}
+[55.400952] (-) TimerEvent: {}
+[55.502950] (-) TimerEvent: {}
+[55.605285] (-) TimerEvent: {}
+[55.707447] (-) TimerEvent: {}
+[55.809801] (-) TimerEvent: {}
+[55.912071] (-) TimerEvent: {}
+[56.014333] (-) TimerEvent: {}
+[56.116804] (-) TimerEvent: {}
+[56.218951] (-) TimerEvent: {}
+[56.321346] (-) TimerEvent: {}
+[56.423695] (-) TimerEvent: {}
+[56.526086] (-) TimerEvent: {}
+[56.628384] (-) TimerEvent: {}
+[56.731683] (-) TimerEvent: {}
+[56.834141] (-) TimerEvent: {}
+[56.936534] (-) TimerEvent: {}
+[57.038832] (-) TimerEvent: {}
+[57.141050] (-) TimerEvent: {}
+[57.243151] (-) TimerEvent: {}
+[57.344353] (-) TimerEvent: {}
+[57.446956] (-) TimerEvent: {}
+[57.549116] (-) TimerEvent: {}
+[57.651336] (-) TimerEvent: {}
+[57.753310] (-) TimerEvent: {}
+[57.855339] (-) TimerEvent: {}
+[57.957302] (-) TimerEvent: {}
+[58.059596] (-) TimerEvent: {}
+[58.161510] (-) TimerEvent: {}
+[58.263319] (-) TimerEvent: {}
+[58.364542] (-) TimerEvent: {}
+[58.466068] (-) TimerEvent: {}
+[58.567498] (-) TimerEvent: {}
+[58.669062] (-) TimerEvent: {}
+[58.770241] (-) TimerEvent: {}
+[58.872190] (-) TimerEvent: {}
+[58.974272] (-) TimerEvent: {}
+[59.076282] (-) TimerEvent: {}
+[59.178093] (-) TimerEvent: {}
+[59.280354] (-) TimerEvent: {}
+[59.382642] (-) TimerEvent: {}
+[59.484779] (-) TimerEvent: {}
+[59.586750] (-) TimerEvent: {}
+[59.688956] (-) TimerEvent: {}
+[59.790756] (-) TimerEvent: {}
+[59.892756] (-) TimerEvent: {}
+[59.994697] (-) TimerEvent: {}
+[60.096605] (-) TimerEvent: {}
+[60.198170] (-) TimerEvent: {}
+[60.299992] (-) TimerEvent: {}
+[60.401091] (-) TimerEvent: {}
+[60.502288] (-) TimerEvent: {}
+[60.603537] (-) TimerEvent: {}
+[60.704717] (-) TimerEvent: {}
+[60.805911] (-) TimerEvent: {}
+[60.907165] (-) TimerEvent: {}
+[61.009089] (-) TimerEvent: {}
+[61.111239] (-) TimerEvent: {}
+[61.213268] (-) TimerEvent: {}
+[61.315317] (-) TimerEvent: {}
+[61.417305] (-) TimerEvent: {}
+[61.519075] (-) TimerEvent: {}
+[61.620973] (-) TimerEvent: {}
+[61.722843] (-) TimerEvent: {}
+[61.825029] (-) TimerEvent: {}
+[61.926965] (-) TimerEvent: {}
+[62.029184] (-) TimerEvent: {}
+[62.131561] (-) TimerEvent: {}
+[62.234042] (-) TimerEvent: {}
+[62.336133] (-) TimerEvent: {}
+[62.437400] (-) TimerEvent: {}
+[62.539242] (-) TimerEvent: {}
+[62.641128] (-) TimerEvent: {}
+[62.743078] (-) TimerEvent: {}
+[62.845100] (-) TimerEvent: {}
+[62.947184] (-) TimerEvent: {}
+[63.049113] (-) TimerEvent: {}
+[63.151022] (-) TimerEvent: {}
+[63.252905] (-) TimerEvent: {}
+[63.354131] (-) TimerEvent: {}
+[63.455343] (-) TimerEvent: {}
+[63.556620] (-) TimerEvent: {}
+[63.658563] (-) TimerEvent: {}
+[63.760523] (-) TimerEvent: {}
+[63.862536] (-) TimerEvent: {}
+[63.964528] (-) TimerEvent: {}
+[64.066364] (-) TimerEvent: {}
+[64.168067] (-) TimerEvent: {}
+[64.270128] (-) TimerEvent: {}
+[64.372059] (-) TimerEvent: {}
+[64.474457] (-) TimerEvent: {}
+[64.577040] (-) TimerEvent: {}
+[64.679485] (-) TimerEvent: {}
+[64.813083] (-) TimerEvent: {}
+[64.925986] (-) TimerEvent: {}
+[65.028065] (-) TimerEvent: {}
+[65.130001] (-) TimerEvent: {}
+[65.232032] (-) TimerEvent: {}
+[65.335486] (-) TimerEvent: {}
+[65.438211] (-) TimerEvent: {}
+[65.539596] (-) TimerEvent: {}
+[65.640706] (-) TimerEvent: {}
+[65.747218] (-) TimerEvent: {}
+[65.848628] (-) TimerEvent: {}
+[65.953870] (-) TimerEvent: {}
+[66.055776] (-) TimerEvent: {}
+[66.157594] (-) TimerEvent: {}
+[66.259645] (-) TimerEvent: {}
+[66.361811] (-) TimerEvent: {}
+[66.464125] (-) TimerEvent: {}
+[66.566417] (-) TimerEvent: {}
+[66.668276] (-) TimerEvent: {}
+[66.770304] (-) TimerEvent: {}
+[66.872168] (-) TimerEvent: {}
+[66.974187] (-) TimerEvent: {}
+[67.076794] (-) TimerEvent: {}
+[67.178948] (-) TimerEvent: {}
+[67.280881] (-) TimerEvent: {}
+[67.382809] (-) TimerEvent: {}
+[67.484574] (-) TimerEvent: {}
+[67.586552] (-) TimerEvent: {}
+[67.688450] (-) TimerEvent: {}
+[67.793139] (-) TimerEvent: {}
+[67.901055] (-) TimerEvent: {}
+[68.002695] (-) TimerEvent: {}
+[68.104606] (-) TimerEvent: {}
+[68.211209] (-) TimerEvent: {}
+[68.343687] (-) TimerEvent: {}
+[68.444930] (-) TimerEvent: {}
+[68.552364] (-) TimerEvent: {}
+[68.654377] (-) TimerEvent: {}
+[68.756506] (-) TimerEvent: {}
+[68.858509] (-) TimerEvent: {}
+[68.961069] (-) TimerEvent: {}
+[69.073104] (-) TimerEvent: {}
+[69.174675] (-) TimerEvent: {}
+[69.276922] (-) TimerEvent: {}
+[69.379034] (-) TimerEvent: {}
+[69.481108] (-) TimerEvent: {}
+[69.583095] (-) TimerEvent: {}
+[69.684329] (-) TimerEvent: {}
+[69.789078] (-) TimerEvent: {}
+[69.890191] (-) TimerEvent: {}
+[69.991476] (-) TimerEvent: {}
+[70.092729] (-) TimerEvent: {}
+[70.194814] (-) TimerEvent: {}
+[70.296889] (-) TimerEvent: {}
+[70.398889] (-) TimerEvent: {}
+[70.501141] (-) TimerEvent: {}
+[70.603098] (-) TimerEvent: {}
+[70.704943] (-) TimerEvent: {}
+[70.806838] (-) TimerEvent: {}
+[70.908597] (-) TimerEvent: {}
+[71.010746] (-) TimerEvent: {}
+[71.112704] (-) TimerEvent: {}
+[71.214686] (-) TimerEvent: {}
+[71.315925] (-) TimerEvent: {}
+[71.417087] (-) TimerEvent: {}
+[71.518521] (-) TimerEvent: {}
+[71.619767] (-) TimerEvent: {}
+[71.721022] (-) TimerEvent: {}
+[71.831118] (-) TimerEvent: {}
+[71.933404] (-) TimerEvent: {}
+[72.034458] (-) TimerEvent: {}
+[72.136390] (-) TimerEvent: {}
+[72.238328] (-) TimerEvent: {}
+[72.339479] (-) TimerEvent: {}
+[72.440656] (-) TimerEvent: {}
+[72.541834] (-) TimerEvent: {}
+[72.642983] (-) TimerEvent: {}
+[72.744078] (-) TimerEvent: {}
+[72.846713] (-) TimerEvent: {}
+[72.964895] (-) TimerEvent: {}
+[73.071207] (-) TimerEvent: {}
+[73.195531] (-) TimerEvent: {}
+[73.296613] (-) TimerEvent: {}
+[73.398692] (-) TimerEvent: {}
+[73.501174] (-) TimerEvent: {}
+[73.603427] (-) TimerEvent: {}
+[73.705348] (-) TimerEvent: {}
+[73.807278] (-) TimerEvent: {}
+[73.909093] (-) TimerEvent: {}
+[74.010248] (-) TimerEvent: {}
+[74.112471] (-) TimerEvent: {}
+[74.214802] (-) TimerEvent: {}
+[74.317224] (-) TimerEvent: {}
+[74.419511] (-) TimerEvent: {}
+[74.521807] (-) TimerEvent: {}
+[74.623869] (-) TimerEvent: {}
+[74.725763] (-) TimerEvent: {}
+[74.827713] (-) TimerEvent: {}
+[74.929881] (-) TimerEvent: {}
+[75.031733] (-) TimerEvent: {}
+[75.133630] (-) TimerEvent: {}
+[75.235439] (-) TimerEvent: {}
+[75.345128] (-) TimerEvent: {}
+[75.447360] (-) TimerEvent: {}
+[75.549039] (-) TimerEvent: {}
+[75.650178] (-) TimerEvent: {}
+[75.752014] (-) TimerEvent: {}
+[75.853828] (-) TimerEvent: {}
+[75.955879] (-) TimerEvent: {}
+[76.056932] (-) TimerEvent: {}
+[76.158120] (-) TimerEvent: {}
+[76.259439] (-) TimerEvent: {}
+[76.362019] (-) TimerEvent: {}
+[76.463960] (-) TimerEvent: {}
+[76.565932] (-) TimerEvent: {}
+[76.667804] (-) TimerEvent: {}
+[76.769810] (-) TimerEvent: {}
+[76.872102] (-) TimerEvent: {}
+[76.973206] (-) TimerEvent: {}
+[77.074409] (-) TimerEvent: {}
+[77.176667] (-) TimerEvent: {}
+[77.278943] (-) TimerEvent: {}
+[77.381305] (-) TimerEvent: {}
+[77.482686] (-) TimerEvent: {}
+[77.584751] (-) TimerEvent: {}
+[77.687280] (-) TimerEvent: {}
+[77.789843] (-) TimerEvent: {}
+[77.892080] (-) TimerEvent: {}
+[77.994315] (-) TimerEvent: {}
+[78.096293] (-) TimerEvent: {}
+[78.198206] (-) TimerEvent: {}
+[78.300051] (-) TimerEvent: {}
+[78.402017] (-) TimerEvent: {}
+[78.504035] (-) TimerEvent: {}
+[78.606358] (-) TimerEvent: {}
+[78.707490] (-) TimerEvent: {}
+[78.808692] (-) TimerEvent: {}
+[78.909873] (-) TimerEvent: {}
+[79.013559] (-) TimerEvent: {}
+[79.114945] (-) TimerEvent: {}
+[79.217161] (-) TimerEvent: {}
+[79.319648] (-) TimerEvent: {}
+[79.446450] (-) TimerEvent: {}
+[79.548471] (-) TimerEvent: {}
+[79.650467] (-) TimerEvent: {}
+[79.752242] (-) TimerEvent: {}
+[79.854182] (-) TimerEvent: {}
+[79.956135] (-) TimerEvent: {}
+[80.058185] (-) TimerEvent: {}
+[80.160649] (-) TimerEvent: {}
+[80.264200] (-) TimerEvent: {}
+[80.370730] (visualization_marker_tutorials) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[80.421704] (-) TimerEvent: {}
+[80.424149] (visualization_marker_tutorials) StderrLine: {'line': b'compilation terminated.\n'}
+[80.425399] (visualization_marker_tutorials) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/points_and_lines.dir/build.make:76: CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o] Error 1\n'}
+[80.426328] (visualization_marker_tutorials) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/points_and_lines.dir/all] Error 2\n'}
+[80.427189] (visualization_marker_tutorials) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[80.521961] (-) TimerEvent: {}
+[80.624690] (-) TimerEvent: {}
+[80.726948] (-) TimerEvent: {}
+[80.828120] (-) TimerEvent: {}
+[80.929247] (-) TimerEvent: {}
+[81.031672] (-) TimerEvent: {}
+[81.134094] (-) TimerEvent: {}
+[81.236559] (-) TimerEvent: {}
+[81.338953] (-) TimerEvent: {}
+[81.441403] (-) TimerEvent: {}
+[81.543693] (-) TimerEvent: {}
+[81.645999] (-) TimerEvent: {}
+[81.748329] (-) TimerEvent: {}
+[81.849522] (-) TimerEvent: {}
+[81.951781] (-) TimerEvent: {}
+[82.054236] (-) TimerEvent: {}
+[82.156544] (-) TimerEvent: {}
+[82.258880] (-) TimerEvent: {}
+[82.361484] (-) TimerEvent: {}
+[82.463765] (-) TimerEvent: {}
+[82.566952] (-) TimerEvent: {}
+[82.669363] (-) TimerEvent: {}
+[82.772402] (-) TimerEvent: {}
+[82.873579] (-) TimerEvent: {}
+[82.975936] (-) TimerEvent: {}
+[83.078616] (-) TimerEvent: {}
+[83.181075] (-) TimerEvent: {}
+[83.283806] (-) TimerEvent: {}
+[83.386232] (-) TimerEvent: {}
+[83.488749] (-) TimerEvent: {}
+[83.591200] (-) TimerEvent: {}
+[83.693646] (-) TimerEvent: {}
+[83.796312] (-) TimerEvent: {}
+[83.898724] (-) TimerEvent: {}
+[84.001172] (-) TimerEvent: {}
+[84.137961] (-) TimerEvent: {}
+[84.240287] (-) TimerEvent: {}
+[84.342810] (-) TimerEvent: {}
+[84.445092] (-) TimerEvent: {}
+[84.547475] (-) TimerEvent: {}
+[84.648619] (-) TimerEvent: {}
+[84.749897] (-) TimerEvent: {}
+[84.851929] (-) TimerEvent: {}
+[84.953941] (-) TimerEvent: {}
+[85.056021] (-) TimerEvent: {}
+[85.158159] (-) TimerEvent: {}
+[85.260190] (-) TimerEvent: {}
+[85.362195] (-) TimerEvent: {}
+[85.464036] (-) TimerEvent: {}
+[85.566088] (-) TimerEvent: {}
+[85.668034] (-) TimerEvent: {}
+[85.770042] (-) TimerEvent: {}
+[85.871820] (-) TimerEvent: {}
+[85.972898] (-) TimerEvent: {}
+[86.074280] (-) TimerEvent: {}
+[86.175229] (-) TimerEvent: {}
+[86.276423] (-) TimerEvent: {}
+[86.377924] (-) TimerEvent: {}
+[86.479334] (-) TimerEvent: {}
+[86.581537] (-) TimerEvent: {}
+[86.684606] (-) TimerEvent: {}
+[86.785931] (-) TimerEvent: {}
+[86.887342] (-) TimerEvent: {}
+[86.989609] (-) TimerEvent: {}
+[87.091379] (-) TimerEvent: {}
+[87.193206] (-) TimerEvent: {}
+[87.295340] (-) TimerEvent: {}
+[87.398097] (-) TimerEvent: {}
+[87.501001] (-) TimerEvent: {}
+[87.603231] (-) TimerEvent: {}
+[87.706018] (-) TimerEvent: {}
+[87.808763] (-) TimerEvent: {}
+[87.911317] (-) TimerEvent: {}
+[88.013915] (-) TimerEvent: {}
+[88.116643] (-) TimerEvent: {}
+[88.218108] (-) TimerEvent: {}
+[88.319530] (-) TimerEvent: {}
+[88.420897] (-) TimerEvent: {}
+[88.523019] (-) TimerEvent: {}
+[88.628190] (-) TimerEvent: {}
+[88.731261] (-) TimerEvent: {}
+[88.833493] (-) TimerEvent: {}
+[88.935908] (-) TimerEvent: {}
+[89.037903] (-) TimerEvent: {}
+[89.140463] (-) TimerEvent: {}
+[89.147856] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable cube\x1b[0m\n'}
+[89.175804] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable simple_marker\x1b[0m\n'}
+[89.240708] (-) TimerEvent: {}
+[89.342852] (-) TimerEvent: {}
+[89.445071] (-) TimerEvent: {}
+[89.546245] (-) TimerEvent: {}
+[89.647498] (-) TimerEvent: {}
+[89.748893] (-) TimerEvent: {}
+[89.851225] (-) TimerEvent: {}
+[89.953764] (-) TimerEvent: {}
+[90.056153] (-) TimerEvent: {}
+[90.159297] (-) TimerEvent: {}
+[90.261649] (-) TimerEvent: {}
+[90.364671] (-) TimerEvent: {}
+[90.467117] (-) TimerEvent: {}
+[90.570127] (-) TimerEvent: {}
+[90.672305] (-) TimerEvent: {}
+[90.775218] (-) TimerEvent: {}
+[90.877958] (-) TimerEvent: {}
+[90.980659] (-) TimerEvent: {}
+[91.083249] (-) TimerEvent: {}
+[91.185748] (-) TimerEvent: {}
+[91.288118] (-) TimerEvent: {}
+[91.391709] (-) TimerEvent: {}
+[91.494451] (-) TimerEvent: {}
+[91.596620] (-) TimerEvent: {}
+[91.699660] (-) TimerEvent: {}
+[91.802412] (-) TimerEvent: {}
+[91.905715] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 42%] Built target cube\n'}
+[91.906848] (-) TimerEvent: {}
+[92.008905] (-) TimerEvent: {}
+[92.056147] (visualization_marker_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable basic_shapes\x1b[0m\n'}
+[92.109113] (-) TimerEvent: {}
+[92.210313] (-) TimerEvent: {}
+[92.295976] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 42%] Built target simple_marker\n'}
+[92.310779] (-) TimerEvent: {}
+[92.413487] (-) TimerEvent: {}
+[92.515928] (-) TimerEvent: {}
+[92.618024] (-) TimerEvent: {}
+[92.720486] (-) TimerEvent: {}
+[92.822108] (-) TimerEvent: {}
+[92.923364] (-) TimerEvent: {}
+[93.024811] (-) TimerEvent: {}
+[93.126952] (-) TimerEvent: {}
+[93.229457] (-) TimerEvent: {}
+[93.332050] (-) TimerEvent: {}
+[93.433816] (-) TimerEvent: {}
+[93.536223] (-) TimerEvent: {}
+[93.637489] (-) TimerEvent: {}
+[93.738725] (-) TimerEvent: {}
+[93.841095] (-) TimerEvent: {}
+[93.943840] (-) TimerEvent: {}
+[93.953325] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable selection\x1b[0m\n'}
+[94.044141] (-) TimerEvent: {}
+[94.146164] (-) TimerEvent: {}
+[94.247945] (-) TimerEvent: {}
+[94.349157] (-) TimerEvent: {}
+[94.406685] (visualization_marker_tutorials) StdoutLine: {'line': b'[ 75%] Built target basic_shapes\n'}
+[94.418624] (visualization_marker_tutorials) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[94.449462] (-) TimerEvent: {}
+[94.524253] (visualization_marker_tutorials) CommandEnded: {'returncode': 2}
+[94.573579] (-) TimerEvent: {}
+[94.677679] (-) TimerEvent: {}
+[94.778904] (-) TimerEvent: {}
+[94.882082] (-) TimerEvent: {}
+[94.983729] (-) TimerEvent: {}
+[95.085015] (-) TimerEvent: {}
+[95.187050] (-) TimerEvent: {}
+[95.289019] (-) TimerEvent: {}
+[95.393107] (-) TimerEvent: {}
+[95.494178] (-) TimerEvent: {}
+[95.595384] (-) TimerEvent: {}
+[95.697739] (-) TimerEvent: {}
+[95.800001] (-) TimerEvent: {}
+[95.902675] (-) TimerEvent: {}
+[96.004728] (-) TimerEvent: {}
+[96.106564] (-) TimerEvent: {}
+[96.135450] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 50%] Built target selection\n'}
+[96.206850] (-) TimerEvent: {}
+[96.309060] (-) TimerEvent: {}
+[96.410267] (-) TimerEvent: {}
+[96.511495] (-) TimerEvent: {}
+[96.613837] (-) TimerEvent: {}
+[96.716585] (-) TimerEvent: {}
+[96.817823] (-) TimerEvent: {}
+[96.937350] (-) TimerEvent: {}
+[97.042019] (-) TimerEvent: {}
+[97.149124] (-) TimerEvent: {}
+[97.250460] (-) TimerEvent: {}
+[97.353691] (visualization_marker_tutorials) JobEnded: {'identifier': 'visualization_marker_tutorials', 'rc': 2}
+[97.359705] (-) TimerEvent: {}
+[97.460921] (-) TimerEvent: {}
+[97.562919] (-) TimerEvent: {}
+[97.664995] (-) TimerEvent: {}
+[97.767110] (-) TimerEvent: {}
+[97.869119] (-) TimerEvent: {}
+[97.971532] (-) TimerEvent: {}
+[98.074057] (-) TimerEvent: {}
+[98.176453] (-) TimerEvent: {}
+[98.278712] (-) TimerEvent: {}
+[98.381071] (-) TimerEvent: {}
+[98.482986] (-) TimerEvent: {}
+[98.585111] (-) TimerEvent: {}
+[98.687155] (-) TimerEvent: {}
+[98.789402] (-) TimerEvent: {}
+[98.892202] (-) TimerEvent: {}
+[98.994923] (-) TimerEvent: {}
+[99.097245] (-) TimerEvent: {}
+[99.199330] (-) TimerEvent: {}
+[99.301401] (-) TimerEvent: {}
+[99.403322] (-) TimerEvent: {}
+[99.505817] (-) TimerEvent: {}
+[99.608481] (-) TimerEvent: {}
+[99.711165] (-) TimerEvent: {}
+[99.813757] (-) TimerEvent: {}
+[99.914992] (-) TimerEvent: {}
+[100.016267] (-) TimerEvent: {}
+[100.117568] (-) TimerEvent: {}
+[100.218886] (-) TimerEvent: {}
+[100.320218] (-) TimerEvent: {}
+[100.422399] (-) TimerEvent: {}
+[100.524364] (-) TimerEvent: {}
+[100.626261] (-) TimerEvent: {}
+[100.728226] (-) TimerEvent: {}
+[100.830282] (-) TimerEvent: {}
+[100.932362] (-) TimerEvent: {}
+[101.034677] (-) TimerEvent: {}
+[101.136736] (-) TimerEvent: {}
+[101.238997] (-) TimerEvent: {}
+[101.341097] (-) TimerEvent: {}
+[101.443251] (-) TimerEvent: {}
+[101.545787] (-) TimerEvent: {}
+[101.647830] (-) TimerEvent: {}
+[101.749958] (-) TimerEvent: {}
+[101.851243] (-) TimerEvent: {}
+[101.952522] (-) TimerEvent: {}
+[102.053841] (-) TimerEvent: {}
+[102.155229] (-) TimerEvent: {}
+[102.256519] (-) TimerEvent: {}
+[102.357792] (-) TimerEvent: {}
+[102.459218] (-) TimerEvent: {}
+[102.560483] (-) TimerEvent: {}
+[102.662362] (-) TimerEvent: {}
+[102.764301] (-) TimerEvent: {}
+[102.866313] (-) TimerEvent: {}
+[102.967605] (-) TimerEvent: {}
+[103.068763] (-) TimerEvent: {}
+[103.088927] (librviz_tutorial) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/myviz.dir/src/main.cpp.o\x1b[0m\n'}
+[103.169031] (-) TimerEvent: {}
+[103.271375] (-) TimerEvent: {}
+[103.372592] (-) TimerEvent: {}
+[103.473570] (-) TimerEvent: {}
+[103.574596] (-) TimerEvent: {}
+[103.676647] (-) TimerEvent: {}
+[103.778869] (-) TimerEvent: {}
+[103.880061] (-) TimerEvent: {}
+[103.981207] (-) TimerEvent: {}
+[104.091236] (-) TimerEvent: {}
+[104.192303] (-) TimerEvent: {}
+[104.293444] (-) TimerEvent: {}
+[104.394521] (-) TimerEvent: {}
+[104.495574] (-) TimerEvent: {}
+[104.596663] (-) TimerEvent: {}
+[104.697855] (-) TimerEvent: {}
+[104.799078] (-) TimerEvent: {}
+[104.900398] (-) TimerEvent: {}
+[105.001660] (-) TimerEvent: {}
+[105.102857] (-) TimerEvent: {}
+[105.204130] (-) TimerEvent: {}
+[105.290980] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable basic_controls\x1b[0m\n'}
+[105.304452] (-) TimerEvent: {}
+[105.405562] (-) TimerEvent: {}
+[105.506567] (-) TimerEvent: {}
+[105.607679] (-) TimerEvent: {}
+[105.708926] (-) TimerEvent: {}
+[105.810616] (-) TimerEvent: {}
+[105.911687] (-) TimerEvent: {}
+[106.012865] (-) TimerEvent: {}
+[106.114076] (-) TimerEvent: {}
+[106.215287] (-) TimerEvent: {}
+[106.316462] (-) TimerEvent: {}
+[106.417640] (-) TimerEvent: {}
+[106.518675] (-) TimerEvent: {}
+[106.619845] (-) TimerEvent: {}
+[106.720916] (-) TimerEvent: {}
+[106.823771] (-) TimerEvent: {}
+[106.925970] (-) TimerEvent: {}
+[107.027165] (-) TimerEvent: {}
+[107.128480] (-) TimerEvent: {}
+[107.136012] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 57%] Built target basic_controls\n'}
+[107.229185] (-) TimerEvent: {}
+[107.295625] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/pong.dir/rclcpp_components/node_main_pong.cpp.o\x1b[0m\n'}
+[107.329438] (-) TimerEvent: {}
+[107.431236] (-) TimerEvent: {}
+[107.532986] (-) TimerEvent: {}
+[107.634939] (-) TimerEvent: {}
+[107.736810] (-) TimerEvent: {}
+[107.838840] (-) TimerEvent: {}
+[107.940664] (-) TimerEvent: {}
+[108.042553] (-) TimerEvent: {}
+[108.144389] (-) TimerEvent: {}
+[108.246360] (-) TimerEvent: {}
+[108.348227] (-) TimerEvent: {}
+[108.450379] (-) TimerEvent: {}
+[108.552113] (-) TimerEvent: {}
+[108.654002] (-) TimerEvent: {}
+[108.756136] (-) TimerEvent: {}
+[108.857415] (-) TimerEvent: {}
+[108.958610] (-) TimerEvent: {}
+[109.059866] (-) TimerEvent: {}
+[109.161250] (-) TimerEvent: {}
+[109.262393] (-) TimerEvent: {}
+[109.363728] (-) TimerEvent: {}
+[109.464891] (-) TimerEvent: {}
+[109.566139] (-) TimerEvent: {}
+[109.667354] (-) TimerEvent: {}
+[109.768642] (-) TimerEvent: {}
+[109.869801] (-) TimerEvent: {}
+[109.971158] (-) TimerEvent: {}
+[110.073041] (-) TimerEvent: {}
+[110.174981] (-) TimerEvent: {}
+[110.277097] (-) TimerEvent: {}
+[110.379064] (-) TimerEvent: {}
+[110.480371] (-) TimerEvent: {}
+[110.581699] (-) TimerEvent: {}
+[110.683003] (-) TimerEvent: {}
+[110.784292] (-) TimerEvent: {}
+[110.886586] (-) TimerEvent: {}
+[110.988882] (-) TimerEvent: {}
+[111.089954] (-) TimerEvent: {}
+[111.191087] (-) TimerEvent: {}
+[111.292261] (-) TimerEvent: {}
+[111.393393] (-) TimerEvent: {}
+[111.494558] (-) TimerEvent: {}
+[111.596053] (-) TimerEvent: {}
+[111.697470] (-) TimerEvent: {}
+[111.798665] (-) TimerEvent: {}
+[111.899971] (-) TimerEvent: {}
+[112.001305] (-) TimerEvent: {}
+[112.102545] (-) TimerEvent: {}
+[112.203778] (-) TimerEvent: {}
+[112.305170] (-) TimerEvent: {}
+[112.406412] (-) TimerEvent: {}
+[112.507907] (-) TimerEvent: {}
+[112.609283] (-) TimerEvent: {}
+[112.710730] (-) TimerEvent: {}
+[112.812141] (-) TimerEvent: {}
+[112.913564] (-) TimerEvent: {}
+[113.014778] (-) TimerEvent: {}
+[113.116537] (-) TimerEvent: {}
+[113.217860] (-) TimerEvent: {}
+[113.318923] (-) TimerEvent: {}
+[113.420810] (-) TimerEvent: {}
+[113.523040] (-) TimerEvent: {}
+[113.625312] (-) TimerEvent: {}
+[113.727509] (-) TimerEvent: {}
+[113.828757] (-) TimerEvent: {}
+[113.930109] (-) TimerEvent: {}
+[114.031340] (-) TimerEvent: {}
+[114.132629] (-) TimerEvent: {}
+[114.233814] (-) TimerEvent: {}
+[114.335140] (-) TimerEvent: {}
+[114.436397] (-) TimerEvent: {}
+[114.538383] (-) TimerEvent: {}
+[114.640752] (-) TimerEvent: {}
+[114.743236] (-) TimerEvent: {}
+[114.845647] (-) TimerEvent: {}
+[114.946837] (-) TimerEvent: {}
+[115.048096] (-) TimerEvent: {}
+[115.149460] (-) TimerEvent: {}
+[115.250850] (-) TimerEvent: {}
+[115.352245] (-) TimerEvent: {}
+[115.453474] (-) TimerEvent: {}
+[115.554620] (-) TimerEvent: {}
+[115.656005] (-) TimerEvent: {}
+[115.757412] (-) TimerEvent: {}
+[115.858874] (-) TimerEvent: {}
+[115.960289] (-) TimerEvent: {}
+[116.062190] (-) TimerEvent: {}
+[116.163487] (-) TimerEvent: {}
+[116.264733] (-) TimerEvent: {}
+[116.366384] (-) TimerEvent: {}
+[116.467822] (-) TimerEvent: {}
+[116.569115] (-) TimerEvent: {}
+[116.670607] (-) TimerEvent: {}
+[116.772085] (-) TimerEvent: {}
+[116.873542] (-) TimerEvent: {}
+[116.975111] (-) TimerEvent: {}
+[117.076485] (-) TimerEvent: {}
+[117.177889] (-) TimerEvent: {}
+[117.279075] (-) TimerEvent: {}
+[117.380280] (-) TimerEvent: {}
+[117.481507] (-) TimerEvent: {}
+[117.582802] (-) TimerEvent: {}
+[117.684293] (-) TimerEvent: {}
+[117.785575] (-) TimerEvent: {}
+[117.887654] (-) TimerEvent: {}
+[117.989670] (-) TimerEvent: {}
+[118.091635] (-) TimerEvent: {}
+[118.193696] (-) TimerEvent: {}
+[118.295635] (-) TimerEvent: {}
+[118.397630] (-) TimerEvent: {}
+[118.498777] (-) TimerEvent: {}
+[118.600039] (-) TimerEvent: {}
+[118.701193] (-) TimerEvent: {}
+[118.802484] (-) TimerEvent: {}
+[118.903737] (-) TimerEvent: {}
+[119.004977] (-) TimerEvent: {}
+[119.106173] (-) TimerEvent: {}
+[119.207323] (-) TimerEvent: {}
+[119.308486] (-) TimerEvent: {}
+[119.409723] (-) TimerEvent: {}
+[119.510942] (-) TimerEvent: {}
+[119.612233] (-) TimerEvent: {}
+[119.713415] (-) TimerEvent: {}
+[119.814678] (-) TimerEvent: {}
+[119.915818] (-) TimerEvent: {}
+[120.017108] (-) TimerEvent: {}
+[120.118275] (-) TimerEvent: {}
+[120.220596] (-) TimerEvent: {}
+[120.321769] (-) TimerEvent: {}
+[120.422967] (-) TimerEvent: {}
+[120.524167] (-) TimerEvent: {}
+[120.625427] (-) TimerEvent: {}
+[120.726564] (-) TimerEvent: {}
+[120.827790] (-) TimerEvent: {}
+[120.928968] (-) TimerEvent: {}
+[121.030140] (-) TimerEvent: {}
+[121.131363] (-) TimerEvent: {}
+[121.232578] (-) TimerEvent: {}
+[121.333822] (-) TimerEvent: {}
+[121.434995] (-) TimerEvent: {}
+[121.536283] (-) TimerEvent: {}
+[121.637502] (-) TimerEvent: {}
+[121.738676] (-) TimerEvent: {}
+[121.839928] (-) TimerEvent: {}
+[121.941132] (-) TimerEvent: {}
+[122.042488] (-) TimerEvent: {}
+[122.143824] (-) TimerEvent: {}
+[122.245032] (-) TimerEvent: {}
+[122.346166] (-) TimerEvent: {}
+[122.447327] (-) TimerEvent: {}
+[122.548590] (-) TimerEvent: {}
+[122.649932] (-) TimerEvent: {}
+[122.751513] (-) TimerEvent: {}
+[122.853062] (-) TimerEvent: {}
+[122.954295] (-) TimerEvent: {}
+[123.055495] (-) TimerEvent: {}
+[123.156718] (-) TimerEvent: {}
+[123.257853] (-) TimerEvent: {}
+[123.359046] (-) TimerEvent: {}
+[123.460231] (-) TimerEvent: {}
+[123.561393] (-) TimerEvent: {}
+[123.662564] (-) TimerEvent: {}
+[123.763918] (-) TimerEvent: {}
+[123.865986] (-) TimerEvent: {}
+[123.968228] (-) TimerEvent: {}
+[124.070339] (-) TimerEvent: {}
+[124.171778] (-) TimerEvent: {}
+[124.273131] (-) TimerEvent: {}
+[124.375212] (-) TimerEvent: {}
+[124.477243] (-) TimerEvent: {}
+[124.578480] (-) TimerEvent: {}
+[124.679955] (-) TimerEvent: {}
+[124.781354] (-) TimerEvent: {}
+[124.882743] (-) TimerEvent: {}
+[124.984132] (-) TimerEvent: {}
+[125.085448] (-) TimerEvent: {}
+[125.186625] (-) TimerEvent: {}
+[125.287940] (-) TimerEvent: {}
+[125.389194] (-) TimerEvent: {}
+[125.490584] (-) TimerEvent: {}
+[125.591963] (-) TimerEvent: {}
+[125.693288] (-) TimerEvent: {}
+[125.794565] (-) TimerEvent: {}
+[125.896904] (-) TimerEvent: {}
+[125.999157] (-) TimerEvent: {}
+[126.101452] (-) TimerEvent: {}
+[126.202693] (-) TimerEvent: {}
+[126.304020] (-) TimerEvent: {}
+[126.405290] (-) TimerEvent: {}
+[126.506582] (-) TimerEvent: {}
+[126.607942] (-) TimerEvent: {}
+[126.709183] (-) TimerEvent: {}
+[126.810411] (-) TimerEvent: {}
+[126.911769] (-) TimerEvent: {}
+[127.013585] (-) TimerEvent: {}
+[127.115114] (-) TimerEvent: {}
+[127.216312] (-) TimerEvent: {}
+[127.317553] (-) TimerEvent: {}
+[127.418827] (-) TimerEvent: {}
+[127.520596] (-) TimerEvent: {}
+[127.621895] (-) TimerEvent: {}
+[127.723173] (-) TimerEvent: {}
+[127.825192] (-) TimerEvent: {}
+[127.927513] (-) TimerEvent: {}
+[128.029867] (-) TimerEvent: {}
+[128.132129] (-) TimerEvent: {}
+[128.234286] (-) TimerEvent: {}
+[128.335650] (-) TimerEvent: {}
+[128.437010] (-) TimerEvent: {}
+[128.538251] (-) TimerEvent: {}
+[128.639570] (-) TimerEvent: {}
+[128.740948] (-) TimerEvent: {}
+[128.842280] (-) TimerEvent: {}
+[128.943589] (-) TimerEvent: {}
+[129.045206] (-) TimerEvent: {}
+[129.147912] (-) TimerEvent: {}
+[129.250499] (-) TimerEvent: {}
+[129.352546] (-) TimerEvent: {}
+[129.454806] (-) TimerEvent: {}
+[129.556778] (-) TimerEvent: {}
+[129.600935] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable pong\x1b[0m\n'}
+[129.657126] (-) TimerEvent: {}
+[129.758358] (-) TimerEvent: {}
+[129.859936] (-) TimerEvent: {}
+[129.961991] (-) TimerEvent: {}
+[130.064060] (-) TimerEvent: {}
+[130.165271] (-) TimerEvent: {}
+[130.266531] (-) TimerEvent: {}
+[130.367765] (-) TimerEvent: {}
+[130.468987] (-) TimerEvent: {}
+[130.570195] (-) TimerEvent: {}
+[130.576199] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 71%] Built target pong\n'}
+[130.670498] (-) TimerEvent: {}
+[130.759694] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/pong_library.dir/src/pong.cpp.o\x1b[0m\n'}
+[130.770786] (-) TimerEvent: {}
+[130.873115] (-) TimerEvent: {}
+[130.974227] (-) TimerEvent: {}
+[131.075392] (-) TimerEvent: {}
+[131.176558] (-) TimerEvent: {}
+[131.277674] (-) TimerEvent: {}
+[131.378779] (-) TimerEvent: {}
+[131.479959] (-) TimerEvent: {}
+[131.581075] (-) TimerEvent: {}
+[131.682195] (-) TimerEvent: {}
+[131.784528] (-) TimerEvent: {}
+[131.886357] (-) TimerEvent: {}
+[131.987681] (-) TimerEvent: {}
+[132.090212] (-) TimerEvent: {}
+[132.192119] (-) TimerEvent: {}
+[132.294456] (-) TimerEvent: {}
+[132.395671] (-) TimerEvent: {}
+[132.407863] (librviz_tutorial) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/myviz.dir/src/myviz.cpp.o\x1b[0m\n'}
+[132.495929] (-) TimerEvent: {}
+[132.597243] (-) TimerEvent: {}
+[132.698318] (-) TimerEvent: {}
+[132.799413] (-) TimerEvent: {}
+[132.901495] (-) TimerEvent: {}
+[133.003306] (-) TimerEvent: {}
+[133.105104] (-) TimerEvent: {}
+[133.206172] (-) TimerEvent: {}
+[133.307352] (-) TimerEvent: {}
+[133.409545] (-) TimerEvent: {}
+[133.511678] (-) TimerEvent: {}
+[133.613059] (-) TimerEvent: {}
+[133.714320] (-) TimerEvent: {}
+[133.816176] (-) TimerEvent: {}
+[133.917901] (-) TimerEvent: {}
+[134.019248] (-) TimerEvent: {}
+[134.122104] (-) TimerEvent: {}
+[134.223805] (-) TimerEvent: {}
+[134.325528] (-) TimerEvent: {}
+[134.426640] (-) TimerEvent: {}
+[134.527783] (-) TimerEvent: {}
+[134.628924] (-) TimerEvent: {}
+[134.730044] (-) TimerEvent: {}
+[134.842290] (-) TimerEvent: {}
+[134.943485] (-) TimerEvent: {}
+[135.044928] (-) TimerEvent: {}
+[135.146544] (-) TimerEvent: {}
+[135.248146] (-) TimerEvent: {}
+[135.350271] (-) TimerEvent: {}
+[135.451541] (-) TimerEvent: {}
+[135.552617] (-) TimerEvent: {}
+[135.653733] (-) TimerEvent: {}
+[135.755234] (-) TimerEvent: {}
+[135.857185] (-) TimerEvent: {}
+[135.959572] (-) TimerEvent: {}
+[136.061374] (-) TimerEvent: {}
+[136.163396] (-) TimerEvent: {}
+[136.265181] (-) TimerEvent: {}
+[136.366989] (-) TimerEvent: {}
+[136.468921] (-) TimerEvent: {}
+[136.571050] (-) TimerEvent: {}
+[136.673604] (-) TimerEvent: {}
+[136.775754] (-) TimerEvent: {}
+[136.876993] (-) TimerEvent: {}
+[136.978183] (-) TimerEvent: {}
+[137.079409] (-) TimerEvent: {}
+[137.181792] (-) TimerEvent: {}
+[137.283084] (-) TimerEvent: {}
+[137.384299] (-) TimerEvent: {}
+[137.485965] (-) TimerEvent: {}
+[137.587132] (-) TimerEvent: {}
+[137.688327] (-) TimerEvent: {}
+[137.790355] (-) TimerEvent: {}
+[137.892419] (-) TimerEvent: {}
+[137.994884] (-) TimerEvent: {}
+[138.096146] (-) TimerEvent: {}
+[138.197533] (-) TimerEvent: {}
+[138.298719] (-) TimerEvent: {}
+[138.399935] (-) TimerEvent: {}
+[138.501231] (-) TimerEvent: {}
+[138.602458] (-) TimerEvent: {}
+[138.704002] (-) TimerEvent: {}
+[138.805176] (-) TimerEvent: {}
+[138.906368] (-) TimerEvent: {}
+[139.007679] (-) TimerEvent: {}
+[139.108915] (-) TimerEvent: {}
+[139.210256] (-) TimerEvent: {}
+[139.311441] (-) TimerEvent: {}
+[139.412664] (-) TimerEvent: {}
+[139.513898] (-) TimerEvent: {}
+[139.615248] (-) TimerEvent: {}
+[139.716699] (-) TimerEvent: {}
+[139.818173] (-) TimerEvent: {}
+[139.919603] (-) TimerEvent: {}
+[140.021681] (-) TimerEvent: {}
+[140.123734] (-) TimerEvent: {}
+[140.225752] (-) TimerEvent: {}
+[140.326883] (-) TimerEvent: {}
+[140.428316] (-) TimerEvent: {}
+[140.529572] (-) TimerEvent: {}
+[140.630783] (-) TimerEvent: {}
+[140.731966] (-) TimerEvent: {}
+[140.833140] (-) TimerEvent: {}
+[140.935209] (-) TimerEvent: {}
+[141.037278] (-) TimerEvent: {}
+[141.139393] (-) TimerEvent: {}
+[141.241448] (-) TimerEvent: {}
+[141.342717] (-) TimerEvent: {}
+[141.444118] (-) TimerEvent: {}
+[141.545227] (-) TimerEvent: {}
+[141.646501] (-) TimerEvent: {}
+[141.747775] (-) TimerEvent: {}
+[141.849042] (-) TimerEvent: {}
+[141.950263] (-) TimerEvent: {}
+[142.051482] (-) TimerEvent: {}
+[142.153706] (-) TimerEvent: {}
+[142.255189] (-) TimerEvent: {}
+[142.356546] (-) TimerEvent: {}
+[142.457737] (-) TimerEvent: {}
+[142.558873] (-) TimerEvent: {}
+[142.659983] (-) TimerEvent: {}
+[142.761245] (-) TimerEvent: {}
+[142.862557] (-) TimerEvent: {}
+[142.963802] (-) TimerEvent: {}
+[143.065019] (-) TimerEvent: {}
+[143.166221] (-) TimerEvent: {}
+[143.267505] (-) TimerEvent: {}
+[143.368715] (-) TimerEvent: {}
+[143.470772] (-) TimerEvent: {}
+[143.571957] (-) TimerEvent: {}
+[143.673498] (-) TimerEvent: {}
+[143.774751] (-) TimerEvent: {}
+[143.875963] (-) TimerEvent: {}
+[143.977133] (-) TimerEvent: {}
+[144.078294] (-) TimerEvent: {}
+[144.179473] (-) TimerEvent: {}
+[144.280696] (-) TimerEvent: {}
+[144.381968] (-) TimerEvent: {}
+[144.483161] (-) TimerEvent: {}
+[144.585170] (-) TimerEvent: {}
+[144.687217] (-) TimerEvent: {}
+[144.788410] (-) TimerEvent: {}
+[144.889765] (-) TimerEvent: {}
+[144.990952] (-) TimerEvent: {}
+[145.092136] (-) TimerEvent: {}
+[145.193278] (-) TimerEvent: {}
+[145.294387] (-) TimerEvent: {}
+[145.395506] (-) TimerEvent: {}
+[145.496708] (-) TimerEvent: {}
+[145.598063] (-) TimerEvent: {}
+[145.700414] (-) TimerEvent: {}
+[145.801889] (-) TimerEvent: {}
+[145.903861] (-) TimerEvent: {}
+[146.005060] (-) TimerEvent: {}
+[146.106276] (-) TimerEvent: {}
+[146.207596] (-) TimerEvent: {}
+[146.308698] (-) TimerEvent: {}
+[146.409970] (-) TimerEvent: {}
+[146.511174] (-) TimerEvent: {}
+[146.612354] (-) TimerEvent: {}
+[146.713775] (-) TimerEvent: {}
+[146.814903] (-) TimerEvent: {}
+[146.916976] (-) TimerEvent: {}
+[147.018929] (-) TimerEvent: {}
+[147.120990] (-) TimerEvent: {}
+[147.222244] (-) TimerEvent: {}
+[147.323609] (-) TimerEvent: {}
+[147.424896] (-) TimerEvent: {}
+[147.526079] (-) TimerEvent: {}
+[147.627277] (-) TimerEvent: {}
+[147.728400] (-) TimerEvent: {}
+[147.829631] (-) TimerEvent: {}
+[147.930827] (-) TimerEvent: {}
+[148.032148] (-) TimerEvent: {}
+[148.134242] (-) TimerEvent: {}
+[148.236349] (-) TimerEvent: {}
+[148.338422] (-) TimerEvent: {}
+[148.440390] (-) TimerEvent: {}
+[148.541667] (-) TimerEvent: {}
+[148.643166] (-) TimerEvent: {}
+[148.744455] (-) TimerEvent: {}
+[148.845775] (-) TimerEvent: {}
+[148.946904] (-) TimerEvent: {}
+[149.048121] (-) TimerEvent: {}
+[149.149360] (-) TimerEvent: {}
+[149.250522] (-) TimerEvent: {}
+[149.351648] (-) TimerEvent: {}
+[149.452986] (-) TimerEvent: {}
+[149.554134] (-) TimerEvent: {}
+[149.655284] (-) TimerEvent: {}
+[149.756479] (-) TimerEvent: {}
+[149.857642] (-) TimerEvent: {}
+[149.959491] (-) TimerEvent: {}
+[150.061540] (-) TimerEvent: {}
+[150.164150] (-) TimerEvent: {}
+[150.266121] (-) TimerEvent: {}
+[150.367290] (-) TimerEvent: {}
+[150.468675] (-) TimerEvent: {}
+[150.569980] (-) TimerEvent: {}
+[150.671093] (-) TimerEvent: {}
+[150.772333] (-) TimerEvent: {}
+[150.873500] (-) TimerEvent: {}
+[150.974726] (-) TimerEvent: {}
+[151.076077] (-) TimerEvent: {}
+[151.177278] (-) TimerEvent: {}
+[151.278514] (-) TimerEvent: {}
+[151.379870] (-) TimerEvent: {}
+[151.481074] (-) TimerEvent: {}
+[151.582382] (-) TimerEvent: {}
+[151.683578] (-) TimerEvent: {}
+[151.784865] (-) TimerEvent: {}
+[151.886148] (-) TimerEvent: {}
+[151.987607] (-) TimerEvent: {}
+[152.088860] (-) TimerEvent: {}
+[152.190073] (-) TimerEvent: {}
+[152.291475] (-) TimerEvent: {}
+[152.392776] (-) TimerEvent: {}
+[152.494033] (-) TimerEvent: {}
+[152.595205] (-) TimerEvent: {}
+[152.696348] (-) TimerEvent: {}
+[152.797504] (-) TimerEvent: {}
+[152.898674] (-) TimerEvent: {}
+[152.999887] (-) TimerEvent: {}
+[153.101111] (-) TimerEvent: {}
+[153.202429] (-) TimerEvent: {}
+[153.303704] (-) TimerEvent: {}
+[153.404972] (-) TimerEvent: {}
+[153.506086] (-) TimerEvent: {}
+[153.607337] (-) TimerEvent: {}
+[153.708466] (-) TimerEvent: {}
+[153.809766] (-) TimerEvent: {}
+[153.910871] (-) TimerEvent: {}
+[154.012127] (-) TimerEvent: {}
+[154.113302] (-) TimerEvent: {}
+[154.214527] (-) TimerEvent: {}
+[154.315872] (-) TimerEvent: {}
+[154.417073] (-) TimerEvent: {}
+[154.518260] (-) TimerEvent: {}
+[154.619528] (-) TimerEvent: {}
+[154.720703] (-) TimerEvent: {}
+[154.821946] (-) TimerEvent: {}
+[154.923227] (-) TimerEvent: {}
+[155.024411] (-) TimerEvent: {}
+[155.126446] (-) TimerEvent: {}
+[155.228435] (-) TimerEvent: {}
+[155.330559] (-) TimerEvent: {}
+[155.432962] (-) TimerEvent: {}
+[155.535038] (-) TimerEvent: {}
+[155.637114] (-) TimerEvent: {}
+[155.739146] (-) TimerEvent: {}
+[155.840396] (-) TimerEvent: {}
+[155.941662] (-) TimerEvent: {}
+[156.042965] (-) TimerEvent: {}
+[156.144313] (-) TimerEvent: {}
+[156.245537] (-) TimerEvent: {}
+[156.346869] (-) TimerEvent: {}
+[156.448704] (-) TimerEvent: {}
+[156.550401] (-) TimerEvent: {}
+[156.651929] (-) TimerEvent: {}
+[156.753536] (-) TimerEvent: {}
+[156.854907] (-) TimerEvent: {}
+[156.956025] (-) TimerEvent: {}
+[157.057152] (-) TimerEvent: {}
+[157.159014] (-) TimerEvent: {}
+[157.260808] (-) TimerEvent: {}
+[157.362905] (-) TimerEvent: {}
+[157.464304] (-) TimerEvent: {}
+[157.565384] (-) TimerEvent: {}
+[157.666900] (-) TimerEvent: {}
+[157.768719] (-) TimerEvent: {}
+[157.870857] (-) TimerEvent: {}
+[157.973846] (-) TimerEvent: {}
+[158.075644] (-) TimerEvent: {}
+[158.177504] (-) TimerEvent: {}
+[158.279257] (-) TimerEvent: {}
+[158.381125] (-) TimerEvent: {}
+[158.482208] (-) TimerEvent: {}
+[158.583236] (-) TimerEvent: {}
+[158.684388] (-) TimerEvent: {}
+[158.785600] (-) TimerEvent: {}
+[158.886646] (-) TimerEvent: {}
+[158.988412] (-) TimerEvent: {}
+[159.089548] (-) TimerEvent: {}
+[159.190544] (-) TimerEvent: {}
+[159.291591] (-) TimerEvent: {}
+[159.392674] (-) TimerEvent: {}
+[159.493759] (-) TimerEvent: {}
+[159.594828] (-) TimerEvent: {}
+[159.696042] (-) TimerEvent: {}
+[159.797162] (-) TimerEvent: {}
+[159.898230] (-) TimerEvent: {}
+[160.000123] (-) TimerEvent: {}
+[160.101898] (-) TimerEvent: {}
+[160.203784] (-) TimerEvent: {}
+[160.305014] (-) TimerEvent: {}
+[160.407138] (-) TimerEvent: {}
+[160.509244] (-) TimerEvent: {}
+[160.610591] (-) TimerEvent: {}
+[160.711795] (-) TimerEvent: {}
+[160.812988] (-) TimerEvent: {}
+[160.914229] (-) TimerEvent: {}
+[161.015702] (-) TimerEvent: {}
+[161.117288] (-) TimerEvent: {}
+[161.219186] (-) TimerEvent: {}
+[161.320306] (-) TimerEvent: {}
+[161.421387] (-) TimerEvent: {}
+[161.522408] (-) TimerEvent: {}
+[161.623469] (-) TimerEvent: {}
+[161.679111] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libpong_library.so\x1b[0m\n'}
+[161.723818] (-) TimerEvent: {}
+[161.826331] (-) TimerEvent: {}
+[161.929001] (-) TimerEvent: {}
+[162.030990] (-) TimerEvent: {}
+[162.137165] (-) TimerEvent: {}
+[162.241194] (-) TimerEvent: {}
+[162.342951] (-) TimerEvent: {}
+[162.445095] (-) TimerEvent: {}
+[162.546947] (-) TimerEvent: {}
+[162.648528] (-) TimerEvent: {}
+[162.750193] (-) TimerEvent: {}
+[162.851660] (-) TimerEvent: {}
+[162.953795] (-) TimerEvent: {}
+[163.056197] (-) TimerEvent: {}
+[163.157880] (-) TimerEvent: {}
+[163.225779] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/teleop_panel.cpp.o\x1b[0m\n'}
+[163.258188] (-) TimerEvent: {}
+[163.345045] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 85%] Built target pong_library\n'}
+[163.358494] (-) TimerEvent: {}
+[163.460318] (-) TimerEvent: {}
+[163.485871] (interactive_marker_tutorials) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/menu.dir/src/menu.cpp.o\x1b[0m\n'}
+[163.560522] (-) TimerEvent: {}
+[163.662415] (-) TimerEvent: {}
+[163.764174] (-) TimerEvent: {}
+[163.866000] (-) TimerEvent: {}
+[163.967711] (-) TimerEvent: {}
+[164.069584] (-) TimerEvent: {}
+[164.171325] (-) TimerEvent: {}
+[164.273159] (-) TimerEvent: {}
+[164.374811] (-) TimerEvent: {}
+[164.476742] (-) TimerEvent: {}
+[164.578646] (-) TimerEvent: {}
+[164.680420] (-) TimerEvent: {}
+[164.782258] (-) TimerEvent: {}
+[164.894422] (-) TimerEvent: {}
+[164.995459] (-) TimerEvent: {}
+[165.096436] (-) TimerEvent: {}
+[165.198302] (-) TimerEvent: {}
+[165.300060] (-) TimerEvent: {}
+[165.401979] (-) TimerEvent: {}
+[165.503863] (-) TimerEvent: {}
+[165.605770] (-) TimerEvent: {}
+[165.707688] (-) TimerEvent: {}
+[165.809745] (-) TimerEvent: {}
+[165.911767] (-) TimerEvent: {}
+[166.014048] (-) TimerEvent: {}
+[166.116754] (-) TimerEvent: {}
+[166.218840] (-) TimerEvent: {}
+[166.321231] (-) TimerEvent: {}
+[166.423485] (-) TimerEvent: {}
+[166.525565] (-) TimerEvent: {}
+[166.627646] (-) TimerEvent: {}
+[166.729720] (-) TimerEvent: {}
+[166.832112] (-) TimerEvent: {}
+[166.934445] (-) TimerEvent: {}
+[167.037297] (-) TimerEvent: {}
+[167.139901] (-) TimerEvent: {}
+[167.242487] (-) TimerEvent: {}
+[167.345168] (-) TimerEvent: {}
+[167.447607] (-) TimerEvent: {}
+[167.549892] (-) TimerEvent: {}
+[167.652189] (-) TimerEvent: {}
+[167.754712] (-) TimerEvent: {}
+[167.857047] (-) TimerEvent: {}
+[167.959682] (-) TimerEvent: {}
+[168.062190] (-) TimerEvent: {}
+[168.164665] (-) TimerEvent: {}
+[168.267206] (-) TimerEvent: {}
+[168.369760] (-) TimerEvent: {}
+[168.472091] (-) TimerEvent: {}
+[168.574834] (-) TimerEvent: {}
+[168.677481] (-) TimerEvent: {}
+[168.779649] (-) TimerEvent: {}
+[168.882469] (-) TimerEvent: {}
+[168.984760] (-) TimerEvent: {}
+[169.087359] (-) TimerEvent: {}
+[169.189601] (-) TimerEvent: {}
+[169.292435] (-) TimerEvent: {}
+[169.395566] (-) TimerEvent: {}
+[169.498216] (-) TimerEvent: {}
+[169.600562] (-) TimerEvent: {}
+[169.703275] (-) TimerEvent: {}
+[169.806068] (-) TimerEvent: {}
+[169.912741] (-) TimerEvent: {}
+[170.015528] (-) TimerEvent: {}
+[170.118049] (-) TimerEvent: {}
+[170.221645] (-) TimerEvent: {}
+[170.323984] (-) TimerEvent: {}
+[170.426415] (-) TimerEvent: {}
+[170.528720] (-) TimerEvent: {}
+[170.631061] (-) TimerEvent: {}
+[170.733307] (-) TimerEvent: {}
+[170.835780] (-) TimerEvent: {}
+[170.938654] (-) TimerEvent: {}
+[171.040552] (-) TimerEvent: {}
+[171.059585] (librviz_tutorial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable myviz\x1b[0m\n'}
+[171.140803] (-) TimerEvent: {}
+[171.242852] (-) TimerEvent: {}
+[171.346006] (-) TimerEvent: {}
+[171.447670] (-) TimerEvent: {}
+[171.548754] (-) TimerEvent: {}
+[171.649861] (-) TimerEvent: {}
+[171.750983] (-) TimerEvent: {}
+[171.852260] (-) TimerEvent: {}
+[171.953279] (-) TimerEvent: {}
+[172.054373] (-) TimerEvent: {}
+[172.155458] (-) TimerEvent: {}
+[172.256494] (-) TimerEvent: {}
+[172.357597] (-) TimerEvent: {}
+[172.458636] (-) TimerEvent: {}
+[172.559869] (-) TimerEvent: {}
+[172.661014] (-) TimerEvent: {}
+[172.762087] (-) TimerEvent: {}
+[172.864973] (-) TimerEvent: {}
+[172.967760] (-) TimerEvent: {}
+[173.071304] (-) TimerEvent: {}
+[173.174085] (-) TimerEvent: {}
+[173.277795] (-) TimerEvent: {}
+[173.380084] (-) TimerEvent: {}
+[173.483426] (-) TimerEvent: {}
+[173.586028] (-) TimerEvent: {}
+[173.689694] (-) TimerEvent: {}
+[173.793392] (-) TimerEvent: {}
+[173.896998] (-) TimerEvent: {}
+[173.999761] (-) TimerEvent: {}
+[174.103180] (-) TimerEvent: {}
+[174.205998] (-) TimerEvent: {}
+[174.309365] (-) TimerEvent: {}
+[174.412232] (-) TimerEvent: {}
+[174.514884] (-) TimerEvent: {}
+[174.617552] (-) TimerEvent: {}
+[174.720505] (-) TimerEvent: {}
+[174.824166] (-) TimerEvent: {}
+[174.927452] (-) TimerEvent: {}
+[175.031011] (-) TimerEvent: {}
+[175.133830] (-) TimerEvent: {}
+[175.236704] (-) TimerEvent: {}
+[175.338936] (-) TimerEvent: {}
+[175.442432] (-) TimerEvent: {}
+[175.545379] (-) TimerEvent: {}
+[175.648754] (-) TimerEvent: {}
+[175.751683] (-) TimerEvent: {}
+[175.854757] (-) TimerEvent: {}
+[175.956755] (-) TimerEvent: {}
+[176.059803] (-) TimerEvent: {}
+[176.163225] (-) TimerEvent: {}
+[176.266108] (-) TimerEvent: {}
+[176.369525] (-) TimerEvent: {}
+[176.472190] (-) TimerEvent: {}
+[176.575507] (-) TimerEvent: {}
+[176.678278] (-) TimerEvent: {}
+[176.781765] (-) TimerEvent: {}
+[176.884184] (-) TimerEvent: {}
+[176.987618] (-) TimerEvent: {}
+[177.093183] (-) TimerEvent: {}
+[177.196970] (-) TimerEvent: {}
+[177.299868] (-) TimerEvent: {}
+[177.403444] (-) TimerEvent: {}
+[177.506437] (-) TimerEvent: {}
+[177.610184] (-) TimerEvent: {}
+[177.713241] (-) TimerEvent: {}
+[177.817532] (-) TimerEvent: {}
+[177.920358] (-) TimerEvent: {}
+[178.024248] (-) TimerEvent: {}
+[178.127275] (-) TimerEvent: {}
+[178.230215] (-) TimerEvent: {}
+[178.333842] (-) TimerEvent: {}
+[178.437114] (-) TimerEvent: {}
+[178.540805] (-) TimerEvent: {}
+[178.644008] (-) TimerEvent: {}
+[178.748373] (-) TimerEvent: {}
+[178.852328] (-) TimerEvent: {}
+[178.955682] (-) TimerEvent: {}
+[179.059022] (-) TimerEvent: {}
+[179.161086] (-) TimerEvent: {}
+[179.263918] (-) TimerEvent: {}
+[179.367380] (-) TimerEvent: {}
+[179.470333] (-) TimerEvent: {}
+[179.573956] (-) TimerEvent: {}
+[179.677663] (-) TimerEvent: {}
+[179.780652] (-) TimerEvent: {}
+[179.884217] (-) TimerEvent: {}
+[179.987208] (-) TimerEvent: {}
+[180.098751] (-) TimerEvent: {}
+[180.201898] (-) TimerEvent: {}
+[180.304755] (-) TimerEvent: {}
+[180.406322] (-) TimerEvent: {}
+[180.509396] (-) TimerEvent: {}
+[180.612420] (-) TimerEvent: {}
+[180.716051] (-) TimerEvent: {}
+[180.819111] (-) TimerEvent: {}
+[180.922535] (-) TimerEvent: {}
+[181.025144] (-) TimerEvent: {}
+[181.128554] (-) TimerEvent: {}
+[181.231958] (-) TimerEvent: {}
+[181.335537] (-) TimerEvent: {}
+[181.438467] (-) TimerEvent: {}
+[181.541917] (-) TimerEvent: {}
+[181.644802] (-) TimerEvent: {}
+[181.748351] (-) TimerEvent: {}
+[181.851370] (-) TimerEvent: {}
+[181.954659] (-) TimerEvent: {}
+[182.057617] (-) TimerEvent: {}
+[182.161209] (-) TimerEvent: {}
+[182.264755] (-) TimerEvent: {}
+[182.368960] (-) TimerEvent: {}
+[182.471623] (-) TimerEvent: {}
+[182.575326] (-) TimerEvent: {}
+[182.678481] (-) TimerEvent: {}
+[182.781995] (-) TimerEvent: {}
+[182.883918] (-) TimerEvent: {}
+[182.985991] (-) TimerEvent: {}
+[183.087732] (-) TimerEvent: {}
+[183.189886] (-) TimerEvent: {}
+[183.293010] (-) TimerEvent: {}
+[183.395840] (-) TimerEvent: {}
+[183.499510] (-) TimerEvent: {}
+[183.603004] (-) TimerEvent: {}
+[183.705771] (-) TimerEvent: {}
+[183.808782] (-) TimerEvent: {}
+[183.911271] (-) TimerEvent: {}
+[184.013654] (-) TimerEvent: {}
+[184.115984] (-) TimerEvent: {}
+[184.218116] (-) TimerEvent: {}
+[184.320707] (-) TimerEvent: {}
+[184.423170] (-) TimerEvent: {}
+[184.525293] (-) TimerEvent: {}
+[184.627880] (-) TimerEvent: {}
+[184.730587] (-) TimerEvent: {}
+[184.833393] (-) TimerEvent: {}
+[184.935874] (-) TimerEvent: {}
+[185.038445] (-) TimerEvent: {}
+[185.144768] (-) TimerEvent: {}
+[185.237353] (librviz_tutorial) StdoutLine: {'line': b'[100%] Built target myviz\n'}
+[185.245108] (-) TimerEvent: {}
+[185.323611] (librviz_tutorial) JobEnded: {'identifier': 'librviz_tutorial', 'rc': 'SIGINT'}
+[185.345336] (-) TimerEvent: {}
+[185.446371] (-) TimerEvent: {}
+[185.547342] (-) TimerEvent: {}
+[185.648284] (-) TimerEvent: {}
+[185.749299] (-) TimerEvent: {}
+[185.851138] (-) TimerEvent: {}
+[185.952087] (-) TimerEvent: {}
+[186.053138] (-) TimerEvent: {}
+[186.154652] (-) TimerEvent: {}
+[186.255850] (-) TimerEvent: {}
+[186.356863] (-) TimerEvent: {}
+[186.457837] (-) TimerEvent: {}
+[186.558822] (-) TimerEvent: {}
+[186.660469] (-) TimerEvent: {}
+[186.762119] (-) TimerEvent: {}
+[186.863715] (-) TimerEvent: {}
+[186.965505] (-) TimerEvent: {}
+[187.067184] (-) TimerEvent: {}
+[187.168185] (-) TimerEvent: {}
+[187.269176] (-) TimerEvent: {}
+[187.370067] (-) TimerEvent: {}
+[187.470984] (-) TimerEvent: {}
+[187.571854] (-) TimerEvent: {}
+[187.672739] (-) TimerEvent: {}
+[187.773647] (-) TimerEvent: {}
+[187.874582] (-) TimerEvent: {}
+[187.975643] (-) TimerEvent: {}
+[188.077193] (-) TimerEvent: {}
+[188.178433] (-) TimerEvent: {}
+[188.280295] (-) TimerEvent: {}
+[188.300029] (interactive_marker_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable menu\x1b[0m\n'}
+[188.380520] (-) TimerEvent: {}
+[188.482038] (-) TimerEvent: {}
+[188.583313] (-) TimerEvent: {}
+[188.684721] (-) TimerEvent: {}
+[188.786160] (-) TimerEvent: {}
+[188.887344] (-) TimerEvent: {}
+[188.988478] (-) TimerEvent: {}
+[189.089810] (-) TimerEvent: {}
+[189.190827] (-) TimerEvent: {}
+[189.227805] (interactive_marker_tutorials) StdoutLine: {'line': b'[100%] Built target menu\n'}
+[189.291093] (-) TimerEvent: {}
+[189.299719] (interactive_marker_tutorials) JobEnded: {'identifier': 'interactive_marker_tutorials', 'rc': 'SIGINT'}
+[189.391973] (-) TimerEvent: {}
+[189.492939] (-) TimerEvent: {}
+[189.593817] (-) TimerEvent: {}
+[189.694829] (-) TimerEvent: {}
+[189.795724] (-) TimerEvent: {}
+[189.896724] (-) TimerEvent: {}
+[189.997631] (-) TimerEvent: {}
+[190.098754] (-) TimerEvent: {}
+[190.200098] (-) TimerEvent: {}
+[190.300995] (-) TimerEvent: {}
+[190.401975] (-) TimerEvent: {}
+[190.502821] (-) TimerEvent: {}
+[190.603809] (-) TimerEvent: {}
+[190.704875] (-) TimerEvent: {}
+[190.805881] (-) TimerEvent: {}
+[190.906823] (-) TimerEvent: {}
+[191.007731] (-) TimerEvent: {}
+[191.108772] (-) TimerEvent: {}
+[191.209664] (-) TimerEvent: {}
+[191.310710] (-) TimerEvent: {}
+[191.411812] (-) TimerEvent: {}
+[191.513188] (-) TimerEvent: {}
+[191.614175] (-) TimerEvent: {}
+[191.714972] (-) TimerEvent: {}
+[191.816075] (-) TimerEvent: {}
+[191.917019] (-) TimerEvent: {}
+[192.018000] (-) TimerEvent: {}
+[192.118944] (-) TimerEvent: {}
+[192.219735] (-) TimerEvent: {}
+[192.320670] (-) TimerEvent: {}
+[192.421664] (-) TimerEvent: {}
+[192.522513] (-) TimerEvent: {}
+[192.623438] (-) TimerEvent: {}
+[192.724235] (-) TimerEvent: {}
+[192.825048] (-) TimerEvent: {}
+[192.925799] (-) TimerEvent: {}
+[193.026883] (-) TimerEvent: {}
+[193.127804] (-) TimerEvent: {}
+[193.228617] (-) TimerEvent: {}
+[193.329658] (-) TimerEvent: {}
+[193.430462] (-) TimerEvent: {}
+[193.531302] (-) TimerEvent: {}
+[193.632077] (-) TimerEvent: {}
+[193.733005] (-) TimerEvent: {}
+[193.833833] (-) TimerEvent: {}
+[193.934706] (-) TimerEvent: {}
+[194.035559] (-) TimerEvent: {}
+[194.136420] (-) TimerEvent: {}
+[194.237283] (-) TimerEvent: {}
+[194.338116] (-) TimerEvent: {}
+[194.438903] (-) TimerEvent: {}
+[194.539724] (-) TimerEvent: {}
+[194.640522] (-) TimerEvent: {}
+[194.741369] (-) TimerEvent: {}
+[194.842177] (-) TimerEvent: {}
+[194.943032] (-) TimerEvent: {}
+[195.043821] (-) TimerEvent: {}
+[195.144612] (-) TimerEvent: {}
+[195.245557] (-) TimerEvent: {}
+[195.346358] (-) TimerEvent: {}
+[195.447300] (-) TimerEvent: {}
+[195.548182] (-) TimerEvent: {}
+[195.649042] (-) TimerEvent: {}
+[195.749948] (-) TimerEvent: {}
+[195.850783] (-) TimerEvent: {}
+[195.951638] (-) TimerEvent: {}
+[196.052530] (-) TimerEvent: {}
+[196.153421] (-) TimerEvent: {}
+[196.254235] (-) TimerEvent: {}
+[196.355044] (-) TimerEvent: {}
+[196.455942] (-) TimerEvent: {}
+[196.557037] (-) TimerEvent: {}
+[196.657938] (-) TimerEvent: {}
+[196.735019] (rviz_plugin_tutorials) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/rviz_plugin_tutorials.dir/src/plant_flag_tool.cpp.o\x1b[0m\n'}
+[196.758131] (-) TimerEvent: {}
+[196.858851] (-) TimerEvent: {}
+[196.959553] (-) TimerEvent: {}
+[197.060267] (-) TimerEvent: {}
+[197.160993] (-) TimerEvent: {}
+[197.261720] (-) TimerEvent: {}
+[197.362463] (-) TimerEvent: {}
+[197.463192] (-) TimerEvent: {}
+[197.563897] (-) TimerEvent: {}
+[197.664631] (-) TimerEvent: {}
+[197.765413] (-) TimerEvent: {}
+[197.866134] (-) TimerEvent: {}
+[197.966869] (-) TimerEvent: {}
+[198.067751] (-) TimerEvent: {}
+[198.168727] (-) TimerEvent: {}
+[198.269518] (-) TimerEvent: {}
+[198.370228] (-) TimerEvent: {}
+[198.470971] (-) TimerEvent: {}
+[198.571700] (-) TimerEvent: {}
+[198.672594] (-) TimerEvent: {}
+[198.773511] (-) TimerEvent: {}
+[198.874438] (-) TimerEvent: {}
+[198.975194] (-) TimerEvent: {}
+[199.075924] (-) TimerEvent: {}
+[199.176661] (-) TimerEvent: {}
+[199.277579] (-) TimerEvent: {}
+[199.378339] (-) TimerEvent: {}
+[199.479085] (-) TimerEvent: {}
+[199.580453] (-) TimerEvent: {}
+[199.681208] (-) TimerEvent: {}
+[199.781947] (-) TimerEvent: {}
+[199.882673] (-) TimerEvent: {}
+[199.983370] (-) TimerEvent: {}
+[200.084062] (-) TimerEvent: {}
+[200.184898] (-) TimerEvent: {}
+[200.285729] (-) TimerEvent: {}
+[200.386634] (-) TimerEvent: {}
+[200.487367] (-) TimerEvent: {}
+[200.588224] (-) TimerEvent: {}
+[200.689019] (-) TimerEvent: {}
+[200.789801] (-) TimerEvent: {}
+[200.890564] (-) TimerEvent: {}
+[200.991381] (-) TimerEvent: {}
+[201.092562] (-) TimerEvent: {}
+[201.193702] (-) TimerEvent: {}
+[201.294526] (-) TimerEvent: {}
+[201.395266] (-) TimerEvent: {}
+[201.496094] (-) TimerEvent: {}
+[201.596984] (-) TimerEvent: {}
+[201.697698] (-) TimerEvent: {}
+[201.798483] (-) TimerEvent: {}
+[201.899451] (-) TimerEvent: {}
+[202.000308] (-) TimerEvent: {}
+[202.101379] (-) TimerEvent: {}
+[202.202438] (-) TimerEvent: {}
+[202.303181] (-) TimerEvent: {}
+[202.404204] (-) TimerEvent: {}
+[202.505004] (-) TimerEvent: {}
+[202.605786] (-) TimerEvent: {}
+[202.706547] (-) TimerEvent: {}
+[202.807364] (-) TimerEvent: {}
+[202.908107] (-) TimerEvent: {}
+[203.008941] (-) TimerEvent: {}
+[203.109756] (-) TimerEvent: {}
+[203.210511] (-) TimerEvent: {}
+[203.311315] (-) TimerEvent: {}
+[203.412152] (-) TimerEvent: {}
+[203.513095] (-) TimerEvent: {}
+[203.613882] (-) TimerEvent: {}
+[203.714676] (-) TimerEvent: {}
+[203.815521] (-) TimerEvent: {}
+[203.916315] (-) TimerEvent: {}
+[204.017098] (-) TimerEvent: {}
+[204.117937] (-) TimerEvent: {}
+[204.218723] (-) TimerEvent: {}
+[204.319544] (-) TimerEvent: {}
+[204.420368] (-) TimerEvent: {}
+[204.521201] (-) TimerEvent: {}
+[204.622029] (-) TimerEvent: {}
+[204.722760] (-) TimerEvent: {}
+[204.823615] (-) TimerEvent: {}
+[204.924409] (-) TimerEvent: {}
+[205.025261] (-) TimerEvent: {}
+[205.126225] (-) TimerEvent: {}
+[205.226964] (-) TimerEvent: {}
+[205.327927] (-) TimerEvent: {}
+[205.428986] (-) TimerEvent: {}
+[205.529920] (-) TimerEvent: {}
+[205.630879] (-) TimerEvent: {}
+[205.731653] (-) TimerEvent: {}
+[205.832603] (-) TimerEvent: {}
+[205.933498] (-) TimerEvent: {}
+[206.034393] (-) TimerEvent: {}
+[206.135398] (-) TimerEvent: {}
+[206.236194] (-) TimerEvent: {}
+[206.337090] (-) TimerEvent: {}
+[206.437881] (-) TimerEvent: {}
+[206.538673] (-) TimerEvent: {}
+[206.639615] (-) TimerEvent: {}
+[206.740398] (-) TimerEvent: {}
+[206.841345] (-) TimerEvent: {}
+[206.942158] (-) TimerEvent: {}
+[207.042995] (-) TimerEvent: {}
+[207.143938] (-) TimerEvent: {}
+[207.244727] (-) TimerEvent: {}
+[207.345652] (-) TimerEvent: {}
+[207.446446] (-) TimerEvent: {}
+[207.547371] (-) TimerEvent: {}
+[207.648286] (-) TimerEvent: {}
+[207.749072] (-) TimerEvent: {}
+[207.849993] (-) TimerEvent: {}
+[207.950789] (-) TimerEvent: {}
+[208.051667] (-) TimerEvent: {}
+[208.152589] (-) TimerEvent: {}
+[208.253471] (-) TimerEvent: {}
+[208.354381] (-) TimerEvent: {}
+[208.455150] (-) TimerEvent: {}
+[208.556012] (-) TimerEvent: {}
+[208.656942] (-) TimerEvent: {}
+[208.757733] (-) TimerEvent: {}
+[208.858531] (-) TimerEvent: {}
+[208.959257] (-) TimerEvent: {}
+[209.060093] (-) TimerEvent: {}
+[209.160949] (-) TimerEvent: {}
+[209.261707] (-) TimerEvent: {}
+[209.362560] (-) TimerEvent: {}
+[209.463320] (-) TimerEvent: {}
+[209.564123] (-) TimerEvent: {}
+[209.664925] (-) TimerEvent: {}
+[209.765686] (-) TimerEvent: {}
+[209.866441] (-) TimerEvent: {}
+[209.967205] (-) TimerEvent: {}
+[210.068058] (-) TimerEvent: {}
+[210.168891] (-) TimerEvent: {}
+[210.269674] (-) TimerEvent: {}
+[210.370432] (-) TimerEvent: {}
+[210.471169] (-) TimerEvent: {}
+[210.571971] (-) TimerEvent: {}
+[210.672752] (-) TimerEvent: {}
+[210.773562] (-) TimerEvent: {}
+[210.874328] (-) TimerEvent: {}
+[210.975102] (-) TimerEvent: {}
+[211.075889] (-) TimerEvent: {}
+[211.176710] (-) TimerEvent: {}
+[211.277522] (-) TimerEvent: {}
+[211.378293] (-) TimerEvent: {}
+[211.479071] (-) TimerEvent: {}
+[211.579823] (-) TimerEvent: {}
+[211.680591] (-) TimerEvent: {}
+[211.781399] (-) TimerEvent: {}
+[211.882223] (-) TimerEvent: {}
+[211.983092] (-) TimerEvent: {}
+[212.083914] (-) TimerEvent: {}
+[212.184711] (-) TimerEvent: {}
+[212.285543] (-) TimerEvent: {}
+[212.386379] (-) TimerEvent: {}
+[212.487204] (-) TimerEvent: {}
+[212.587988] (-) TimerEvent: {}
+[212.688784] (-) TimerEvent: {}
+[212.789678] (-) TimerEvent: {}
+[212.890515] (-) TimerEvent: {}
+[212.991297] (-) TimerEvent: {}
+[213.092160] (-) TimerEvent: {}
+[213.193015] (-) TimerEvent: {}
+[213.293830] (-) TimerEvent: {}
+[213.394569] (-) TimerEvent: {}
+[213.495390] (-) TimerEvent: {}
+[213.596216] (-) TimerEvent: {}
+[213.697045] (-) TimerEvent: {}
+[213.797849] (-) TimerEvent: {}
+[213.898689] (-) TimerEvent: {}
+[213.999460] (-) TimerEvent: {}
+[214.100280] (-) TimerEvent: {}
+[214.201151] (-) TimerEvent: {}
+[214.301993] (-) TimerEvent: {}
+[214.402838] (-) TimerEvent: {}
+[214.503625] (-) TimerEvent: {}
+[214.604426] (-) TimerEvent: {}
+[214.705262] (-) TimerEvent: {}
+[214.806154] (-) TimerEvent: {}
+[214.906952] (-) TimerEvent: {}
+[215.007697] (-) TimerEvent: {}
+[215.108503] (-) TimerEvent: {}
+[215.209301] (-) TimerEvent: {}
+[215.310071] (-) TimerEvent: {}
+[215.410812] (-) TimerEvent: {}
+[215.511579] (-) TimerEvent: {}
+[215.612363] (-) TimerEvent: {}
+[215.713134] (-) TimerEvent: {}
+[215.813893] (-) TimerEvent: {}
+[215.914647] (-) TimerEvent: {}
+[216.015425] (-) TimerEvent: {}
+[216.116219] (-) TimerEvent: {}
+[216.216999] (-) TimerEvent: {}
+[216.317836] (-) TimerEvent: {}
+[216.418649] (-) TimerEvent: {}
+[216.519444] (-) TimerEvent: {}
+[216.620197] (-) TimerEvent: {}
+[216.720983] (-) TimerEvent: {}
+[216.821725] (-) TimerEvent: {}
+[216.922492] (-) TimerEvent: {}
+[217.023265] (-) TimerEvent: {}
+[217.124042] (-) TimerEvent: {}
+[217.224872] (-) TimerEvent: {}
+[217.325631] (-) TimerEvent: {}
+[217.426432] (-) TimerEvent: {}
+[217.527227] (-) TimerEvent: {}
+[217.627971] (-) TimerEvent: {}
+[217.728722] (-) TimerEvent: {}
+[217.829525] (-) TimerEvent: {}
+[217.930251] (-) TimerEvent: {}
+[218.031122] (-) TimerEvent: {}
+[218.131946] (-) TimerEvent: {}
+[218.232745] (-) TimerEvent: {}
+[218.333619] (-) TimerEvent: {}
+[218.434560] (-) TimerEvent: {}
+[218.535676] (-) TimerEvent: {}
+[218.636579] (-) TimerEvent: {}
+[218.737649] (-) TimerEvent: {}
+[218.838955] (-) TimerEvent: {}
+[218.939755] (-) TimerEvent: {}
+[219.040534] (-) TimerEvent: {}
+[219.141336] (-) TimerEvent: {}
+[219.242068] (-) TimerEvent: {}
+[219.342817] (-) TimerEvent: {}
+[219.443568] (-) TimerEvent: {}
+[219.544346] (-) TimerEvent: {}
+[219.645134] (-) TimerEvent: {}
+[219.745873] (-) TimerEvent: {}
+[219.846609] (-) TimerEvent: {}
+[219.947341] (-) TimerEvent: {}
+[220.048114] (-) TimerEvent: {}
+[220.148936] (-) TimerEvent: {}
+[220.249701] (-) TimerEvent: {}
+[220.350505] (-) TimerEvent: {}
+[220.451484] (-) TimerEvent: {}
+[220.552284] (-) TimerEvent: {}
+[220.653111] (-) TimerEvent: {}
+[220.753969] (-) TimerEvent: {}
+[220.854763] (-) TimerEvent: {}
+[220.955585] (-) TimerEvent: {}
+[221.056487] (-) TimerEvent: {}
+[221.157329] (-) TimerEvent: {}
+[221.258092] (-) TimerEvent: {}
+[221.358854] (-) TimerEvent: {}
+[221.459627] (-) TimerEvent: {}
+[221.560366] (-) TimerEvent: {}
+[221.661125] (-) TimerEvent: {}
+[221.761922] (-) TimerEvent: {}
+[221.862724] (-) TimerEvent: {}
+[221.963472] (-) TimerEvent: {}
+[222.064253] (-) TimerEvent: {}
+[222.164998] (-) TimerEvent: {}
+[222.265739] (-) TimerEvent: {}
+[222.366493] (-) TimerEvent: {}
+[222.467250] (-) TimerEvent: {}
+[222.568025] (-) TimerEvent: {}
+[222.668796] (-) TimerEvent: {}
+[222.769576] (-) TimerEvent: {}
+[222.870315] (-) TimerEvent: {}
+[222.971058] (-) TimerEvent: {}
+[223.071845] (-) TimerEvent: {}
+[223.172729] (-) TimerEvent: {}
+[223.273562] (-) TimerEvent: {}
+[223.374321] (-) TimerEvent: {}
+[223.475125] (-) TimerEvent: {}
+[223.575897] (-) TimerEvent: {}
+[223.676663] (-) TimerEvent: {}
+[223.777456] (-) TimerEvent: {}
+[223.878217] (-) TimerEvent: {}
+[223.978972] (-) TimerEvent: {}
+[224.079814] (-) TimerEvent: {}
+[224.180603] (-) TimerEvent: {}
+[224.281431] (-) TimerEvent: {}
+[224.382236] (-) TimerEvent: {}
+[224.483013] (-) TimerEvent: {}
+[224.583841] (-) TimerEvent: {}
+[224.684696] (-) TimerEvent: {}
+[224.785521] (-) TimerEvent: {}
+[224.886295] (-) TimerEvent: {}
+[224.987055] (-) TimerEvent: {}
+[225.087855] (-) TimerEvent: {}
+[225.188682] (-) TimerEvent: {}
+[225.289515] (-) TimerEvent: {}
+[225.390304] (-) TimerEvent: {}
+[225.491068] (-) TimerEvent: {}
+[225.591868] (-) TimerEvent: {}
+[225.692663] (-) TimerEvent: {}
+[225.793494] (-) TimerEvent: {}
+[225.894317] (-) TimerEvent: {}
+[225.995234] (-) TimerEvent: {}
+[226.095993] (-) TimerEvent: {}
+[226.196783] (-) TimerEvent: {}
+[226.297588] (-) TimerEvent: {}
+[226.398348] (-) TimerEvent: {}
+[226.499086] (-) TimerEvent: {}
+[226.599853] (-) TimerEvent: {}
+[226.700644] (-) TimerEvent: {}
+[226.801483] (-) TimerEvent: {}
+[226.902312] (-) TimerEvent: {}
+[227.006819] (-) TimerEvent: {}
+[227.107720] (-) TimerEvent: {}
+[227.208500] (-) TimerEvent: {}
+[227.309362] (-) TimerEvent: {}
+[227.410194] (-) TimerEvent: {}
+[227.511119] (-) TimerEvent: {}
+[227.612183] (-) TimerEvent: {}
+[227.712971] (-) TimerEvent: {}
+[227.813726] (-) TimerEvent: {}
+[227.914569] (-) TimerEvent: {}
+[228.015346] (-) TimerEvent: {}
+[228.116133] (-) TimerEvent: {}
+[228.216954] (-) TimerEvent: {}
+[228.317729] (-) TimerEvent: {}
+[228.418723] (-) TimerEvent: {}
+[228.519672] (-) TimerEvent: {}
+[228.620432] (-) TimerEvent: {}
+[228.633107] (rviz_plugin_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librviz_plugin_tutorials.so\x1b[0m\n'}
+[228.720631] (-) TimerEvent: {}
+[228.821422] (-) TimerEvent: {}
+[228.922217] (-) TimerEvent: {}
+[229.023010] (-) TimerEvent: {}
+[229.123948] (-) TimerEvent: {}
+[229.225102] (-) TimerEvent: {}
+[229.326266] (-) TimerEvent: {}
+[229.427295] (-) TimerEvent: {}
+[229.528609] (-) TimerEvent: {}
+[229.629693] (-) TimerEvent: {}
+[229.730525] (-) TimerEvent: {}
+[229.831420] (-) TimerEvent: {}
+[229.932355] (-) TimerEvent: {}
+[230.033639] (-) TimerEvent: {}
+[230.134880] (-) TimerEvent: {}
+[230.236005] (-) TimerEvent: {}
+[230.337042] (-) TimerEvent: {}
+[230.438149] (-) TimerEvent: {}
+[230.539143] (-) TimerEvent: {}
+[230.640264] (-) TimerEvent: {}
+[230.741085] (-) TimerEvent: {}
+[230.842009] (-) TimerEvent: {}
+[230.943103] (-) TimerEvent: {}
+[231.044114] (-) TimerEvent: {}
+[231.145303] (-) TimerEvent: {}
+[231.246261] (-) TimerEvent: {}
+[231.347484] (-) TimerEvent: {}
+[231.448588] (-) TimerEvent: {}
+[231.549568] (-) TimerEvent: {}
+[231.650671] (-) TimerEvent: {}
+[231.751671] (-) TimerEvent: {}
+[231.852810] (-) TimerEvent: {}
+[231.953679] (-) TimerEvent: {}
+[232.054653] (-) TimerEvent: {}
+[232.155634] (-) TimerEvent: {}
+[232.256813] (-) TimerEvent: {}
+[232.357773] (-) TimerEvent: {}
+[232.458884] (-) TimerEvent: {}
+[232.559761] (-) TimerEvent: {}
+[232.660700] (-) TimerEvent: {}
+[232.761846] (-) TimerEvent: {}
+[232.862792] (-) TimerEvent: {}
+[232.963937] (-) TimerEvent: {}
+[233.064801] (-) TimerEvent: {}
+[233.165683] (-) TimerEvent: {}
+[233.266541] (-) TimerEvent: {}
+[233.367506] (-) TimerEvent: {}
+[233.468666] (-) TimerEvent: {}
+[233.569658] (-) TimerEvent: {}
+[233.670767] (-) TimerEvent: {}
+[233.771651] (-) TimerEvent: {}
+[233.872573] (-) TimerEvent: {}
+[233.973704] (-) TimerEvent: {}
+[234.074676] (-) TimerEvent: {}
+[234.175837] (-) TimerEvent: {}
+[234.276813] (-) TimerEvent: {}
+[234.377970] (-) TimerEvent: {}
+[234.478919] (-) TimerEvent: {}
+[234.580039] (-) TimerEvent: {}
+[234.681054] (-) TimerEvent: {}
+[234.782086] (-) TimerEvent: {}
+[234.883209] (-) TimerEvent: {}
+[234.984155] (-) TimerEvent: {}
+[235.085380] (-) TimerEvent: {}
+[235.186218] (-) TimerEvent: {}
+[235.287163] (-) TimerEvent: {}
+[235.388272] (-) TimerEvent: {}
+[235.489240] (-) TimerEvent: {}
+[235.590477] (-) TimerEvent: {}
+[235.691671] (-) TimerEvent: {}
+[235.792809] (-) TimerEvent: {}
+[235.893687] (-) TimerEvent: {}
+[235.994638] (-) TimerEvent: {}
+[236.095740] (-) TimerEvent: {}
+[236.196693] (-) TimerEvent: {}
+[236.297867] (-) TimerEvent: {}
+[236.398713] (-) TimerEvent: {}
+[236.499589] (-) TimerEvent: {}
+[236.601246] (-) TimerEvent: {}
+[236.702330] (-) TimerEvent: {}
+[236.803290] (-) TimerEvent: {}
+[236.904440] (-) TimerEvent: {}
+[237.005293] (-) TimerEvent: {}
+[237.106159] (-) TimerEvent: {}
+[237.207247] (-) TimerEvent: {}
+[237.308127] (-) TimerEvent: {}
+[237.409021] (-) TimerEvent: {}
+[237.509824] (-) TimerEvent: {}
+[237.610549] (-) TimerEvent: {}
+[237.711198] (-) TimerEvent: {}
+[237.811907] (-) TimerEvent: {}
+[237.912573] (-) TimerEvent: {}
+[238.013276] (-) TimerEvent: {}
+[238.113940] (-) TimerEvent: {}
+[238.214598] (-) TimerEvent: {}
+[238.315267] (-) TimerEvent: {}
+[238.415941] (-) TimerEvent: {}
+[238.516612] (-) TimerEvent: {}
+[238.617301] (-) TimerEvent: {}
+[238.717962] (-) TimerEvent: {}
+[238.818678] (-) TimerEvent: {}
+[238.919471] (-) TimerEvent: {}
+[239.020258] (-) TimerEvent: {}
+[239.121021] (-) TimerEvent: {}
+[239.221779] (-) TimerEvent: {}
+[239.322436] (-) TimerEvent: {}
+[239.423138] (-) TimerEvent: {}
+[239.523894] (-) TimerEvent: {}
+[239.622766] (rviz_plugin_tutorials) StdoutLine: {'line': b'[100%] Built target rviz_plugin_tutorials\n'}
+[239.624060] (-) TimerEvent: {}
+[239.690427] (rviz_plugin_tutorials) JobEnded: {'identifier': 'rviz_plugin_tutorials', 'rc': 'SIGINT'}
+[239.697705] (diffdrive_arduino) JobSkipped: {'identifier': 'diffdrive_arduino'}
+[239.698169] (serial) JobSkipped: {'identifier': 'serial'}
+[239.698304] (techdiffbot) JobSkipped: {'identifier': 'techdiffbot'}
+[239.698396] (visualization_tutorials) JobSkipped: {'identifier': 'visualization_tutorials'}
+[239.698481] (-) EventReactorShutdown: {}

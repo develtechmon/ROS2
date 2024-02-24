@@ -1,0 +1,25 @@
+[2.323s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial -- -j4 -l4
+[2.827s] [ 20%] [34m[1mAutomatic MOC for target myviz[0m
+[3.018s] [ 20%] Built target myviz_autogen
+[3.230s] [100%] Built target myviz
+[3.285s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial -- -j4 -l4
+[3.808s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial
+[3.907s] -- Install configuration: ""
+[3.912s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib/librviz_tutorial/myviz
+[3.914s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/ament_index/resource_index/package_run_dependencies/librviz_tutorial
+[3.915s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/ament_index/resource_index/parent_prefix_path/librviz_tutorial
+[3.916s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.sh
+[3.917s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.dsv
+[3.918s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/path.sh
+[3.918s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/path.dsv
+[3.919s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.bash
+[3.920s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.sh
+[3.921s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.zsh
+[3.921s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.dsv
+[3.922s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.dsv
+[3.923s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/ament_index/resource_index/packages/librviz_tutorial
+[3.924s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.925s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig.cmake
+[3.926s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig-version.cmake
+[3.927s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.xml
+[5.786s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial

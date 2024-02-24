@@ -207,11 +207,11 @@
     <joint name="lidar_case_joint" type="fixed">
         <origin xyz="0.0 0.0 0.055 " rpy="0.0 0.0 4.71239"/>
         <parent link="ldlidar_base"/>
-        <child link="lidar_link"/>
+        <child link="ldlidar_link"/>
     </joint>
     
     <!-- LIDAR LINK -->
-    <link name="lidar_link">
+    <link name="ldlidar_link">
     <visual>
         <!-- <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> -->
         <geometry>
@@ -230,7 +230,7 @@
     </xacro:inertial_cylinder>
     </link>
 
-    <gazebo reference="lidar_link">
+    <gazebo reference="ldlidar_link">
         <material>Gazebo/Blue</material>
     </gazebo>
 
@@ -300,7 +300,7 @@
     </gazebo>
 
     <!-- GAZEBO Lidar Plugin -->
-    <gazebo reference="lidar_link">
+    <gazebo reference="ldlidar_link">
         <material>Gazebo/Blue</material>
         <sensor name="laser" type="ray">
             <pose> 0 0 0 0 0 0 </pose>
@@ -338,7 +338,7 @@
                 <!-- <argument>~/out:=scan</argument> -->
             </ros>
             <output_type>sensor_msgs/LaserScan</output_type>
-            <frame_name>lidar_link</frame_name>
+            <frame_name>ldlidar_link</frame_name>
             </plugin>
         </sensor>
     </gazebo>

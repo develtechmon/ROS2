@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target basic_shapes[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o[0m
+[ 75%] Built target basic_shapes
+[100%] [32m[1mLinking CXX executable points_and_lines[0m
+[100%] Built target points_and_lines
+-- Install configuration: ""
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/basic_shapes
+-- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/basic_shapes" to ""
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/points_and_lines
+-- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/points_and_lines" to ""
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/visualization_marker_tutorials
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/visualization_marker_tutorials
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.sh
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.dsv
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.sh
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.dsv
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.bash
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.sh
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.zsh
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.dsv
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/packages/visualization_marker_tutorials
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig.cmake
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig-version.cmake
+-- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.xml

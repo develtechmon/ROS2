@@ -90,7 +90,8 @@ def generate_launch_description():
         executable='static_transform_publisher',
         name='static_transform_publisher',
         output='screen',
-        arguments=['0', '0', '0', '0', '0', '0', 'odom', 'ldlidar_base']
+        arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint']
+        #arguments=['0', '0', '0', '0', '0', '0', 'odom', 'ldlidar_base']
     )
 
     # RVIZ2 settings

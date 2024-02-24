@@ -165,7 +165,7 @@ points_and_lines: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 points_and_lines: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 points_and_lines: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 points_and_lines: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-points_and_lines: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+points_and_lines: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 points_and_lines: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 points_and_lines: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 points_and_lines: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so

@@ -1,0 +1,40 @@
+[1.465s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials -- -j4 -l4
+[2.045s] [ 12%] [34m[1mAutomatic MOC for target rviz_plugin_tutorials[0m
+[2.309s] [ 12%] Built target rviz_plugin_tutorials_autogen
+[2.435s] [35m[1mConsolidate compiler generated dependencies of target rviz_plugin_tutorials[0m
+[2.683s] [100%] Built target rviz_plugin_tutorials
+[2.747s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials -- -j4 -l4
+[3.041s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials
+[3.088s] -- Install configuration: ""
+[3.092s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/plugin_description.xml
+[3.093s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so
+[3.149s] -- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/librviz_plugin_tutorials.so" to ""
+[3.150s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[3.153s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[3.156s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons
+[3.158s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes
+[3.160s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Imu.png
+[3.162s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/Teleop.png
+[3.164s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/icons/classes/PlantFlag.png
+[3.166s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/lib/rviz_plugin_tutorials/send_test_msgs.py
+[3.170s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorials
+[3.172s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorials
+[3.175s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.sh
+[3.177s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/ament_prefix_path.dsv
+[3.179s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.sh
+[3.181s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/environment/path.dsv
+[3.183s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.bash
+[3.185s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.sh
+[3.188s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.zsh
+[3.190s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/local_setup.dsv
+[3.192s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.dsv
+[3.196s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/packages/rviz_plugin_tutorials
+[3.198s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorials
+[3.204s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media
+[3.205s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/media/flag.dae
+[3.207s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/ament_index/resource_index/rviz_ogre_media_exports/rviz_plugin_tutorials
+[3.208s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.211s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig.cmake
+[3.213s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/cmake/rviz_plugin_tutorialsConfig-version.cmake
+[3.219s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/rviz_plugin_tutorials/share/rviz_plugin_tutorials/package.xml
+[4.013s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/rviz_plugin_tutorials

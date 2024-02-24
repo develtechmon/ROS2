@@ -1,0 +1,88 @@
+[4.564s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino
+[5.050s] -- The CXX compiler identification is GNU 11.4.0
+[5.165s] -- Detecting CXX compiler ABI info
+[5.722s] -- Detecting CXX compiler ABI info - done
+[5.764s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.769s] -- Detecting CXX compile features
+[5.773s] -- Detecting CXX compile features - done
+[5.851s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.986s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.212s] -- Found hardware_interface: 2.39.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[9.013s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.127s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.297s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.773s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.770s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[18.867s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[20.054s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[20.893s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[20.967s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[21.244s] -- Found FastRTPS: /opt/ros/humble/include  
+[21.368s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[21.428s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[21.565s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.901s] -- Looking for C++ include pthread.h
+[22.765s] -- Looking for C++ include pthread.h - found
+[22.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[23.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.667s] -- Found Threads: TRUE  
+[25.434s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[25.904s] -- Configuring done
+[26.211s] -- Generating done
+[26.223s] -- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino
+[26.275s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino
+[26.287s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino -- -j4 -l4
+[26.596s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[49.413s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[50.447s] [100%] Built target diffdrive_arduino
+[50.496s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino -- -j4 -l4
+[50.668s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino
+[50.702s] -- Install configuration: ""
+[50.703s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml
+[50.707s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino
+[50.707s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino
+[50.708s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[50.710s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[50.711s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[50.713s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[50.715s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[50.718s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[50.720s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control
+[50.722s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[50.724s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/urdf
+[50.726s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[50.728s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[50.730s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[50.732s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/rviz
+[50.733s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[50.736s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[50.738s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[50.739s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[50.741s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/config
+[50.743s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[50.746s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[50.754s] -- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[50.755s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[50.757s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[50.759s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[50.762s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[50.763s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[50.765s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[50.766s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[50.768s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[50.769s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[50.770s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[50.772s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[50.773s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[50.775s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[50.777s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[50.779s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[50.781s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[50.783s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[50.784s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[50.786s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.787s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[50.789s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[50.790s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[50.798s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/diffdrive_arduino
