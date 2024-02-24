@@ -136,7 +136,7 @@ See below example on how I set a fixed port ID for arduino nano which is configu
        <param name="enc_counts_per_rev">1320</param>
 ```
 
-## Step 4 : To start mapping, use this method
+## Step 4 : Clone `Lidar Packages` that comprises of `SLAM` and `NAv2`
 
 This is another example i use that quite helpful on how to perform `SLAM` and `NAv2`.
 Check this link : https://github.com/Myzhar/ldrobot-lidar-ros2/tree/main
@@ -170,6 +170,28 @@ Update the environment variables:
 echo source $(pwd)/install/local_setup.bash >> ~/.bashrc
 source ~/.bashrc
 ```
+
+## Step 5 : Modify the parameters inside the `ldrobot-lidar-ros2` packages
+
+`ldlidar_node/launch/ldlidar.launch.py`
+```
+# Launch Nav2 Lifecycle Manager
+#ld.add_action(rsp_node) <--- disable this line
+```
+
+`ldlidar_node/launch/ldlidar_slam.launch.py`
+```
+# Start RVIZ2
+#ld.add_action(rviz2_node) <--- disable this line
+```
+
+`ldlidar_node/params/slam_toolbox.yaml`
+```
+#base_frame: ldlidar_base
+base_frame: base_footprint <----- Change to base_footprint
+scan_topic: /scan
+```
+
 
 
 
