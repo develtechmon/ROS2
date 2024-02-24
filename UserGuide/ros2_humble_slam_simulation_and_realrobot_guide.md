@@ -52,68 +52,68 @@ wheel_radius: 0.03405
 To ensure we're using `correct` lidar link, we have to modify `link` and `joint name` parameter under `Lidar` section
 to ensure it's recognizable and work with our `ldlidar_base` and `ldlidar_link` above.
 
-Please check `Lidar` section at `core.robot.xacro` on how to setup this parameter. Below example i'm using an example of
-Lidar from `articubot` to make things easy to understand.
+Please check `Lidar` section at `core.robot.xacro` on how to setup this parameter.
 ```
-    <joint name="laser_joint" type="fixed">
-        <parent link="chassis"/>
-        <child link="ldlidar_base"/> 
-        <origin xyz="0.122 0 0.212" rpy="0 0 0"/>
+  <!-- LIDAR CASE JOINT -->
+    <joint name="lidar_joint" type="fixed">
+        <parent link="chassis_link"/>
+        <child link="ldlidar_base"/>
+        <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
     </joint>
 
-    <link name="ldlidar_base"> <================================= our ldlidar_base
-        <visual>
-            <geometry>
-                <cylinder radius="0.05" length="0.04"/>
-            </geometry>
-            <material name="black"/>
-        </visual>
-        <visual>
-            <origin xyz="0 0 -0.05"/>
-            <geometry>
-                <cylinder radius="0.01" length="0.1"/>
-            </geometry>
-            <material name="black"/>
-        </visual>
-        <collision>
-            <geometry>
-                <cylinder radius="0.05" length="0.04"/>
-            </geometry>
-        </collision>
-        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-        </xacro:inertial_cylinder>
-   </link>
+    <!-- LIDAR CASE LINK -->
+    <link name="ldlidar_base"> <-------------- Our ldlidar_base
+    <visual>
+        <geometry>
+            <box size="0.08 0.18 0.095"/>
+        </geometry>
+        <material name="red"/>
+    </visual>
 
-    <joint name="ldlidar_link_joint" type="fixed">
-        <parent link="ldlidar_base"/>
-        <child link="ldlidar_link"/>
-        <origin xyz="0 0 0.02745" rpy="0 0 0" />
-    </joint>
+    <collision>
+        <geometry>
+            <box size="0.08 0.18 0.095"/>
+        </geometry>
+    </collision>
+    <xacro:inertial_box mass="0.03" x="0.08" y="0.18" z="0.095">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </xacro:inertial_box>
+    </link>
 
-    <link name="ldlidar_link"> <================================= our ldlidar_link
-        <visual>
-            <geometry>
-                <cylinder radius="0.05" length="0.04"/>
-            </geometry>
-            <material name="black"/>
-        </visual>
-        <visual>
-            <origin xyz="0 0 -0.05"/>
-            <geometry>
-                <cylinder radius="0.01" length="0.1"/>
-            </geometry>
-            <material name="black"/>
-        </visual>
-        <collision>
-            <geometry>
-                <cylinder radius="0.05" length="0.04"/>
-            </geometry>
-        </collision>
-        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-        </xacro:inertial_cylinder>
-   </link>
+  <gazebo reference="ldlidar_base"> <-
+      <material>Gazebo/Red</material>
+  </gazebo>
+
+  <!-- LIDAR  JOINT -->
+  <joint name="lidar_case_joint" type="fixed">
+      <origin xyz="0.0 0.0 0.055 " rpy="0.0 0.0 4.71239"/>
+      <parent link="ldlidar_base"/>
+      <child link="ldlidar_link"/>
+  </joint>
+
+  <!-- LIDAR LINK -->
+  <link name="ldlidar_link"> <-------------- Our lidar_fram= ldlidar_link
+  <visual>
+      <!-- <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> -->
+      <geometry>
+          <cylinder radius="0.0175" length="0.0175"/>
+      </geometry>
+      <material name="blue"/>
+  </visual>
+
+  <collision>
+      <geometry>
+          <cylinder radius="0.0175" length="0.0175"/>
+      </geometry>
+  </collision>
+  <xacro:inertial_cylinder mass="0.1" length="0.0175" radius="0.0175">
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </xacro:inertial_cylinder>
+  </link>
+
+  <gazebo reference="ldlidar_link">
+      <material>Gazebo/Blue</material>
+  </gazebo>
 
 ```
 
