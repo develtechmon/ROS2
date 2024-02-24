@@ -241,12 +241,55 @@ ros2 launch techdiffbot gazebo.sim.launch.py  world:=./src/techdiffbot/world/my_
 rviz2 -d src/techdiffbot/rviz2/my_maze.rviz 
 
 3. In new terminal run SLAM toolbox
-ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml 
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
-4. In new terminal run 
+4. From Rviz select
+   Fixed Frame - map
+   Map Topic - Map
 
-
+5. In new terminal run Joystick or Keyboard control start Mapping
+ros2 launch techdiffbot joystick.control.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ```
+
+
+## For Real Robot
+```
+1. In new terminal run Gazebo
+ros2 launch techdiffbot launch_robot.launch.py
+
+2. In new terminal run Rviz
+rviz2 -d src/techdiffbot/rviz2/my_maze.rviz
+
+3. In new terminal run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
+ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
+
+4. In new terminal run SLAM toolbox
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+
+5. From Rviz select
+   Fixed Frame - map
+   Map Topic - Map
+
+6. In new terminal run Joystick or Keyboard control start Mapping
+ros2 launch techdiffbot joystick.control.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+7. Might consider to run this commad to have a static transform - optional !
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom ldlidar_base
+```
+
+Move the robot around the area and once you're done please return the robot to its `original initial position in map` at which point it start to move.
+Then save the `gazebo` map into your `/config/world/`
+
+Move the robot around the area and once you're done please return the robot to its `original initial position in map` at which point it start to move.
+Then save the `gazebo` map into your `/config/world/`
+
+
+
+
+
+
 
 
 ## Ro real Robot
