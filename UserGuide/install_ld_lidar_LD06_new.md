@@ -85,3 +85,12 @@ def generate_launch_description():
   # Define LaunchDescription variable
   ld = LaunchDescription()
 ```
+
+## Step 5 : Above changes made on code above has been adjusted to work with `techdiffbot` REAL ROBOT
+
+Here it consist new transform from URDF `(odom, base_footprint)` and `ldlidar_link`. To run this code
+```
+1.ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/slam_toolbox.yaml use_sim_time:=false
+2. ros2 launch ldlidar_stl_ros2 ld19.launch.py
+3. ros2 launch techdiffbot launch_robot.launch.py
+```
