@@ -176,7 +176,7 @@ simple_marker: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 simple_marker: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 simple_marker: /opt/ros/humble/lib/librosidl_typesupport_c.so
 simple_marker: /opt/ros/humble/lib/librcpputils.so
-simple_marker: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+simple_marker: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 simple_marker: /opt/ros/humble/lib/librmw.so
 simple_marker: /opt/ros/humble/lib/librosidl_runtime_c.so
 simple_marker: /opt/ros/humble/lib/librcutils.so

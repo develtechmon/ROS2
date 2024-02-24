@@ -1,0 +1,114 @@
+[0.381s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial
+[0.968s] -- The C compiler identification is GNU 11.4.0
+[1.447s] -- The CXX compiler identification is GNU 11.4.0
+[1.466s] -- Detecting C compiler ABI info
+[1.699s] -- Detecting C compiler ABI info - done
+[1.717s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.718s] -- Detecting C compile features
+[1.738s] -- Detecting C compile features - done
+[1.742s] -- Detecting CXX compiler ABI info
+[1.907s] -- Detecting CXX compiler ABI info - done
+[1.918s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.919s] -- Detecting CXX compile features
+[1.919s] -- Detecting CXX compile features - done
+[1.947s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.270s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.611s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.668s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.679s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.691s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.831s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.837s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.081s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.115s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.179s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.251s] -- Looking for pthread.h
+[3.534s] -- Looking for pthread.h - found
+[3.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.713s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.714s] -- Found Threads: TRUE  
+[4.089s] -- Found rviz_common: 11.2.10 (/opt/ros/humble/share/rviz_common/cmake)
+[4.248s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[4.255s] -- Found OGRE
+[4.256s] --   static     : OFF
+[4.256s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[4.256s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.256s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[4.256s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[4.257s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[4.257s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[4.257s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[4.258s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.258s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[4.258s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.258s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.394s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[4.480s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.848s] -- Found X11: /usr/include   
+[4.863s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[5.094s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[5.095s] -- Looking for gethostbyname
+[5.201s] -- Looking for gethostbyname - found
+[5.201s] -- Looking for connect
+[5.303s] -- Looking for connect - found
+[5.303s] -- Looking for remove
+[5.411s] -- Looking for remove - found
+[5.411s] -- Looking for shmat
+[5.515s] -- Looking for shmat - found
+[5.515s] -- Looking for IceConnectionNumber in ICE
+[5.626s] -- Looking for IceConnectionNumber in ICE - found
+[5.630s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[5.630s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[6.089s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[6.404s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.408s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.439s] -- Found rviz_default_plugins: 11.2.10 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[8.943s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.052s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.053s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.054s] -- Configured cppcheck include dirs: 
+[9.054s] -- Configured cppcheck exclude dirs and/or files: 
+[9.055s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.055s] -- Configured cpplint exclude dirs and/or files: 
+[9.055s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.056s] -- Added test 'lint_cmake' to check CMake code style
+[9.057s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.058s] -- Added test 'uncrustify' to check C / C++ code style
+[9.058s] -- Configured uncrustify additional arguments: 
+[9.059s] -- Added test 'xmllint' to check XML markup files
+[9.062s] -- Configuring done
+[9.105s] -- Generating done
+[9.107s] -- Build files have been written to: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial
+[9.122s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/visualization_tutorials/librviz_tutorial -DCMAKE_INSTALL_PREFIX=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial
+[9.126s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial -- -j4 -l4
+[9.230s] [ 20%] [34m[1mAutomatic MOC for target myviz[0m
+[10.520s] [ 20%] Built target myviz_autogen
+[10.670s] [ 40%] [32mBuilding CXX object CMakeFiles/myviz.dir/myviz_autogen/mocs_compilation.cpp.o[0m
+[10.694s] [ 60%] [32mBuilding CXX object CMakeFiles/myviz.dir/src/myviz.cpp.o[0m
+[10.704s] [ 80%] [32mBuilding CXX object CMakeFiles/myviz.dir/src/main.cpp.o[0m
+[39.100s] [100%] [32m[1mLinking CXX executable myviz[0m
+[45.792s] [100%] Built target myviz
+[45.825s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial -- -j4 -l4
+[46.155s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial
+[46.172s] -- Install configuration: ""
+[46.175s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib/librviz_tutorial/myviz
+[46.181s] -- Set runtime path of "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/lib/librviz_tutorial/myviz" to ""
+[46.182s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/ament_index/resource_index/package_run_dependencies/librviz_tutorial
+[46.183s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/ament_index/resource_index/parent_prefix_path/librviz_tutorial
+[46.186s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.sh
+[46.187s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/ament_prefix_path.dsv
+[46.188s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/path.sh
+[46.190s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/environment/path.dsv
+[46.193s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.bash
+[46.196s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.sh
+[46.197s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.zsh
+[46.198s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/local_setup.dsv
+[46.202s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.dsv
+[46.202s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/ament_index/resource_index/packages/librviz_tutorial
+[46.204s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.205s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig.cmake
+[46.206s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/cmake/librviz_tutorialConfig-version.cmake
+[46.207s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/librviz_tutorial/share/librviz_tutorial/package.xml
+[46.217s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/librviz_tutorial

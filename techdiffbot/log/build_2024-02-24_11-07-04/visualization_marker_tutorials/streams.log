@@ -1,0 +1,27 @@
+[0.160s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials -- -j4 -l4
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target basic_shapes[0m
+[0.262s] [ 50%] Built target basic_shapes
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target points_and_lines[0m
+[0.337s] [100%] Built target points_and_lines
+[0.387s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials -- -j4 -l4
+[0.547s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials
+[0.560s] -- Install configuration: ""
+[0.560s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/basic_shapes
+[0.560s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/lib/visualization_marker_tutorials/points_and_lines
+[0.561s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/package_run_dependencies/visualization_marker_tutorials
+[0.561s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/parent_prefix_path/visualization_marker_tutorials
+[0.562s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.sh
+[0.562s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/ament_prefix_path.dsv
+[0.562s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.sh
+[0.562s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/environment/path.dsv
+[0.563s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.bash
+[0.572s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.sh
+[0.575s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.zsh
+[0.575s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/local_setup.dsv
+[0.575s] -- Installing: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.dsv
+[0.576s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/ament_index/resource_index/packages/visualization_marker_tutorials
+[0.576s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.578s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig.cmake
+[0.579s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/cmake/visualization_marker_tutorialsConfig-version.cmake
+[0.579s] -- Up-to-date: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/visualization_marker_tutorials/share/visualization_marker_tutorials/package.xml
+[0.580s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install/ros2_rpi_cv2:/home/jlukas/Desktop/My_Project/ROS2/rover/install/rover:/opt/ros/humble /usr/bin/cmake --install /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials

@@ -177,7 +177,7 @@ basic_shapes: /opt/ros/humble/lib/librosidl_typesupport_c.so
 basic_shapes: /opt/ros/humble/lib/librcpputils.so
 basic_shapes: /opt/ros/humble/lib/librosidl_runtime_c.so
 basic_shapes: /opt/ros/humble/lib/librcutils.so
-basic_shapes: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+basic_shapes: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 basic_shapes: CMakeFiles/basic_shapes.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/visualization_marker_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable basic_shapes"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/basic_shapes.dir/link.txt --verbose=$(VERBOSE)

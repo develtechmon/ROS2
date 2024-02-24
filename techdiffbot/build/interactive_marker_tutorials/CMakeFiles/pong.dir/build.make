@@ -119,7 +119,7 @@ pong: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 pong: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 pong: /opt/ros/humble/lib/libtracetools.so
 pong: /opt/ros/humble/lib/libclass_loader.so
-pong: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
+pong: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 pong: /opt/ros/humble/lib/libament_index_cpp.so
 pong: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 pong: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -156,7 +156,7 @@ pong: /opt/ros/humble/lib/librosidl_typesupport_c.so
 pong: /opt/ros/humble/lib/librcpputils.so
 pong: /opt/ros/humble/lib/librosidl_runtime_c.so
 pong: /opt/ros/humble/lib/librcutils.so
-pong: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+pong: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 pong: CMakeFiles/pong.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/interactive_marker_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pong"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pong.dir/link.txt --verbose=$(VERBOSE)

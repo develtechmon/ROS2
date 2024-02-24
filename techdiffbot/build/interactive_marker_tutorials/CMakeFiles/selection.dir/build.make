@@ -109,7 +109,7 @@ selection: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 selection: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 selection: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 selection: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
-selection: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
+selection: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 selection: /opt/ros/humble/lib/libtf2_ros.so
 selection: /opt/ros/humble/lib/libtf2.so
 selection: /opt/ros/humble/lib/libmessage_filters.so
@@ -202,7 +202,7 @@ selection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 selection: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 selection: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 selection: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
-selection: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+selection: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 selection: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 selection: /opt/ros/humble/lib/librosidl_typesupport_c.so
 selection: /opt/ros/humble/lib/librcpputils.so

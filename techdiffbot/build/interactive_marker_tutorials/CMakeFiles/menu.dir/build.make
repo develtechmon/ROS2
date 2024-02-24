@@ -176,7 +176,7 @@ menu: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 menu: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 menu: /opt/ros/humble/lib/librosidl_typesupport_c.so
 menu: /opt/ros/humble/lib/librcpputils.so
-menu: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+menu: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 menu: /opt/ros/humble/lib/librmw.so
 menu: /opt/ros/humble/lib/librosidl_runtime_c.so
 menu: /opt/ros/humble/lib/librcutils.so
