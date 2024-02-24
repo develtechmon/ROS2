@@ -347,5 +347,5 @@ ros2 launch techdiffbot navigation_launch.py use_sim_time:=false
 ```
 
 And then pres 2D Goal pose to start navigation
-```
+
 
