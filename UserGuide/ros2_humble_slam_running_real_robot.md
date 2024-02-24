@@ -211,10 +211,16 @@ ros2 launch techdiffbot launch_robot.launch.py
 ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
 
 ## In new terminal run following command to start with the navigation
-ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml 
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+
+This command is similar to below command:
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
 
 ## Run below command to bringup the Navigation
-ros2 launch nav2_bringup navigation_launch.py use_sime_time:=false
+ros2 launch nav2_bringup navigation_launch.py use_sime_time:=false -- For top
+
+## Run below command to bringup the Navigation if you already copy the `navigatio_launc.py` and `nav2_params.yaml` file and edit the configuration. Then run this command
+ros2 launch techdiffbot navigation_launch.py use_sim_time:=true
 
 ## Might consider to run this commad to have a static transform - optional
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom ldlidar_base
