@@ -33,7 +33,7 @@ ros2 launch ldlidar ldlidar.launch.py lidar_frame:=lidar_link serial_port:=/dev/
 
 ```
 
-## Step 3: Launch our Package to work with `SLAM` in RViz2 based on `techdiffbot`
+## Step 4: Launch our Package to work with `SLAM` and `Nav2` in RViz2 based on `techdiffbot`
 
 Run by sequence
 ```
