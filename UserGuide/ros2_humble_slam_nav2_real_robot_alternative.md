@@ -136,7 +136,52 @@ See below example on how I set a fixed port ID for arduino nano which is configu
        <param name="enc_counts_per_rev">1320</param>
 ```
 
-## Step 4 : To start mapping, enable followig mode 
+## Step 4 : To start mapping, use this method
+
+This is another example i use that quite helpful on how to perform `SLAM` and `NAv2`.
+Check this link : https://github.com/Myzhar/ldrobot-lidar-ros2/tree/main
+
+Clone the repository in your ROS2 workspace:
+```
+mkdir -p ldrobot_lidar_ros2/src
+cd src
+git clone https://github.com/Myzhar/ldrobot-lidar-ros2.git
+```
+
+Add dependencies
+```
+sudo apt install libudev-dev
+```
+
+Install the udev rules
+```
+cd ~/ros2_ws/src/ldrobot-lidar-ros2/scripts/
+./create_udev_rules.sh
+```
+Build the packages
+```
+cd ~/ldrobot_lidar_ros2/
+rosdep install --from-paths src --ignore-src -r -y
+colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release
+```
+
+Update the environment variables:
+```
+echo source $(pwd)/install/local_setup.bash >> ~/.bashrc
+source ~/.bashrc
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## For Simulation
 To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
