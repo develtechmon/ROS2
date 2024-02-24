@@ -377,5 +377,4 @@ Run below command to bringup the Navigation if you already have local copy of `n
 ```
 
 And then pres 2D Goal pose to start navigation
-```
 
