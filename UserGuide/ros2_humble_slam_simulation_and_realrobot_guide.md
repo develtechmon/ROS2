@@ -224,6 +224,9 @@ rviz2 -d src/techdiffbot/rviz2/my_maze.rviz
 3. In new terminal run SLAM toolbox
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
+Above command is similar to below command. What make it different, is that one using launcher and other is run
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
+
 4. From Rviz select
    Fixed Frame - map
    Map Topic - Map
@@ -247,6 +250,9 @@ ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
 
 4. In new terminal run SLAM toolbox
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+
+Above command is similar to below command. What make it different, is that one using launcher and other is run
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
 
 5. From Rviz select
    Fixed Frame - map
