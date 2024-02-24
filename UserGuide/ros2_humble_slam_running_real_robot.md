@@ -186,6 +186,26 @@ See below example on how I set a fixed port ID for arduino nano which is configu
 
 ## Step 4 : To start mapping, enable followig mode 
 
+## For Simulation
+To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
+```
+# ROS Parameters
+odom_frame: odom
+map_frame: map
+#base_frame: ldlidar_base
+base_frame: base_footprint <--------- For simulation, we're enabling this
+scan_topic: /scan
+use_map_saver: true
+
+# 1: To start with mapping - enable mapping mode below
+mode: mapping 
+
+# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
+#mode: localization
+
+
+```
+## For Real Robot
 To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
 ```
 # ROS Parameters
@@ -194,7 +214,12 @@ map_frame: map
 base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
 scan_topic: /scan
 use_map_saver: true
-mode: mapping <--------------Enable this
+
+# 1: To start with mapping - enable mapping mode below
+mode: mapping 
+
+# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
+#mode: localization
 ```
 
 From top directory run following command to compile all the changes that we've made just now. 
@@ -203,9 +228,14 @@ colcon build
 . install/setup.bash
 ```
 
-## Step 6 : To start with mapping of our environment
+## Step 6 : To start  mapping our environment.
 
 Follow below command by sequence.
+
+## For simulation
+
+
+
 ```
 ## In new terminal run following
 . install/setup.bash
