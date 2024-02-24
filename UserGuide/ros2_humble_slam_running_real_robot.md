@@ -349,38 +349,83 @@ colcon build
 ## Step 8 : To start with navigation of our environment
 
 Follow below command by sequence.
+
+## For simulation
 ```
-## In new terminal run following
-. install/setup.bash
-ros2 launch techdiffbot launch_robot.launch.py
+1. In new terminal run Gazebo
+ros2 launch techdiffbot gazebo.sim.launch.py  world:=./src/techdiffbot/world/my_maze 
 
-## In new terminal run following. Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
-. install/setup.bash
-ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
+2. In new terminal run Rviz
+rviz2 -d src/techdiffbot/rviz2/my_maze.rviz 
 
-## In new terminal run following command to start with the navigation
+3. In new terminal run SLAM toolbox
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
-This command is similar to below command:
-ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
+Above command is similar to below command. What make it different, is that one using launcher and other is run
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
 
-## Run below command to bringup the Navigation
-ros2 launch nav2_bringup navigation_launch.py use_sime_time:=false -- For top
+4. From Rviz select
+   Fixed Frame - map
+   Map Topic - Map
 
-## Run below command to bringup the Navigation if you already copy the `navigatio_launch.py` and `nav2_params.yaml` file and edit the configuration. Then run this command
+5. In new terminal run Joystick or Keyboard control start Mapping
+ros2 launch techdiffbot joystick.control.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+6. In new terminal run Nav2
+ros2 launch  techdiffbot navigation_launch.py use_sim_time:=true
+
+Run below command to bringup the Navigation if you already have local copy of `navigatio_launch.py` and `nav2_params.yaml` file and already edit the configuration. Then run this command
+* ros2 launch techdiffbot navigation_launch.py use_sim_time:=true
+
+7. From Rviz select
+   Fixed Frame - map
+   Map Topic - Global../Costmap
+   Color Scheme - Costmap
+
+8. Select 2D Goal Pose and start navigating
+```
+
+
+## For Real Robot
+```
+1. In new terminal run Gazebo
+ros2 launch techdiffbot launch_robot.launch.py
+
+2. In new terminal run Rviz
+rviz2 
+
+3. In new terminal run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
+ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
+
+4. In new terminal run SLAM toolbox
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+
+Above command is similar to below command. What make it different, is that one using launcher and other is run
+* ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
+
+5. From Rviz select
+   Fixed Frame - map
+   Map Topic - Map
+
+6. In new terminal run Joystick or Keyboard control start Mapping
+ros2 launch techdiffbot joystick.control.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+7. In new terminal run Nav2
+ros2 launch  techdiffbot navigation_launch.py use_sim_time:=false
+
+Run below command to bringup the Navigation if you already have local copy of `navigation_launch.py` and `nav2_params.yaml` file and already edit the configuration. Then run this command
 ros2 launch techdiffbot navigation_launch.py use_sim_time:=false
 
-## Might consider to run this commad to have a static transform - optional
-ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom ldlidar_base
+8. From Rviz select
+   Fixed Frame - map
+   Map Topic - Global../Costmap
+   Color Scheme - Costmap
 
-## Open Rviz2
-rviz2
-select map
-and choose map as map
+9. Select 2D Goal Pose and start navigating
 
-From map --> Select Topic --> global../costmap
-color scheme --> costmap
-
+```
 
 And then pres 2D Goal pose to start navigation
 ```
