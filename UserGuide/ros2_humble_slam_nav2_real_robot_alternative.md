@@ -124,7 +124,7 @@ bringup_dir = get_package_share_directory('techdiffbot') # changes i made here t
 default_value=os.path.join(bringup_dir, 'config', 'nav2_params.yaml') ,  ## changes i made here - add config
 ```
 
-## Step 4 : Set fixed `bus ID` to our Arduino port.
+## Step 5 : Set fixed `bus ID` to our Arduino port.
 See below example on how I set a fixed port ID for arduino nano which is configure inside `src/techdiffbot/urdf/ros2_control.xacro`
 ```
        <param name="left_wheel_name">left_wheel_joint</param>
@@ -136,7 +136,7 @@ See below example on how I set a fixed port ID for arduino nano which is configu
        <param name="enc_counts_per_rev">1320</param>
 ```
 
-## Step 4 : Clone `Lidar Packages` that comprises of `SLAM` and `NAv2`
+## Step 6 : Clone `Lidar Packages` that comprises of `SLAM` and `NAv2`
 
 This is another example i use that quite helpful on how to perform `SLAM` and `NAv2`.
 Check this link : https://github.com/Myzhar/ldrobot-lidar-ros2/tree/main
@@ -186,65 +186,55 @@ source ~/.bashrc
 ```
 
 `ldlidar_node/params/slam_toolbox.yaml`
+To start with `mapping` please enable `mode:mapping` inside `slam_toolbox.yaml` file as follow Here we're using mapping mode to start
 ```
 #base_frame: ldlidar_base
 base_frame: base_footprint <----- Change to base_footprint
 scan_topic: /scan
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## For Simulation
-To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
-```
-# ROS Parameters
-odom_frame: odom
-map_frame: map
-#base_frame: ldlidar_base
-base_frame: base_footprint <--------- For simulation, we're enabling this
 scan_topic: /scan
 use_map_saver: true
-
-# 1: To start with mapping - enable mapping mode below
-mode: mapping 
-
-# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
-#mode: localization
-
-
-```
-## For Real Robot
-To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
-```
-# ROS Parameters
-odom_frame: odom
-map_frame: map
-base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
-scan_topic: /scan
-use_map_saver: true
-
-# 1: To start with mapping - enable mapping mode below
-mode: mapping 
-
-# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
-#mode: localization
+mode: mapping #localization <---- Enable mapping to start mapping
 ```
 
 From top directory run following command to compile all the changes that we've made just now. 
 ```
 colcon build
 . install/setup.bash
+```
+
+## Step 6 : Copy file into `techdiffbot` directory 
+
+At this step, copy following file
+```
+cp -r /opt/ros/humble/share/nav2_bringup/params/nav2_params.yaml ../config/
+cp -r /opt/ros/humble/share/nav2_bringup/launch/navigation_launch.py ../launch/
+
+cp -r /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node/launch/ldlidar_slam.launch.py ../launch/
+cp -r /home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node/params/lifecycle_mgr_slam.yaml ../config
+```
+
+`nav2_params.yaml`
+```
+Keep this parameter as it's
+base_frame_id: "base_footprint"
+robot_base_frame: base_link
+```
+
+`navigation_launch.py`
+```
+bringup_dir = get_package_share_directory('techdiffbot') # changes i made here to add directory name
+default_value=os.path.join(bringup_dir, 'config', 'nav2_params.yaml') ,  ## changes i made here - add config
+```
+
+`ldlidar_slam.launch.py`
+```
+package_name="techdiffbot" <------- Add our package name
+lc_mgr_config_path = os.path.join(get_package_share_directory(package_name),'config','lifecycle_mgr_slam.yaml') <---- Add this line to point to our `lifecycle_mgr_slam` file that we copy earlier.
+
+arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint'] <---- Change our Fake Odom Publisher to `odom` and `ldlidar_base`
+
+# Start RVIZ2
+#ld.add_action(rviz2_node) <---------- Disable this line
 ```
 
 ## Step 6 : To start  mapping our environment.
