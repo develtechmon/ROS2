@@ -16,7 +16,7 @@ parameters to ensure it match to our Lidar Transform
 
 ## For real robot
 ```
-base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
+base_frame: base_footprint <---- For Hardware too, we're using base_footprint
 ```
 
 ## For Simulation
@@ -126,7 +126,7 @@ cp -r /opt/ros/humble/share/nav2_bringup/launch/navigation_launch.py ../launch/
 
 And modify this file accordingly as follow
 
-## For Simulation
+## For Simulation and Real Robot
 `nav2_params.yaml`
 ```
 Keep this parameter as it's
@@ -139,21 +139,8 @@ robot_base_frame: base_link
 bringup_dir = get_package_share_directory('techdiffbot') # changes i made here to add directory name
 default_value=os.path.join(bringup_dir, 'config', 'nav2_params.yaml') ,  ## changes i made here - add config
 ```
-## For Real Robot
-`nav2_params.yaml`
-```
-Keep this parameter below
-base_frame_id: "ldlidar_base"
-robot_base_frame: ldlidar_link
-```
 
-`navigation_launch.py`
-```
-bringup_dir = get_package_share_directory('techdiffbot') # changes i made here to add directory name
-default_value=os.path.join(bringup_dir, 'config', 'nav2_params.yaml') ,  ## changes i made here - add config
-```
-
-## Step 4 : Set fixed `bus ID` to our Arduino port.
+## Step 5 : Set fixed `bus ID` to our Arduino port.
 See below example on how I set a fixed port ID for arduino nano which is configure inside `src/techdiffbot/urdf/ros2_control.xacro`
 ```
        <param name="left_wheel_name">left_wheel_joint</param>
@@ -165,9 +152,9 @@ See below example on how I set a fixed port ID for arduino nano which is configu
        <param name="enc_counts_per_rev">1320</param>
 ```
 
-## Step 4 : To start mapping, enable followig mode 
+## Step 6 : To start mapping, enable followig mode 
 
-## For Simulation
+## For Simulation and Real Robot
 To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
 ```
 # ROS Parameters
@@ -183,33 +170,9 @@ mode: mapping
 
 # 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
 #mode: localization
-
-
-```
-## For Real Robot
-To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
-```
-# ROS Parameters
-odom_frame: odom
-map_frame: map
-base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
-scan_topic: /scan
-use_map_saver: true
-
-# 1: To start with mapping - enable mapping mode below
-mode: mapping 
-
-# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
-#mode: localization
 ```
 
-From top directory run following command to compile all the changes that we've made just now. 
-```
-colcon build
-. install/setup.bash
-```
-
-## Step 6 : To start  mapping our environment.
+## Step 7 : To start  mapping our environment.
 
 Follow below command by sequence.
 
@@ -236,34 +199,34 @@ ros2 launch techdiffbot joystick.control.launch.py
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ```
 
-
 ## For Real Robot
 ```
-1. In new terminal run Gazebo
-ros2 launch techdiffbot launch_robot.launch.py
+1. In new terminal run SLAM toolbox
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
-2. In new terminal run Rviz
-rviz2 
+Above command is similar to below command. What make it different, is that one using launcher and other is run
+* ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
+* ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/slam_toolbox.yaml use_sim_time:=false (if you copy slam_toolbox.yaml for lidar package)
+
+2. Create a Fake Odom to publich base_footprint similar with odom
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_footprint
 
 3. In new terminal run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
 ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
 
-4. In new terminal run SLAM toolbox
-ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+4. In new terminal run Gazebo
+ros2 launch techdiffbot launch_robot.launch.py
 
-Above command is similar to below command. What make it different, is that one using launcher and other is run
-ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
+2. In new terminal run Rviz
+rviz2 
 
 5. From Rviz select
    Fixed Frame - map
    Map Topic - Map
 
 6. In new terminal run Joystick or Keyboard control start Mapping
-ros2 launch techdiffbot joystick.control.launch.py
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
-
-7. Might consider to run this commad to have a static transform - optional !
-ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom ldlidar_base
+* ros2 launch techdiffbot joystick.control.launch.py
+* ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ```
 
 Move the robot around the area and once you're done please return the robot to its `original initial position in map` at which point it start to move.
@@ -303,7 +266,7 @@ At working directory in this case is "techdiffbot" you should see multiple files
 
 ## Step 8 : To start navigation, enable followig mode 
 
-## For Simulation
+## For Simulation and Real Robot
 To start with `navigation` please enable `mode:localization` and disable `mode: mapping` inside `mapper_params_online_async.yaml` file.
 ```
 # ROS Parameters
@@ -311,27 +274,6 @@ odom_frame: odom
 map_frame: map
 #base_frame: ldlidar_base
 base_frame: base_footprint <--------- For simulation, we're enabling this
-scan_topic: /scan
-use_map_saver: true
-
-# 1: To start with mapping - enable mapping mode below
-#mode: mapping 
-
-# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
-mode: localization
-
-map_file_name: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/my_maze_serial
-map_start_at_dock: true
-#map_start_pose: [0.0, 0.0, 0.0]
-
-```
-## For Real Robot
-To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
-```
-# ROS Parameters
-odom_frame: odom
-map_frame: map
-base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
 scan_topic: /scan
 use_map_saver: true
 
@@ -395,42 +337,43 @@ Run below command to bringup the Navigation if you already have local copy of `n
 
 ## For Real Robot
 ```
-1. In new terminal run Gazebo
-ros2 launch techdiffbot launch_robot.launch.py
-
-2. In new terminal run Rviz
-rviz2 
-
-3. In new terminal run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
-ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
-
-4. In new terminal run SLAM toolbox
+1. In new terminal run SLAM toolbox
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
 Above command is similar to below command. What make it different, is that one using launcher and other is run
 * ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
+* ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/slam_toolbox.yaml use_sim_time:=false (if you copy slam_toolbox.yaml for lidar package)
+
+2. Create a Fake Odom to publich base_footprint similar with odom
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_footprint
+
+3. In new terminal run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
+ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
+
+4. In new terminal run Gazebo
+ros2 launch techdiffbot launch_robot.launch.py
+
+2. In new terminal run Rviz
+rviz2 
 
 5. From Rviz select
    Fixed Frame - map
    Map Topic - Map
 
 6. In new terminal run Joystick or Keyboard control start Mapping
-ros2 launch techdiffbot joystick.control.launch.py
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+* ros2 launch techdiffbot joystick.control.launch.py
+* ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 
-7. In new terminal run Nav2
+7.  In new terminal run Nav2
 ros2 launch  techdiffbot navigation_launch.py use_sim_time:=false
 
 Run below command to bringup the Navigation if you already have local copy of `navigation_launch.py` and `nav2_params.yaml` file and already edit the configuration. Then run this command
-ros2 launch techdiffbot navigation_launch.py use_sim_time:=false
+* ros2 launch techdiffbot navigation_launch.py use_sim_time:=false
 
 8. From Rviz select
    Fixed Frame - map
    Map Topic - Global../Costmap
    Color Scheme - Costmap
-
-9. Select 2D Goal Pose and start navigating
-
 ```
 
 And then pres 2D Goal pose to start navigation
