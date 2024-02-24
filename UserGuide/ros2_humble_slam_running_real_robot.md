@@ -136,7 +136,43 @@ Lidar from `articubot` to make things easy to understand.
 
 ```
 
-## Step 3 : Set fixed `bus ID` to our Arduino port.
+## Step 4 : Copy Nav2 params, because we're going to launch it locally inside our `techdiffbot`
+Copy this file to our working space directory
+```
+cp -r /opt/ros/humble/share/nav2_bringup/params/nav2_params.yaml ../config/
+cp -r /opt/ros/humble/share/nav2_bringup/launch/navigation_launch.py ../launch/
+```
+
+And modify this file accordingly as follow
+
+## For Simulation
+`nav2_params.yaml`
+```
+Keep this parameter as it's
+base_frame_id: "base_footprint"
+robot_base_frame: base_link
+```
+
+`navigation_launch.py`
+```
+bringup_dir = get_package_share_directory('techdiffbot') # changes i made here to add directory name
+default_value=os.path.join(bringup_dir, 'config', 'nav2_params.yaml') ,  ## changes i made here - add config
+```
+## For Real Robot
+`nav2_params.yaml`
+```
+Keep this parameter below
+base_frame_id: "ldlidar_base"
+robot_base_frame: ldlidar_link
+```
+
+`navigation_launch.py`
+```
+bringup_dir = get_package_share_directory('techdiffbot') # changes i made here to add directory name
+default_value=os.path.join(bringup_dir, 'config', 'nav2_params.yaml') ,  ## changes i made here - add config
+```
+
+## Step 4 : Set fixed `bus ID` to our Arduino port.
 See below example on how I set a fixed port ID for arduino nano which is configure inside `src/techdiffbot/urdf/ros2_control.xacro`
 ```
        <param name="left_wheel_name">left_wheel_joint</param>
