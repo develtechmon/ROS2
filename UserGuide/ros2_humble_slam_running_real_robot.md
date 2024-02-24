@@ -259,7 +259,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 ros2 launch techdiffbot launch_robot.launch.py
 
 2. In new terminal run Rviz
-rviz2 -d src/techdiffbot/rviz2/my_maze.rviz
+rviz2 
 
 3. In new terminal run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
 ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
@@ -282,37 +282,42 @@ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom ldlidar_base
 Move the robot around the area and once you're done please return the robot to its `original initial position in map` at which point it start to move.
 Then save the `gazebo` map into your `/config/world/`
 
-Move the robot around the area and once you're done please return the robot to its `original initial position in map` at which point it start to move.
-Then save the `gazebo` map into your `/config/world/`
+## Step 7 : Saved our SLAM Map
+Once you're done generating map, now it's time to save our `map`.
 
+From `rviz` select `Add New Panel` and and select `SlamToolboxPlugin`
 
+This will open `SlamToolboxPlugin`. From there enter following details
 
-
-
-
-
-
-## Ro real Robot
 ```
-1.In new terminal run following
-ros2 launch techdiffbot launch_robot.launch.py
+- Save Map - maze_map
+- Serialize Map - maze_map_serial
+```
+* Click "serialize map"  button
+* Click "save map" button 
 
-2. In new terminal run following. Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
-ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
+or run below command to save the map
+```
+ros2 run nav2_map_server map_saver_cli -f map/maze ---> to save map
+```
 
-3. In new terminal run following command to start with the mapping
-ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml 
+This will save the map into our `techdiffbot` directory
 
-## Might consider to run this commad to have a static transform - optional
-ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom ldlidar_base
+To clarify, the `*.yaml` and `*.pgm` together are the `old format`. The PGM contains the actual cell occupancy data while the YAML contains metadata such as the grid resolution and origin location. 
 
-## Open Rviz2
-rviz2
-select map
-and choose map as map
+At working directory in this case is "techdiffbot" you should see multiple files has been created as follow:
+```
+1. maze_mapp.pgm
+2. maze_mapp.yaml
+3. maze_map_serial.data
+4. maze_map_serial.posegraph
+```
 
-## ros2 run techdiffbot to use our Steam controller to move the robot
-ros2 launch techdiffbot joystick.control.launch.py 
+
+
+
+
+
 
 ```
 
