@@ -16,31 +16,12 @@ parameters to ensure it match to our Lidar Transform
 
 ## For real robot
 ```
-     # ROS Parameters
-     odom_frame: odom
-     map_frame: map
-     base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
-     #base_frame: base_footprint
-     #scan_topic: /ldlidar_node/scan
-     scan_topic: /scan
-     use_map_saver: true
- 
-     # 1: To start with mapping - enable mapping mode below
-     mode: mapping 
+base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
 ```
 
 ## For Simulation
 ```
-    # ROS Parameters
-    odom_frame: odom
-    map_frame: map
-    #base_frame: ldlidar_base 
-    base_frame: base_footprint <---- For simulation, we're using base_footprint
-    scan_topic: /scan
-    use_map_saver: true
-
-    # 1: To start with mapping - enable mapping mode below
-    mode: mapping 
+base_frame: base_footprint <---- For simulation, we're using base_footprint
 ```
 
 ## Step 2 : Change Wheel Position
@@ -314,30 +295,45 @@ At working directory in this case is "techdiffbot" you should see multiple files
 ```
 
 
+## Step 8 : To start navigation, enable followig mode 
 
-
-
-
-
-```
-
-## Step 7 : To start navigation, enable followig mode 
+## For Simulation
 To start with `navigation` please enable `mode:localization` and disable `mode: mapping` inside `mapper_params_online_async.yaml` file.
 ```
 # ROS Parameters
 odom_frame: odom
 map_frame: map
-base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
-#base_frame: base_footprint
-#scan_topic: /ldlidar_node/scan
+#base_frame: ldlidar_base
+base_frame: base_footprint <--------- For simulation, we're enabling this
 scan_topic: /scan
 use_map_saver: true
 
 # 1: To start with mapping - enable mapping mode below
-#mode: mapping <--------------Disable this
+#mode: mapping 
 
 # 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
-mode: localization <--------------Enable this
+mode: localization
+
+map_file_name: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/my_maze_serial
+map_start_at_dock: true
+#map_start_pose: [0.0, 0.0, 0.0]
+
+```
+## For Real Robot
+To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow Here we're using mapping mode to start
+```
+# ROS Parameters
+odom_frame: odom
+map_frame: map
+base_frame: ldlidar_base <---- This is our ldlidar_base that match to our Lidar URDF Link that hold the Lidar
+scan_topic: /scan
+use_map_saver: true
+
+# 1: To start with mapping - enable mapping mode below
+#mode: mapping 
+
+# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
+mode: localization
 
 map_file_name: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/my_maze_serial
 map_start_at_dock: true
