@@ -8,7 +8,7 @@ docker pull osrf/ros:humble-desktop-full
 
 2. To list out all the available images
 ```
-docker list
+docker image list
 ```
 
 3. To create container
