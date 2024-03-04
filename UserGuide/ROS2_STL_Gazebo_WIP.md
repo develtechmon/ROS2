@@ -32,6 +32,7 @@ sudo apt-get install gz-harmonic
 # Install Microddsgen
 ```
 sudo apt install default-jre
+git clone --recurse-submodules https://github.com/ardupilot/Micro-XRCE-DDS-Gen.git
 cd Micro-XRCE-DDS-Gen
 ./gradlew assemble
 ```
