@@ -62,6 +62,7 @@ Then install following `CH340` Library
 Please refer to this link
 * https://www.chippiko.com/ch340-dev-ttyusb-not-showing
 ```
+sudo apt install gcc-12
 git clone https://github.com/juliagoda/CH341SER.git
 
 cd CH341SER
