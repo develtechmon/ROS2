@@ -29,6 +29,11 @@ sudo apt-get update
 sudo apt-get install gz-harmonic
 ```
 
+Set the Gazebo version to either `garden` or `harmonic`
+```
+export GZ_VERSION=harmonic
+```
+
 # Install Microddsgen
 ```
 sudo apt install default-jre
