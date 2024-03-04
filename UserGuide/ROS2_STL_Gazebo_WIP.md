@@ -32,7 +32,7 @@ sudo apt-get install gz-harmonic
 # Install Microddsgen
 ```
 sudo apt install default-jre
-nocd Micro-XRCE-DDS-Gen
+cd Micro-XRCE-DDS-Gen
 ./gradlew assemble
 ```
 # Add this to ~/.bashrc
