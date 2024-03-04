@@ -10,6 +10,9 @@ sudo apt install ros-humble-geographic-msgs
 ```
 sudo apt-get install ros-humble-mavros ros-humble-mavros-extras
 wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+
+wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh --no-check-certificate --> To check without certificate
+
 chmod a+x install_geographiclib_datasets.sh
 ./install_geographiclib_datasets.sh
 
@@ -29,8 +32,7 @@ sudo apt-get install gz-harmonic
 # Install Microddsgen
 ```
 sudo apt install default-jre
-git clone --recurse-submodules https://github.com/ardupilot/Micro-XRCE-DDS-Gen.git
-cd Micro-XRCE-DDS-Gen
+nocd Micro-XRCE-DDS-Gen
 ./gradlew assemble
 ```
 # Add this to ~/.bashrc
