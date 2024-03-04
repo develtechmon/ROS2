@@ -43,7 +43,13 @@ Then download below library packages into your `Main PC`.
 git clone https://github.com/joshnewans/ros_arduino_bridge.git
 ```
 
-Then open your `Arduino` and open the download packages above. In this case search for `ROSArduinoBridge` 
+Then open your `Arduino` and open the download packages above. In this case search for `ROSArduinoBridge`.
+Please check below link to modify the Arduino pin accordingly
+
+```
+https://github.com/develtechmon/ROS2/blob/main/UserGuide/ros2_control_arduino_setup.md
+```
+
 and select the arduino port and board and then upload the program.
 
 Plug out your `Arduino` from your main pc and connect it into `RPi` usb port.
