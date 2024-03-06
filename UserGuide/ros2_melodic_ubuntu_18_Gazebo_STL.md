@@ -85,3 +85,7 @@ echo "export SVGA_VGPU10=0" >> ~/.bashrc
 ```
 Untick Accelerate 3D Graphics.
 ```
+Check below link for good reference
+```
+https://robocademy.com/2020/05/02/solved-opengl-issues-with-gazebo-and-vmware/
+```
