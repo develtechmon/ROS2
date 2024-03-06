@@ -65,7 +65,22 @@ cd ardupilot/Arducopter
 ```
 sim_vehicle.py -w
 ```
+If you encounter error `Checking for python version >= 3.6.9 : 2.7.17
+The python version is too old, expecting (3, 6, 9)`.
 
+You can solve this by go to
+```
+Go to ./ardupilot/modules/waf
+
+and in the file waf-light
+
+change first line: #!/usr/bin/env python to #!/usr/bin/env python3
+```
+
+Then run this command again
+```
+sim_vehicle.py -w
+```
 
 # Gazebo 9
 ```
