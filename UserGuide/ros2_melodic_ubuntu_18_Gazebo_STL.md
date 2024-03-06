@@ -54,7 +54,15 @@ git submodule update --init --recursive
 ```
 . ~/.profile (Space in between . and ~ - reload this profile if sim_vehicle not found)
 ```
+5. Start the simulator
+```
+cd ardupilot/Arducopter
+```
 
+6. First run to write the virtual EEPROM. After default parameters are loaded then can start simulator normally
+```
+sim_vehicle.py -w
+```
 
 
 # Gazebo 9
