@@ -2,7 +2,7 @@ Ubuntu 18.04.4 LTS
 Release 18.04
 Codename Bionic
 
-# STL Installation
+# SITL Installation
 
 1. Install Python 2.7 Pip package
 ```
