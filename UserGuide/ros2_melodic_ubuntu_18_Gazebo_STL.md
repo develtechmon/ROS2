@@ -72,3 +72,16 @@ gazebo iris_arducopter_runaway.world
 cd ardupilot/ArduCopter
 ../Tools/autotest/sim_vehicle.py -f gazebo-iris --console --map
 ```
+
+If you encounter error `VMware: vmw_ioctl_command error Invalid argument`. Run following command to remove
+this error
+
+1. Downgrade `GL_VERSION` from 3.3 to 2.1. This method will work better and Gazebo performance also good
+```
+echo "export SVGA_VGPU10=0" >> ~/.bashrc
+```
+
+2. Disable Graphic Acceleration in VMWARE. This method OK but will reduce 3D performance in Gazebo
+```
+Untick Accelerate 3D Graphics.
+```
