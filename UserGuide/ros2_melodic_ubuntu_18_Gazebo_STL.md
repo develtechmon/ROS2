@@ -65,3 +65,10 @@ rosdep update
 sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control
 ```
 
+Next we're going to fly our `drone` in Gazebo. Run following command in new terminal
+```
+gazebo iris_arducopter_runaway.world
+
+cd ardupilot/ArduCopter
+../Tools/autotest/sim_vehicle.py -f gazebo-iris --console --map
+```
