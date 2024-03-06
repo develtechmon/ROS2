@@ -27,7 +27,7 @@ sudo make install
 ```
 sudo vi ~jlukas/.bashrc and add following line
 export GAZEBO_RESOURCE_PATH="/home/dronedojo/courseRoot/ardupilot_gazebo":"/home/dronedojo/courseRoot/ardupilot_gazebo/worlds":"/usr/share/gazebo-9"
-export GAZEBO_MODEL_PATH=""/home/dronedojo/courseRoot/ardupilot_gazebo/models":"/usr/share/gazebo-9/models"
+export GAZEBO_MODEL_PATH="/home/dronedojo/courseRoot/ardupilot_gazebo/models":"/usr/share/gazebo-9/models"
 
 source /usr/share/gazebo-9/setup.sh
 ```
@@ -44,7 +44,7 @@ save and quit
 
 Next we're going to install ros2 melodic
 ```
-sudo sh -c ‘echo “deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main” > /etc/apt/sources.list.d/ros-latest.list’
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 sudo apt-key adv –keyserver ‘hkp://keyserver.ubuntu.com:80’ –recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 sudo apt install ros-melodic-desktop-full
 
