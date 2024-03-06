@@ -82,6 +82,11 @@ Then run this command again
 sim_vehicle.py -w
 ```
 
+See this link for reference
+```
+https://discuss.ardupilot.org/t/arduplane-sitl-build-failing-on-ubuntu-18-04/55804/12
+```
+
 # Gazebo 9
 ```
 1. sudo apt install python-opencv=3.2.0+dfsg-4ubuntu0.1
