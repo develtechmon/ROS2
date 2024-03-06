@@ -2,7 +2,58 @@ Ubuntu 18.04.4 LTS
 Release 18.04
 Codename Bionic
 
-Gazebo 9
+# STL Installation
+
+1. Install Python 2.7 Pip package
+```
+sudo apt-get update
+sudo apt-get upgrade
+
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py -k
+sudo python get-pip.py
+pip --version
+```
+
+Once completed run velow command to to determine if installed pip is refer to python 2.7 using below command
+```
+whereis pip
+```
+
+2. Install python 3 pip
+```
+sudo apt-get update
+sudo apt install python3-pip
+```
+Once completed run python to check if pip installed pip is refer to python 3.6 using below command
+```
+whereis pip
+```
+
+3. Install Ardupilot and relevant packages
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+sudo pip install pexpect
+sudo pip install future
+sudo pip install pyserial
+sudo pip install dronekit
+sudo pip install MAVProxy
+sudo pip install keyboard
+
+git clone https://github.com/ArduPilot/ardupilot
+
+cd ardupilot
+git submodule update --init --recursive
+
+./Tools/environment_install/install_prereqs_ubuntu.sh -y
+```
+
+
+
+
+
+# Gazebo 9
 ```
 1. sudo apt install python-opencv=3.2.0+dfsg-4ubuntu0.1
 ```
