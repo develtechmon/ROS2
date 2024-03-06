@@ -22,7 +22,9 @@ whereis pip
 2. Install python 3 pip
 ```
 sudo apt-get update
-sudo apt install python3-pip
+curl https://bootstrap.pypa.io/pip/3.6/get-pip.py --output get-pip_3_6.py
+sudo python get-pip_3_6.py
+pip --version
 ```
 Once completed run python to check if pip installed pip is refer to python 3.6 using below command
 ```
