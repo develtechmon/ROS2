@@ -49,7 +49,10 @@ git submodule update --init --recursive
 ./Tools/environment_install/install_prereqs_ubuntu.sh -y
 ```
 
-
+4. Load the `profile`
+```
+. ~/.profile (Space in between . and ~ - reload this profile if sim_vehicle not found)
+```
 
 
 
