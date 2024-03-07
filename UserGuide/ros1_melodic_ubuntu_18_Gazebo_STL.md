@@ -16,6 +16,18 @@ sudo ./VBoxLinuxAdditions.run
 sudo reboot 
 ```
 
+# Install `gcc +6`. 
+You might need to install below package if you can't run `sim_vehicle -w` command
+```
+sudo apt update && \
+sudo apt install build-essential software-properties-common -y && \
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y && \
+sudo apt update && \
+sudo apt install gcc-6 g++-6 -y && \
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6 && \
+gcc -v
+```
+
 # SITL Installation
 
 1. Install Python 2.7 Pip package
