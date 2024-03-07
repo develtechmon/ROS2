@@ -43,7 +43,7 @@ sudo apt-get install gz-harmonic
 sudo apt-get install ros-humble-ros-gzharmonic
 ```
 
-Set the Gazebo version to either `garden` or `harmonic`
+Set the Gazebo version to either `garden` or `harmonic` and `copy` into `.bashrc` file
 ```
 export GZ_VERSION=harmonic
 ```
