@@ -2,6 +2,20 @@ Ubuntu 18.04.4 LTS
 Release 18.04
 Codename Bionic
 
+# Big Screen issues in v18 Ubuntu
+```
+sudo apt-get update -y && sudo apt-get ugprade -y
+sudo apt-get install open-vm-tools -y
+sudo apt install virtualbox-guest-additions-iso -y
+
+sudo mkdir -p /mnt/cdrom
+sudo mount /usr/share/virtualbox/VBoxLinuxAdditions.iso /mnt/cdrom
+cd /mnt/cdrom
+ll
+sudo ./VBoxLinuxAdditions.run
+sudo reboot 
+```
+
 # SITL Installation
 
 1. Install Python 2.7 Pip package
