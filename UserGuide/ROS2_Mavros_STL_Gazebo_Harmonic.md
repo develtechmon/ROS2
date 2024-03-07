@@ -1,5 +1,5 @@
 # Getting Started
-THis only work with `ROS2 Humble`
+This only work with `ROS2 Humble`
 
 # Install This package first
 ```
