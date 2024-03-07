@@ -160,7 +160,7 @@ export GAZEBO_MODEL_PATH
 save and quit
 ```
 
-Next we're going to install ros2 melodic
+# Install ros2 melodic
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 sudo apt install curl
@@ -216,4 +216,201 @@ Untick Accelerate 3D Graphics.
 Check below link for good reference
 ```
 https://robocademy.com/2020/05/02/solved-opengl-issues-with-gazebo-and-vmware/
+```
+
+# Ros programming
+
+# To start `Gazebo` Simulation using ros
+First we have to modify launch file in `gazebo` as follow
+```
+roscd gazebo_ros --> to list down the package inside gazebo_ros
+```
+
+and edit an copy new `empty_world` to `iris_world` and change `world name`
+```
+cd launch
+sudo cp -r empty_world.launch iris_world.launch
+
+sudo gedit iris_world.launch
+
+inside this launch file set the parameter of "world_name" default="aruco_landing.world"
+```
+
+To launch our launch file. This will launch our `aruco_landing.world`
+```
+roslaunch gazebo_ros iris_world.launch
+```
+
+Check Topic and Visualization
+```
+rostopic list --> to check topic publish by drone
+rostopic hz /camera/color/image_raw --> To check the rate of this topic publish
+```
+
+Visualization
+```
+rqt --> To see the relationship list
+```
+
+From `rqt` go to following tab
+```
+Visualization --> Image View --> /camera/color/image_raw
+```
+
+Create our first `ros` project
+```
+mkdir catkin_ws
+cd catkin_ws
+mkdir src
+catkin make
+```
+
+Then export our `setup.bash` into our `.cshrc` script
+```
+echo "source /home/jlukas/Desktop/My_Project/catkin_ws/devel/setup.sh" >> ~jlukas/.bashrc 
+```
+
+To check if the path has been exported
+```
+tail -2 ~jlukas/.bashrc
+```
+
+Then we will need to create a ros package inside `src`. Package is a collection of our `node`
+
+ROS1
+```
+cd src
+catkin_create_pkg example_pkg rospy roscpp
+```
+
+ROS2
+```
+ros2 pkg create --build-type ament_python example_pkg
+cd ..
+colcon build
+```
+
+Once you done create the package then follow below step
+```
+cd src/example_pkg
+mkdir scripts
+mkdir example_publisher.py
+chmod +x
+
+mkdir example_subscriber.py
+chmod +x
+```
+And Copy following `Publisher Script`
+```
+#!/usr/bin/env python
+import rospy
+from std_msgs.msg import String
+
+def publisher():
+    # Create a ros publisher
+    pub = rospy.Publisher("ExampleTopic", String, queue_size=10)
+
+    # Initialize our Node
+    rospy.init_node("exampleNode", anonymous=False)
+
+    rate = rospy.Rate(10) #Hz - run ten time per second
+     
+    while not rospy.is_shutdown():
+        string_data = "Hello Drone Lukas"
+        pub.publish(string_data)
+        rate.sleep()
+
+if __name__ == "__main__":
+    publisher()
+```
+
+And Copy following `Subscriber Script`
+```
+#!/usr/bin/env python
+import rospy
+from std_msgs.msg import String
+
+def callback(msg):
+    string_data = msg.data
+    print(string_data)
+
+def subscriber():
+    # Initialize our Node
+    rospy.init_node("exampleNode_subs", anonymous=False)
+
+    # Create a ros subscriber to ExampleTopic
+    rospy.Subscriber('ExampleTopic', String, callback)
+    rospy.spin()
+
+if __name__ == "__main__":
+    subscriber()
+
+```
+
+Once you done then follow below step to compile our `updated` package
+```
+cd ../..
+catkin_make
+```
+
+Open new terminal and run `roscore` command to start `ros`
+```
+roscore
+```
+
+and run our code above as follow
+```
+rosrun example_pkg example_publisher.py
+```
+
+and observe the public topic 
+```
+rostopic list
+
+You will see --> /ExampleTopic 
+```
+
+To check all available `node`
+```
+rosnode list
+
+You will see /exampleNode 
+```
+
+To check publish rate of our `Topic`
+```
+rostopic hz /ExampleTopic
+
+Here you should average rate is ~ 10Hz which match to our publish rate
+```
+
+To check `topic` message type
+```
+rostopic list
+
+rostopic info exampleTopic --> This will show std_msgs/String
+```
+
+To check `topic` message data type
+```
+rosmsg show std_msgs/String --> This will shouw string data
+```
+
+In short
+```
+jlukas@ubuntu:~$ rostopic list
+/ExampleTopic <---- The topic 
+/rosout
+/rosout_agg
+
+jlukas@ubuntu:~$ rostopic info /ExampleTopic
+Type: std_msgs/String <----- The message
+
+Publishers: 
+ * /exampleNode_pub (http://ubuntu:44287/)
+
+Subscribers: None
+
+jlukas@ubuntu:~$ rosmsg show std_msgs/String
+string data <--------- Message type
 ```
