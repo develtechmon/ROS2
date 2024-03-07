@@ -51,7 +51,7 @@ whereis pip
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install python3-wxgtk4.0 -y
+sudo apt-get install python3-wxgtk4.0 -y <--- Install this if you sim_vehicle can'f find map and console
 sudo apt-get install git
 sudo pip install pexpect
 sudo pip install future
