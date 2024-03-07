@@ -107,7 +107,13 @@ https://discuss.ardupilot.org/t/arduplane-sitl-build-failing-on-ubuntu-18-04/558
 ```
 
 ```
-2. sudo apt install gazebo9 libgazebo9-dev
+sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+sudo apt update
+sudo apt install gazebo9 libgazebo9-dev
+gazebo --verbose
+sudo apt install gazebo9 libgazebo9-dev
+
 sudo vi .ignition/fuel/config.yaml
 Replace name url: https://fuel.ignitionrobotics.org
 save and quit
