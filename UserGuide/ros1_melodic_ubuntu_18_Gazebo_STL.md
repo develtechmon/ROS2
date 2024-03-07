@@ -186,9 +186,19 @@ sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control
 Next we're going to fly our `drone` in Gazebo. Run following command in new terminal
 ```
 gazebo iris_arducopter_runaway.world
+gazebo --verbose ~/ardupilot_gazebo/worlds/iris_arducopter_runway.world
 
 cd ardupilot/ArduCopter
 ../Tools/autotest/sim_vehicle.py -f gazebo-iris --console --map
+
+or
+
+sim_vehicle.py -v ArduCopter -f gazebo-iris --console
+```
+
+To invoke `mavproxy` terminal
+```
+mavproxy.py --master=127.0.0.1:14550
 ```
 
 If you encounter error `VMware: vmw_ioctl_command error Invalid argument`. Run following command to remove
