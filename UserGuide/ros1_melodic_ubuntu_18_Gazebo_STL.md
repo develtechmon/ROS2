@@ -16,17 +16,6 @@ sudo ./VBoxLinuxAdditions.run
 sudo reboot 
 ```
 
-# Install `gcc +6`. 
-You might need to install below package if you can't run `sim_vehicle -w` command
-```
-sudo apt update && \
-sudo apt install build-essential software-properties-common -y && \
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y && \
-sudo apt update && \
-sudo apt install gcc-6 g++-6 -y && \
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6 && \
-gcc -v
-```
 
 # SITL Installation
 
@@ -56,6 +45,7 @@ Once completed run python to check if pip installed pip is refer to python 3.6 u
 ```
 whereis pip
 ```
+
 
 3. Install Ardupilot and relevant packages
 ```
@@ -91,6 +81,17 @@ cd ardupilot/Arducopter
 ```
 sim_vehicle.py -w
 ```
+
+# There will be a time you will encounter `waf fatal` during compilation after running `sim_vehicle -w`.
+This is due to developer commit cause a problem. To solve this, you can visit `ardupilot github` page 
+and read their commit `id`. In my case i `checkout` to specific `id`
+```
+cd ardupilot
+git checkout 87435473b547a8096234f2ff473278de2fae0a00
+git reset --hard 87435473b547a8096234f2ff473278de2fae0a00
+```
+
+This action will revert to that `id` change before the update. Sometime developer will cause mistake.
 If you encounter error `Checking for python version >= 3.6.9 : 2.7.17
 The python version is too old, expecting (3, 6, 9)`.
 
