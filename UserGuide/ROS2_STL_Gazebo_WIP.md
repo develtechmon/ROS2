@@ -19,21 +19,6 @@ chmod a+x install_geographiclib_datasets.sh
 sudo apt-get install ros-humble-rqt ros-humble-rqt-common-plugins ros-humble-rqt-robot-plugins
 ```
 
-# Install Gazebo harmonic  - New Gazebo Type
-```
-sudo apt-get update
-sudo apt-get install lsb-release wget gnupg
-sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
-sudo apt-get update
-sudo apt-get install gz-harmonic
-```
-
-Set the Gazebo version to either `garden` or `harmonic`
-```
-export GZ_VERSION=harmonic
-```
-
 # Install Microddsgen
 ```
 sudo apt install default-jre
@@ -46,16 +31,32 @@ cd Micro-XRCE-DDS-Gen
 export PATH=$PATH:/home/jlukas/Micro-XRCE-DDS-Gen/scripts
 ```
 
-# Install ROs2 with Gazebo - harmonic 
+# Install New Gazebo Harmonic  
+```
+sudo apt-get update
+sudo apt-get install lsb-release wget gnupg
+sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
+sudo apt-get update
+
+sudo apt-get install gz-harmonic
+sudo apt-get install ros-humble-ros-gzharmonic
+```
+
+Set the Gazebo version to either `garden` or `harmonic`
+```
+export GZ_VERSION=harmonic
+```
+
+# Install Ardupilot with ROS2 Support 
 ```
 cd ~/ros2_ws
 wget https://raw.githubusercontent.com/ArduPilot/ardupilot_gz/main/ros2_gz.repos
 vcs import --recursive src < ros2_gz.repos
 
-export GZ_VERSION=garden
-
 cd ~/ros2_ws
 source /opt/ros/humble/setup.bash
+
 sudo apt update
 rosdep update
 rosdep install --from-paths src --ignore-src -r
