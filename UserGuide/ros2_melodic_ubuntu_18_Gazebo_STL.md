@@ -112,7 +112,6 @@ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 sudo apt update
 sudo apt install gazebo9 libgazebo9-dev
 gazebo --verbose
-sudo apt install gazebo9 libgazebo9-dev
 
 sudo vi .ignition/fuel/config.yaml
 Replace name url: https://fuel.ignitionrobotics.org
