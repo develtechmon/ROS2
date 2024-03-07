@@ -130,8 +130,8 @@ sudo make install
 ```
 ```
 sudo vi ~jlukas/.bashrc and add following line
-export GAZEBO_RESOURCE_PATH="/home/dronedojo/courseRoot/ardupilot_gazebo":"/home/dronedojo/courseRoot/ardupilot_gazebo/worlds":"/usr/share/gazebo-9"
-export GAZEBO_MODEL_PATH="/home/dronedojo/courseRoot/ardupilot_gazebo/models":"/usr/share/gazebo-9/models"
+export GAZEBO_RESOURCE_PATH="/home/jlukas/ardupilot_gazebo":"/home/jlukas/ardupilot_gazebo/worlds":"/usr/share/gazebo-9"
+export GAZEBO_MODEL_PATH="/home/jlukas/ardupilot_gazebo/models":"/usr/share/gazebo-9/models"
 
 source /usr/share/gazebo-9/setup.sh
 ```
