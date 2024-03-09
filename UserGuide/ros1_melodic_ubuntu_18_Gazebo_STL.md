@@ -425,13 +425,52 @@ https://github.com/dronedojo/pidronescripts.git
 Next we're going to `Git Clone` package. This tools is needed to convert
 ROS messages and convert it into Numpy Array. We will later subscribe to below topic
 from Gazebo and deserialize it into numpy array using the package
+
+Package to clone
 ```
-/camera/color/image_raw
+cd /catkin_ws/src/
+git clone https://github.com/eric-wieser/ros_numpy.git
+
+cd ../..
+```
+
+# Write our First `track_aruco.py` script.
+
+Follow by step accordingly. We're going to create `gazebo_drone` package
+```
+cd src/
+catkin_create_pkg gazebo_drone rospy roscpp
+
+cd gazebo_drone
+mkdir scripts
+touch track_aruco.py
+cd ..
+
+catkin_make
+```
+
+Run our `Gazebo` and `sim_vehicle` file to obtain below parameters
+Gazebo
+```
+roslaunch gazebo_ros iris_world.launch
+```
+
+sim_vehicle
+```
+sim_vehicle.py -v ArduCopter -f gazebo-iris --console --map
+```
+set mod to `GUIDED` and then `takeoff for 2meter`.
+
+We'll use below `parameter` that will be adopted into our `script file` later
+```
+rostopic list
+    ---> /camera/color/image_raw
 ```
 
 Message Type
 ```
-Type: sensor_msgs/Image
+rostopic info /camera/color/image_raw
+    ---> Type: sensor_msgs/Image
 ```
 
 Message Data
@@ -440,10 +479,44 @@ rosmsg show sensor_msgs/Image
 You wll find unint8[] data which later we will use to deserialize using ros numpy
 ```
 
-Package to clone
-```
-cd /catkin_ws/src/
-git clone https://github.com/eric-wieser/ros_numpy.git
+Now to look up for camera intrinsic for Gazebo
 
-cd ../..
+In script we will need to supply this parameters
+```
+dist_coeff = []
+camera_matrix = [[],[],[]]
+```
+
+To find this parameters you can run
+```
+rostopic echo /camera/color/camera_info
+```
+This will show below result
+```
+header: 
+  seq: 129
+  stamp: 
+    secs: 208
+    nsecs: 746000000
+  frame_id: "camera_link"
+height: 720
+width: 1280
+distortion_model: "plumb_bob"
+D: [0.0, 0.0, 0.0, 0.0, 0.0] <------ Our dist_coeff
+K: [1061.6538553425996, 0.0, 640.5, 0.0, 1061.6538553425996, 360.5, 0.0, 0.0, 1.0] <---- Our camera_matrix
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [1061.6538553425996, 0.0, 640.5, -0.0, 0.0, 1061.6538553425996, 360.5, 0.0, 0.0, 0.0, 1.0, 0.0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False
+```
+Thefore final value is
+```
+dist_coeff = [0.0, 0.0, 0.0, 0.0, 0.0]
+camera_matrix = [[1061.6538553425996, 0.0, 640.5],[0.0, 1061.6538553425996, 360.5],[0.0, 0.0, 1.0]]
 ```
