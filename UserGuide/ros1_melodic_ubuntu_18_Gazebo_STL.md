@@ -420,3 +420,29 @@ We will use this package later to work with our `aruco drone` project.
 ```
 https://github.com/dronedojo/pidronescripts.git
 ```
+
+Next we're going to `Git Clone` package. This tools is needed to convert
+ROS messages and convert it into Numpy Array. We will later subscribe to below topic
+from Gazebo and deserialize it into numpy array using the package
+```
+/camera/color/image_raw
+```
+
+Message Type
+```
+Type: sensor_msgs/Image
+```
+
+Message Data
+```
+rosmsg show sensor_msgs/Image
+You wll find unint8[] data which later we will use to deserialize using ros numpy
+```
+
+Package to clone
+```
+cd /catkin_ws/src/
+git clone https://github.com/eric-wieser/ros_numpy.git
+
+cd ../..
+```
