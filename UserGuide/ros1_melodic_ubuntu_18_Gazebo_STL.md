@@ -67,6 +67,7 @@ sudo pip install pyserial
 sudo pip install dronekit
 sudo pip install MAVProxy
 sudo pip install keyboard
+sudo pip install pymavlink==2.4.37 <===== important to avoid def init(self, buf: Optional[Sequence[int]] = None) -> None: Error SyntaxError: invalid syntax
 
 git config --global http.sslverify false
 git clone https://github.com/ArduPilot/ardupilot
