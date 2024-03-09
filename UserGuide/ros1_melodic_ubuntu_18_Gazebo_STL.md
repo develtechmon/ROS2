@@ -421,6 +421,7 @@ We will use this package later to work with our `aruco drone` project.
 https://github.com/dronedojo/pidronescripts.git
 ```
 
+# Clone `ROS numpy` into `src` directory
 Next we're going to `Git Clone` package. This tools is needed to convert
 ROS messages and convert it into Numpy Array. We will later subscribe to below topic
 from Gazebo and deserialize it into numpy array using the package
