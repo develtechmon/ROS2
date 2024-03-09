@@ -414,3 +414,9 @@ Subscribers: None
 jlukas@ubuntu:~$ rosmsg show std_msgs/String
 string data <--------- Message type
 ```
+
+# For rest of the script file. You can find it at `drone dojo`
+We will use this package later to work with our `aruco drone` project.
+```
+https://github.com/dronedojo/pidronescripts.git
+```
