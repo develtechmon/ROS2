@@ -89,5 +89,5 @@ https://ardupilot.org/dev/docs/ros-install.html#installing-mavros
 
 Please ensure you have load the `. ~/.profile` and source the `ardupilot ros2`
 ```
-mavproxy.py --master=127.0.0.1:14550
+mavproxy.py --master=127.0.0.1:14550 --console
 ```
