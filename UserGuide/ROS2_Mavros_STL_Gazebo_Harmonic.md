@@ -91,3 +91,26 @@ Please ensure you have load the `. ~/.profile` and source the `ardupilot ros2`
 ```
 mavproxy.py --master=127.0.0.1:14550 --console
 ```
+
+# To Control Our drone with `Loiter`
+```
+Takeoff in Loiter mode
+
+Change mode to Loiter
+
+channel 2 - forward 1600 - rc 2 1600
+channel 2 - forward 1000 - rc 2 1000
+stop  - 1500  - rc 2 1500
+
+channel 1 - right 1600 - rc 1 1600
+channel 1 - left 1000 - rc 1 1000
+stop - 1500 - rc 1 1500
+
+channel 3 - up 1600 - rc 3 1600
+channel 3 - down 1000 - rc 3 1000
+stop - 1500 - rc 3 1500
+
+channel 4 - yaw right - 1600 - rc 4 1600
+channel 4 - yaw left - 1000 - rc 4 1000
+stop - 1500 - rc 4 1000
+```
