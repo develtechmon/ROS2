@@ -97,6 +97,29 @@ But here, we're using `Terminal` directly.
 
 You can use similar `command` as in `README.md` as mentioned intially.
 
+## Step 6: Run `serial motor demo`
+In your `RPI` clone following packages and follow the step
+```
+mkdir -p ros2_serial_motor_demo/src
+cd ros2_serial_motor_demo/src
+
+git clone https://github.com/joshnewans/serial_motor_demo.git
+cd ..
+colcon build --symlink-install
+
+. install/setup.bash
+```
+Then run this command in your `rpi`
+```
+ros2 run serial_motor_demo driver --ros-args -p serial_port:=/dev/ttyUSB1 -p baud_rate:=57600 -p loop_rate:=30 -p encoder_cpr:=1320
+```
+
+And in your development computer, clone above package as well and follow same step.
+
+To control motor, run following command in your development computer
+```
+ros2 run serial_motor_demo gui
+```
 
 
 
