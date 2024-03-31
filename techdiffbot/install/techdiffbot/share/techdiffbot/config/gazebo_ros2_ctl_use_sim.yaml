@@ -1,3 +1,1 @@
-controller_manager:
-  ros__parameters:
-    use_sim_time: true
+/home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/gazebo_ros2_ctl_use_sim.yaml

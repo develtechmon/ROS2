@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing techdiffbot.egg-info/PKG-INFO
+writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+writing entry points to techdiffbot.egg-info/entry_points.txt
+writing requirements to techdiffbot.egg-info/requires.txt
+writing top-level names to techdiffbot.egg-info/top_level.txt
+reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros2/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+
+Installed /home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+running symlink_data
+symbolically linking /home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/ldlidar_slamtec.launch.py -> /home/ros2/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch

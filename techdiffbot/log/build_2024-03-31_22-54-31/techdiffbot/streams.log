@@ -1,0 +1,19 @@
+[0.749s] Invoking command in '/home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/ros2/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data
+[1.044s] running develop
+[1.044s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.044s]   warnings.warn(
+[1.246s] running egg_info
+[1.246s] writing techdiffbot.egg-info/PKG-INFO
+[1.246s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[1.246s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[1.246s] writing requirements to techdiffbot.egg-info/requires.txt
+[1.246s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[1.248s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[1.250s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[1.251s] running build_ext
+[1.251s] Creating /home/ros2/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[1.252s] 
+[1.252s] Installed /home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+[1.252s] running symlink_data
+[1.252s] symbolically linking /home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/ldlidar_slamtec.launch.py -> /home/ros2/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[1.280s] Invoked command in '/home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/ros2/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data

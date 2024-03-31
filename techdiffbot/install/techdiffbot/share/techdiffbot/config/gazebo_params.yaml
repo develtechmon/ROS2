@@ -1,4 +1,1 @@
-gazebo:
-  ros__parameters:
-    publish_rate: 400.0
-    
+/home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/gazebo_params.yaml
