@@ -208,17 +208,14 @@ ros2 launch techdiffbot launch_robot.launch.py
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
 Above command is similar to below command. What make it different, is that one using launcher and other is run
-* ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
+* ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false (i'm using to run my mapping)
 * ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/slam_toolbox.yaml use_sim_time:=false (if you copy slam_toolbox.yaml for lidar package)
 
-3. Create a Fake Odom to publich base_footprint similar with odom
-ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_footprint
-
-4. In RPI or our robot, open new terminal to run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file.
+3. In RPI or our robot, open new terminal to run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file.
 We're using C1 Lidar from Slamtec.
 ros2 launch techdiffbot ldlidar_slamtec.launch.py 
 
-5. In development pc, open new terminal run Rviz
+4. In development pc, open new terminal run Rviz
 rviz2 
 
 5. From Rviz select
