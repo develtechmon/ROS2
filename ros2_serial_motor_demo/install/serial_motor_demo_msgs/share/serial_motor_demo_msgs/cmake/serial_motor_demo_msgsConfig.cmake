@@ -1,0 +1,1 @@
+/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo_msgs/ament_cmake_core/serial_motor_demo_msgsConfig.cmake

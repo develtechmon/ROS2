@@ -1,0 +1,27 @@
+[3.861s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo/build --no-deps symlink_data
+[4.994s] /home/jlukas/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.995s]   warnings.warn(
+[5.249s] running develop
+[6.106s] running egg_info
+[6.106s] creating serial_motor_demo.egg-info
+[6.106s] writing serial_motor_demo.egg-info/PKG-INFO
+[6.107s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[6.108s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[6.109s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[6.109s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[6.110s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.117s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.120s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.127s] running build_ext
+[6.128s] Creating /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[6.131s] Installing driver script to /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/lib/serial_motor_demo
+[6.132s] Installing gui script to /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/lib/serial_motor_demo
+[6.133s] 
+[6.133s] Installed /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo
+[6.134s] running symlink_data
+[6.134s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/share/ament_index
+[6.135s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/share/ament_index/resource_index
+[6.135s] creating /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/share/ament_index/resource_index/packages
+[6.136s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo/resource/serial_motor_demo -> /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/share/ament_index/resource_index/packages
+[6.137s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo/package.xml -> /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/share/serial_motor_demo
+[6.279s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages:/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo/build --no-deps symlink_data

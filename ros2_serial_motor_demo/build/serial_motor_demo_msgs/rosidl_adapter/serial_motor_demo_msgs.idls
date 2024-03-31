@@ -1,0 +1,3 @@
+/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorCommand.idl
+/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/MotorVels.idl
+/home/jlukas/Desktop/My_Project/ROS2/ros2_serial_motor_demo/build/serial_motor_demo_msgs/rosidl_adapter/serial_motor_demo_msgs:msg/EncoderVals.idl

@@ -8,6 +8,7 @@ config/lifecycle_mgr_slam.yaml
 config/mapper_params_online_async.yaml
 config/my_controllers.yaml
 config/nav2_params.yaml
+config/slam_toolbox.yaml
 config/twist_mux.yaml
 launch/camera.launch.py
 launch/gazebo.sim.launch.py

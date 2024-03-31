@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros2/Desktop/My_Project/ROS2/techdiffbot/src/serial/tests
+# Install script for directory: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/src/serial/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros2/Desktop/My_Project/ROS2/techdiffbot/install/serial")
+  set(CMAKE_INSTALL_PREFIX "/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/serial")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ros2/Desktop/My_Project/ROS2/techdiffbot/build/serial/gtest/cmake_install.cmake")
+  include("/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/serial/gtest/cmake_install.cmake")
 
 endif()
 
