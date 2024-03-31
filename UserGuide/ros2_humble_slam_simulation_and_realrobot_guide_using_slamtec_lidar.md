@@ -117,7 +117,7 @@ Please check `Lidar` section at `core.robot.xacro` on how to setup this paramete
 
 ```
 
-## Step 4 : Copy Nav2 params, because we're going to launch it locally inside our `techdiffbot`
+## Step 4 : (Optional) Copy Nav2 params, because we're going to launch it locally inside our `techdiffbot`
 Copy this file to our working space directory
 ```
 cp -r /opt/ros/humble/share/nav2_bringup/params/nav2_params.yaml ../config/
@@ -201,30 +201,31 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 
 ## For Real Robot
 ```
-1. In new terminal run SLAM toolbox
+1. In RPI or our robot, open terminal and run below command
+ros2 launch techdiffbot launch_robot.launch.py 
+
+2. Next, In development pc, open terminal and run SLAM toolbox. 
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
 Above command is similar to below command. What make it different, is that one using launcher and other is run
 * ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=false
 * ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/slam_toolbox.yaml use_sim_time:=false (if you copy slam_toolbox.yaml for lidar package)
 
-2. Create a Fake Odom to publich base_footprint similar with odom
+3. Create a Fake Odom to publich base_footprint similar with odom
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_footprint
 
-3. In new terminal run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file
-ros2 launch ldlidar ldlidar.launch.py lidar_frame:=ldlidar_link
+4. In RPI or our robot, open new terminal to run Lidar.  Here we're using `ldlidar_link` as our lidar_frame to ensure it matches with our URDF file.
+We're using C1 Lidar from Slamtec.
+ros2 launch techdiffbot ldlidar_slamtec.launch.py 
 
-4. In new terminal run Gazebo
-ros2 launch techdiffbot launch_robot.launch.py
-
-2. In new terminal run Rviz
+5. In development pc, open new terminal run Rviz
 rviz2 
 
 5. From Rviz select
    Fixed Frame - map
    Map Topic - Map
 
-6. In new terminal run Joystick or Keyboard control start Mapping
+6. In development pc, open new terminal run Joystick or Keyboard control start Mapping
 * ros2 launch techdiffbot joystick.control.launch.py
 * ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ```
