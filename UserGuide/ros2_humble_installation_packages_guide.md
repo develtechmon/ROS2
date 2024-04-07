@@ -66,6 +66,37 @@ sudo apt-get install ros-humble-twist-mux
 sudo apt-get install ros-humble-rmw-fastrtps-cpp
 sudo apt-get install ros-humble-usb-cam
 sudo apt-get install ros-humble-plotjuggler-ros
+
+This package for docker
+sudo apt-get install cmake
+sudo apt-get install curl
+sudo apt-get install gazebo 
+sudo apt-get install libglu1-mesa-dev
+sudo apt-get install python3-pip
+sudo apt-get install python3-pydantic
+sudo apt-get install ros-humble-gazebo-ros
+sudo apt-get install ros-humble-gazebo-ros-pkgs
+sudo apt-get install ros-humble-joint-state-publisher
+sudo apt-get install ros-humble-robot-localization
+sudo apt-get install ros-humble-plotjuggler-ros
+sudo apt-get install ros-humble-robot-state-publisher
+sudo apt-get install ros-humble-ros2bag
+sudo apt-get install ros-humble-rosbag2-storage-default-plugins
+sudo apt-get install ros-humble-rqt-tf-tree
+sudo apt-get install ros-humble-rmw-fastrtps-cpp 
+sudo apt-get install ros-humble-rmw-cyclonedds-cpp 
+sudo apt-get install ros-humble-slam-toolbox 
+sudo apt-get install ros-humble-turtlebot3 
+sudo apt-get install ros-humble-turtlebot3-msgs 
+sudo apt-get install ros-humble-twist-mux 
+sudo apt-get install ros-humble-usb-cam 
+sudo apt-get install ros-humble-xacro 
+sudo apt-get install ruby-dev 
+sudo apt-get install rviz 
+sudo apt-get install tmux 
+sudo apt-get install wget 
+sudo apt-get install xorg-dev 
+sudo apt-get install zsh
 ```
 
 ## Step 5: Install following packages for image rqt
