@@ -63,6 +63,9 @@ sudo apt-get install joystick jstest-gtk evtest
 sudo apt install ros-humble-joy-tester
 sudo apt-get install v4l-utils
 sudo apt-get install ros-humble-twist-mux
+sudo apt-get install ros-humble-rmw-fastrtps-cpp
+sudo apt-get install ros-humble-usb-cam
+sudo apt-get install ros-humble-plotjuggler-ros
 ```
 
 ## Step 5: Install following packages for image rqt
