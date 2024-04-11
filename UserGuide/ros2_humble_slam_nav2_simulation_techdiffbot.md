@@ -217,5 +217,42 @@ map_start_at_dock: true
 ```
 Then save and quit.
 
+## Step 7: Start Navigation
 
+In your development `pc` or `laptop`, follow below step
+```
+1. In new terminal run Gazebo
+ros2 launch techdiffbot gazebo.sim.launch.py world:=./src/techdiffbot/world/my_block
 
+2. In new terminal run Rviz
+ rviz2
+
+3. In new terminal run SLAM toolbox
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true (i'm using this mostly)
+
+Above command is similar to below command. What make it different, is that one using launcher and other is run
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+
+4. From Rviz select
+   Fixed Frame - map
+   Map Topic - Map
+
+   You will need hit the reset button if rviz didn't work properly and re-add the the function and select topic accordingly.
+   RobotModel --> /robotdescription
+   LaserScan --> /scan
+   TF --> enable and shown only the base link, odom, base_footprint
+
+5. In new terminal run Nav2 (default command)
+ros2 launch nav2_bringup navigation_launch.py use_sime_time:=true
+
+Run below command to bringup the Navigation if you already have local copy of `navigation_launch.py` and `nav2_params.yaml` file and already edit the configuration.
+Then run this command. However, in this package, i already edit the package for you. So no need to worry and you can safely run this command.
+* ros2 launch techdiffbot navigation_launch.py use_sim_time:=true
+
+6. From Rviz select
+   Fixed Frame - map
+   Map Topic - Global../Costmap
+   Color Scheme - Costmap
+
+9. Select 2D Goal Pose and start navigating
+```
