@@ -181,7 +181,7 @@ At working directory in this case is "techdiffbot" you should see multiple files
 ```
 1. my_block.pgm
 2. my_block.yaml
-3. my_bloc_kserial.data
+3. my_block_serial.data
 4. my_block_serial.posegraph
 ```
 
