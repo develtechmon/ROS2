@@ -79,7 +79,7 @@ And change the `wheel position` as follow for `simulation`
 ```
 base_frame_id: base_link
 
-right_wheel_names: ['reft_wheel_joint']
+right_wheel_names: ['rightt_wheel_joint']
 left_wheel_names: ['light_wheel_joint']
 wheel_separation: 0.21
 wheel_radius: 0.03405
