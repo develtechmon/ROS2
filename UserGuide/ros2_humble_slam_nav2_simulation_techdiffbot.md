@@ -147,8 +147,10 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/di
 `Move the robot` around the area and once you're done please `return the robot to its original initial
 position` in rviz2 at which point it start to move, 
 
-in this case you should stop at `map` TF from frame from rviz. Then save the gazebo map into 
-your `techdiffobt../config/world/`
+in this case you should stop at `map` and align it with `base_link` and `base_footprint` TF frame from rviz. This `TF` is referring to our
+original position. For your information, `map TF` will be fixed at one postion, while `odom TF` will jumping around.
+
+Next save the gazebo map into your `techdiffobt../config/world/` and name it as `my_block_world` and etc
 
 ## Step 5: Saved our SLAM Map
 
