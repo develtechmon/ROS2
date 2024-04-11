@@ -23,14 +23,6 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/Desktop/My_Project/articubot_one/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws_new/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/Desktop/My_Project/ROS2/rover/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/Desktop/My_Project/ROS2/ros2_rpi_cv2/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/Desktop/My_Project/ldlidar_ros2_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/Desktop/My_Project/ldrobot_lidar_ros2/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/lidar_slamtec/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/jlukas/lidar_slamtec/src/sllidar_ros2/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

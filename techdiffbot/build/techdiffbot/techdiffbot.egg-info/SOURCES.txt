@@ -38,6 +38,7 @@ urdf/inertial_macros.xacro
 urdf/real.robot.gazebo.sim.xacro
 urdf/ros2_control.xacro
 urdf/ros2_control_gazebo.xacro
+world/block_map.world
 world/gazebo_techdiffbot_first_world
 world/my_map
 world/my_maze

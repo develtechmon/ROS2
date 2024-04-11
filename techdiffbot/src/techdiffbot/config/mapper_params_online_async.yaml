@@ -18,13 +18,14 @@ slam_toolbox:
     use_map_saver: true
 
     # 1: To start with mapping - enable mapping mode below
-    mode: mapping 
+    #mode: mapping 
 
     # 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
-    #mode: localization
+    mode: localization
 
-    #map_file_name: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/my_maze_serial
-    #map_start_at_dock: true
+    map_file_name: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/my_block_serialize
+    map_start_at_dock: true
+    
     #map_start_pose: [0.0, 0.0, 0.0]
 
     # if you'd like to immediately start continuing a map at a given pose

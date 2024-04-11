@@ -1,0 +1,16 @@
+[1.013s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data
+[1.349s] running develop
+[1.554s] running egg_info
+[1.554s] writing techdiffbot.egg-info/PKG-INFO
+[1.554s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[1.555s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[1.555s] writing requirements to techdiffbot.egg-info/requires.txt
+[1.555s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[1.557s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[1.558s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[1.560s] running build_ext
+[1.560s] Creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[1.561s] 
+[1.561s] Installed /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+[1.561s] running symlink_data
+[1.598s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data

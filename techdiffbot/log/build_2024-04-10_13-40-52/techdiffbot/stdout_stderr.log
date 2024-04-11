@@ -1,0 +1,59 @@
+running develop
+running egg_info
+creating techdiffbot.egg-info
+writing techdiffbot.egg-info/PKG-INFO
+writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+writing entry points to techdiffbot.egg-info/entry_points.txt
+writing requirements to techdiffbot.egg-info/requires.txt
+writing top-level names to techdiffbot.egg-info/top_level.txt
+writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+
+Installed /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+running symlink_data
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index/resource_index
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index/resource_index/packages
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/resource/techdiffbot -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index/resource_index/packages
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/package.xml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/lidar.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/ldlidar_slam.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/ldlidar_slamtec.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/launch_robot.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/camera.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/joystick.control.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/joystick.steam.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/rsp.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/gazebo.sim.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/navigation_launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/diff.robot.urdf.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/ros2_control.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/real.robot.gazebo.sim.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/gazebo_control.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/inertial_macros.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/core.robot.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/ros2_control_gazebo.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/my_controllers.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/gazebo_params.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/lifecycle_mgr_slam.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/gazebo_ros2_ctl_use_sim.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/mapper_params_online_async.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/twist_mux.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/nav2_params.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/slam_toolbox.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/joystick.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/rviz2/my_maze.rviz -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/rviz2/rviz2_techdiffbot_1.rviz -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2
+creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/my_map -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/new_slam_map -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/gazebo_techdiffbot_first_world -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/slam_world -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/my_maze -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world

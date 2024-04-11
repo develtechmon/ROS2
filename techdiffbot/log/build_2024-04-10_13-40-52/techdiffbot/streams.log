@@ -1,0 +1,61 @@
+[2.672s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data
+[4.403s] running develop
+[5.088s] running egg_info
+[5.088s] creating techdiffbot.egg-info
+[5.089s] writing techdiffbot.egg-info/PKG-INFO
+[5.089s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[5.089s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[5.090s] writing requirements to techdiffbot.egg-info/requires.txt
+[5.090s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[5.090s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[5.095s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[5.097s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[5.101s] running build_ext
+[5.101s] Creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[5.103s] 
+[5.104s] Installed /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+[5.104s] running symlink_data
+[5.105s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index
+[5.105s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index/resource_index
+[5.106s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index/resource_index/packages
+[5.106s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/resource/techdiffbot -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/ament_index/resource_index/packages
+[5.107s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/package.xml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot
+[5.109s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.110s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/lidar.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.111s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/ldlidar_slam.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.111s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/ldlidar_slamtec.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.124s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/launch_robot.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.125s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/camera.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.125s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/joystick.control.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.126s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/joystick.steam.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.127s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/rsp.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.128s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/gazebo.sim.launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.129s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/launch/navigation_launch.py -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/launch
+[5.129s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.130s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/diff.robot.urdf.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.131s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/ros2_control.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.131s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/real.robot.gazebo.sim.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.132s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/gazebo_control.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.133s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/inertial_macros.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.134s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/core.robot.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.135s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/urdf/ros2_control_gazebo.xacro -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/urdf
+[5.135s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.136s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/my_controllers.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.137s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/gazebo_params.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.137s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/lifecycle_mgr_slam.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.138s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/gazebo_ros2_ctl_use_sim.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.139s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/mapper_params_online_async.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.140s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/twist_mux.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.140s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/nav2_params.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.141s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/slam_toolbox.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.142s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/config/joystick.yaml -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/config
+[5.142s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2
+[5.143s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/rviz2/my_maze.rviz -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2
+[5.144s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/rviz2/rviz2_techdiffbot_1.rviz -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/rviz2
+[5.144s] creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[5.145s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/my_map -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[5.146s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/new_slam_map -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[5.147s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/gazebo_techdiffbot_first_world -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[5.147s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/slam_world -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[5.148s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/my_maze -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[5.292s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data

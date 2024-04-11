@@ -223,8 +223,8 @@ CMakeFiles/serial_example.dir/clean:
 # Target rules for target tests/CMakeFiles/serial-test.dir
 
 # All Build rule for target.
-tests/CMakeFiles/serial-test.dir/all: gtest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/serial-test.dir/all: CMakeFiles/serial.dir/all
+tests/CMakeFiles/serial-test.dir/all: gtest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/serial-test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/serial-test.dir/build.make tests/CMakeFiles/serial-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/serial-test.dir/build.make tests/CMakeFiles/serial-test.dir/build
@@ -251,8 +251,8 @@ tests/CMakeFiles/serial-test.dir/clean:
 # Target rules for target tests/CMakeFiles/serial-test-timer.dir
 
 # All Build rule for target.
-tests/CMakeFiles/serial-test-timer.dir/all: gtest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/serial-test-timer.dir/all: CMakeFiles/serial.dir/all
+tests/CMakeFiles/serial-test-timer.dir/all: gtest/CMakeFiles/gtest.dir/all
 tests/CMakeFiles/serial-test-timer.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/serial-test-timer.dir/build.make tests/CMakeFiles/serial-test-timer.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/serial-test-timer.dir/build.make tests/CMakeFiles/serial-test-timer.dir/build

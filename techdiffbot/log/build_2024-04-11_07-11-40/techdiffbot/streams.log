@@ -1,0 +1,17 @@
+[1.661s] Invoking command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data
+[2.021s] running develop
+[2.252s] running egg_info
+[2.252s] writing techdiffbot.egg-info/PKG-INFO
+[2.252s] writing dependency_links to techdiffbot.egg-info/dependency_links.txt
+[2.253s] writing entry points to techdiffbot.egg-info/entry_points.txt
+[2.253s] writing requirements to techdiffbot.egg-info/requires.txt
+[2.253s] writing top-level names to techdiffbot.egg-info/top_level.txt
+[2.256s] reading manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[2.265s] writing manifest file 'techdiffbot.egg-info/SOURCES.txt'
+[2.267s] running build_ext
+[2.267s] Creating /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages/techdiffbot.egg-link (link to .)
+[2.268s] 
+[2.268s] Installed /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot
+[2.268s] running symlink_data
+[2.284s] symbolically linking /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/world/block_map.world -> /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/share/techdiffbot/world
+[2.324s] Invoked command in '/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot' returned '0': PYTHONPATH=/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/prefix_override:/home/jlukas/Desktop/My_Project/ROS2/techdiffbot/install/techdiffbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/build/techdiffbot/build --no-deps symlink_data
