@@ -319,9 +319,9 @@ ros2 launch techdiffbot joystick.control.launch.py
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 
 6. In new terminal run Nav2
-ros2 launch  techdiffbot navigation_launch.py use_sim_time:=true
+ros2 launch nav2_bringup navigation_launch.py use_sime_time:=true
 
-Run below command to bringup the Navigation if you already have local copy of `navigatio_launch.py` and `nav2_params.yaml` file and already edit the configuration. Then run this command
+Run below command to bringup the Navigation if you already have local copy of `navigation_launch.py` and `nav2_params.yaml` file and already edit the configuration. Then run this command
 * ros2 launch techdiffbot navigation_launch.py use_sim_time:=true
 
 7. From Rviz select
