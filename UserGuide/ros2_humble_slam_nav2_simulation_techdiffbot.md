@@ -114,34 +114,73 @@ mode: mapping <---- Please enable this line to start mapping
 Then save and quit.
 
 
-## Step 4: Start Mapping in simulation
+## Step 4: Start Mapping
 
+In your development `pc` or `laptop`, follow below step
 ```
 1. In new terminal run Gazebo
-ros2 launch techdiffbot gazebo.sim.launch.py  world:=./src/techdiffbot/world/my_maze 
+ros2 launch techdiffbot gazebo.sim.launch.py world:=./src/techdiffbot/world/my_block
 
 2. In new terminal run Rviz
-rviz2 -d src/techdiffbot/rviz2/my_maze.rviz 
+ rviz2
 
 3. In new terminal run SLAM toolbox
-ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true (i'm using this mostly)
 
 Above command is similar to below command. What make it different, is that one using launcher and other is run
-ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
 
 4. From Rviz select
    Fixed Frame - map
    Map Topic - Map
 
-5. In new terminal run Joystick or Keyboard control start Mapping
+   You will need hit the reset button if rviz didn't work properly and re-add the the function and select topic accordingly.
+   RobotModel --> /robotdescription
+   LaserScan --> /scan
+   TF --> enable and shown only the base link, odom, base_footprint
+   
+5. In new terminal run Steam Joystick or Keyboard control to start Mapping
 ros2 launch techdiffbot joystick.control.launch.py
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ```
 
-Move the robot around the area and once you're done please return the robot to its original initial
-position in map at which point it start to move. Then save the gazebo map into your /config/world/
+`Move the robot` around the area and once you're done please `return the robot to its original initial
+position` in rviz2 at which point it start to move, 
 
-## 
+in this case you should stop at `map` TF from frame from rviz. Then save the gazebo map into 
+your `techdiffobt../config/world/`
+
+## Step 5: Saved our SLAM Map
+
+Once you're done generating map, now it's time to save our `map`.
+
+From `rviz` select `Add New Panel` and and select `SlamToolboxPlugin`
+
+This will open `SlamToolboxPlugin`. From there enter following details
+
+```
+- Save Map - maze_map
+- Serialize Map - maze_map_serial
+```
+* Click "serialize map"  button
+* Click "save map" button 
+
+or run below command to save the map
+```
+ros2 run nav2_map_server map_saver_cli -f map/maze ---> to save map
+```
+
+This will save the map into our `techdiffbot` directory
+
+To clarify, the `*.yaml` and `*.pgm` together are the `old format`. The PGM contains the actual cell occupancy data while the YAML contains metadata such as the grid resolution and origin location. 
+
+At working directory in this case is "techdiffbot" you should see multiple files has been created as follow:
+```
+1. maze_mapp.pgm
+2. maze_mapp.yaml
+3. maze_map_serial.data
+4. maze_map_serial.posegraph
+```
 
 
 
