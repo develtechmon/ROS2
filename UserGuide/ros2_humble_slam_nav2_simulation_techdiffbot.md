@@ -245,7 +245,7 @@ ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techd
    TF --> enable and shown only the base link, odom, base_footprint
 
 5. In new terminal run Nav2 (default command)
-ros2 launch nav2_bringup navigation_launch.py use_sime_time:=true
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
 
 Run below command to bringup the Navigation if you already have local copy of `navigation_launch.py` and `nav2_params.yaml` file and already edit the configuration.
 Then run this command. However, in this package, i already edit the package for you. So no need to worry and you can safely run this command.
