@@ -85,7 +85,7 @@ wheel_separation: 0.21
 wheel_radius: 0.03405
 ```
 
-## Step 3 : SLAM setup for Simulation
+## Step 3 : SLAM setup for mapping
 
 To start with `mapping` please enable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow.
 Here we're enabling `mapping mode` to start.
@@ -159,15 +159,18 @@ From `rviz` select `Add New Panel` and and select `SlamToolboxPlugin`
 This will open `SlamToolboxPlugin`. From there enter following details
 
 ```
-- Save Map - maze_map
-- Serialize Map - maze_map_serial
+- Save Map - my_block
+- Serialize Map - my_block_serialize
 ```
+
+Please ensure to tick the right `button` box under the `map` to ensure you can generate the map accordingly.
+
 * Click "serialize map"  button
 * Click "save map" button 
 
 or run below command to save the map
 ```
-ros2 run nav2_map_server map_saver_cli -f map/maze ---> to save map
+ros2 run nav2_map_server map_saver_cli -f map/my_block ---> to save map
 ```
 
 This will save the map into our `techdiffbot` directory
@@ -176,12 +179,43 @@ To clarify, the `*.yaml` and `*.pgm` together are the `old format`. The PGM cont
 
 At working directory in this case is "techdiffbot" you should see multiple files has been created as follow:
 ```
-1. maze_mapp.pgm
-2. maze_mapp.yaml
-3. maze_map_serial.data
-4. maze_map_serial.posegraph
+1. my_block.pgm
+2. my_block.yaml
+3. mmy_blockserial.data
+4. my_block_serial.posegraph
 ```
 
+## Step 6 : SLAM setup for localization
+
+To start with `localization` please enable `mode:localization` and disable `mode:mapping` inside `mapper_params_online_async.yaml` file as follow.
+Here we're enabling `localization mode` to begin with.
+
+open the `yaml` file
+```
+vi src/techdiffbot/config/mapper_params_online_async.yaml 
+```
+
+and Enable `localization` and Disable `mapping` mode as follow.
+```
+# ROS Parameters
+odom_frame: odom
+map_frame: map
+#base_frame: ldlidar_base
+base_frame: base_footprint 
+scan_topic: /scan
+use_map_saver: true
+
+# 1: To start with mapping - enable mapping mode below
+#mode: mapping <---- Please disable this line to start localization
+
+# 2: After completing mapping, disable "mode: mapping" and enable "mode: localization" and use below command
+mode: localization <---- Please enable this line to start localization
+
+map_file_name: /home/jlukas/Desktop/My_Project/ROS2/techdiffbot/my_block_serial
+map_start_at_dock: true
+#map_start_pose: [0.0, 0.0, 0.0]
+```
+Then save and quit.
 
 
 
