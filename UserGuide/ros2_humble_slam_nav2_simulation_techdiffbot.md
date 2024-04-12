@@ -261,8 +261,8 @@ Then run this command. However, in this package, i already edit the package for 
 
 ## Step 8: Start Navigation with AMCL
 
-The advantage of using AMCL, is that we can set and estimate the position of our robot in the 3D Space. Let's try to run our robot using AMCL method 
-as follow.
+The advantage of using AMCL, is that we can set and estimate the position of our robot in the 3D Space and add the unknown object in real time. 
+Let's try to run our robot using AMCL method as follow.
 
 In your `development PC` pc, open new terminal and run following command first
 Here we're launching our `SLAM_Toolbox` to activate the map detection in rviz. This run will show our previous saved map.
