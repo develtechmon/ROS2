@@ -258,3 +258,30 @@ Then run this command. However, in this package, i already edit the package for 
 
 9. Select 2D Goal Pose and start navigating
 ```
+
+## Step 8: Start Navigation with AMCL
+
+The advantage of using AMCL, is that we can set and estimate the position of our robot in the 3D Space. Let's try to run our robot using AMCL method 
+as follow.
+
+In your `development PC` pc, open new terminal and run following command first
+Here we're launching our `SLAM_Toolbox` to activate the map detection in rviz. This run will show our previous saved map.
+```
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
+```
+
+From rviz, set the configuration similarly as mapping section as shown in `mapping` section.
+
+Then start our `AMCL` command as follow.
+```
+ros2 launch nav2_bringup localization_launch.py map:=./my_block.yaml use_sim_time:=true
+```
+Once running this command. The terminal will prompt you to select `Intial pose` and from `rviz` select `2D pose estimate` button and 
+adjust your robot position accordingly.
+
+If your robot jumping around, kill the `slam_toolbox` run previously.
+
+To start navigation with `AMCL`, open your new terminal and run following command and select the `2D Goal` to start navigating the robot.
+```
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+```
