@@ -183,6 +183,10 @@ ros2 launch slam_toolbox online_async_launch.py params_file:=src/techdiffbot/con
 
 
 #For Humble - with Slam
+
+So far using this 'run' i'm able to load the saved map.
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/techdiffbot/config/mapper_params_online_async.yaml
+
 ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbot/config/mapper_params_online_async.yaml use_sim_time:=true
 
 ros2 launch nav2_bringup navigation_launch.py use_sime_time:=true
