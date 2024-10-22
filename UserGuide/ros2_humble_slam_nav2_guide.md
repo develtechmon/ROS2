@@ -67,6 +67,16 @@ ros2 launch techdiffbot gazebo.sim.launch.py world:=./src/techdiffbot/world/my_m
 ```
 rviz2 -d src/techdiffbot/rviz2/my_map.rviz
 ```
+or just launch normal rviz2 if you havent set any configuration yet
+```
+rviz2
+```
+At this point, no `map` topic post yet. You can add the following first for initial setup
+```
+Fixed Frame : odom
+Robot Model :
+     Description Topic : /robot_description
+```
 
 ## Step 8: To start Mapping Launch our `Slam Toolbox` with `mapper_params_online_async.Yaml` file 
 ```
@@ -79,6 +89,16 @@ ros2 launch slam_toolbox online_async_launch.py slam_params_file:=src/techdiffbo
 ```
 
 This will post `map` topic. Set `Rviz` configuration as follow:
+
+```
+Fixed Frame : map
+Robot Model :
+     Description Topic : /robot_description
+
+Map :
+ Topic : /map
+ Update Topic : /map_updates
+```
 
 Run following command to `move` our robot to start mapping
 ```
