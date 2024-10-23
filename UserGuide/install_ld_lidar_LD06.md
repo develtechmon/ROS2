@@ -22,7 +22,7 @@ cd ldlidar_ros2_ws/src
 
 ## Step 4: Clone the package. This is only for `ROS2`
 ```
-https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2.git
+git clone https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2.git
 ```
  
 ## Step 5: Setup our `LD06` hardware. Please follow the schematic connection
