@@ -44,6 +44,7 @@ sudo chmod 777 /dev/ttyUSB0
 ## Step 6: Build our package
 ```
 cd src/ldlidar_stl_ros2
+cd launch
 vi ld06.launch.py --> Here change the port_name: '/dev/ttyUSB0' based on detected serial. Save and exit the file
 
 cd ../../..
