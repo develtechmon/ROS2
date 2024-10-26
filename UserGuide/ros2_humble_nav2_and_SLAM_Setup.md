@@ -80,7 +80,16 @@ ld.add_action(ldlidar_node)
 
 ```
 
-Next, let's modify 
+Next, let's modify `paramas/slam_toolbox.yaml`
+```
+# ROS Parameters
+odom_frame: odom
+map_frame: map
+base_frame: ldlidar_base --> change to base_footprint
+scan_topic: /scan t
+use_map_saver: true
+mode: mapping #localization
+```
 
 
 
