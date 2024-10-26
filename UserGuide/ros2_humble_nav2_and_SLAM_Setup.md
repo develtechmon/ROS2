@@ -12,12 +12,45 @@ Current this work with `LD06/19` Lidar Sensor
 
 # Raspberry PI - Running Ubuntu 20 and ROS2 Humble
 
+This package is based on this tutorial. highhly suggest to open this document 
+and use it as reference for installation process.
+
+```
+https://github.com/Myzhar/ldrobot-lidar-ros2/tree/main
+```
+
 ## Step 1: Download or Git clone this package
 
-please follow these steps. Open your terminal
+please follow these steps. Open your terminal:
+
 ```
 cd /home/jlukas/
 mkdir -p ldrobot_lidar_ros2/src
 cd src
 git clone https://github.com/Myzhar/ldrobot-lidar-ros2.git
 ```
+
+
+## Step 2: Install the depdencies
+
+Do the following to install this package
+
+```
+sudo apt install libudev-dev
+cd ~/ros2_ws/src/ldrobot-lidar-ros2/scripts/
+./create_udev_rules.sh
+```
+
+Install depedenceis
+```
+cd ~/ldrobot_lidar_ros2/
+rosdep install --from-paths src --ignore-src -r -y
+colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release
+```
+
+Update the environment
+```
+echo source $(pwd)/install/local_setup.bash >> ~/.bashrc
+source ~/.bashrc
+```
+
