@@ -107,6 +107,14 @@ vi ldlidar_slam_tech.launch.py
 
 Then modify the content inside this file as follow
 ```
+
+  # SLAM Toolbox configuration for LDLidar
+    slam_config_path = os.path.join(
+        get_package_share_directory('ldlidar_node'),
+        'params',
+        'slam_toolbox_tech.yaml' <------------- Please change this name based on our customized slam_toolbox_tech.yaml
+    )
+
 # Fake odom publisher
 fake_odom = Node(
     package='tf2_ros',
