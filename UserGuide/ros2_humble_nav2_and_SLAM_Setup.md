@@ -148,7 +148,8 @@ colcon build
 
 ## Step 5 : Command I use for this section
 
-To manually run using command line to start our slam toolbox and remap the `scan to ldlidar_nde`
+To manually run using command line to start our slam toolbox and remap the `scan to ldlidar_nde`.
+Tested on PC so far
 
 ````
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/bumperbot_bringup/config/mapper_params_online_async.yaml -r /scan:=/ldlidar_node/scan
