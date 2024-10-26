@@ -154,3 +154,39 @@ Tested on PC so far
 ````
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/bumperbot_bringup/config/mapper_params_online_async.yaml -r /scan:=/ldlidar_node/scan
 ````
+
+## Step 6 : How to start the overall simulation
+
+## RPI 
+
+Please cd to 
+```
+/home/jlukas/Desktop/My_Project/joshnewans/bumperbot_ws
+```
+
+And run this command
+```
+ros2 launch bumperbot_bringup real_robot.launch.py 
+```
+
+And on another terminal run the following command to start `SLAM` mapping
+
+Pleas cd to
+```
+cd /home/jlukas/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node
+```
+
+And run following command in our RPI
+```
+ros2 launch ldlidar_node ldlidar_with_mgr_tech.launch.py
+```
+
+## PC
+
+Open RVIZ and add the following field
+```
+select map
+select laser
+```
+
+You will see the lidar localization is more fixed now 
