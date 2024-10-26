@@ -64,7 +64,7 @@ Go to `ldlidar-lidar-ros2` directory that we created earlier
 cd /ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node
 ```
 
-Let's modify `ldlidar.launch.py`. Here i just disable `rsp_node` function.
+### 3.1 Let's modify `ldlidar.launch.py`. Here i just disable `rsp_node` function.
 ```
 # Define LaunchDescription variable
 ld = LaunchDescription()
@@ -80,7 +80,7 @@ ld.add_action(ldlidar_node)
 
 ```
 
-Next, let's modify `params/slam_toolbox.yaml` and create a copy for our robot name `params/slam_toolbox_tech.yaml`
+### 3.2 Next, let's modify `params/slam_toolbox.yaml` and create a copy for our robot name `params/slam_toolbox_tech.yaml`
 
 Then open 
 ```
@@ -93,12 +93,12 @@ and modify the content as follow
 odom_frame: odom
 map_frame: map
 base_frame: ldlidar_base --> change to base_footprint
-scan_topic: /scan t
+scan_topic: /scan
 use_map_saver: true
 mode: mapping #localization
 ```
 
-Then modify `ldlidar_slam.launch.py` and create a copy for our robot named `ldlidar_slam_tech.launch.py`
+## 3.2 Then modify `ldlidar_slam.launch.py` and create a copy for our robot named `ldlidar_slam_tech.launch.py`
 
 Then open
 ```
@@ -107,6 +107,15 @@ vi ldlidar_slam_tech.launch.py
 
 Then modify the content inside this file as follow
 ```
+# Fake odom publisher
+fake_odom = Node(
+    package='tf2_ros',
+    executable='static_transform_publisher',
+    name='static_transform_publisher',
+    output='screen',
+    arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_footprint'] <------ Change to base_footprint to match with our robot urdf
+)
+
 # Define LaunchDescription variable
 ld = LaunchDescription()
 
@@ -128,5 +137,19 @@ ld.add_action(ldlidar_launch)
 return ld
 ```
 
+## Step 4 : Build pakages
+
+Run below command to build our packages
+```
+cd ~ldrobot_lidar_ros2
+colcon build
+```
 
 
+## Step 5 : Command I use for this section
+
+To manually run using command line to start our slam toolbox and remap the `scan to ldlidar_nde`
+
+````
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/bumperbot_bringup/config/mapper_params_online_async.yaml -r /scan:=/ldlidar_node/scan
+````
