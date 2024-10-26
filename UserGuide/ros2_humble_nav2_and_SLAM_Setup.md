@@ -178,7 +178,7 @@ cd /home/jlukas/ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node
 
 And run following command in our RPI
 ```
-ros2 launch ldlidar_node ldlidar_with_mgr_tech.launch.py
+ros2 launch ldlidar_node ldlidar_slam_tech.launch.py 
 ```
 
 ## PC
