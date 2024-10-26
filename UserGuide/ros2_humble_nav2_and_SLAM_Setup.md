@@ -54,3 +54,33 @@ echo source $(pwd)/install/local_setup.bash >> ~/.bashrc
 source ~/.bashrc
 ```
 
+## Step 3 : Modify the files
+
+To ensure it works with `bumperbot_ws` that i buuild, we need to adapt this parameters to match with our robot and also to solve non `fix` localization of lidar during mapping.
+Please do the following
+
+Go to `ldlidar-lidar-ros2` directory that we created earlier
+```
+cd /ldrobot_lidar_ros2/src/ldrobot-lidar-ros2/ldlidar_node
+```
+
+Let's modify `ldlidar.launch.py`. Here i just disable `rsp_node` function.
+```
+# Define LaunchDescription variable
+ld = LaunchDescription()
+
+# Launch arguments
+ld.add_action(declare_node_name_cmd)
+
+# Launch Nav2 Lifecycle Manager
+#ld.add_action(rsp_node) <---------------Disable this line
+
+# LDLidar Lifecycle node
+ld.add_action(ldlidar_node)
+
+```
+
+Next, let's modify 
+
+
+
