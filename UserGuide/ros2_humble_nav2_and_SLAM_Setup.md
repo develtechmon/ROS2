@@ -80,7 +80,14 @@ ld.add_action(ldlidar_node)
 
 ```
 
-Next, let's modify `paramas/slam_toolbox.yaml`
+Next, let's modify `params/slam_toolbox.yaml` and create a copy for our robot name `params/slam_toolbox_tech.yaml`
+
+Then open 
+```
+vi slam_toolbox_tech.yaml
+```
+
+and modify the content as follow
 ```
 # ROS Parameters
 odom_frame: odom
@@ -89,6 +96,36 @@ base_frame: ldlidar_base --> change to base_footprint
 scan_topic: /scan t
 use_map_saver: true
 mode: mapping #localization
+```
+
+Then modify `ldlidar_slam.launch.py` and create a copy for our robot named `ldlidar_slam_tech.launch.py`
+
+Then open
+```
+vi ldlidar_slam_tech.launch.py
+```
+
+Then modify the content inside this file as follow
+```
+# Define LaunchDescription variable
+ld = LaunchDescription()
+
+# Launch Nav2 Lifecycle Manager
+ld.add_action(lc_mgr_node)
+
+# Launch SLAM Toolbox node
+ld.add_action(slam_toolbox_node)
+
+# Launch fake odom publisher node
+ld.add_action(fake_odom)
+
+# Call LDLidar launch
+ld.add_action(ldlidar_launch)
+
+# Start RVIZ2
+#ld.add_action(rviz2_node) <----------------- Disable rviz2
+
+return ld
 ```
 
 
