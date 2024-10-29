@@ -46,7 +46,7 @@ To run `SLAM` directly
 ros2 launch ldlidar_node ldlidar_slam.launch.py
 ```
 
-This will launch `rviz` directly. You can select `map` from rviz and move the `lidar`. You can see,
+This will launch `rviz2` directly. You can select `map` from rviz and move the `lidar`. You can see,
 the frame lidar is fixed now.
 
 ### Step 2.1 - Option 2 
@@ -61,7 +61,7 @@ ros2 launch ldlidar_node ldlidar_with_mgr_tech.launch.py
 ros2 launch ldlidar_node slam_launch_tech.launch.py
 ```
 
-In new terminal, run `rviz` and set the following configuration
+In new terminal, run `rviz2` and set the following configuration
 ```
 Fixed Frame : map
 LaserScan : /ldlidar_node/scan
@@ -82,7 +82,7 @@ Open new terminal in your PC and run Command Line To launch Slam Tool Box. Here,
 ros2 run slam_toolbox async_slam_toolbox_node --ros-args --params-file src/ldrobot-lidar-ros2/ldlidar_node/params/slam_toolbox.yaml --remap /scan:=/ldlidar_node/scan
 ```
 
-In new terminal, run `rviz` and set the following configuration
+In new terminal, run `rviz2` and set the following configuration
 ```
 Fixed Frame : map
 LaserScan : /ldlidar_node/scan
