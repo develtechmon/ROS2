@@ -30,6 +30,31 @@ echo source $(pwd)/install/local_setup.bash >> ~/.bashrc
 source ~jlukas/.bashrc
 ```
 
+## Step 3 : Create Udev for our Lidar
+
+rplidar_ros running requires the read and write permissions of the serial device. You can manually modify it with the following command:
+```
+sudo chmod 777 /dev/ttyUSB0
+```
+
+But a better way is to create udev rule:
+```
+cd src/rplidar_ros
+source scripts/create_udev_rules.sh
+```
+
+You can see now, we  have assigned the port. You can run following command to see the output
+```
+ls -l /dev | grep ttyUSB
+```
+
+Output as follow. Our new port is named as `/dev/rplidar` instead of `ttyUSB0`
+```
+lrwxrwxrwx  1 root   root           7 Oct 29 15:35 ldlidar -> ttyUSB0 
+lrwxrwxrwx  1 root   root           7 Oct 29 15:35 rplidar -> ttyUSB0
+crwxrwxrwx  1 root   dialout 188,   0 Oct 29 15:35 ttyUSB0
+```
+
 ## Step 2 : Run our Lidar
 
 To run the lidar, we will use these 2 methods
@@ -44,7 +69,7 @@ Fixed Frame : Laser
 LaserScan 
 ```
 
-* Using Run
+* Using Run, but here we pass `/dev/rplidar` as a serial_port
 ```
-
+ros2 run rplidar_ros rplidar_node --ros-args -p serial_port:=/dev/rplidar -p serial_baudrate:=460800
 ```
