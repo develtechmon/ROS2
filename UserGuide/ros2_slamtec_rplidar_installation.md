@@ -65,7 +65,7 @@ ros2 launch rplidar_ros rplidar_c1_launch.py
 ```
 Then open your `rviz2` and set the following
 ```
-Fixed Frame : laser_frame
+Fixed Frame : laser
 LaserScan : Topic : /scan
 ```
 
