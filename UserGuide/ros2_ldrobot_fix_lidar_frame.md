@@ -39,7 +39,7 @@ source ~jlukas/.bashrc
 
 ## Step 2 : Run and Test our SLAM in PC
 
-## Step 2.1 - Option 1 : Run SLAM Directly
+### Step 2.1 - Option 1 : Run SLAM Directly
 
 To run `SLAM` directly
 ```
@@ -49,7 +49,7 @@ ros2 launch ldlidar_node ldlidar_slam.launch.py
 This will launch `rviz` directly. You can select `map` from rviz and move the `lidar`. You can see,
 the frame lidar is fixed now.
 
-## Step 2.1 - Option 2 
+### Step 2.1 - Option 2 
 
 * `Run Lidar first` with `NAV2 cycle` and `Fake Odom`
 ```
@@ -68,7 +68,7 @@ LaserScan : /ldlidar_node/scan
 Map : /map
 ```
 
-## Step 2.2 - Option 2 : Run a modified version of SLAM with command
+### Step 2.2 - Option 2 : Run a modified version of SLAM with command
 
 This step is quite similar to `Step 2.1`. Just follow this step
 
