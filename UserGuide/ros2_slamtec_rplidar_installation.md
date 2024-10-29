@@ -50,8 +50,8 @@ ls -l /dev | grep ttyUSB
 
 Output as follow. Our new port is named as `/dev/rplidar` instead of `ttyUSB0`
 ```
-lrwxrwxrwx  1 root   root           7 Oct 29 15:35 ldlidar -> ttyUSB0 
-lrwxrwxrwx  1 root   root           7 Oct 29 15:35 rplidar -> ttyUSB0
+lrwxrwxrwx  1 root   root           7 Oct 29 15:35 ldlidar -> ttyUSB0 (This one for ldlidar)
+lrwxrwxrwx  1 root   root           7 Oct 29 15:35 rplidar -> ttyUSB0 (This one for slamtec)
 crwxrwxrwx  1 root   dialout 188,   0 Oct 29 15:35 ttyUSB0
 ```
 
