@@ -65,11 +65,17 @@ ros2 launch rplidar_ros rplidar_c1_launch.py
 ```
 Then open your `rviz2` and set the following
 ```
-Fixed Frame : Laser
-LaserScan 
+Fixed Frame : laser_frame
+LaserScan : Topic : /scan
 ```
 
 * Using Run, but here we pass `/dev/rplidar` as a serial_port
 ```
 ros2 run rplidar_ros rplidar_node --ros-args -p serial_port:=/dev/rplidar -p serial_baudrate:=460800
+```
+
+Then open your `rviz2` and set the following
+```
+Fixed Frame : laser_frame
+LaserScan : Topic : /scan
 ```
