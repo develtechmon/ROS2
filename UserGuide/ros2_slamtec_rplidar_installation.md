@@ -71,11 +71,11 @@ LaserScan : Topic : /scan
 
 * Using Run, but here we pass `/dev/rplidar` as a serial_port
 ```
-ros2 run rplidar_ros rplidar_node --ros-args -p serial_port:=/dev/rplidar -p serial_baudrate:=460800
+ros2 run rplidar_ros rplidar_node --ros-args -p serial_port:=/dev/rplidar -p serial_baudrate:=460800 -p frame_id:=ldlidar_link
 ```
 
 Then open your `rviz2` and set the following
 ```
-Fixed Frame : laser_frame
+Fixed Frame : ldlidar_link
 LaserScan : Topic : /scan
 ```
