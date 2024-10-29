@@ -2,7 +2,7 @@
 
 This is userguide on how to install `Slamtec C1 lidar` ROS2 package.
 
-## Step 1 : Create Directory
+## Step 1 : Create Directory and Build The Package
 
 Plesae follow this step either in your`RPI` or `PC`
 ```
@@ -28,4 +28,23 @@ upon successfull build, you can consider to add this package into bashrc script
 ```
 echo source $(pwd)/install/local_setup.bash >> ~/.bashrc
 source ~jlukas/.bashrc
+```
+
+## Step 2 : Run our Lidar
+
+To run the lidar, we will use these 2 methods
+
+* Using Launch
+```
+ros2 launch rplidar_ros rplidar_c1_launch.py
+```
+Then open your `rviz2` and set the following
+```
+Fixed Frame : Laser
+LaserScan 
+```
+
+* Using Run
+```
+
 ```
