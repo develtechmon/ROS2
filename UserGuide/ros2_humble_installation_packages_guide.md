@@ -70,7 +70,10 @@ sudo apt-get install joystick jstest-gtk evtest
 sudo apt install ros-humble-joy-tester
 sudo apt-get install v4l-utils
 sudo apt-get install ros-humble-twist-mux
-
+sudo apt-get install python3-pip
+sudo apt-get install python3-transforms3d
+sudo apt-get install ros-humble-key-teleop
+pip install pyserial
 
 This package for docker
 sudo apt-get install cmake
