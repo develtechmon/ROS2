@@ -33,12 +33,12 @@ Go to
 ```
 sudo vi /boot/firmware/config.txt
 ```
-and then add `start_x=1` into the `config.txt` file as follow
+and then add `start_x=1` and also 'camera_auto_detect=1` into the `config.txt` file as follow
 ```
 # Autoload overlays for any recognized cameras or displays that are attached
 # to the CSI/DSI ports. Please note this is for libcamera support, *not* for
 # the legacy camera stack
-camera_auto_detect=1
+camera_auto_detect=1 <-- this one
 display_auto_detect=1
 start_x=1 <--- This one
 ```
@@ -83,7 +83,7 @@ enable_uart=1
 # Autoload overlays for any recognized cameras or displays that are attached
 # to the CSI/DSI ports. Please note this is for libcamera support, *not* for
 # the legacy camera stack
-start_x=1
+camera_auto_detect=1 
 display_auto_detect=1
 start_x=1
 
