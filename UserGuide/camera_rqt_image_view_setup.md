@@ -10,6 +10,7 @@ Follow below step to start with the setup. This library will work both for `simu
 sudo apt-get install v4l-utils ros-humble-v4l2-camera
 sudo apt-get install ros-humble-image-transport-plugins ros-humble-rqt-image-view
 sudo apt-get install ros-humble-rqt-image-view
+sudo apt-get install libraspberrypi-bin v4l-utils ros-humble-v4l2-camera
 ```
 
 ## Step 2 : Check Camera device availability
@@ -21,7 +22,12 @@ groups  --> this command will list down all the groups. We're going below comman
 sudo usermod -aG video jlukas --> this name depend on your computer name
 ```
 
+To check if camera is detected. Run this command
+```
+vcgencmd get_camera
+```
 If camera is detected you should see message `supported=1, detected=1`. Else, this message won't appear
+
 
 ## Step 3 : This command will list all the video devices
 ```
