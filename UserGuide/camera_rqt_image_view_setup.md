@@ -26,8 +26,14 @@ To check if camera is detected. Run this command
 ```
 vcgencmd get_camera
 ```
+
 If camera is detected you should see message `supported=1, detected=1`. Else, this message won't appear
 
+## To enable legacy camera
+Please refer to this userguide to enable `v4l2-camera` legacy.
+```
+https://github.com/develtechmon/ROS2/blob/main/UserGuide/webcam_rpi_camera_setup_with_ubuntu.md
+```
 
 ## Step 3 : This command will list all the video devices
 ```
