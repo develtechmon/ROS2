@@ -75,6 +75,7 @@ sudo apt-get install ros-humble-twist-mux
 sudo apt-get install python3-pip
 sudo apt-get install python3-transforms3d
 sudo apt-get install ros-humble-key-teleop
+sudo apt install ros-$ROS_DISTRO-plotjuggler-ros
 pip install pyserial
 
 This package for docker
