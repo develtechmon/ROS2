@@ -21,6 +21,8 @@ sudo apt install python3.9-distutils
 
 Step 2: Create new Virtual Environment
 ```
+
+For this one, you need to install python3.9-venv version 
 $ mkdir VedgeTpu
 $ cd VefgeTpu
 $ python3.9 -m venv venv
