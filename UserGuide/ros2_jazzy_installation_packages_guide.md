@@ -72,6 +72,8 @@ sudo apt-get install ros-jazzy-key-teleop -y
 sudo apt install ros-$ROS_DISTRO-plotjuggler-ros -y
 sudo apt-get install ros-jazzy-rviz-imu-plugin -y
 pip install pyserial 
+sudo apt-get install ros-humble-rqt-robot-steering -y
+sudo apt install gcc-12
 
 This package for docker
 sudo apt-get install cmake
