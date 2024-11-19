@@ -13,7 +13,7 @@ cd lidar_slamtec/src
 
 Inside `src`, please clone this package which is for `ros2`. Here, we checkout for `ros2` specific
 ```
-git clone https://github.com/Slamtec/rplidar_ros2.git -b ros2
+git clone https://github.com/Slamtec/rplidar_ros.git -b ros2
 ```
 
 Then build the package
