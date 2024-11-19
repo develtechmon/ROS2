@@ -66,6 +66,11 @@ $ pip install https://github.com/google-coral/pycoral/releases/download/v2.0.0/p
 $ pip install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_aarch64.whl#sha256=9839c3acb506b5003a9bd3860329a8ae20e675efbae14dbea02659b0054f42c6
 ```
 
+If you encounter an error `numpu.core._multiarray_umath`. Please upgrade your `numpy`
+```
+python3.9 -m pip install --upgrade numpy
+```
+
 Visit Official page of where you can find this library:
 ```
 pycoral : https://coral.ai/software/#pycoral-api
@@ -106,6 +111,11 @@ you can download a specific PyCoral wheel file and pass it to pip install at thi
 $ pip install https://github.com/google-coral/pycoral/releases/download/v2.0.0/pycoral-2.0.0-cp39-cp39-linux_aarch64.whl
 
 $ pip install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_aarch64.whl#sha256=9839c3acb506b5003a9bd3860329a8ae20e675efbae14dbea02659b0054f42c6
+```
+
+If you encounter an error `numpu.core._multiarray_umath`. Please upgrade your `numpy`
+```
+python3.9 -m pip install --upgrade numpy
 ```
 
 Visit Official page of where you can find this library:
