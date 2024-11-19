@@ -23,10 +23,10 @@ Step 2: Create new Virtual Environment
 ```
 
 For this one, you need to install python3.9-venv version 
-$ mkdir VedgeTpu
-$ cd VefgeTpu
-$ python3.9 -m venv venv
-$ source venv/bin/activate
+$ mkdir EdgeTpu
+$ cd EdgeTpu
+$ python3.9 -m venv edge
+$ source edge/bin/activate
 ```
 Additionally you can install `pip` if this package is not found as follow
 ```
@@ -48,8 +48,13 @@ sudo apt-get update
 sudo apt-get install libedgetpu1-std
 sudo apt-get install libedgetpu1-max
 
+## Install TF Lite for the Edge TPU
 python -m pip install tflite-runtime
+python -m pip install tflite-support
+python -m pip install protobuf
+python -m pip install numpy
 
+## Install PyCoral for Edge TPU
 There is a problem to install this packages : sudo apt-get install python3-pycoral
 due to unmet dependencies.
 
