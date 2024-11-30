@@ -45,3 +45,12 @@ Next run below command. This command will open new `GUI` window of `controller` 
 ```
 ros2 run joy_tester test_joy
 ```
+
+
+# Additional Info.
+
+If `controller` not detected and not have non consistent connectivity behavior. Please run following command to resolve this use
+```
+sudo usermod -aG input $USER
+sudo chmod a+rw /dev/input/event1
+```
