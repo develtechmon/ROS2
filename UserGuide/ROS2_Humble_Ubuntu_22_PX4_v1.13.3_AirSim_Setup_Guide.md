@@ -89,7 +89,31 @@ pip install --upgrade numpy
 pip install pymavlink mavproxy
 pip install airsim --no-build-isolation
 ```
- 
+Install `px4 dependencies`
+```
+# Install dependencies
+sudo apt install -y \
+    python3-pip \
+    python3-jinja2 \
+    python3-empy \
+    python3-toml \
+    python3-numpy \
+    python3-yaml \
+    python3-dev \
+    ninja-build \
+    exiftool \
+    astyle
+
+# Install additional tools
+sudo apt install -y \
+    libgstreamer1.0-dev \
+    libgstreamer-plugins-base1.0-dev \
+    gstreamer1.0-plugins-bad \
+    gstreamer1.0-plugins-base \
+    gstreamer1.0-plugins-good \
+    gstreamer1.0-plugins-ugly
+```
+
 > **Note:** On Ubuntu 22.04, `vulkan-utils` was renamed to `vulkan-tools` and
 > `clang-8` is no longer available. The packages above are the correct replacements.
  
