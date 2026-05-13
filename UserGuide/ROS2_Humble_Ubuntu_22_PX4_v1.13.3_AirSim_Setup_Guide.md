@@ -377,8 +377,8 @@ INFO [simulator] Waiting for simulator to connect on TCP port 4560
 ### Step 4.3 — Launch AirSim Blocks Environment (Terminal 2)
  
 ```bash
-cd ~/Cosys-AirSim
-./Blocks.sh
+cd LinuxBlocks1.8.1/LinuxNoEditor
+/Blocks.sh -ResX=1280 -ResY=720 -windowed
 ```
  
 ### Step 4.4 — Verify Connection
@@ -398,6 +398,7 @@ In the PX4 console:
 param set NAV_RCL_ACT 0
 param set NAV_DLL_ACT 0
 param set COM_RCL_EXCEPT 4
+
 commander arm
 commander takeoff
 ```
