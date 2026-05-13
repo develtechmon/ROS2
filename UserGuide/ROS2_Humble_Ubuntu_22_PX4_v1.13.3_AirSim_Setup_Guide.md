@@ -378,7 +378,7 @@ INFO [simulator] Waiting for simulator to connect on TCP port 4560
  
 ```bash
 cd LinuxBlocks1.8.1/LinuxNoEditor
-/Blocks.sh -ResX=1280 -ResY=720 -windowed
+/Blocks.sh ResX=1280 -ResY=720 -windowed
 ```
  
 ### Step 4.4 — Verify Connection
