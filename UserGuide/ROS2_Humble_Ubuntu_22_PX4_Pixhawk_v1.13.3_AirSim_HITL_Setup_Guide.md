@@ -90,7 +90,7 @@ INFO  [pwm_out_sim] Polling 2 actuator controls
 INFO  [pwm_out_sim] PWM Mode: pwm16
 ```
 
-## Step 4: Configure HITL airframcne in QGC.
+## Step 4: Configure HITL Airframe in QGC.
 
 To run `hardware in loop` using Pixhawk and utilizing `Airsim physic` we need enable `HIL` as follow. This is very
 important step.
@@ -248,6 +248,106 @@ From `QGC` we should check if Pixhawk is using AirSim physic. We can verify as f
 
 At this point, you should see the drone in `AirSim` will `arm` and then `takeoff`. If it works, mean the pixhawk is using AirSim physic then we're good. 
 
-## Step 8: Open 
+You can also run the `mavlinkTest` to ensure it works too with our actual drone hardware as follow:
+```
+cd /home/jlukas/Cosys-AirSim/build_release/output/bin/
+./MavLinkTest -serial:/dev/ttyACM0,921600 -proxy:127.0.0.1:14560
+```
+
+You should see the following which is correct output
+```
+./MavLinkTest -serial:/dev/ttyACM0,921600 
+Connecting to serial port /dev/ttyACM0, baudrate=921600
+Downloading drone parameters so we know how to control it properly...
+    PX4_CUSTOM_MAIN_MODE_MANUAL
+STATUS: sev=6, '[pm] unknown param ID: 84'
+STATUS: sev=6, '[pm] unknown param ID: 85'
+Paremter 13 does not seem to existParemter 268 does not seem to existParemter 269 does not seem to exist
 
 
+Paremter 525 does not seem to existReady...
+mavlink> mavlink> mavlink> mavlink> ### command 176 result: MAV_RESULT_ACCEPTEDSystem status:
+    onboard sensors present:
+    MAV_SYS_STATUS_SENSOR_DIFFERENTIAL_PRESSURE - 0x10 differential pressure
+    MAV_SYS_STATUS_SENSOR_GPS - 0x20 GPS
+    MAV_SYS_STATUS_SENSOR_VISION_POSITION - 0x80 computer vision position
+    onboard sensors enabled:
+    CPU load 18015
+    battery voltage 20300 millivolts
+    battery current 24407 milliamps
+    drop_rate_comm = 16717
+    errors_comm = 21080
+    battery_remaining = -5
+Connected:
+    Version=3
+    Type=MAV_TYPE_QUADROTOR-  Quadrotor
+    Autopilot=MAV_AUTOPILOT_PX4, PX4 Autopilot - http://pixhawk.ethz.ch/px4/
+    State=MAV_STATE_ACTIVE - System is active and might be already airborne. Motors are engaged.
+    Base mode:
+    MAV_MODE_FLAG_HIL_ENABLED - hardware in the loop simulation. All motors / actuators are blocked, but internal software is full operational.
+    MAV_MODE_FLAG_MANUAL_INPUT_ENABLED - remote control input is enabled.
+    MAV_MODE_FLAG_SAFETY_ARMED - MAV safety set to armed. Motors are enabled / running / can start. Ready to fly.
+    PX4_CUSTOM_MAIN_MODE_MANUAL
+    VEHICLE SYSTEM ID: 1
+    VEHICLE COMPONENT ID: 1
+    landed_state=MAV_LANDED_STATE_ON_GROUND
+    vtol_state=0
+Home Position: lat=47.641468, lon=-122.140160, alt=121.403999
+```
+
+## Step 7: Run our custom script
+
+Let's test with our script below that we write.
+
+### Test drone connection
+
+In new terminal copy the following command and run
+```
+python3 drone_connect.py
+```
+
+Below is the script.
+```
+import airsim
+import time
+
+client = airsim.MultirotorClient()
+client.confirmConnection()
+print("Connected to AirSim drone simulator.")
+```
+
+### Test drone move left
+
+1st you have to `arm` and `takeoff` the drone from `Mavlink  console` QGC as follow.
+```
+commander arm --force
+commander takeoff
+```
+
+Then in next terminal run the following command
+
+```
+python drone_control_move_by_velocity.py
+```
+
+Below is the script.
+```
+import airsim
+import time
+
+client = airsim.MultirotorClient()
+client.confirmConnection()
+client.enableApiControl(True)
+time.sleep(2)
+
+# Check state before any command
+state = client.getMultirotorState()
+print(f"START: z={state.kinematics_estimated.position.z_val:.3f}")
+
+# Send left command for 3 seconds
+print("Sending LEFT...")
+client.moveByVelocityAsync(0, -2, 0, 3).join()
+
+state = client.getMultirotorState()
+print(f"AFTER LEFT: y={state.kinematics_estimated.position.y_val:.3f}")
+```
