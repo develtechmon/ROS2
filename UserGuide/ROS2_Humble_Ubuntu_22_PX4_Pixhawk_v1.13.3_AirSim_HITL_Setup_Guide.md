@@ -168,6 +168,12 @@ After reboot, verify in MAVLINK console
 param show SYS_HITL
 ```
 
+You can check the following like this
+```
+param show EKF2_GPS_CHECK
+param show COM_ARM_WO_GPS
+```
+
 Also check `pwm_out_sim` is set to start automatically
 ```
 param show SYS_AUTOSTART
