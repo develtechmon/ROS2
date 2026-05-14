@@ -400,6 +400,11 @@ print(f"AFTER LEFT: y={state.kinematics_estimated.position.y_val:.3f}")
 
 ### Test drone automatic takeoff and hovering
 
+1st you have to `arm` the drone from `Mavlink  console` QGC as follow.
+```
+commander arm --force
+```
+
 In next terminal run the following command
 
 ```
