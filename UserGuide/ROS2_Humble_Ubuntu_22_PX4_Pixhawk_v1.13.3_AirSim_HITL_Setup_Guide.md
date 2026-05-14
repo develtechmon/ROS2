@@ -316,6 +316,47 @@ client.confirmConnection()
 print("Connected to AirSim drone simulator.")
 ```
 
+### Test drone takeoff
+
+In new terminal copy the following command and run
+```
+python3 drone_takeoff.py
+```
+
+Below is the script
+```
+import airsim
+import time
+import subprocess
+
+client = airsim.MultirotorClient()
+client.confirmConnection()
+print("Connected")
+
+client.enableApiControl(True)
+print("API control enabled")
+
+time.sleep(1)
+
+print("Moving up...")
+# Send velocity command directly - bypasses takeoff GPS check
+f = client.moveByVelocityAsync(0, 0, -2, 8)
+time.sleep(1)
+
+state = client.getMultirotorState()
+print(f"Z position: {state.kinematics_estimated.position.z_val:.3f}")
+
+f.join()
+print("Done moving")
+
+state = client.getMultirotorState()
+print(f"Final Z: {state.kinematics_estimated.position.z_val:.3f}")
+
+time.sleep(3)
+client.landAsync().join()
+print("Landed")
+```
+
 ### Test drone move left
 
 1st you have to `arm` and `takeoff` the drone from `Mavlink  console` QGC as follow.
