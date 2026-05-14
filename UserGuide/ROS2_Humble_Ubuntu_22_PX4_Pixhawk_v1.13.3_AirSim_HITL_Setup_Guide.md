@@ -318,6 +318,11 @@ print("Connected to AirSim drone simulator.")
 
 ### Test drone takeoff
 
+1st you have to `arm`   the drone from `Mavlink  console` QGC as follow.
+```
+commander arm --force
+```
+
 In new terminal copy the following command and run
 ```
 python3 drone_takeoff.py
@@ -391,4 +396,48 @@ client.moveByVelocityAsync(0, -2, 0, 3).join()
 
 state = client.getMultirotorState()
 print(f"AFTER LEFT: y={state.kinematics_estimated.position.y_val:.3f}")
+```
+
+### Test drone automatic takeoff and hovering
+
+In next terminal run the following command
+
+```
+python drone_position_vertical_fly.py
+```
+
+Below is the script.
+```
+import airsim
+import time
+
+client = airsim.MultirotorClient()
+client.confirmConnection()
+print("Connected")
+
+client.enableApiControl(True)
+print("API control enabled")
+
+# Skip armDisarm - Pixhawk already armed via commander arm --force
+# Go straight to velocity command
+
+time.sleep(1)
+
+print("Going up...")
+client.moveByVelocityAsync(0, 0, -2, 5).join()
+
+state = client.getMultirotorState()
+print(f"Z after climb: {state.kinematics_estimated.position.z_val:.3f}")
+
+print("Hovering...")
+client.moveByVelocityAsync(0, 0, 0, 3).join()
+
+state = client.getMultirotorState()
+print(f"Z hovering: {state.kinematics_estimated.position.z_val:.3f}")
+
+print("Landing...")
+client.landAsync().join()
+
+print("Done")
+client.enableApiControl(False)
 ```
