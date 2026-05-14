@@ -182,3 +182,72 @@ x + SYS_AUTOSTART [597,871] : 1001
  622/1080 parameters used.
 nsh> 
 ```
+
+### Step 6 : Disconnect the Pixhawk USB and set the following parameter in our Airsim `settings.json`.
+
+Please ensure you disconnect QGC as well, because for this settings.json, AirSim will connect to Pixhawk controller
+and QGC will connect to QGCPort as follow instad of port.
+```
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "Vehicles": {
+    "PX4": {
+      "VehicleType": "PX4Multirotor",
+      "UseSerial": true,
+      "SerialPort": "/dev/serial/by-id/usb-3D_Robotics_PX4_FMU_v2.x_0-if00",
+      "SerialBaudRate": 115200,
+      "QgcHostIp": "127.0.0.1",
+      "QgcPort": 14550,
+      "Sensors": {
+        "Barometer": {
+          "SensorType": 1,
+          "Enabled": true,
+          "PressureFactorSigma": 0.0001825
+        }
+      },
+      "Parameters": {
+        "NAV_RCL_ACT": 0,
+        "NAV_DLL_ACT": 0,
+        "COM_OBL_ACT": 1,
+        "COM_ARM_WO_GPS": 1,
+        "EKF2_GPS_CHECK": 0,
+        "EKF2_BARO_NOISE": 0.5,
+        "MPC_Z_VEL_MAX_UP": 3.0,
+        "MPC_TKO_SPEED": 1.5
+      }
+    }
+  },
+  "OriginGeopoint": {
+    "Latitude": 47.641468,
+    "Longitude": -122.140165,
+    "Altitude": 122
+  }
+}
+```
+
+## Step 7: Run the AirSim block.
+
+Run the `Airsim` block as follow. Please ensure you have downloaded the `Airsim drone simulator` 1st.
+```
+./Blocks.sh -ResX=1280 -ResY=720 -windowed
+```
+
+Once done, run the `QGC`.
+```
+./QGroundControl.AppImage
+```
+
+From `QGC` we should check if Pixhawk is using AirSim physic. We can verify as follow:
+```
+1. Open MAVLINK Console
+2. Type the following command
+   commander arm --force
+   commander takeoff
+```
+
+At this point, you should see the drone in `AirSim` will `arm` and then `takeoff`. If it works, mean the pixhawk is using AirSim physic then we're good. 
+
+## Step 8: Open 
+
+
