@@ -107,7 +107,7 @@ Vehicle Setup → Safety → set HITL Enabled to Enabled.
 
 Reboot the drone.
 
-### Step 5 : Set the following parameter under `Vehicle Setup` --> `Paraaeters`.
+### Step 5 : Set the following parameter under `Vehicle Setup` --> `Parameters`.
 
 Once the drone successfuly reboot you should refer to arrow below and set the parameter as follow under
 
@@ -156,3 +156,29 @@ x + SYS_RESTART_TYPE [609,886] : 0
 
 ```
 
+You can set the param as follow in `Mavlink Console` for example.
+```
+param set SYS_HITL 1
+param save
+reboot
+```
+
+After reboot, verify in MAVLINK console
+```
+param show SYS_HITL
+```
+
+Also check `pwm_out_sim` is set to start automatically
+```
+param show SYS_AUTOSTART
+```
+
+For `HIL Quadcopter X` this should be 1001 as follow:
+```
+param show SYS_AUTOSTART
+Symbols: x = used, + = saved, * = unsaved
+x + SYS_AUTOSTART [597,871] : 1001
+
+ 622/1080 parameters used.
+nsh> 
+```
